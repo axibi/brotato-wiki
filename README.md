@@ -2,7 +2,7 @@
 
 一个面向中文玩家的《土豆兄弟（Brotato）》游戏百科：角色 / 武器 / 道具数据库 + 原创攻略 + 版本记录。
 
-- 线上地址：**https://brotato-wiki.pages.dev**
+- 线上地址：**https://brotato.zrrmjj.icu**（备用：https://brotato-wiki.pages.dev）
 - 代码仓库：**https://github.com/axibi/brotato-wiki**
 - 静态站点（SSG），无后端、无数据库
 - 420 个页面，生产构建约 20 秒
@@ -150,18 +150,27 @@ wrangler pages deploy dist --project-name brotato-wiki
 
 `wrangler.toml` 已配置 `pages_build_output_dir = "dist"`，也可直接 `wrangler pages deploy`。
 
-### 绑定自定义域名
+### 自定义域名（已绑定）
 
-1. Pages 项目 → **Custom domains** → **Set up a domain**；
+当前已绑定：**https://brotato.zrrmjj.icu** → 项目 `brotato-wiki`
+
+- DNS 记录：`CNAME brotato` → `brotato-wiki.pages.dev`（由 Cloudflare 自动添加，`zrrmjj.icu` 已在同一账号下托管）
+- 站点绝对地址已在 `astro.config.mjs` 与 `src/lib/site.ts` 中默认指向该域名，canonical / sitemap / RSS / OG 均使用新域名
+
+从零绑定的步骤：
+
+1. Pages 项目 → **自定义域** → **设置自定义域**；
 2. 输入域名（如 `brotato.example.com`），Cloudflare 托管域名会自动添加 CNAME；
 3. 若域名不在 Cloudflare，按提示在 DNS 添加 CNAME 指向 `<project>.pages.dev`；
-4. 等待证书签发（通常几分钟），然后在 `astro.config.mjs` 中把 `SITE` 或环境变量 `PUBLIC_SITE_URL` 改为新域名并重新部署，保证 canonical / sitemap 正确。
+4. 等待证书签发（通常几分钟），然后把 `astro.config.mjs` 的 `SITE` 默认值、`src/lib/site.ts` 的 `url`、`Breadcrumbs.astro` 的兜底域名一并改为新域名（或设 `PUBLIC_SITE_URL`），重新部署，保证 canonical / sitemap 正确。
 
 ### 环境变量
 
 | 变量 | 说明 | 默认 |
 | --- | --- | --- |
-| `PUBLIC_SITE_URL` | 站点绝对地址，用于 canonical、OG、sitemap、RSS | `https://brotato-wiki.pages.dev` |
+| `PUBLIC_SITE_URL` | 站点绝对地址，用于 canonical、OG、sitemap、RSS | `https://brotato.zrrmjj.icu` |
+
+> 注：Cloudflare Pages 控制台的「变量和密钥」弹窗在本账号下保存后不生效（只留下空行），因此站点地址直接写在代码里。若要临时切换域名，改 `astro.config.mjs` 与 `src/lib/site.ts` 即可。
 
 **不要把任何 Token、密码写进仓库。** 部署凭证由 Cloudflare 侧管理。
 

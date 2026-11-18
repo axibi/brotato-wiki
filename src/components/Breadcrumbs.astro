@@ -8,7 +8,7 @@ interface Props {
   jsonLd?: boolean;
 }
 const { items, jsonLd = true } = Astro.props;
-const site = Astro.site ?? new URL('https://brotato-wiki-cn.pages.dev');
+const site = Astro.site ?? new URL('https://brotato.zrrmjj.icu');
 const ld = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',

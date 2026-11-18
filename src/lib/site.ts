@@ -4,7 +4,7 @@ export const SITE = {
   tagline: '角色 · 武器 · 道具 · 攻略',
   description:
     '《土豆兄弟 Brotato》中文百科：64 名角色、78 把武器、247 件道具的完整数据库，配套新手入门、属性解析、流派构筑与高难度通关攻略。',
-  url: import.meta.env.PUBLIC_SITE_URL || 'https://brotato-wiki-cn.pages.dev',
+  url: import.meta.env.PUBLIC_SITE_URL || 'https://brotato.zrrmjj.icu',
   locale: 'zh-CN',
   version: '1.1.x',
   author: 'Brotato Wiki CN 编辑组',

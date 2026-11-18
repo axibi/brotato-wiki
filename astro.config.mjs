@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
-// 站点域名：部署到 Cloudflare Pages 后可改为自定义域名（见 README）
-const SITE = process.env.PUBLIC_SITE_URL || 'https://brotato-wiki.pages.dev';
+// 站点域名：正式域名为 brotato.zrrmjj.icu，可用环境变量 PUBLIC_SITE_URL 覆盖（见 README）
+const SITE = process.env.PUBLIC_SITE_URL || 'https://brotato.zrrmjj.icu';
 
 export default defineConfig({
   site: SITE,
