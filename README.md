@@ -2,6 +2,8 @@
 
 一个面向中文玩家的《土豆兄弟（Brotato）》游戏百科：角色 / 武器 / 道具数据库 + 原创攻略 + 版本记录。
 
+- 线上地址：**https://brotato-wiki.pages.dev**
+- 代码仓库：**https://github.com/axibi/brotato-wiki**
 - 静态站点（SSG），无后端、无数据库
 - 420 个页面，生产构建约 20 秒
 - 深色游戏百科风格，橙色强调，响应式布局
@@ -120,16 +122,20 @@ reading: 10        # 预计阅读分钟
 
 ## 部署到 Cloudflare Pages
 
-### 方式 A：GitHub 集成（推荐，自动部署）
+### 方式 A：GitHub 集成（本项目已在用，push 即自动部署）
 
-1. 推送仓库到 GitHub（见下节）；
-2. Cloudflare Dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**；
-3. 选择仓库，构建配置：
-   - Framework preset：`Astro`
+当前状态：`axibi/brotato-wiki` 已对接 Cloudflare Pages 项目 `brotato-wiki`，生产分支 `main`，自动部署已启用。**只需 `git push` 到 `main`，Cloudflare 会自动构建并发布。**
+
+从零配置的步骤：
+
+1. 推送仓库到 GitHub；
+2. Cloudflare Dashboard → **Workers & Pages** → 选择 Pages 项目 → **设置** → **Git 存储库** → **连接**；
+3. 授权 GitHub（安装 Cloudflare Workers and Pages App，选择该仓库），构建配置：
+   - Framework preset：`Astro`（会自动填入下面两项）
    - Build command：`npm run build`
    - Build output directory：`dist`
-   - Node version：`22`（环境变量 `NODE_VERSION=22`）
-4. 生产分支选 `main`，保存并部署；
+   - Node version：`22`（环境变量 `NODE_VERSION=22`，Astro 5 需要 ≥18.17）
+4. 生产分支选 `main`，保存；
 5. 之后每次 push 到 `main` 自动重新构建，PR 会生成预览地址。
 
 ### 方式 B：Wrangler CLI
