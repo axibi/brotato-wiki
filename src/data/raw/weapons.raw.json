@@ -1,0 +1,4048 @@
+[
+  {
+    "id": "anchor",
+    "slug": "anchor",
+    "name": "anchor",
+    "types": [
+      "Naval",
+      "Heavy"
+    ],
+    "rarity": 2,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "45(+100%Melee Damage+75%Curse)",
+        "cooldown": "1.92s",
+        "dps": "23.4(52.1%Melee Damage33.9%Curse)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 48
+      },
+      {
+        "tier": 3,
+        "damage": "70(+125%Melee Damage+100%Curse)",
+        "cooldown": "1.86s",
+        "dps": "37.6(67.2%Melee Damage48.4%Curse)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 90
+      },
+      {
+        "tier": 4,
+        "damage": "110(+150%Melee Damage+125%Curse)",
+        "cooldown": "1.81s",
+        "dps": "60.8(82.9%Melee Damage69.1%Curse)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 225,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 175
+      }
+    ]
+  },
+  {
+    "id": "blunderbuss",
+    "slug": "blunderbuss",
+    "name": "blunderbuss",
+    "types": [
+      "Naval",
+      "Gun"
+    ],
+    "rarity": 2,
+    "attackType": "-",
+    "special": "Cooldown is reset when you pick up a material.\nPierces 2 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "22(+110%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "4.2(21.2%Ranged Damage)/s",
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 3,
+        "damage": "45(+135%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "8.7(26%Ranged Damage)/s",
+        "crit": "x2.25 (3% chance)",
+        "range": 350,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 95
+      },
+      {
+        "tier": 4,
+        "damage": "70(+170%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "13.5(32.7%Ranged Damage)/s",
+        "crit": "x2.5 (3% chance)",
+        "range": 375,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 192
+      }
+    ]
+  },
+  {
+    "id": "brick",
+    "slug": "brick",
+    "name": "brick",
+    "types": [
+      "Blunt"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Has a 1% chance to break and drop 10/30/75/200 materials on hit",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "30(+50%Melee Damage+50%工程)",
+        "cooldown": "1.39s",
+        "dps": "21.5(35.9%Melee Damage35.9%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 6
+      },
+      {
+        "tier": 2,
+        "damage": "60(+65%Melee Damage+65%工程)",
+        "cooldown": "1.39s",
+        "dps": "43(46.6%Melee Damage46.6%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 14
+      },
+      {
+        "tier": 3,
+        "damage": "90(+80%Melee Damage+80%工程)",
+        "cooldown": "1.39s",
+        "dps": "64.6(57.4%Melee Damage57.4%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 4,
+        "damage": "120(+100%Melee Damage+100%工程)",
+        "cooldown": "1.39s",
+        "dps": "86.1(71.7%Melee Damage71.7%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "id": "cacti club",
+    "slug": "cacti-club",
+    "name": "cacti club",
+    "types": [
+      "Primitive",
+      "Heavy"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Hitting an enemy spawns 3/4/5/6 projectiles dealing 1 + 60%/2 + 70%/3 + 80%/4 + 100%远程伤害 damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "1.66s",
+        "dps": "6.0(48%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "20(85%近战伤害)",
+        "cooldown": "1.58s",
+        "dps": "12.7(54%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "35(90%近战伤害)",
+        "cooldown": "1.51s",
+        "dps": "19.9(60%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "60(100%近战伤害)",
+        "cooldown": "1.36s",
+        "dps": "36.8(74%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "captain’s sword",
+    "slug": "captains-sword",
+    "name": "captain’s sword",
+    "types": [
+      "Naval",
+      "Blade"
+    ],
+    "rarity": 3,
+    "attackType": "Alternates between thrusting and sweeping attacks",
+    "special": "Alternates between thrusting and sweeping attacks\nDeals +25/+50 Damage for every free weapon slot you have.",
+    "unlock": "Win a run with Captain",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "50(+100%Melee Damage+100%Curse)",
+        "cooldown": "1.03s",
+        "dps": "48.5(97%Melee Damage97%Curse)/s",
+        "crit": "x2 (3% chance)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 110
+      },
+      {
+        "tier": 4,
+        "damage": "80(+125%Melee Damage+125%Curse)",
+        "cooldown": "0.95s",
+        "dps": "84.4(131.9%Melee Damage131.9%Curse)/s",
+        "crit": "x2 (3% chance)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 210
+      }
+    ]
+  },
+  {
+    "id": "chain gun",
+    "slug": "chain-gun",
+    "name": "chain gun",
+    "types": [
+      "Legendary",
+      "Gun"
+    ],
+    "rarity": 4,
+    "attackType": null,
+    "special": "Cooldown is 2.04s every 100 shots.\nPierces 1 enemy dealing -50% less damage with each pierce.",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "2x3(100%远程伤害100%工程)",
+        "cooldown": "0.073s",
+        "dps": "82.2(4110%远程伤害4110%工程)/s",
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 300
+      }
+    ]
+  },
+  {
+    "id": "chainsaw",
+    "slug": "chainsaw",
+    "name": "chainsaw",
+    "types": [
+      "Blade",
+      "Tool"
+    ],
+    "rarity": 3,
+    "attackType": "Thrust",
+    "special": "Cooldown is 1.83s/1.52s every 30/40 shots\nDeals 10%/20% of an enemy’s current health as bonus damage (1%/2% for bosses and elites)",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "10(+75%Melee Damage+75%工程+75%Lifesteal)",
+        "cooldown": "0.53s",
+        "dps": "18.8(141.3%Melee Damage141.3%工程141.3%Lifesteal)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 15,
+        "price": 112
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Melee Damage+100%工程+100%Lifesteal)",
+        "cooldown": "0.56s",
+        "dps": "35.9(179.3%Melee Damage179.3%工程179.3%Lifesteal)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 30,
+        "price": 242
+      }
+    ]
+  },
+  {
+    "id": "chopper",
+    "slug": "chopper",
+    "name": "chopper",
+    "types": [
+      "Blade"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "+1/+1/+1/+2 health healed from consumables",
+    "unlock": "Win a run with link=Multitasker|x30px Multitasker",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(50%近战伤害15%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "6.1(51%近战伤害15%最大生命)/s",
+        "crit": "x2 (10%)",
+        "range": 135,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害20%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "12.2(51%近战伤害20%最大生命)/s",
+        "crit": "x2 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "18(50%近战伤害25%最大生命)",
+        "cooldown": "0.96s",
+        "dps": "18.8(52%近战伤害26%最大生命)/s",
+        "crit": "x2 (20%)",
+        "range": 165,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(50%近战伤害30%最大生命)",
+        "cooldown": "0.89s",
+        "dps": "33.7(56%近战伤害34%最大生命)/s",
+        "crit": "x2 (25%)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "circular saw",
+    "slug": "circular-saw",
+    "name": "circular saw",
+    "types": [
+      "Blade",
+      "Medical"
+    ],
+    "rarity": 2,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "10(100%近战伤害)",
+        "cooldown": "0.72s",
+        "dps": "13.9(138%近战伤害)/s",
+        "crit": "x2 (5%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 45,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "15(100%近战伤害)",
+        "cooldown": "0.67s",
+        "dps": "22.4(149%近战伤害)/s",
+        "crit": "x2 (10%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 50,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "0.62s",
+        "dps": "40.3(161%近战伤害)/s",
+        "crit": "x2 (20%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 60,
+        "price": 173
+      }
+    ]
+  },
+  {
+    "id": "claw",
+    "slug": "claw",
+    "name": "claw",
+    "types": [
+      "Unarmed",
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "-",
+    "unlock": "Win a run with link=Cryptid|x30px Cryptid",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(15%攻速50%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "6.4(19.2%攻速64.1%近战伤害)/s",
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(20%攻速50%近战伤害)",
+        "cooldown": "0.74s",
+        "dps": "13.5(27%攻速67.6%近战伤害)/s",
+        "crit": "x2.15 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 28
+      },
+      {
+        "tier": 3,
+        "damage": "15(25%攻速50%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "21.7(36.2%攻速72.5%近战伤害)/s",
+        "crit": "x2.3 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 55
+      },
+      {
+        "tier": 4,
+        "damage": "25(30%攻速50%近战伤害)",
+        "cooldown": "0.61s",
+        "dps": "41.0(49.2%攻速82%近战伤害)/s",
+        "crit": "x2.5 (25%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 110
+      }
+    ]
+  },
+  {
+    "id": "crossbow",
+    "slug": "crossbow",
+    "name": "crossbow",
+    "types": [
+      "Precise",
+      "Medieval"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Pierces up to 1/2/3/4 times on critical hit",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "8.8(44%远程伤害8%射程)/s",
+        "crit": "x1.5 (30%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 16
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "10.6(44%远程伤害8%射程)/s",
+        "crit": "x1.75 (35%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "15(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "13.3(44%远程伤害8%射程)/s",
+        "crit": "x2 (40%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 62
+      },
+      {
+        "tier": 4,
+        "damage": "18(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "15.9(44%远程伤害8%射程)/s",
+        "crit": "x2.25 (45%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 132
+      }
+    ]
+  },
+  {
+    "id": "dex-troyer",
+    "slug": "dex-troyer",
+    "name": "dex-troyer",
+    "types": [
+      "Legendary",
+      "Explosive"
+    ],
+    "rarity": 4,
+    "attackType": "Thrust",
+    "special": "50% chance to explode on hit\nHitting an enemy spawns a lightning projectile that bounces 5 times and deals 30 (+100%Elemental Damage) damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "100(+100%Melee Damage+100%工程)",
+        "cooldown": "1.33s",
+        "dps": "75.3(75.3%Melee Damage75.3%工程)/s",
+        "crit": "x2 (3% chance)",
+        "range": 400,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 315
+      }
+    ]
+  },
+  {
+    "id": "double barrel shotgun",
+    "slug": "double-barrel-shotgun",
+    "name": "double barrel shotgun",
+    "types": [
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Pierces 2/2/2/3 enemies, dealing -30% less damage after each piercing",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3x4(80%远程伤害)",
+        "cooldown": "1.37s",
+        "dps": "8.8(233%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "6x4(85%远程伤害)",
+        "cooldown": "1.28s",
+        "dps": "18.8(265%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "9x4(90%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "30.0(300%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "9x6(100%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "45(500%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "drill",
+    "slug": "drill",
+    "name": "drill",
+    "types": [
+      "Legendary",
+      "Precise"
+    ],
+    "rarity": 4,
+    "attackType": null,
+    "special": "100% chance to gain 1 material when killing an enemy with a critical hit.\n+10 % Attack Speed every 5 seconds until the end of the wave",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "10(100%近战伤害100%工程)",
+        "cooldown": "0.45s",
+        "dps": "22.2(222.2%近战伤害222.2%工程)/s",
+        "crit": "x2.5 (50%)",
+        "range": 100,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": "excalibur",
+    "slug": "excalibur",
+    "name": "excalibur",
+    "types": [
+      "Legendary",
+      "Blade"
+    ],
+    "rarity": 4,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks.\n-2 Armor for every weapon you have",
+    "unlock": "Win a run with link=King|x30px King",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "200(200%近战伤害200%最大生命)",
+        "cooldown": "0.66s",
+        "dps": "266.6(266.6%近战伤害266.6%最大生命)/s",
+        "crit": "x2.5 (10%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 230
+      }
+    ]
+  },
+  {
+    "id": "fireball",
+    "slug": "fireball",
+    "name": "fireball",
+    "types": [
+      "Explosive",
+      "Elemental"
+    ],
+    "rarity": 2,
+    "attackType": "-",
+    "special": "Projectiles explode on hit.\nDeals -/5x3/6x4/8x5 (+100%Elemental Damage) burning damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "5(+25%Elemental Damage)",
+        "cooldown": "1.12s",
+        "dps": "4.5(22.4%Elemental Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "10(+50%Elemental Damage)",
+        "cooldown": "1.03s",
+        "dps": "9.7(48.4%Elemental Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "20(+75%Elemental Damage)",
+        "cooldown": "0.87s",
+        "dps": "23.1(86.5%Elemental Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "id": "fist",
+    "slug": "fist",
+    "name": "fist",
+    "types": [
+      "Unarmed"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(100%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "10.3(128%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "16(100%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "21.9(136%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "32(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "46.4(144%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "64(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "108.5(169%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "flamethrower",
+    "slug": "flamethrower",
+    "name": "flamethrower",
+    "types": [
+      "Elemental",
+      "Heavy"
+    ],
+    "rarity": 2,
+    "attackType": null,
+    "special": "Deals -/1x3/3x5/5x8(100%元素伤害) burning damage\nPierces 99 enemies dealing 1 damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.12s",
+        "dps": "8.3(8%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 56
+      },
+      {
+        "tier": 3,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.12s",
+        "dps": "8.3(8%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 300,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 103
+      },
+      {
+        "tier": 4,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.09s",
+        "dps": "11.1(11%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 207
+      }
+    ]
+  },
+  {
+    "id": "flaming brass knuckles",
+    "slug": "flaming-brass-knuckles",
+    "name": "flaming brass knuckles",
+    "types": [
+      "Unarmed",
+      "Elemental"
+    ],
+    "rarity": 2,
+    "attackType": "Thrust",
+    "special": "Deals -/10x5/15x6/18x7(100%元素伤害) burning damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "21.9(136%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "46.4(144%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "108.5(169%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 173
+      }
+    ]
+  },
+  {
+    "id": "flute",
+    "slug": "flute",
+    "name": "flute",
+    "types": [
+      "Musical"
+    ],
+    "rarity": 1,
+    "attackType": "-",
+    "special": "Hitting an enemy that has less than 60%/65%/70%/75% health has a 10%/15%/20%/25% chance to charm it for 8 seconds",
+    "unlock": "Win a run with Romantic",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(+50%Ranged Damage+10%Luck)",
+        "cooldown": "1.03s",
+        "dps": "5.8(48.5%Ranged Damage9.7%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 300,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Ranged Damage+15%Luck)",
+        "cooldown": "0.95s",
+        "dps": "8.4(52.6%Ranged Damage15.8%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 3,
+        "damage": "11(+50%Ranged Damage+20%Luck)",
+        "cooldown": "0.87s",
+        "dps": "12.6(57.5%Ranged Damage23%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 80
+      },
+      {
+        "tier": 4,
+        "damage": "15(+50%Ranged Damage+25%Luck)",
+        "cooldown": "0.78s",
+        "dps": "19.2(64.1%Ranged Damage32.1%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 165
+      }
+    ]
+  },
+  {
+    "id": "gatling laser",
+    "slug": "gatling-laser",
+    "name": "gatling laser",
+    "types": [
+      "Legendary",
+      "Heavy"
+    ],
+    "rarity": 4,
+    "attackType": null,
+    "special": "Pierces 3 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.073s",
+        "dps": "137.0(1370%远程伤害)/s",
+        "crit": "x3 (10%)",
+        "range": 500,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 290
+      }
+    ]
+  },
+  {
+    "id": "ghost axe",
+    "slug": "ghost-axe",
+    "name": "ghost axe",
+    "types": [
+      "Ethereal"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "+1% Damage for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.73s",
+        "dps": "6.9(57%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "18(100%近战伤害)",
+        "cooldown": "1.66s",
+        "dps": "10.8(60%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "24(100%近战伤害)",
+        "cooldown": "1.58s",
+        "dps": "15.2(63%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "1.51s",
+        "dps": "26.5(66%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "ghost flint",
+    "slug": "ghost-flint",
+    "name": "ghost flint",
+    "types": [
+      "Ethereal"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "+1% Attack Speed for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(100%近战伤害)",
+        "cooldown": "1.23s",
+        "dps": "4.9(81%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 170,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "9(100%近战伤害)",
+        "cooldown": "1.17s",
+        "dps": "7.7(85%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.1s",
+        "dps": "10.9(90%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 190,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.04s",
+        "dps": "17.3(96%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "id": "ghost scepter",
+    "slug": "ghost-scepter",
+    "name": "ghost scepter",
+    "types": [
+      "Ethereal"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "+1 Max HP for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.98s",
+        "dps": "10.2(102%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.93s",
+        "dps": "16.1(107%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "0.88s",
+        "dps": "22.7(113%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "0.83s",
+        "dps": "36.1(120%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "grenade launcher",
+    "slug": "grenade-launcher",
+    "name": "grenade launcher",
+    "types": [
+      "Heavy",
+      "Explosive"
+    ],
+    "rarity": 2,
+    "attackType": "-",
+    "special": "Every 2nd/3rd/4th shot has a longer cooldown: 3.7s/3.2s/2.7s.\nProjectiles explode on hit.\nBounces 1 time.",
+    "unlock": "Win a run with Gangster",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "12(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "5.9(49%Ranged Damage)/s",
+        "crit": "x2.5 (5% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 58
+      },
+      {
+        "tier": 3,
+        "damage": "18(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "13.7(76.1%Ranged Damage)/s",
+        "crit": "x3 (10% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 108
+      },
+      {
+        "tier": 4,
+        "damage": "30(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "31.5(105%Ranged Damage)/s",
+        "crit": "x3.5 (20% chance)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 212
+      }
+    ]
+  },
+  {
+    "id": "hammer",
+    "slug": "hammer",
+    "name": "hammer",
+    "types": [
+      "Blunt",
+      "Heavy"
+    ],
+    "rarity": 2,
+    "attackType": "Sweep",
+    "special": "+2/+4/+6 Knockback",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "40(150%近战伤害)",
+        "cooldown": "1.67s",
+        "dps": "21.0(89%近战伤害)/s",
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "75(175%近战伤害)",
+        "cooldown": "1.59s",
+        "dps": "44.0(110%近战伤害)/s",
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 40,
+        "lifesteal": 0,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "120(200%近战伤害)",
+        "cooldown": "1.5s",
+        "dps": "73.3(133%近战伤害)/s",
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 50,
+        "lifesteal": 0,
+        "price": 151
+      }
+    ]
+  },
+  {
+    "id": "hand",
+    "slug": "hand",
+    "name": "hand",
+    "types": [
+      "Unarmed",
+      "Support"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "+3/+6/+12/+25 Harvesting",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "1.0(49%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "1.1(53%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "1.2(58%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.71s",
+        "dps": "1.4(70%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "harpoon gun",
+    "slug": "harpoon-gun",
+    "name": "harpoon gun",
+    "types": [
+      "Naval",
+      "Gun"
+    ],
+    "rarity": 2,
+    "attackType": "-",
+    "special": "Slows enemies in a radius around the projectile.\nPierces 3/4/5 enemies dealing -25% less damage with each pierce",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "5(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.82s",
+        "dps": "6.1(122.4%Ranged Damage122.4%Melee Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 800,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 50
+      },
+      {
+        "tier": 3,
+        "damage": "10(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.73s",
+        "dps": "13.6(136.4%Ranged Damage136.4%Melee Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 850,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 105
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.65s",
+        "dps": "30.8(153.8%Ranged Damage153.8%Melee Damage)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 900,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 220
+      }
+    ]
+  },
+  {
+    "id": "hatchet",
+    "slug": "hatchet",
+    "name": "hatchet",
+    "types": [
+      "Primitive"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Win a run with link=Wildling|x30px Wildling",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7(100%近战伤害20%攻速)",
+        "cooldown": "0.68s",
+        "dps": "10.2(147%近战伤害 29.4%攻速)/s",
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "11(100%近战伤害20%攻速)",
+        "cooldown": "0.67s",
+        "dps": "16.4(149%近战伤害 29.8%攻速)/s",
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "22(100%近战伤害20%攻速)",
+        "cooldown": "0.65s",
+        "dps": "33.8(154%近战伤害 30.8%攻速)/s",
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "45(100%近战伤害20%攻速)",
+        "cooldown": "0.63s",
+        "dps": "71.4(159%近战伤害 31.7%攻速)/s",
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "hiking pole",
+    "slug": "hiking-pole",
+    "name": "hiking pole",
+    "types": [
+      "Support"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "+1 Range for every 70/60/50/40 steps you take during a wave",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(+50%Melee Damage+10%射程)",
+        "cooldown": "1.42s",
+        "dps": "8.4(35.2%Melee Damage7%射程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 17
+      },
+      {
+        "tier": 2,
+        "damage": "18(+50%Melee Damage+12%射程)",
+        "cooldown": "1.34s",
+        "dps": "13.5(37.4%Melee Damage9%射程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "24(+50%Melee Damage+15%射程)",
+        "cooldown": "1.25s",
+        "dps": "19.1(39.9%Melee Damage12%射程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "30(+50%Melee Damage+20%射程)",
+        "cooldown": "1.17s",
+        "dps": "25.6(42.7%Melee Damage17.1%射程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 130
+      }
+    ]
+  },
+  {
+    "id": "icicle",
+    "slug": "icicle",
+    "name": "icicle",
+    "types": [
+      "Precise",
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": "-",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(+100%Elemental Damage)",
+        "cooldown": "1.03s",
+        "dps": "9.7(96.8%Elemental Damage)/s",
+        "crit": "x2 (5% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "20(+100%Elemental Damage)",
+        "cooldown": "0.95s",
+        "dps": "21.1(105.3%Elemental Damage)/s",
+        "crit": "x2 (10% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "30(+100%Elemental Damage)",
+        "cooldown": "0.87s",
+        "dps": "34.6(115.4%Elemental Damage)/s",
+        "crit": "x2.5 (15% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "40(+100%Elemental Damage)",
+        "cooldown": "0.7s",
+        "dps": "57.1(142.9%Elemental Damage)/s",
+        "crit": "x3 (20% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "id": "javelin",
+    "slug": "javelin",
+    "name": "javelin",
+    "types": [
+      "Primitive"
+    ],
+    "rarity": 1,
+    "attackType": "-",
+    "special": "Every 5th/4th/3rd/2nd projectile has +100 % Crit Chance.\nPierces 2/3/4/5 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(+100%Melee Damage)",
+        "cooldown": "1.2s",
+        "dps": "6.7(83.3%Melee Damage)/s",
+        "crit": "x2.5 (0% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "12(+100%Melee Damage)",
+        "cooldown": "1.12s",
+        "dps": "10.7(89.6%Melee Damage)/s",
+        "crit": "x2.75 (0% chance)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "16(+100%Melee Damage)",
+        "cooldown": "1.03s",
+        "dps": "15.5(97.1%Melee Damage)/s",
+        "crit": "x3 (0% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Melee Damage)",
+        "cooldown": "0.95s",
+        "dps": "21.1(105.3%Melee Damage)/s",
+        "crit": "x3.25 (0% chance)",
+        "range": 425,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "id": "jousting lance",
+    "slug": "jousting-lance",
+    "name": "jousting lance",
+    "types": [
+      "Medieval"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "+2/+3/+4/+5 % Speed\n-10/-15/-20/-25 % Damage while standing still",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "20(50%近战伤害30%Speed)",
+        "cooldown": "1.58s",
+        "dps": "12.7(31%近战伤害18%Speed)/s",
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "25(50%近战伤害35%Speed)",
+        "cooldown": "1.5s",
+        "dps": "16.7(33%近战伤害23%Speed)/s",
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "30(50%近战伤害40%Speed)",
+        "cooldown": "1.42s",
+        "dps": "21.1(35%近战伤害28%Speed)/s",
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 72
+      },
+      {
+        "tier": 4,
+        "damage": "50(50%近战伤害50%Speed)",
+        "cooldown": "1.33s",
+        "dps": "37.6(37%近战伤害37%Speed)/s",
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 132
+      }
+    ]
+  },
+  {
+    "id": "knife",
+    "slug": "knife",
+    "name": "knife",
+    "types": [
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "9(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.9(79%近战伤害)/s",
+        "crit": "x2.5 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "13(80%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "9.7(86%近战伤害)/s",
+        "crit": "x3 (30%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "18(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "14.0(93%近战伤害)/s",
+        "crit": "x3.5 (40%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "25(80%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "25.6(102%近战伤害)/s",
+        "crit": "x4 (50%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "laser gun",
+    "slug": "laser-gun",
+    "name": "laser gun",
+    "types": [
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Pierces 1 enemy dealing -25% less to the second enemy",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "40(400%远程伤害)",
+        "cooldown": "1.98s",
+        "dps": "20.2(202%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "55(450%远程伤害)",
+        "cooldown": "1.90s",
+        "dps": "28.9(237%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "70(500%远程伤害)",
+        "cooldown": "1.82s",
+        "dps": "38.5(275%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "100(600%远程伤害)",
+        "cooldown": "1.65s",
+        "dps": "60.6(364%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "lightning shiv",
+    "slug": "lightning-shiv",
+    "name": "lightning shiv",
+    "types": [
+      "Precise",
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "Hitting an enemy spawns a lightning projectile flying towards another random enemy that bounces -/1/2/3 times and inflicts 5/6/8/11 + (80%元素伤害) damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "3.0(79%近战伤害)/s",
+        "crit": "x2 (4%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "6(80%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "6.5(86%近战伤害)/s",
+        "crit": "x2 (6%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "9(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "10.5(93%近战伤害)/s",
+        "crit": "x2 (8%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "19.2(102%近战伤害)/s",
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 142
+      }
+    ]
+  },
+  {
+    "id": "lute",
+    "slug": "lute",
+    "name": "lute",
+    "types": [
+      "Musical",
+      "Support"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Enemies hit take 10% more damage for 3 seconds (max: 30%/50%/70%/100%)",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "4(+50%Melee Damage+10%Luck)",
+        "cooldown": "1.31s",
+        "dps": "3.1(38.1%Melee Damage7.6%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Melee Damage+15%Luck)",
+        "cooldown": "1.25s",
+        "dps": "6.4(39.9%Melee Damage12%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "12(+50%Melee Damage+20%Luck)",
+        "cooldown": "1.2s",
+        "dps": "10(41.7%Melee Damage16.7%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "16(+50%Melee Damage+25%Luck)",
+        "cooldown": "1.14s",
+        "dps": "14(43.8%Melee Damage21.9%Luck)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 225,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "mace",
+    "slug": "mace",
+    "name": "mace",
+    "types": [
+      "Heavy",
+      "Medieval"
+    ],
+    "rarity": 2,
+    "attackType": "Sweep",
+    "special": "-3%/-6%/-10% Attack Speed",
+    "unlock": "Win a run with Ogre",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "40(+100%Melee Damage-50%Attack Speed)",
+        "cooldown": "1.39s",
+        "dps": "28.7(71.7%Melee Damage-35.9%Attack Speed)/s",
+        "crit": "x1.5 (4% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "60(+100%Melee Damage-75%Attack Speed)",
+        "cooldown": "1.31s",
+        "dps": "45.8(76.3%Melee Damage-57.2%Attack Speed)/s",
+        "crit": "x1.5 (8% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 92
+      },
+      {
+        "tier": 4,
+        "damage": "100(+100%Melee Damage-100%Attack Speed)",
+        "cooldown": "1.23s",
+        "dps": "81.5(81.5%Melee Damage-81.5%Attack Speed)/s",
+        "crit": "x1.5 (12% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 185
+      }
+    ]
+  },
+  {
+    "id": "medical gun",
+    "slug": "medical-gun",
+    "name": "medical gun",
+    "types": [
+      "Medical",
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.78s",
+        "dps": "12.8(128%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 50,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.70s",
+        "dps": "21.4(143%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 55,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "0.62s",
+        "dps": "32.3(161%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 60,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "0.48s",
+        "dps": "62.5(208%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 65,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "minigun",
+    "slug": "minigun",
+    "name": "minigun",
+    "types": [
+      "Heavy",
+      "Gun"
+    ],
+    "rarity": 3,
+    "attackType": null,
+    "special": "Pierces 1/2 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "2(50%远程伤害)",
+        "cooldown": "0.09s",
+        "dps": "11.1(555%远程伤害)/s",
+        "crit": "x1.75 (1%)",
+        "range": 400,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 127
+      },
+      {
+        "tier": 4,
+        "damage": "5(75%远程伤害)",
+        "cooldown": "0.09s",
+        "dps": "41.1(1027%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "id": "nuclear launcher",
+    "slug": "nuclear-launcher",
+    "name": "nuclear launcher",
+    "types": [
+      "Heavy",
+      "Explosive"
+    ],
+    "rarity": 3,
+    "attackType": null,
+    "special": "Projectiles explode on hit",
+    "unlock": "Win a run with link=Soldier|x30px Soldier",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "60(100%远程伤害100%元素伤害)",
+        "cooldown": "2.12s",
+        "dps": "28.3(47%远程伤害47%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 144
+      },
+      {
+        "tier": 4,
+        "damage": "120(100%远程伤害100%元素伤害)",
+        "cooldown": "2.12s",
+        "dps": "56.6(47%远程伤害47%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 289
+      }
+    ]
+  },
+  {
+    "id": "obliterator",
+    "slug": "obliterator",
+    "name": "obliterator",
+    "types": [
+      "Gun",
+      "Heavy"
+    ],
+    "rarity": 3,
+    "attackType": null,
+    "special": "Pierces through enemies",
+    "unlock": "Win a run with link=Demon|x30px Demon",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "250(1000%远程伤害)",
+        "cooldown": "3.23s",
+        "dps": "77.4(309%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 127
+      },
+      {
+        "tier": 4,
+        "damage": "400(1500%远程伤害)",
+        "cooldown": "3.23s",
+        "dps": "108.4(464%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 1000,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "id": "particle accelerator",
+    "slug": "particle-accelerator",
+    "name": "particle accelerator",
+    "types": [
+      "Heavy",
+      "Elemental"
+    ],
+    "rarity": 3,
+    "attackType": "-",
+    "special": "Deals 8x8/10x10 (+100%Elemental Damage) burning damage\nSlows enemies by 1%/2% on hit for every 1 Engineering you have [0%].\nPierces through enemies.\nCan't bounce",
+    "unlock": "Win a run with Technomage",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "60(+100%Elemental Damage+100%工程)",
+        "cooldown": "1.95s",
+        "dps": "30.8(51.3%Elemental Damage51.3%工程)/s",
+        "crit": "x2 (3% chance)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 144
+      },
+      {
+        "tier": 4,
+        "damage": "120(+100%Elemental Damage+100%工程)",
+        "cooldown": "1.62s",
+        "dps": "74.2(61.8%Elemental Damage61.8%工程)/s",
+        "crit": "x2 (3% chance)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 289
+      }
+    ]
+  },
+  {
+    "id": "pistol",
+    "slug": "pistol",
+    "name": "pistol",
+    "types": [
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Pierces 1 enemy dealing -50% less to the second enemy",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "10.0(83%远程伤害)/s",
+        "crit": "x2 (10%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "1.12s",
+        "dps": "17.9(89%远程伤害)/s",
+        "crit": "x2 (15%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "1.03s",
+        "dps": "29.1(97%远程伤害)/s",
+        "crit": "x2 (20%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "50(100%远程伤害)",
+        "cooldown": "0.87s",
+        "dps": "57.5(114%远程伤害)/s",
+        "crit": "x2 (25%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "plank",
+    "slug": "plank",
+    "name": "plank",
+    "types": [
+      "Explosive",
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Hits have 25%/30%/40%/50% chance to explode.",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(60%近战伤害60%元素伤害60%工程)",
+        "cooldown": "1.23s",
+        "dps": "8.1(49%近战伤害49%元素伤害49%工程)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(70%近战伤害70%元素伤害70%工程)",
+        "cooldown": "1.14s",
+        "dps": "13.2(61%近战伤害61%元素伤害61%工程)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%近战伤害80%元素伤害80%工程)",
+        "cooldown": "1.06s",
+        "dps": "18.9(75%近战伤害75%元素伤害75%工程)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(90%近战伤害90%元素伤害90%工程)",
+        "cooldown": "0.98s",
+        "dps": "30.6(92%近战伤害92%元素伤害92%工程)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "plasma sledge",
+    "slug": "plasma-sledge",
+    "name": "plasma sledge",
+    "types": [
+      "Elemental",
+      "Explosive"
+    ],
+    "rarity": 3,
+    "attackType": "Sweep",
+    "special": "Hits have 25%/50% chance to explode.",
+    "unlock": "Win a run with link=Knight|x30px Knight",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "80(150%近战伤害150%元素伤害)",
+        "cooldown": "1.55s",
+        "dps": "51.6(96%近战伤害96%元素伤害)/s",
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 136
+      },
+      {
+        "tier": 4,
+        "damage": "120(200%近战伤害200%元素伤害)",
+        "cooldown": "1.49s",
+        "dps": "80.5(134%近战伤害134%元素伤害)/s",
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 272
+      }
+    ]
+  },
+  {
+    "id": "potato thrower",
+    "slug": "potato-thrower",
+    "name": "potato thrower",
+    "types": [
+      "Support"
+    ],
+    "rarity": 2,
+    "attackType": null,
+    "special": "",
+    "unlock": "Win a run with link=Chunky|x30px Chunky",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "3(40%远程伤害20%最大生命)",
+        "cooldown": "0.45s",
+        "dps": "6.7(89%远程伤害44%最大生命)/s",
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "5(40%远程伤害20%最大生命)",
+        "cooldown": "0.37s",
+        "dps": "13.5(108%远程伤害54%最大生命)/s",
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 25,
+        "lifesteal": 0,
+        "price": 69
+      },
+      {
+        "tier": 4,
+        "damage": "10(40%远程伤害20%最大生命)",
+        "cooldown": "0.28s",
+        "dps": "35.7(143%远程伤害71%最大生命)/s",
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 139
+      }
+    ]
+  },
+  {
+    "id": "power fist",
+    "slug": "power-fist",
+    "name": "power fist",
+    "types": [
+      "Unarmed",
+      "Explosive"
+    ],
+    "rarity": 3,
+    "attackType": "Thrust",
+    "special": "Hits have 25%/50% chance to explode.",
+    "unlock": "Win a run with link=Brawler|x30px Brawler",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "58.0(144%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 110
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "101.7(169%近战伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 221
+      }
+    ]
+  },
+  {
+    "id": "pruner",
+    "slug": "pruner",
+    "name": "pruner",
+    "types": [
+      "Support"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "Spawns a garden that creates a fruit every 15/14/12/10 seconds",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(50%近战伤害)",
+        "cooldown": "1.14s",
+        "dps": "8.8(43%近战伤害)/s",
+        "crit": "x1.25 (3%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(65%近战伤害)",
+        "cooldown": "1.06s",
+        "dps": "14.2(61%近战伤害)/s",
+        "crit": "x1.5 (6%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 28
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "20.4(81%近战伤害)/s",
+        "crit": "x1.75 (9%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "0.89s",
+        "dps": "28.1(112%近战伤害)/s",
+        "crit": "x2 (12%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 95
+      }
+    ]
+  },
+  {
+    "id": "quarterstaff",
+    "slug": "quarterstaff",
+    "name": "quarterstaff",
+    "types": [
+      "Primitive",
+      "Medieval"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks\n+2% XP Gain/+5% XP Gain/+9% XP Gain/+15% XP Gain",
+    "unlock": "Win a run with link=Apprentice|x30px Apprentice",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(75%Level50%近战伤害)",
+        "cooldown": "1.42s",
+        "dps": "7.0(52.8%Level35.2%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(85%Level65%近战伤害)",
+        "cooldown": "1.25s",
+        "dps": "12.0(68.0%Level52.0%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%Level85%近战伤害)",
+        "cooldown": "1.09s",
+        "dps": "18.3(91.7%Level78.0%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(125%Level100%近战伤害)",
+        "cooldown": "0.92s",
+        "dps": "32.6(135.9%Level108.7%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "railgun",
+    "slug": "railgun",
+    "name": "railgun",
+    "types": [
+      "Gun",
+      "Heavy"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(80%远程伤害30%Dodge)",
+        "cooldown": "1.07s",
+        "dps": "9.3(75%远程伤害28%Dodge)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "15(80%远程伤害35%Dodge)",
+        "cooldown": "1.02s",
+        "dps": "14.7(78%远程伤害34%Dodge)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 40
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%远程伤害40%Dodge)",
+        "cooldown": "0.98s",
+        "dps": "20.4(82%远程伤害41%Dodge)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 80
+      },
+      {
+        "tier": 4,
+        "damage": "35(100%远程伤害45%Dodge)",
+        "cooldown": "0.95s",
+        "dps": "36.8(105%远程伤害47%Dodge)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 160
+      }
+    ]
+  },
+  {
+    "id": "revolver",
+    "slug": "revolver",
+    "name": "revolver",
+    "types": [
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Every 6th shot has a longer cooldown: 2.07s/1.93s/1.80s/1.67s",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.43s",
+        "dps": "21.3(142%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "20(130%远程伤害)",
+        "cooldown": "0.42s",
+        "dps": "29.8(194%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "25(165%远程伤害)",
+        "cooldown": "0.4s",
+        "dps": "39.5(261%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 70
+      },
+      {
+        "tier": 4,
+        "damage": "40(200%远程伤害)",
+        "cooldown": "0.38s",
+        "dps": "67.2(336%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 130
+      }
+    ]
+  },
+  {
+    "id": "rock",
+    "slug": "rock",
+    "name": "rock",
+    "types": [
+      "Primitive",
+      "Blunt"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "-/+1 Armor/+1 Armor, +2 Max HP/+2 Armor, +2 Max HP",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.68s",
+        "dps": "11.9(59%近战伤害)/s",
+        "crit": "x1.5 (10%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "35(100%近战伤害)",
+        "cooldown": "1.61s",
+        "dps": "21.7(62%近战伤害)/s",
+        "crit": "x1.5 (15%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "50(100%近战伤害)",
+        "cooldown": "1.53s",
+        "dps": "32.7(65%近战伤害)/s",
+        "crit": "x1.5 (20%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "70(100%近战伤害)",
+        "cooldown": "1.46s",
+        "dps": "47.9(68%近战伤害)/s",
+        "crit": "x1.5 (25%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "rocket launcher",
+    "slug": "rocket-launcher",
+    "name": "rocket launcher",
+    "types": [
+      "Heavy",
+      "Explosive"
+    ],
+    "rarity": 2,
+    "attackType": null,
+    "special": "Projectiles explode on hit",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "1.78s",
+        "dps": "16.9(56%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 56
+      },
+      {
+        "tier": 3,
+        "damage": "50(100%远程伤害)",
+        "cooldown": "1.37s",
+        "dps": "36.5(72%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 550,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 103
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%远程伤害)",
+        "cooldown": "1.03s",
+        "dps": "77.7(97%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 600,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 207
+      }
+    ]
+  },
+  {
+    "id": "scissors",
+    "slug": "scissors",
+    "name": "scissors",
+    "types": [
+      "Medical",
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.0(79%近战伤害)/s",
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 40,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(80%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "10.2(81%近战伤害)/s",
+        "crit": "x2.15 (12%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 45,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "0.94s",
+        "dps": "16.0(85%近战伤害)/s",
+        "crit": "x2.3 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 50,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "20(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "23.3(93%近战伤害)/s",
+        "crit": "x2.5 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 60,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "screwdriver",
+    "slug": "screwdriver",
+    "name": "screwdriver",
+    "types": [
+      "Tool"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "A landmine spawns every 12s/9s/6s/3s dealing 10(100%工程) damage in an area",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(50%近战伤害50%工程)",
+        "cooldown": "1.06s",
+        "dps": "7.5(47%近战伤害47%工程)/s",
+        "crit": "x2 (10%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害60%工程)",
+        "cooldown": "1.01s",
+        "dps": "11.9(50%近战伤害59%工程)/s",
+        "crit": "x2.15 (15%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "16(50%近战伤害70%工程)",
+        "cooldown": "0.98s",
+        "dps": "16.3(51%近战伤害71%工程)/s",
+        "crit": "x2.3 (20%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "20(50%近战伤害80%工程)",
+        "cooldown": "0.88s",
+        "dps": "22.7(57%近战伤害91%工程)/s",
+        "crit": "x2.5 (30%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "scythe",
+    "slug": "scythe",
+    "name": "scythe",
+    "types": [
+      "Legendary",
+      "Ethereal"
+    ],
+    "rarity": 4,
+    "attackType": null,
+    "special": "You take 3 damage per second (does not give invulnerability time).\n+3 % Damage when you take damage until the end of the wave",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "150(150%近战伤害100%LifeSteal)",
+        "cooldown": "0.72s",
+        "dps": "208.3(208.3%近战伤害138.9%LifeSteal)/s",
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 5,
+        "lifesteal": 100,
+        "price": 285
+      }
+    ]
+  },
+  {
+    "id": "sharp tooth",
+    "slug": "sharp-tooth",
+    "name": "sharp tooth",
+    "types": [
+      "Primitive",
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "+1 % Life Steal for every 25%/20%/15%/10% of missing health",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(+50%Melee Damage+50%Lifesteal)",
+        "cooldown": "1.14s",
+        "dps": "4.4(43.7%Melee Damage43.7%Lifesteal)/s",
+        "crit": "x2 (3% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Melee Damage+65%Lifesteal)",
+        "cooldown": "1.07s",
+        "dps": "7.5(46.7%Melee Damage60.7%Lifesteal)/s",
+        "crit": "x2.15 (6% chance)",
+        "range": 160,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "11(+50%Melee Damage+80%Lifesteal)",
+        "cooldown": "1s",
+        "dps": "11(50.1%Melee Damage80.1%Lifesteal)/s",
+        "crit": "x2.3 (9% chance)",
+        "range": 170,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "15(+50%Melee Damage+100%Lifesteal)",
+        "cooldown": "0.93s",
+        "dps": "16.2(54%Melee Damage108%Lifesteal)/s",
+        "crit": "x2.5 (12% chance)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "id": "shredder",
+    "slug": "shredder",
+    "name": "shredder",
+    "types": [
+      "Gun",
+      "Explosive"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "50%/65%/80%/100% chance for projectiles to explode on hit. Pierces 3 enemies dealing 100% damage",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(50%远程伤害)",
+        "cooldown": "1.3s",
+        "dps": "3.8(38%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(50%远程伤害)",
+        "cooldown": "1.22s",
+        "dps": "8.2(40%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "15(50%远程伤害)",
+        "cooldown": "1.13s",
+        "dps": "13.3(44%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "25(50%远程伤害)",
+        "cooldown": "1.05s",
+        "dps": "23.8(47%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "shuriken",
+    "slug": "shuriken",
+    "name": "shuriken",
+    "types": [
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Critical hits bounces 1/2/3/4 times",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7(25%近战伤害)",
+        "cooldown": "0.87s",
+        "dps": "8.0(28%近战伤害)/s",
+        "crit": "x1.5 (35%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "9(34%近战伤害)",
+        "cooldown": "0.83s",
+        "dps": "10.8(40%近战伤害)/s",
+        "crit": "x1.5 (38%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "11(42%近战伤害)",
+        "cooldown": "0.8s",
+        "dps": "13.8(52%近战伤害)/s",
+        "crit": "x1.5 (41%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "15(50%近战伤害)",
+        "cooldown": "0.7s",
+        "dps": "21.4(71%近战伤害)/s",
+        "crit": "x1.5 (45%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "id": "sickle",
+    "slug": "sickle",
+    "name": "sickle",
+    "types": [
+      "Support"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "+20%/+30%/+40%/+50% damage against targets below 30% health",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(+80%Melee Damage+10%Harvesting)",
+        "cooldown": "0.87s",
+        "dps": "5.8(92.2%Melee Damage11.5%Harvesting)/s",
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "8(+80%Melee Damage+15%Harvesting)",
+        "cooldown": "0.82s",
+        "dps": "9.8(97.9%Melee Damage18.4%Harvesting)/s",
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "12(+80%Melee Damage+20%Harvesting)",
+        "cooldown": "0.77s",
+        "dps": "15.6(104.3%Melee Damage26.1%Harvesting)/s",
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "15(+80%Melee Damage+25%Harvesting)",
+        "cooldown": "0.7s",
+        "dps": "21.4(114.2%Melee Damage35.7%Harvesting)/s",
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "slingshot",
+    "slug": "slingshot",
+    "name": "slingshot",
+    "types": [
+      "Primitive"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Bounces 1/2/3/4 times",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(80%远程伤害)",
+        "cooldown": "1.22s",
+        "dps": "8.2(65%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "13(80%远程伤害)",
+        "cooldown": "1.17s",
+        "dps": "11.1(68.4%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "16(80%远程伤害)",
+        "cooldown": "1.13s",
+        "dps": "14.2(70.8%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "20(80%远程伤害)",
+        "cooldown": "1.1s",
+        "dps": "18.2(72.7%远程伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "smg",
+    "slug": "smg",
+    "name": "smg",
+    "types": [
+      "Gun"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3(50%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "17.6(294%远程伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "4(60%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "23.5(352%远程伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "5(70%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "29.4(411%远程伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "8(80%远程伤害)",
+        "cooldown": "0.15s",
+        "dps": "53.3(533%远程伤害)/s",
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "sniper gun",
+    "slug": "sniper-gun",
+    "name": "sniper gun",
+    "types": [
+      "Gun",
+      "Precise"
+    ],
+    "rarity": 3,
+    "attackType": null,
+    "special": "Hitting an enemy spawns 5/8 projectiles dealing 5 +(10%/15%射程)",
+    "unlock": "Win a run with link=Hunter|x30px Hunter",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "50(100%远程伤害20%射程)",
+        "cooldown": "2.4s",
+        "dps": "20.8(41%远程伤害8%射程)/s",
+        "crit": "x3 (20%)",
+        "range": 800,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 115
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%远程伤害30%射程)",
+        "cooldown": "2.4s",
+        "dps": "33.3(41%远程伤害12%射程)/s",
+        "crit": "x4 (20%)",
+        "range": 1000,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 245
+      }
+    ]
+  },
+  {
+    "id": "spear",
+    "slug": "spear",
+    "name": "spear",
+    "types": [
+      "Primitive"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(100%近战伤害)",
+        "cooldown": "1.52s",
+        "dps": "9.9(65%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "1.4s",
+        "dps": "17.9(71%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "1.28s",
+        "dps": "31.2(78%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "60(100%近战伤害)",
+        "cooldown": "1.24s",
+        "dps": "48.4(80%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "spiky shield",
+    "slug": "spiky-shield",
+    "name": "spiky shield",
+    "types": [
+      "Medieval",
+      "Blunt"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Win a run with link=Masochist|x30px Masochist",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%护甲)",
+        "cooldown": "1.16s",
+        "dps": "8.6(86%护甲)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(125%护甲)",
+        "cooldown": "1.16s",
+        "dps": "12.9(107%护甲)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(150%护甲)",
+        "cooldown": "1.16s",
+        "dps": "17.2(129%护甲)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(200%护甲)",
+        "cooldown": "1.01s",
+        "dps": "29.7(198%护甲)/s",
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "spoon",
+    "slug": "spoon",
+    "name": "spoon",
+    "types": [
+      "Blunt"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Always crits when hitting burning targets",
+    "unlock": "Win a run with Chef",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(+50%Melee Damage+15%最大生命)",
+        "cooldown": "1.06s",
+        "dps": "9.4(47.1%Melee Damage14.1%最大生命)/s",
+        "crit": "x2 (0% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(+50%Melee Damage+20%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "15.1(50.3%Melee Damage20.1%最大生命)/s",
+        "crit": "x2.25 (0% chance)",
+        "range": 165,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(+50%Melee Damage+25%最大生命)",
+        "cooldown": "0.93s",
+        "dps": "21.6(54%Melee Damage27%最大生命)/s",
+        "crit": "x2.5 (0% chance)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "25(+50%Melee Damage+25%最大生命)",
+        "cooldown": "0.86s",
+        "dps": "28.9(57.9%Melee Damage28.9%最大生命)/s",
+        "crit": "x3 (0% chance)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "stick",
+    "slug": "stick",
+    "name": "stick",
+    "types": [
+      "Primitive"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "Deals +4/+6/+8/+10 base damage for every additional stick you have",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(100%近战伤害)",
+        "cooldown": "1.29s",
+        "dps": "6.2(78%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "9(100%近战伤害)",
+        "cooldown": "1.22s",
+        "dps": "7.4(82%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "10(100%近战伤害)",
+        "cooldown": "1.15s",
+        "dps": "8.7(87%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.09s",
+        "dps": "11(92%近战伤害)/s",
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "sword",
+    "slug": "sword",
+    "name": "sword",
+    "types": [
+      "Blade",
+      "Medieval"
+    ],
+    "rarity": 2,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(100%近战伤害)",
+        "cooldown": "1.28s",
+        "dps": "23.4(78%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 51
+      },
+      {
+        "tier": 3,
+        "damage": "45(100%近战伤害)",
+        "cooldown": "1.13s",
+        "dps": "39.8(88%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 95
+      },
+      {
+        "tier": 4,
+        "damage": "65(100%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "66.3(102%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 190
+      }
+    ]
+  },
+  {
+    "id": "taser",
+    "slug": "taser",
+    "name": "taser",
+    "types": [
+      "Support",
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Slows enemies in a radius around the projectile",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7x1(80%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "7.4(84%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "7x2(70%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "14.7(147%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "7x3(60%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "22.1(189%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "14x4(50%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "58.9(210%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "id": "thief dagger",
+    "slug": "thief-dagger",
+    "name": "thief dagger",
+    "types": [
+      "Precise"
+    ],
+    "rarity": 1,
+    "attackType": "Thrust",
+    "special": "50%/56%/62%/80% to gain 1 material when killing an enemy with a critical hit with this weapon",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(50%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.9(49%近战伤害)/s",
+        "crit": "x2 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "12.9(53%近战伤害)/s",
+        "crit": "x2 (25%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "18(50%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "20.9(58%近战伤害)/s",
+        "crit": "x2 (30%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "30(50%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "41.1(68%近战伤害)/s",
+        "crit": "x2 (40%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "id": "thunder sword",
+    "slug": "thunder-sword",
+    "name": "thunder sword",
+    "types": [
+      "Blade",
+      "Elemental"
+    ],
+    "rarity": 3,
+    "attackType": "Sweep",
+    "special": "Hitting an enemy spawns 2/4 projectiles that slow and damage enemies by 100%元素伤害",
+    "unlock": "Win a run with link=Mage|x30px Mage",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "40(125%近战伤害125%元素伤害)",
+        "cooldown": "1.21s",
+        "dps": "33.1(103%近战伤害103%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 119
+      },
+      {
+        "tier": 4,
+        "damage": "75(150%近战伤害150%元素伤害)",
+        "cooldown": "1.06s",
+        "dps": "70.8(141%近战伤害141%元素伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 238
+      }
+    ]
+  },
+  {
+    "id": "torch",
+    "slug": "torch",
+    "name": "torch",
+    "types": [
+      "Primitive",
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Deals 3x3/5x5/8x6/12x9(100%元素伤害) burning damage.\nBurning spreads to 0/0/1/1 additional nearby enemies.",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%近战伤害50%元素伤害)",
+        "cooldown": "1.1s",
+        "dps": "0.9(45%近战伤害45%元素伤害)/s",
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(65%近战伤害65%元素伤害)",
+        "cooldown": "1.04s",
+        "dps": "1.0(63%近战伤害63%元素伤害)/s",
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(80%近战伤害80%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "1.1(84%近战伤害84%元素伤害)/s",
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(100%近战伤害100%元素伤害)",
+        "cooldown": "0.8s",
+        "dps": "1.2(125%近战伤害125%元素伤害)/s",
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "trident",
+    "slug": "trident",
+    "name": "trident",
+    "types": [
+      "Naval",
+      "Medieval"
+    ],
+    "rarity": 2,
+    "attackType": "Thrust",
+    "special": "+30%/+40%/+50% damage against targets above 80% health",
+    "unlock": "Default",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(+100%Melee Damage+15%Curse)",
+        "cooldown": "1.58s",
+        "dps": "19(63.2%Melee Damage9.5%Curse)/s",
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 49
+      },
+      {
+        "tier": 3,
+        "damage": "50(+100%Melee Damage+30%Curse)",
+        "cooldown": "1.5s",
+        "dps": "33.4(66.7%Melee Damage20%Curse)/s",
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 96
+      },
+      {
+        "tier": 4,
+        "damage": "80(+100%Melee Damage+50%Curse)",
+        "cooldown": "1.41s",
+        "dps": "56.5(70.7%Melee Damage35.3%Curse)/s",
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": "vorpal sword",
+    "slug": "vorpal-sword",
+    "name": "vorpal sword",
+    "types": [
+      "Blade",
+      "Medieval"
+    ],
+    "rarity": 2,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks\n-/1%/2%/3% chance to one shot the target when hitting it",
+    "unlock": "Reach 100% Crit Chance",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.11s",
+        "dps": "18.0(90%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 55
+      },
+      {
+        "tier": 3,
+        "damage": "35(100%近战伤害)",
+        "cooldown": "1.03s",
+        "dps": "34.0(97%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 100
+      },
+      {
+        "tier": 4,
+        "damage": "55(100%近战伤害)",
+        "cooldown": "0.95s",
+        "dps": "57.9(105%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "id": "wand",
+    "slug": "wand",
+    "name": "wand",
+    "types": [
+      "Elemental"
+    ],
+    "rarity": 1,
+    "attackType": null,
+    "special": "Deals 3x3/5x5/8x6/12x9(100%元素伤害) burning damage\nPierces 1 enemy dealing -50% less to the second enemy",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%元素伤害)",
+        "cooldown": "0.87s",
+        "dps": "1.1(57%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 350,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(65%元素伤害)",
+        "cooldown": "0.78s",
+        "dps": "1.3(83.3%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 375,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(80%元素伤害)",
+        "cooldown": "0.7s",
+        "dps": "1.4(114.3%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 400,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(100%元素伤害)",
+        "cooldown": "0.53s",
+        "dps": "1.9(188.7%元素伤害)/s",
+        "crit": "x2 (0%)",
+        "range": 425,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "id": "war hammer",
+    "slug": "war-hammer",
+    "name": "war hammer",
+    "types": [
+      "Blunt",
+      "Tool"
+    ],
+    "rarity": 3,
+    "attackType": "Sweep",
+    "special": "Resets the cooldown of all offensive turrets when attacking",
+    "unlock": "Win a run with Dwarf",
+    "isDlc": true,
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "100(+150%Melee Damage+150%工程)",
+        "cooldown": "2.11s",
+        "dps": "47.3(70.9%Melee Damage70.9%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 130
+      },
+      {
+        "tier": 4,
+        "damage": "200(+200%Melee Damage+200%工程)",
+        "cooldown": "1.95s",
+        "dps": "92.4(102.7%Melee Damage102.7%工程)/s",
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 25,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "id": "wrench",
+    "slug": "wrench",
+    "name": "wrench",
+    "types": [
+      "Tool"
+    ],
+    "rarity": 1,
+    "attackType": "Sweep",
+    "special": "Spawns a Turret/Incendiary Turret/Laser Turret/Explosive Turret",
+    "unlock": "Default",
+    "isDlc": false,
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.7s",
+        "dps": "7.1(58%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "16(100%近战伤害)",
+        "cooldown": "1.64s",
+        "dps": "9.8(60%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.55s",
+        "dps": "12.9(64%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "24(100%近战伤害)",
+        "cooldown": "1.49s",
+        "dps": "16.1(67%近战伤害)/s",
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  }
+]

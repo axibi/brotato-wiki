@@ -1,0 +1,5775 @@
+[
+  {
+    "slug": "builders-turret",
+    "name": "Builder'S Turret",
+    "nameZh": "建造者炮塔",
+    "rarity": 1,
+    "price": 1,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "该炮塔的属性取自你最强远程武器的基础数值，并受工程加成；",
+      "结构射程达到 30 时额外 +1 发弹。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "pencil",
+    "name": "Pencil",
+    "nameZh": "铅笔",
+    "rarity": 1,
+    "price": 8,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程"
+    ]
+  },
+  {
+    "slug": "corrupted-shard",
+    "name": "Corrupted Shard",
+    "nameZh": "腐化碎片",
+    "rarity": 1,
+    "price": 12,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+3%"
+      },
+      {
+        "term": "诅咒",
+        "value": "+1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "诅咒"
+    ]
+  },
+  {
+    "slug": "weird-ghost",
+    "name": "Weird Ghost",
+    "nameZh": "奇怪幽灵",
+    "rarity": 1,
+    "price": 12,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "最大生命 +3，但下一波以 1 点生命开场。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "alien-worm",
+    "name": "Alien Worm",
+    "nameZh": "异形蠕虫",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      },
+      {
+        "term": "生命回复",
+        "value": "+2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "消耗品回复的生命 -1。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "bag",
+    "name": "Bag",
+    "nameZh": "袋子",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "拾取箱子时获得材料 +15",
+      "速度 -1%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运",
+      "探索",
+      "经济"
+    ]
+  },
+  {
+    "slug": "book",
+    "name": "Book",
+    "nameZh": "书",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+2"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+1"
+      },
+      {
+        "term": "幸运",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "cake",
+    "name": "Cake",
+    "nameZh": "蛋糕",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      },
+      {
+        "term": "伤害",
+        "value": "-1%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "coupon",
+    "name": "Coupon",
+    "nameZh": "优惠券",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "物品价格",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "经济"
+    ]
+  },
+  {
+    "slug": "fertilizer",
+    "name": "Fertilizer",
+    "nameZh": "化肥",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "收获",
+        "value": "+8"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "helmet",
+    "name": "Helmet",
+    "nameZh": "头盔",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+1"
+      },
+      {
+        "term": "速度",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲"
+    ]
+  },
+  {
+    "slug": "jelly",
+    "name": "Jelly",
+    "nameZh": "果冻",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每持有一把不同武器，最大生命 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "landmines",
+    "name": "Landmines",
+    "nameZh": "地雷",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每 12 秒生成一颗地雷，在范围内造成 10 点伤害（受 100% 工程加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "爆炸",
+      "结构"
+    ]
+  },
+  {
+    "slug": "lemonade",
+    "name": "Lemonade",
+    "nameZh": "柠檬水",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "消耗品回复的生命 +1。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "消耗品"
+    ]
+  },
+  {
+    "slug": "lumberjack-shirt",
+    "name": "Lumberjack Shirt",
+    "nameZh": "伐木工衬衫",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "树木被一击摧毁。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "探索"
+    ]
+  },
+  {
+    "slug": "plant",
+    "name": "Plant",
+    "nameZh": "盆栽",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+3"
+      },
+      {
+        "term": "生命偷取",
+        "value": "-1%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "terrified-onion",
+    "name": "Terrified Onion",
+    "nameZh": "受惊洋葱",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+4%"
+      },
+      {
+        "term": "幸运",
+        "value": "-5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度"
+    ]
+  },
+  {
+    "slug": "tree",
+    "name": "Tree",
+    "nameZh": "树",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "地图上生成更多树木。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "探索"
+    ]
+  },
+  {
+    "slug": "turret",
+    "name": "Turret",
+    "nameZh": "炮塔",
+    "rarity": 1,
+    "price": 15,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤一座炮塔，射出子弹造成 10 点伤害（受 80% 工程加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构"
+    ]
+  },
+  {
+    "slug": "baby-gecko",
+    "name": "Baby Gecko",
+    "nameZh": "小壁虎",
+    "rarity": 1,
+    "price": 18,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "射程",
+        "value": "+10"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "材料掉落时，25% 概率立即被吸引到你身边。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "拾取",
+      "射程"
+    ]
+  },
+  {
+    "slug": "boxing-glove",
+    "name": "Boxing Glove",
+    "nameZh": "拳击手套",
+    "rarity": 1,
+    "price": 18,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+1"
+      },
+      {
+        "term": "击退",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "击退"
+    ]
+  },
+  {
+    "slug": "feather",
+    "name": "Feather",
+    "nameZh": "羽毛",
+    "rarity": 1,
+    "price": 18,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+1"
+      },
+      {
+        "term": "闪避",
+        "value": "+3%"
+      },
+      {
+        "term": "经验获取",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "peaceful-bee",
+    "name": "Peaceful Bee",
+    "nameZh": "和平蜜蜂",
+    "rarity": 1,
+    "price": 18,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "闪避",
+        "value": "+4%"
+      },
+      {
+        "term": "收获",
+        "value": "+4"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-1"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "闪避",
+      "收获"
+    ]
+  },
+  {
+    "slug": "small-fish",
+    "name": "Small Fish",
+    "nameZh": "小鱼",
+    "rarity": 1,
+    "price": 18,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "对生命高于 75% 的目标伤害 +10%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "bat",
+    "name": "Bat",
+    "nameZh": "蝙蝠",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+2%"
+      },
+      {
+        "term": "收获",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "beanie",
+    "name": "Beanie",
+    "nameZh": "毛线帽",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+4%"
+      },
+      {
+        "term": "射程",
+        "value": "-6"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度"
+    ]
+  },
+  {
+    "slug": "charcoal",
+    "name": "Charcoal",
+    "nameZh": "木炭",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+1"
+      },
+      {
+        "term": "近战伤害",
+        "value": "+2"
+      },
+      {
+        "term": "收获",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "近战伤害"
+    ]
+  },
+  {
+    "slug": "claw-tree",
+    "name": "Claw Tree",
+    "nameZh": "爪树",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+1"
+      },
+      {
+        "term": "暴击率",
+        "value": "+3%"
+      },
+      {
+        "term": "最大生命",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "coffee",
+    "name": "Coffee",
+    "nameZh": "咖啡",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "攻速",
+        "value": "+10%"
+      },
+      {
+        "term": "伤害",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "攻速"
+    ]
+  },
+  {
+    "slug": "defective-steroids",
+    "name": "Defective Steroids",
+    "nameZh": "劣质类固醇",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+2"
+      },
+      {
+        "term": "近战伤害",
+        "value": "+2"
+      },
+      {
+        "term": "攻速",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "近战伤害"
+    ]
+  },
+  {
+    "slug": "duct-tape",
+    "name": "Duct Tape",
+    "nameZh": "强力胶带",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+1"
+      },
+      {
+        "term": "工程",
+        "value": "+1"
+      },
+      {
+        "term": "最大生命",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "工程"
+    ]
+  },
+  {
+    "slug": "dynamite",
+    "name": "Dynamite",
+    "nameZh": "炸药",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "爆炸伤害",
+        "value": "+15%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "glasses",
+    "name": "Glasses",
+    "nameZh": "眼镜",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "射程",
+        "value": "+20"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "射程"
+    ]
+  },
+  {
+    "slug": "injection",
+    "name": "Injection",
+    "nameZh": "注射剂",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+7%"
+      },
+      {
+        "term": "最大生命",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "insanity",
+    "name": "Insanity",
+    "nameZh": "疯狂",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+6%"
+      },
+      {
+        "term": "伤害",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "lens",
+    "name": "Lens",
+    "nameZh": "镜片",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+1"
+      },
+      {
+        "term": "射程",
+        "value": "-5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "toxic-sludge",
+    "name": "Toxic Sludge",
+    "nameZh": "有毒污泥",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+2"
+      },
+      {
+        "term": "闪避",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "weird-food",
+    "name": "Weird Food",
+    "nameZh": "奇怪食物",
+    "rarity": 1,
+    "price": 20,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "闪避",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "消耗品回复的生命 +2。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "消耗品"
+    ]
+  },
+  {
+    "slug": "baby-elephant",
+    "name": "Baby Elephant",
+    "nameZh": "小象",
+    "rarity": 1,
+    "price": 22,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "拾取材料时，25% 概率对随机敌人造成 1 点伤害（受 25% 幸运加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "幸运",
+      "拾取"
+    ]
+  },
+  {
+    "slug": "alien-tongue",
+    "name": "Alien Tongue",
+    "nameZh": "异形舌头",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "拾取范围",
+        "value": "+30%"
+      },
+      {
+        "term": "击退",
+        "value": "+1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "拾取",
+      "击退"
+    ]
+  },
+  {
+    "slug": "broken-mouth",
+    "name": "Broken Mouth",
+    "nameZh": "破嘴",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+5"
+      },
+      {
+        "term": "生命回复",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "cute-monkey",
+    "name": "Cute Monkey",
+    "nameZh": "可爱猴子",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "拾取材料时，8% 概率回复 1 点生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "拾取"
+    ]
+  },
+  {
+    "slug": "fresh-meat",
+    "name": "Fresh Meat",
+    "nameZh": "生肉",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+2%"
+      },
+      {
+        "term": "生命回复",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "goat-skull",
+    "name": "Goat Skull",
+    "nameZh": "山羊头骨",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+3"
+      },
+      {
+        "term": "暴击率",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害"
+    ]
+  },
+  {
+    "slug": "gummy-berserker",
+    "name": "Gummy Berserker",
+    "nameZh": "软糖狂战士",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "攻速",
+        "value": "+5%"
+      },
+      {
+        "term": "射程",
+        "value": "+25"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "攻速",
+      "射程"
+    ]
+  },
+  {
+    "slug": "head-injury",
+    "name": "Head Injury",
+    "nameZh": "头部创伤",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+6%"
+      },
+      {
+        "term": "射程",
+        "value": "-8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "lost-duck",
+    "name": "Lost Duck",
+    "nameZh": "迷路鸭子",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+8"
+      },
+      {
+        "term": "元素伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "mushroom",
+    "name": "Mushroom",
+    "nameZh": "蘑菇",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+3"
+      },
+      {
+        "term": "幸运",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "mutation",
+    "name": "Mutation",
+    "nameZh": "变异",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+1"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+1"
+      },
+      {
+        "term": "击退",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "penguin",
+    "name": "Penguin",
+    "nameZh": "企鹅",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "生命回复 +1",
+      "满血拾取消耗品时，生命回复 +1（持续到波末）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "scar",
+    "name": "Scar",
+    "nameZh": "伤疤",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "经验获取",
+        "value": "+20%"
+      },
+      {
+        "term": "射程",
+        "value": "-8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "经验"
+    ]
+  },
+  {
+    "slug": "scared-sausage",
+    "name": "Scared Sausage",
+    "nameZh": "受惊香肠",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "攻击有 25% 概率造成 3×1 的燃烧伤害（受 100% 元素伤害加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "sharp-bullet",
+    "name": "Sharp Bullet",
+    "nameZh": "尖锐子弹",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "穿透伤害",
+        "value": "-20%"
+      },
+      {
+        "term": "伤害",
+        "value": "-5%"
+      },
+      {
+        "term": "击退",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "弹射物额外穿透 1 个目标，但穿透伤害与击退下降。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "snake",
+    "name": "Snake",
+    "nameZh": "蛇",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "燃烧会额外蔓延到附近 1 个敌人，并减少 1 点最大生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "ugly-tooth",
+    "name": "Ugly Tooth",
+    "nameZh": "丑牙",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "命中敌人会削减其 5% 速度，最多叠加到 20%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "降低敌人速度"
+    ]
+  },
+  {
+    "slug": "whistle",
+    "name": "Whistle",
+    "nameZh": "哨子",
+    "rarity": 1,
+    "price": 25,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "战利品外星人出现概率 +50%，其移速 +20%；",
+      "出现时会吹哨提示。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "propeller-hat",
+    "name": "Propeller Hat",
+    "nameZh": "螺旋桨帽",
+    "rarity": 1,
+    "price": 28,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+10"
+      },
+      {
+        "term": "伤害",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "boiling-water",
+    "name": "Boiling Water",
+    "nameZh": "沸水",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+2"
+      },
+      {
+        "term": "最大生命",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "butterfly",
+    "name": "Butterfly",
+    "nameZh": "蝴蝶",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+2%"
+      },
+      {
+        "term": "元素伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "gentle-alien",
+    "name": "Gentle Alien",
+    "nameZh": "温和的外星人",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+2"
+      },
+      {
+        "term": "伤害",
+        "value": "+5%"
+      },
+      {
+        "term": "敌人数量",
+        "value": "+5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "伤害",
+      "增加敌人"
+    ]
+  },
+  {
+    "slug": "hedgehog",
+    "name": "Hedgehog",
+    "nameZh": "刺猬",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+2"
+      },
+      {
+        "term": "远程伤害",
+        "value": "+1"
+      },
+      {
+        "term": "生命回复",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "lootworm",
+    "name": "Lootworm",
+    "nameZh": "拾取虫",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤一只拾取虫宠物，替你收集材料并撞倒树木；",
+      "每次拾取材料有 10% 概率翻倍。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "拾取",
+      "经济",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "ratzilla",
+    "name": "Ratzilla",
+    "nameZh": "鼠斯拉",
+    "rarity": 1,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤鼠斯拉宠物，造成 5 点伤害（受 10% 最大生命加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "builders-turret-ii",
+    "name": "Builder'S Turret Ii",
+    "nameZh": "建造者炮塔 II",
+    "rarity": 2,
+    "price": 1,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "属性取自最强远程武器并受工程加成，弹道 +1；",
+      "结构射程 150 时再 +1。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "bait",
+    "name": "Bait",
+    "nameZh": "鱼饵",
+    "rarity": 2,
+    "price": 25,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+8%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "伤害 +8%，下一波开始时会出现特殊敌人。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "敌人数量"
+    ]
+  },
+  {
+    "slug": "bone-dice",
+    "name": "Bone Dice",
+    "nameZh": "骨制骰子",
+    "rarity": 2,
+    "price": 30,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "在商店刷新时，50% 概率获得 +1% 伤害，10% 概率失去 1 点最大生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "cyberball",
+    "name": "Cyberball",
+    "nameZh": "赛博球",
+    "rarity": 2,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "敌人死亡时，25% 概率对随机敌人造成 1 点伤害（受 25% 幸运加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "dangerous-bunny",
+    "name": "Dangerous Bunny",
+    "nameZh": "危险兔",
+    "rarity": 2,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "商店获得 1 次免费刷新。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "经济"
+    ]
+  },
+  {
+    "slug": "decomposing-flesh",
+    "name": "Decomposing Flesh",
+    "nameZh": "腐化血肉",
+    "rarity": 2,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "升级时生命偷取 +1%，最大生命 -1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "spyglass",
+    "name": "Spyglass",
+    "nameZh": "望远镜",
+    "rarity": 2,
+    "price": 30,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "射程",
+        "value": "+10"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "刷新价格 -25%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "射程"
+    ]
+  },
+  {
+    "slug": "catling-gun",
+    "name": "Catling Gun",
+    "nameZh": "猫机枪",
+    "rarity": 2,
+    "price": 34,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤猫机枪宠物，射击造成远程伤害；",
+      "玩家或宠物贴近时攻速翻倍。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "lure",
+    "name": "Lure",
+    "nameZh": "诱饵",
+    "rarity": 2,
+    "price": 34,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "下一波额外出现 2 个战利品外星人。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "cauldron",
+    "name": "Cauldron",
+    "nameZh": "大锅",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "拾取消耗品后 2 秒内伤害 +20%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "拾取"
+    ]
+  },
+  {
+    "slug": "celery-tea",
+    "name": "Celery Tea",
+    "nameZh": "芹菜茶",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每波结束时经验获取 +5%",
+      "下一波经验获取 +50%"
+    ],
+    "effects": [
+      "下一波敌人生命 +100%，同时获得大量额外经验。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "经验"
+    ]
+  },
+  {
+    "slug": "cog",
+    "name": "Cog",
+    "nameZh": "齿轮",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+4"
+      },
+      {
+        "term": "击退",
+        "value": "+1"
+      },
+      {
+        "term": "伤害",
+        "value": "-4%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "击退"
+    ]
+  },
+  {
+    "slug": "fish-hook",
+    "name": "Fish Hook",
+    "nameZh": "鱼钩",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "诅咒",
+        "value": "+1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "离店时，已锁定的道具与武器有 20% 概率被诅咒；",
+      "诅咒 +1。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "诅咒",
+      "锁定"
+    ]
+  },
+  {
+    "slug": "recycling-machine",
+    "name": "Recycling Machine",
+    "nameZh": "回收机",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "回收道具时多获得 35% 材料。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "经济"
+    ]
+  },
+  {
+    "slug": "tentacle",
+    "name": "Tentacle",
+    "nameZh": "触手",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "暴击击杀敌人时，20% 概率回复 1 点生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "treasure-map",
+    "name": "Treasure Map",
+    "nameZh": "藏宝图",
+    "rarity": 2,
+    "price": 35,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "从箱子中额外找到道具的概率 +20%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "blazemander",
+    "name": "Blazemander",
+    "nameZh": "火焰蝾螈",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤火焰蝾螈宠物，每 4 秒向四周喷射燃烧弹；",
+      "被其击中的敌人会受到持续的燃烧伤害（受元素伤害加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "bonk-dog",
+    "name": "Bonk Dog",
+    "nameZh": "邦克犬",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤邦克犬宠物，每 5 秒冲刺一次，在范围内造成爆炸伤害（受近战伤害加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "爆炸",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "campfire",
+    "name": "Campfire",
+    "nameZh": "营火",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+2"
+      },
+      {
+        "term": "生命回复",
+        "value": "+2"
+      },
+      {
+        "term": "速度",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "梦魇难度下雾霾可见度 +50%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "compass",
+    "name": "Compass",
+    "nameZh": "指南针",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+5%"
+      },
+      {
+        "term": "工程",
+        "value": "+3"
+      },
+      {
+        "term": "暴击率",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度",
+      "工程"
+    ]
+  },
+  {
+    "slug": "coral",
+    "name": "Coral",
+    "nameZh": "珊瑚",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "站立不动时生命回复 +10"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复",
+      "站桩"
+    ]
+  },
+  {
+    "slug": "incendiary-turret",
+    "name": "Incendiary Turret",
+    "nameZh": "喷火炮塔",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤喷火炮塔，喷射火焰造成燃烧伤害（受工程加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构"
+    ]
+  },
+  {
+    "slug": "medical-turret",
+    "name": "Medical Turret",
+    "nameZh": "医疗炮塔",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤医疗炮塔，射出治疗弹，回复生命（受工程加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构"
+    ]
+  },
+  {
+    "slug": "metal-detector",
+    "name": "Metal Detector",
+    "nameZh": "金属探测器",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+6"
+      },
+      {
+        "term": "工程",
+        "value": "+2"
+      },
+      {
+        "term": "伤害",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "拾取材料价值翻倍的概率 +5%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "幸运",
+      "工程",
+      "拾取",
+      "经济"
+    ]
+  },
+  {
+    "slug": "metal-plate",
+    "name": "Metal Plate",
+    "nameZh": "金属板",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+2"
+      },
+      {
+        "term": "伤害",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲"
+    ]
+  },
+  {
+    "slug": "piggy-bank",
+    "name": "Piggy Bank",
+    "nameZh": "存钱罐",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每波开始时获得当前材料 20% 的额外材料（第 20 波后失效）。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "pumpkin",
+    "name": "Pumpkin",
+    "nameZh": "南瓜",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "穿透伤害 +15%（不超过基础伤害）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "riposte",
+    "name": "Riposte",
+    "nameZh": "反击",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "闪避敌人攻击时，100% 概率对其造成伤害（受近战伤害加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "闪避",
+      "近战伤害"
+    ]
+  },
+  {
+    "slug": "snail",
+    "name": "Snail",
+    "nameZh": "蜗牛",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "敌人速度 -8%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "降低敌人速度"
+    ]
+  },
+  {
+    "slug": "spicy-sauce",
+    "name": "Spicy Sauce",
+    "nameZh": "辣酱",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "消耗品有 50% 概率在拾取时爆炸，造成伤害（受最大生命加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "幸运",
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "wheelbarrow",
+    "name": "Wheelbarrow",
+    "nameZh": "手推车",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "收获",
+        "value": "+16"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "whetstone",
+    "name": "Whetstone",
+    "nameZh": "磨刀石",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+4%"
+      },
+      {
+        "term": "击退",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "white-flag",
+    "name": "White Flag",
+    "nameZh": "白旗",
+    "rarity": 2,
+    "price": 40,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "收获",
+        "value": "+5"
+      },
+      {
+        "term": "敌人数量",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "收获",
+      "减少敌人"
+    ]
+  },
+  {
+    "slug": "blindfold",
+    "name": "Blindfold",
+    "nameZh": "眼罩",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      },
+      {
+        "term": "闪避",
+        "value": "+5%"
+      },
+      {
+        "term": "射程",
+        "value": "-15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "blood-leech",
+    "name": "Blood Leech",
+    "nameZh": "血蛭",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+2%"
+      },
+      {
+        "term": "生命回复",
+        "value": "+2"
+      },
+      {
+        "term": "收获",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "clockwork-wasp",
+    "name": "Clockwork Wasp",
+    "nameZh": "发条黄蜂",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "结构攻速",
+        "value": "+10%"
+      },
+      {
+        "term": "速度",
+        "value": "+5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "结构",
+      "速度"
+    ]
+  },
+  {
+    "slug": "cyclops-worm",
+    "name": "Cyclops Worm",
+    "nameZh": "独眼蠕虫",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+12%"
+      },
+      {
+        "term": "射程",
+        "value": "-12"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "fruit-basket",
+    "name": "Fruit Basket",
+    "nameZh": "水果篮",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "敌人更容易掉落水果。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "消耗品"
+    ]
+  },
+  {
+    "slug": "fuel-tank",
+    "name": "Fuel Tank",
+    "nameZh": "燃料罐",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+4"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-1"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "leather-vest",
+    "name": "Leather Vest",
+    "nameZh": "皮背心",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+2"
+      },
+      {
+        "term": "闪避",
+        "value": "+6%"
+      },
+      {
+        "term": "最大生命",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "little-frog",
+    "name": "Little Frog",
+    "nameZh": "小青蛙",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "拾取范围",
+        "value": "+20%"
+      },
+      {
+        "term": "收获",
+        "value": "+10"
+      },
+      {
+        "term": "闪避",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "收获",
+      "拾取"
+    ]
+  },
+  {
+    "slug": "missile",
+    "name": "Missile",
+    "nameZh": "导弹",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+10%"
+      },
+      {
+        "term": "攻速",
+        "value": "-4%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "padding",
+    "name": "Padding",
+    "nameZh": "护垫",
+    "rarity": 2,
+    "price": 45,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每拥有 80 材料，最大生命 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "scope",
+    "name": "Scope",
+    "nameZh": "瞄准镜",
+    "rarity": 2,
+    "price": 48,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+2"
+      },
+      {
+        "term": "射程",
+        "value": "+25"
+      },
+      {
+        "term": "攻速",
+        "value": "-7%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "射程"
+    ]
+  },
+  {
+    "slug": "shady-potion",
+    "name": "Shady Potion",
+    "nameZh": "可疑药水",
+    "rarity": 2,
+    "price": 48,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+20"
+      },
+      {
+        "term": "生命回复",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "alien-eyes",
+    "name": "Alien Eyes",
+    "nameZh": "外星之眼",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每 3 秒向四周发射 6 只眼球，每只造成 6 点伤害（受 50% 最大生命加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "black-belt",
+    "name": "Black Belt",
+    "nameZh": "黑带",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "经验获取",
+        "value": "+25%"
+      },
+      {
+        "term": "近战伤害",
+        "value": "+3"
+      },
+      {
+        "term": "击退",
+        "value": "+3"
+      },
+      {
+        "term": "幸运",
+        "value": "-8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "经验",
+      "击退"
+    ]
+  },
+  {
+    "slug": "gambling-token",
+    "name": "Gambling Token",
+    "nameZh": "赌筹码",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "闪避",
+        "value": "+8%"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "闪避"
+    ]
+  },
+  {
+    "slug": "garden",
+    "name": "Garden",
+    "nameZh": "花园",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "生成一座花园，每 15 秒产出一个水果。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "消耗品",
+      "结构"
+    ]
+  },
+  {
+    "slug": "ice-cube",
+    "name": "Ice Cube",
+    "nameZh": "冰块",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "敌人首次受到元素伤害后 3 秒内承受伤害 +10%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "jerky",
+    "name": "Jerky",
+    "nameZh": "肉干",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "消耗品改为在 4 秒内持续治疗，而非瞬间回复。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "消耗品"
+    ]
+  },
+  {
+    "slug": "little-muscley-dude",
+    "name": "Little Muscley Dude",
+    "nameZh": "肌肉小子",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+3"
+      },
+      {
+        "term": "最大生命",
+        "value": "+5"
+      },
+      {
+        "term": "射程",
+        "value": "-15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "reinforced-steel",
+    "name": "Reinforced Steel",
+    "nameZh": "强化钢",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+2"
+      },
+      {
+        "term": "工程",
+        "value": "+3"
+      },
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "工程"
+    ]
+  },
+  {
+    "slug": "saltwater",
+    "name": "Saltwater",
+    "nameZh": "盐水",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "受到伤害后 3 秒内速度 +10%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "攻速",
+      "速度"
+    ]
+  },
+  {
+    "slug": "snowball",
+    "name": "Snowball",
+    "nameZh": "雪球",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每次获得提升元素伤害的道具时，元素伤害 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "sunglasses",
+    "name": "Sunglasses",
+    "nameZh": "墨镜",
+    "rarity": 2,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+10%"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "baby-squid",
+    "name": "Baby Squid",
+    "nameZh": "小鱿鱼",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "升级时生命回复 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "banner",
+    "name": "Banner",
+    "nameZh": "旗帜",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "射程",
+        "value": "+20"
+      },
+      {
+        "term": "攻速",
+        "value": "+10%"
+      },
+      {
+        "term": "击退",
+        "value": "-5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "射程",
+      "攻速"
+    ]
+  },
+  {
+    "slug": "bot-o-mine",
+    "name": "Bot-O-Mine",
+    "nameZh": "机器地雷",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤一座结构，射击造成工程伤害，并每 5 秒生成一颗地雷。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "doc-moth",
+    "name": "Doc Moth",
+    "nameZh": "医师蛾",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤医师蛾在场上飞行，站在其光环内时生命回复与生命偷取翻倍。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命回复",
+      "生命偷取",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "energy-bracelet",
+    "name": "Energy Bracelet",
+    "nameZh": "能量手环",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+4%"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+2"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "eyepatch",
+    "name": "Eyepatch",
+    "nameZh": "海盗眼罩",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+3%"
+      },
+      {
+        "term": "精准",
+        "value": "-10%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "暴击时弹射物额外穿透 1 个目标；",
+      "暴击率 +3%，精准 -10%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "mastery",
+    "name": "Mastery",
+    "nameZh": "精通",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+6"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害"
+    ]
+  },
+  {
+    "slug": "medal",
+    "name": "Medal",
+    "nameZh": "勋章",
+    "rarity": 2,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      },
+      {
+        "term": "伤害",
+        "value": "+3%"
+      },
+      {
+        "term": "护甲",
+        "value": "+1"
+      },
+      {
+        "term": "速度",
+        "value": "+3%"
+      },
+      {
+        "term": "暴击率",
+        "value": "-4%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "伤害",
+      "护甲",
+      "速度"
+    ]
+  },
+  {
+    "slug": "eyes-surgery",
+    "name": "Eyes Surgery",
+    "nameZh": "眼部手术",
+    "rarity": 2,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+1"
+      },
+      {
+        "term": "射程",
+        "value": "-10"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "燃烧触发速度快 20%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "pearl",
+    "name": "Pearl",
+    "nameZh": "珍珠",
+    "rarity": 2,
+    "price": 60,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "每 10 点永久幸运，伤害 +1%",
+      "箱子中找到额外珍珠的概率 +3%"
+    ],
+    "effects": [
+      "从箱子中额外找到珍珠的概率 +3%；",
+      "每 10 点幸运 +1% 伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "pile-of-books",
+    "name": "Pile Of Books",
+    "nameZh": "书堆",
+    "rarity": 2,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      },
+      {
+        "term": "工程",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "你的结构可以暴击。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "工程"
+    ]
+  },
+  {
+    "slug": "ritual",
+    "name": "Ritual",
+    "nameZh": "仪式",
+    "rarity": 2,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+6%"
+      },
+      {
+        "term": "生命偷取",
+        "value": "+2%"
+      },
+      {
+        "term": "工程",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "small-magazine",
+    "name": "Small Magazine",
+    "nameZh": "小型弹匣",
+    "rarity": 2,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+2"
+      },
+      {
+        "term": "攻速",
+        "value": "+10%"
+      },
+      {
+        "term": "伤害",
+        "value": "-6%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "攻速"
+    ]
+  },
+  {
+    "slug": "tyler",
+    "name": "Tyler",
+    "nameZh": "泰勒",
+    "rarity": 2,
+    "price": 62,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤一个小家伙，缓慢地向四周发射穿透闪电，造成工程与元素混合伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "元素伤害",
+      "结构"
+    ]
+  },
+  {
+    "slug": "acid",
+    "name": "Acid",
+    "nameZh": "酸液",
+    "rarity": 2,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+8"
+      },
+      {
+        "term": "闪避",
+        "value": "-2%"
+      },
+      {
+        "term": "击退",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "pocket-factory",
+    "name": "Pocket Factory",
+    "nameZh": "口袋工厂",
+    "rarity": 2,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "摧毁树木时会生成一座炮塔。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "探索",
+      "结构"
+    ]
+  },
+  {
+    "slug": "broken-mirror",
+    "name": "Broken Mirror",
+    "nameZh": "破碎的镜子",
+    "rarity": 3,
+    "price": 1,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "这面镜子已经复制过一件道具了。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "builders-turret-iii",
+    "name": "Builder'S Turret Iii",
+    "nameZh": "建造者炮塔 III",
+    "rarity": 3,
+    "price": 1,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "属性取自最强远程武器并受工程加成，弹道 +2；",
+      "结构射程 300 时再 +1。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "goldfish",
+    "name": "Goldfish",
+    "nameZh": "金鱼",
+    "rarity": 3,
+    "price": 23,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "下次刷新后，商店道具提升 1 个阶级。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "resting-goldfish",
+    "name": "Resting Goldfish",
+    "nameZh": "休息的金鱼",
+    "rarity": 3,
+    "price": 30,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "这条金鱼正在休息，暂时没有效果。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "blood-donation",
+    "name": "Blood Donation",
+    "nameZh": "献血",
+    "rarity": 3,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "收获",
+        "value": "+40"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "每秒受到 1 点伤害（不提供无敌时间）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "jellyshield",
+    "name": "Jellyshield",
+    "nameZh": "果冻盾",
+    "rarity": 3,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤果冻盾宠物环绕你，可以格挡弹射物。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "slug": "peacock",
+    "name": "Peacock",
+    "nameZh": "孔雀",
+    "rarity": 3,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "下一波经验获取 +100%，敌人伤害 +50%"
+    ],
+    "effects": [
+      "下一波敌人伤害 +50%，同时获得大量额外经验。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "经验"
+    ]
+  },
+  {
+    "slug": "sad-tomato",
+    "name": "Sad Tomato",
+    "nameZh": "悲伤番茄",
+    "rarity": 3,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "每波开始时只有 50% 生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "tardigrade",
+    "name": "Tardigrade",
+    "nameZh": "缓步动物",
+    "rarity": 3,
+    "price": 50,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每波免疫一次伤害。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "hunting-trophy",
+    "name": "Hunting Trophy",
+    "nameZh": "狩猎战利品",
+    "rarity": 3,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "暴击击杀敌人时，33% 概率获得 1 材料。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "mouse",
+    "name": "Mouse",
+    "nameZh": "老鼠",
+    "rarity": 3,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+5%"
+      },
+      {
+        "term": "敌人数量",
+        "value": "+10%"
+      },
+      {
+        "term": "收获",
+        "value": "-5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取",
+      "增加敌人"
+    ]
+  },
+  {
+    "slug": "toolbox",
+    "name": "Toolbox",
+    "nameZh": "工具箱",
+    "rarity": 3,
+    "price": 55,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+6"
+      },
+      {
+        "term": "攻速",
+        "value": "-8%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程"
+    ]
+  },
+  {
+    "slug": "adrenaline",
+    "name": "Adrenaline",
+    "nameZh": "肾上腺素",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "闪避",
+        "value": "+5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "闪避敌人攻击时，50% 概率回复 5 点生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "闪避"
+    ]
+  },
+  {
+    "slug": "black-flag",
+    "name": "Black Flag",
+    "nameZh": "黑旗",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "敌人数量",
+        "value": "+10%"
+      },
+      {
+        "term": "诅咒",
+        "value": "+5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "击杀被诅咒的敌人获得 1 材料；",
+      "敌人生命与伤害 +10%，诅咒 +5。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "诅咒",
+      "增加敌人"
+    ]
+  },
+  {
+    "slug": "fried-rice",
+    "name": "Fried Rice",
+    "nameZh": "炒饭",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每个正在燃烧的敌人，生命回复 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "mirror",
+    "name": "Mirror",
+    "nameZh": "镜子",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "复制你从商店获得的下一个道具（不会超过数量上限）。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "plastic-explosive",
+    "name": "Plastic Explosive",
+    "nameZh": "塑性炸药",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "爆炸范围",
+        "value": "+25%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "shmoop",
+    "name": "Shmoop",
+    "nameZh": "史穆普",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+6"
+      },
+      {
+        "term": "生命回复",
+        "value": "+2"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-2"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "statue",
+    "name": "Statue",
+    "nameZh": "雕像",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "站立不动时攻速 +40%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "攻速",
+      "站桩"
+    ]
+  },
+  {
+    "slug": "wandering-bot",
+    "name": "Wandering Bot",
+    "nameZh": "流浪机器人",
+    "rarity": 3,
+    "price": 60,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤一个小机器人，持续减速附近敌人。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "降低敌人速度",
+      "结构",
+      "宠物"
+    ]
+  },
+  {
+    "slug": "candle",
+    "name": "Candle",
+    "nameZh": "蜡烛",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+4"
+      },
+      {
+        "term": "生命回复",
+        "value": "+1"
+      },
+      {
+        "term": "敌人数量",
+        "value": "-10%"
+      },
+      {
+        "term": "伤害",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "梦魇难度下雾霾可见度 +25%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "生命回复",
+      "减少敌人"
+    ]
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
+    "nameZh": "四叶草",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+20"
+      },
+      {
+        "term": "闪避",
+        "value": "+6%"
+      },
+      {
+        "term": "生命偷取",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "crystal",
+    "name": "Crystal",
+    "nameZh": "水晶",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "攻速 +5%",
+      "每秒攻速 +1%（持续到波末，受伤清除）"
+    ],
+    "effects": [
+      "每秒 +1% 攻速，持续到波末；",
+      "受到伤害会清除加成。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "攻速"
+    ]
+  },
+  {
+    "slug": "fin",
+    "name": "Fin",
+    "nameZh": "鱼鳍",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+10%"
+      },
+      {
+        "term": "生命偷取",
+        "value": "+3%"
+      },
+      {
+        "term": "幸运",
+        "value": "-8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度",
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "laser-turret",
+    "name": "Laser Turret",
+    "nameZh": "激光炮塔",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤激光炮塔，射出穿透子弹造成工程伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构"
+    ]
+  },
+  {
+    "slug": "nail",
+    "name": "Nail",
+    "nameZh": "钉子",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+5"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "武器伤害额外受 20% 工程加成。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程"
+    ]
+  },
+  {
+    "slug": "power-generator",
+    "name": "Power Generator",
+    "nameZh": "发电机",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1% 永久速度，伤害 +1%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度",
+      "伤害"
+    ]
+  },
+  {
+    "slug": "rip-and-tear",
+    "name": "Rip And Tear",
+    "nameZh": "撕裂",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "敌人死亡时 20% 概率爆炸，造成近战伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "sunken-bell",
+    "name": "Sunken Bell",
+    "nameZh": "沉没之钟",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每波一次，当生命低于 40% 时爆炸，造成巨额混合伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "triangle-of-power",
+    "name": "Triangle Of Power",
+    "nameZh": "力量三角",
+    "rarity": 3,
+    "price": 65,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "受到伤害时伤害 -2%（持续到波末）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "bean-teacher",
+    "name": "Bean Teacher",
+    "nameZh": "豆豆老师",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "经验获取",
+        "value": "+50%"
+      },
+      {
+        "term": "生命偷取",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "经验"
+    ]
+  },
+  {
+    "slug": "candy-bag",
+    "name": "Candy Bag",
+    "nameZh": "糖果袋",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每波获得 8 点随机分配到主属性上；",
+      "每波有 10% 概率多刷一个精英。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "chameleon",
+    "name": "Chameleon",
+    "nameZh": "变色龙",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "站立不动时闪避 +20%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "闪避",
+      "站桩"
+    ]
+  },
+  {
+    "slug": "coil",
+    "name": "Coil",
+    "nameZh": "线圈",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1 点击退，伤害 +1%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "击退"
+    ]
+  },
+  {
+    "slug": "crown",
+    "name": "Crown",
+    "nameZh": "王冠",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "每波结束时收获额外提升 8%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "goblet",
+    "name": "Goblet",
+    "nameZh": "高脚杯",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "击杀敌人时，15% 概率回复 1 点生命。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "honey",
+    "name": "Honey",
+    "nameZh": "蜂蜜",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+3"
+      },
+      {
+        "term": "爆炸伤害",
+        "value": "+10%"
+      },
+      {
+        "term": "爆炸范围",
+        "value": "+5%"
+      },
+      {
+        "term": "速度",
+        "value": "-3%"
+      },
+      {
+        "term": "闪避",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "improved-tools",
+    "name": "Improved Tools",
+    "nameZh": "改良工具",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "攻速",
+        "value": "+10%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "同时提升结构攻速（原值 0%，加成 50% 攻速）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "结构",
+      "攻速"
+    ]
+  },
+  {
+    "slug": "silver-bullet",
+    "name": "Silver Bullet",
+    "nameZh": "银弹",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "对 Boss 与精英伤害 +25%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "strange-book",
+    "name": "Strange Book",
+    "nameZh": "奇怪的书",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1 点永久元素伤害，工程 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "tractor",
+    "name": "Tractor",
+    "nameZh": "拖拉机",
+    "rarity": 3,
+    "price": 70,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "收获",
+        "value": "+40"
+      },
+      {
+        "term": "伤害",
+        "value": "-8%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "ball-and-chain",
+    "name": "Ball And Chain",
+    "nameZh": "铁球锁链",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+15%"
+      },
+      {
+        "term": "护甲",
+        "value": "+3"
+      },
+      {
+        "term": "击退",
+        "value": "+5"
+      },
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "武器两次攻击之间最短冷却为 0.75 秒。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "护甲",
+      "击退"
+    ]
+  },
+  {
+    "slug": "bandana",
+    "name": "Bandana",
+    "nameZh": "头巾",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "-10%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "弹射物额外穿透 1 个目标，伤害 -10%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "barricade",
+    "name": "Barricade",
+    "nameZh": "路障",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "站立不动时护甲 +8"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "站桩",
+      "击退"
+    ]
+  },
+  {
+    "slug": "bowler-hat",
+    "name": "Bowler Hat",
+    "nameZh": "圆顶礼帽",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+15"
+      },
+      {
+        "term": "收获",
+        "value": "+18"
+      },
+      {
+        "term": "攻速",
+        "value": "-5%"
+      },
+      {
+        "term": "暴击率",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运",
+      "收获"
+    ]
+  },
+  {
+    "slug": "community-support",
+    "name": "Community Support",
+    "nameZh": "社区支持",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每个存活敌人提供攻速 +1%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "攻速"
+    ]
+  },
+  {
+    "slug": "glass-cannon",
+    "name": "Glass Cannon",
+    "nameZh": "玻璃大炮",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+25%"
+      },
+      {
+        "term": "护甲",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "lucky-charm",
+    "name": "Lucky Charm",
+    "nameZh": "幸运符",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "幸运",
+        "value": "+30"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-2"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "幸运"
+    ]
+  },
+  {
+    "slug": "starfish",
+    "name": "Starfish",
+    "nameZh": "海星",
+    "rarity": 3,
+    "price": 75,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "敌人材料掉落 +20%"
+    ],
+    "effects": [
+      "敌人伤害 +15%，换取高额属性收益。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "收获"
+    ]
+  },
+  {
+    "slug": "alien-baby",
+    "name": "Alien Baby",
+    "nameZh": "外星宝宝",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "敌人生命 +10%，换取 15 点最大生命。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "alloy",
+    "name": "Alloy",
+    "nameZh": "合金",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+3"
+      },
+      {
+        "term": "远程伤害",
+        "value": "+3"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+3"
+      },
+      {
+        "term": "工程",
+        "value": "+3"
+      },
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      },
+      {
+        "term": "闪避",
+        "value": "-6%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "远程伤害",
+      "工程",
+      "暴击率",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "barnacle",
+    "name": "Barnacle",
+    "nameZh": "藤壶",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "升级时诅咒 +1"
+    ],
+    "effects": [
+      "升级获得的属性 +35%，但每次升级 +1 诅咒。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "诅咒",
+      "经验"
+    ]
+  },
+  {
+    "slug": "ghost-outfit",
+    "name": "Ghost Outfit",
+    "nameZh": "幽灵装",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "闪避",
+        "value": "+10%"
+      },
+      {
+        "term": "速度",
+        "value": "-5%"
+      },
+      {
+        "term": "护甲",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "闪避上限提高到 70%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "闪避"
+    ]
+  },
+  {
+    "slug": "handcuffs",
+    "name": "Handcuffs",
+    "nameZh": "手铐",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+8"
+      },
+      {
+        "term": "远程伤害",
+        "value": "+8"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "最大生命被锁定为当前值，无法再提升。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "远程伤害",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "knot",
+    "name": "Knot",
+    "nameZh": "绳结",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+15%"
+      },
+      {
+        "term": "最大生命",
+        "value": "+15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "武器无法再升级或回收。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "lighthouse",
+    "name": "Lighthouse",
+    "nameZh": "灯塔",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "每拥有 1 个结构，工程 -1"
+    ],
+    "effects": [
+      "梦魇难度下雾霾可见度 +100%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程"
+    ]
+  },
+  {
+    "slug": "poisonous-tonic",
+    "name": "Poisonous Tonic",
+    "nameZh": "毒药水",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "攻速",
+        "value": "+10%"
+      },
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      },
+      {
+        "term": "射程",
+        "value": "+15"
+      },
+      {
+        "term": "生命回复",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "攻速",
+      "暴击率",
+      "射程"
+    ]
+  },
+  {
+    "slug": "scarf",
+    "name": "Scarf",
+    "nameZh": "围巾",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+4"
+      },
+      {
+        "term": "近战伤害",
+        "value": "+4"
+      },
+      {
+        "term": "速度",
+        "value": "+4%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "下一波敌人速度 +25%，换取高额属性收益。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命回复",
+      "近战伤害",
+      "速度"
+    ]
+  },
+  {
+    "slug": "shackles",
+    "name": "Shackles",
+    "nameZh": "镣铐",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+8"
+      },
+      {
+        "term": "工程",
+        "value": "+8"
+      },
+      {
+        "term": "射程",
+        "value": "+80"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "速度被锁定为当前值，无法再提升。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "射程",
+      "生命回复",
+      "工程"
+    ]
+  },
+  {
+    "slug": "warrior-helmet",
+    "name": "Warrior Helmet",
+    "nameZh": "战士头盔",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+3"
+      },
+      {
+        "term": "最大生命",
+        "value": "+5"
+      },
+      {
+        "term": "速度",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "will-o-wisp",
+    "name": "Will-O'-Wisp",
+    "nameZh": "鬼火",
+    "rarity": 3,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每击杀 30 个燃烧中的敌人，元素伤害 +1（每波最多 +4）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "alien-magic",
+    "name": "Alien Magic",
+    "nameZh": "外星魔法",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+8"
+      },
+      {
+        "term": "生命回复",
+        "value": "+3"
+      },
+      {
+        "term": "幸运",
+        "value": "-8"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "fairy",
+    "name": "Fairy",
+    "nameZh": "小精灵",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每种不同的一阶道具提供生命回复 +1",
+      "每种不同的四阶道具使生命回复 -3"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "stone-skin",
+    "name": "Stone Skin",
+    "nameZh": "石肤",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1 点永久护甲，最大生命 +1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "wheat",
+    "name": "Wheat",
+    "nameZh": "小麦",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+4"
+      },
+      {
+        "term": "远程伤害",
+        "value": "+2"
+      },
+      {
+        "term": "收获",
+        "value": "+10"
+      },
+      {
+        "term": "元素伤害",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "远程伤害",
+      "收获"
+    ]
+  },
+  {
+    "slug": "wings",
+    "name": "Wings",
+    "nameZh": "翅膀",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+10%"
+      },
+      {
+        "term": "射程",
+        "value": "+30"
+      },
+      {
+        "term": "元素伤害",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度",
+      "射程"
+    ]
+  },
+  {
+    "slug": "wisdom",
+    "name": "Wisdom",
+    "nameZh": "智慧",
+    "rarity": 3,
+    "price": 85,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 5 秒伤害 +5%（持续到波末）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "frozen-heart",
+    "name": "Frozen Heart",
+    "nameZh": "冰封之心",
+    "rarity": 3,
+    "price": 90,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+8"
+      },
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "武器伤害额外受 10% 元素伤害加成；",
+      "燃烧触发速度慢 100%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "vigilante-ring",
+    "name": "Vigilante Ring",
+    "nameZh": "义警戒指",
+    "rarity": 3,
+    "price": 92,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每波结束时伤害 +3%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "baby-with-a-beard",
+    "name": "Baby With A Beard",
+    "nameZh": "长胡子的婴儿",
+    "rarity": 3,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "射程",
+        "value": "-50"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "敌人死亡时从尸体射出一发子弹，造成远程伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "broken-hourglass",
+    "name": "Broken Hourglass",
+    "nameZh": "破碎的沙漏",
+    "rarity": 4,
+    "price": 1,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "在回溯波数后损坏，失去全部效果；",
+      "下一波以 1 点生命开始。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "builders-turret-iv",
+    "name": "Builder'S Turret Iv",
+    "nameZh": "建造者炮塔 IV",
+    "rarity": 4,
+    "price": 1,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "属性取自最强远程武器并受工程加成，弹道 +3。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "explosive-turret",
+    "name": "Explosive Turret",
+    "nameZh": "爆炸炮塔",
+    "rarity": 4,
+    "price": 80,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤爆炸炮塔，射出爆炸子弹，在范围内造成工程伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "结构"
+    ]
+  },
+  {
+    "slug": "diploma",
+    "name": "Diploma",
+    "nameZh": "文凭",
+    "rarity": 4,
+    "price": 90,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "工程",
+        "value": "+10"
+      },
+      {
+        "term": "经验获取",
+        "value": "+50%"
+      },
+      {
+        "term": "最大生命",
+        "value": "-3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "工程",
+      "经验"
+    ]
+  },
+  {
+    "slug": "exoskeleton",
+    "name": "Exoskeleton",
+    "nameZh": "外骨骼",
+    "rarity": 4,
+    "price": 90,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+3"
+      },
+      {
+        "term": "暴击率",
+        "value": "+5%"
+      },
+      {
+        "term": "工程",
+        "value": "+5"
+      },
+      {
+        "term": "速度",
+        "value": "+5%"
+      },
+      {
+        "term": "生命回复",
+        "value": "-2"
+      },
+      {
+        "term": "生命偷取",
+        "value": "-2%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "护甲",
+      "暴击率",
+      "工程",
+      "速度"
+    ]
+  },
+  {
+    "slug": "regeneration-potion",
+    "name": "Regeneration Potion",
+    "nameZh": "再生药水",
+    "rarity": 4,
+    "price": 90,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命回复",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "生命低于 50% 时，生命回复翻倍。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "wolf-helmet",
+    "name": "Wolf Helmet",
+    "nameZh": "狼头盔",
+    "rarity": 4,
+    "price": 90,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "元素伤害",
+        "value": "+10"
+      },
+      {
+        "term": "幸运",
+        "value": "+20"
+      },
+      {
+        "term": "工程",
+        "value": "-5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "元素伤害",
+      "幸运"
+    ]
+  },
+  {
+    "slug": "medikit",
+    "name": "Medikit",
+    "nameZh": "急救包",
+    "rarity": 4,
+    "price": 95,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 5 秒生命回复 +2（持续到波末）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "night-goggles",
+    "name": "Night Goggles",
+    "nameZh": "夜视镜",
+    "rarity": 4,
+    "price": 95,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "暴击率",
+        "value": "+15%"
+      },
+      {
+        "term": "射程",
+        "value": "+50"
+      },
+      {
+        "term": "最大生命",
+        "value": "-3"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "射程"
+    ]
+  },
+  {
+    "slug": "potato",
+    "name": "Potato",
+    "nameZh": "土豆",
+    "rarity": 4,
+    "price": 95,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+3"
+      },
+      {
+        "term": "生命回复",
+        "value": "+2"
+      },
+      {
+        "term": "生命偷取",
+        "value": "+1%"
+      },
+      {
+        "term": "伤害",
+        "value": "+5%"
+      },
+      {
+        "term": "攻速",
+        "value": "+5%"
+      },
+      {
+        "term": "速度",
+        "value": "+3%"
+      },
+      {
+        "term": "闪避",
+        "value": "+3%"
+      },
+      {
+        "term": "护甲",
+        "value": "+1"
+      },
+      {
+        "term": "幸运",
+        "value": "+5"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命回复",
+      "伤害",
+      "速度",
+      "幸运"
+    ]
+  },
+  {
+    "slug": "ashes",
+    "name": "Ashes",
+    "nameZh": "灰烬",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [
+      "每波结束时护甲 -1"
+    ],
+    "effects": [
+      "每波结束护甲 -1。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "攻速",
+      "伤害",
+      "射程"
+    ]
+  },
+  {
+    "slug": "estys-couch",
+    "name": "Esty’S Couch",
+    "nameZh": "埃斯蒂的沙发",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1% 永久负速度，生命回复 +2"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命回复",
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "explosive-shells",
+    "name": "Explosive Shells",
+    "nameZh": "爆炸弹",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "爆炸伤害",
+        "value": "+60%"
+      },
+      {
+        "term": "爆炸范围",
+        "value": "+15%"
+      },
+      {
+        "term": "伤害",
+        "value": "-15%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "爆炸"
+    ]
+  },
+  {
+    "slug": "extra-stomach",
+    "name": "Extra Stomach",
+    "nameZh": "额外胃袋",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "满血拾取消耗品时最大生命 +1（每波最多 +8）"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "幸运"
+    ]
+  },
+  {
+    "slug": "gnome",
+    "name": "Gnome",
+    "nameZh": "侏儒",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+10"
+      },
+      {
+        "term": "元素伤害",
+        "value": "+10"
+      },
+      {
+        "term": "射程",
+        "value": "-20"
+      },
+      {
+        "term": "拾取范围",
+        "value": "-20%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "greek-fire",
+    "name": "Greek Fire",
+    "nameZh": "希腊火",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "燃烧额外造成敌人当前生命 10% 的伤害（Boss 与精英为 1%）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "元素伤害"
+    ]
+  },
+  {
+    "slug": "heavy-bullets",
+    "name": "Heavy Bullets",
+    "nameZh": "重型子弹",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "远程伤害",
+        "value": "+5"
+      },
+      {
+        "term": "伤害",
+        "value": "+10%"
+      },
+      {
+        "term": "射程",
+        "value": "+10"
+      },
+      {
+        "term": "攻速",
+        "value": "-5%"
+      },
+      {
+        "term": "暴击率",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "远程伤害",
+      "伤害",
+      "射程"
+    ]
+  },
+  {
+    "slug": "hourglass",
+    "name": "Hourglass",
+    "nameZh": "沙漏",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "回溯时间，当前波数 -1；",
+      "下一波以 1 点生命开始。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "jet-pack",
+    "name": "Jet Pack",
+    "nameZh": "喷气背包",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "速度",
+        "value": "+15%"
+      },
+      {
+        "term": "闪避",
+        "value": "+10%"
+      },
+      {
+        "term": "最大生命",
+        "value": "-5"
+      },
+      {
+        "term": "护甲",
+        "value": "-1"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "速度",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "lantern",
+    "name": "Lantern",
+    "nameZh": "提灯",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "+10%"
+      },
+      {
+        "term": "射程",
+        "value": "+50"
+      },
+      {
+        "term": "击退",
+        "value": "+15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "每 3 秒击退周围敌人；",
+      "梦魇难度下雾霾可见度 +75%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "射程",
+      "击退"
+    ]
+  },
+  {
+    "slug": "panda",
+    "name": "Panda",
+    "nameZh": "熊猫",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+12"
+      },
+      {
+        "term": "幸运",
+        "value": "+25"
+      },
+      {
+        "term": "伤害",
+        "value": "-5%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "幸运"
+    ]
+  },
+  {
+    "slug": "robot-arm",
+    "name": "Robot Arm",
+    "nameZh": "机械臂",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每波结束时近战伤害 +3",
+      "每波结束时工程 +3",
+      "每波结束时最大生命 -1"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "工程"
+    ]
+  },
+  {
+    "slug": "seashell",
+    "name": "Seashell",
+    "nameZh": "海螺",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "-10%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "每把远程武器的第 5 发弹额外 +3 发；",
+      "伤害 -10%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "sifds-relic",
+    "name": "Sifd’S Relic",
+    "nameZh": "西夫德的遗物",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "护甲",
+        "value": "+3"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "材料掉落时 100% 概率立即被吸引到你身边。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "拾取",
+      "护甲"
+    ]
+  },
+  {
+    "slug": "torture",
+    "name": "Torture",
+    "nameZh": "折磨",
+    "rarity": 4,
+    "price": 100,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "每秒回复 5 点生命，但无法通过其他方式治疗。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "最大生命"
+    ]
+  },
+  {
+    "slug": "big-arms",
+    "name": "Big Arms",
+    "nameZh": "大手臂",
+    "rarity": 4,
+    "price": 105,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+12"
+      },
+      {
+        "term": "远程伤害",
+        "value": "+6"
+      },
+      {
+        "term": "击退",
+        "value": "+3"
+      },
+      {
+        "term": "攻速",
+        "value": "-3%"
+      },
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "远程伤害",
+      "击退"
+    ]
+  },
+  {
+    "slug": "lucky-coin",
+    "name": "Lucky Coin",
+    "nameZh": "幸运币",
+    "rarity": 4,
+    "price": 105,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1% 暴击率，幸运 +2"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "暴击率",
+      "幸运"
+    ]
+  },
+  {
+    "slug": "octopus",
+    "name": "Octopus",
+    "nameZh": "章鱼",
+    "rarity": 4,
+    "price": 105,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+12"
+      },
+      {
+        "term": "生命回复",
+        "value": "+5"
+      },
+      {
+        "term": "生命偷取",
+        "value": "+3%"
+      },
+      {
+        "term": "暴击率",
+        "value": "-8%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命偷取",
+      "生命回复"
+    ]
+  },
+  {
+    "slug": "bloody-hand",
+    "name": "Bloody Hand",
+    "nameZh": "血手",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1% 生命偷取，伤害 +2%"
+    ],
+    "effects": [
+      "每 1% 生命偷取额外提供 +2% 伤害；",
+      "每秒受到 1 点伤害。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "cape",
+    "name": "Cape",
+    "nameZh": "斗篷",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "生命偷取",
+        "value": "+5%"
+      },
+      {
+        "term": "闪避",
+        "value": "+20%"
+      },
+      {
+        "term": "近战伤害",
+        "value": "-2"
+      },
+      {
+        "term": "远程伤害",
+        "value": "-2"
+      },
+      {
+        "term": "元素伤害",
+        "value": "-2"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "生命偷取",
+      "闪避"
+    ]
+  },
+  {
+    "slug": "focus",
+    "name": "Focus",
+    "nameZh": "专注",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每把不同武器，攻速 -3%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害"
+    ]
+  },
+  {
+    "slug": "giant-belt",
+    "name": "Giant Belt",
+    "nameZh": "巨人腰带",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "暴击额外造成敌人当前生命 10% 的伤害（Boss 与精英为 1%）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "暴击率"
+    ]
+  },
+  {
+    "slug": "grinds-magical-leaf",
+    "name": "Grind'S Magical Leaf",
+    "nameZh": "格林德的魔法叶",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每波结束时最大生命 +3",
+      "每波结束时生命回复 +1",
+      "每波结束时生命偷取 +1%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "最大生命",
+      "生命回复",
+      "生命偷取"
+    ]
+  },
+  {
+    "slug": "krakens-eye",
+    "name": "Kraken'S Eye",
+    "nameZh": "海妖之眼",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": true,
+    "statLines": [
+      {
+        "term": "最大生命",
+        "value": "+15"
+      },
+      {
+        "term": "诅咒",
+        "value": "+15"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "受击时 50% 概率爆炸，造成伤害（受 500% 诅咒加成）。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "爆炸",
+      "最大生命",
+      "诅咒"
+    ]
+  },
+  {
+    "slug": "mammoth",
+    "name": "Mammoth",
+    "nameZh": "猛犸",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "近战伤害",
+        "value": "+20"
+      },
+      {
+        "term": "生命回复",
+        "value": "+5"
+      },
+      {
+        "term": "击退",
+        "value": "+5"
+      },
+      {
+        "term": "伤害",
+        "value": "-8%"
+      },
+      {
+        "term": "速度",
+        "value": "-3%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "近战伤害",
+      "生命回复",
+      "击退"
+    ]
+  },
+  {
+    "slug": "retromations-hoodie",
+    "name": "Retromation’S Hoodie",
+    "nameZh": "雷特罗玛申的连帽衫",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每 1% 闪避，攻速 +2%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "闪避"
+    ]
+  },
+  {
+    "slug": "ricochet",
+    "name": "Ricochet",
+    "nameZh": "弹跳",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [
+      {
+        "term": "伤害",
+        "value": "-25%"
+      }
+    ],
+    "statsZh": [],
+    "effects": [
+      "弹射物额外弹跳 1 次，伤害 -25%。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "远程伤害"
+    ]
+  },
+  {
+    "slug": "scapegoat",
+    "name": "Scapegoat",
+    "nameZh": "替罪羊",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "召唤替罪羊替你吸引敌人仇恨；",
+      "它倒下后靠近它即可复活。"
+    ],
+    "untranslated": [],
+    "tags": [
+      "宠物"
+    ]
+  },
+  {
+    "slug": "spider",
+    "name": "Spider",
+    "nameZh": "蜘蛛",
+    "rarity": 4,
+    "price": 110,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "每把不同武器，攻速 +6%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": [
+      "伤害",
+      "攻速"
+    ]
+  },
+  {
+    "slug": "anvil",
+    "name": "Anvil",
+    "nameZh": "铁砧",
+    "rarity": 4,
+    "price": 120,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "进入商店时随机升级一把武器；",
+      "若无武器可升级则获得 +2 护甲。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "axolotl",
+    "name": "Axolotl",
+    "nameZh": "美西螈",
+    "rarity": 4,
+    "price": 130,
+    "isDlc": true,
+    "statLines": [],
+    "statsZh": [],
+    "effects": [
+      "获得时，将你最高的正向主属性与最低的正向主属性互换。"
+    ],
+    "untranslated": [],
+    "tags": []
+  },
+  {
+    "slug": "gobblers-hat",
+    "name": "Gobbler'S Hat",
+    "nameZh": "贪食者之帽",
+    "rarity": 4,
+    "price": 130,
+    "isDlc": false,
+    "statLines": [],
+    "statsZh": [
+      "材料掉落 +70%"
+    ],
+    "effects": [],
+    "untranslated": [],
+    "tags": []
+  }
+]

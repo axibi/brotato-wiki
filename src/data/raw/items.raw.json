@@ -1,0 +1,3580 @@
+[
+  {
+    "id": "alien tongue",
+    "slug": "alien-tongue",
+    "name": "alien tongue",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+30% pickup range\n+1 Knockback",
+    "tags": [
+      "Pickup",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "alien worm",
+    "slug": "alien-worm",
+    "name": "alien worm",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+3 Max HP\n+2 HP Regeneration\n-1 HP recovered from consumables",
+    "tags": [
+      "Max HP",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "baby elephant",
+    "slug": "baby-elephant",
+    "name": "baby elephant",
+    "rarity": 1,
+    "price": 22,
+    "stats": "25% chance to deal 1 (25%Luck) damage to a random enemy when you pick up a material",
+    "tags": [
+      "Luck",
+      "Pickup"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "baby gecko",
+    "slug": "baby-gecko",
+    "name": "baby gecko",
+    "rarity": 1,
+    "price": 18,
+    "stats": "+10 Range\n+25% chance to instantly attract a material when it’s dropped",
+    "tags": [
+      "Pickup",
+      "Range"
+    ],
+    "limit": 4,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bag",
+    "slug": "bag",
+    "name": "bag",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+15 materials when you pick up a crate\n-1 % Speed",
+    "tags": [
+      "Luck",
+      "Exploration",
+      "Economy"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bat",
+    "slug": "bat",
+    "name": "bat",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+2 % Life Steal\n-2 Harvesting",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "beanie",
+    "slug": "beanie",
+    "name": "beanie",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+4 % Speed\n-6 Range",
+    "tags": [
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "boiling water",
+    "slug": "boiling-water",
+    "name": "boiling water",
+    "rarity": 1,
+    "price": 30,
+    "stats": "+2 Elemental Damage\n-1 Max HP",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "book",
+    "slug": "book",
+    "name": "book",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+2 Engineering\n+1 Elemental Damage\n-1 Luck",
+    "tags": [
+      "Engineering",
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "boxing glove",
+    "slug": "boxing-glove",
+    "name": "boxing glove",
+    "rarity": 1,
+    "price": 18,
+    "stats": "+1 Melee Damage\n+3 Knockback",
+    "tags": [
+      "Melee Damage",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "broken mouth",
+    "slug": "broken-mouth",
+    "name": "broken mouth",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+5 Max HP\n-1 HP Regeneration",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "builder's turret",
+    "slug": "builders-turret",
+    "name": "builder's turret",
+    "rarity": 1,
+    "price": 1,
+    "stats": "This turret's stats are derived from your best ranged weapon's base stats and scale with Engineering (-)\n+1 projectile when you reach 30 Structure Range",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "butterfly",
+    "slug": "butterfly",
+    "name": "butterfly",
+    "rarity": 1,
+    "price": 30,
+    "stats": "+2 % Life Steal\n-1 Elemental Damage",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "cake",
+    "slug": "cake",
+    "name": "cake",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+3 Max HP\n-1 % Damage",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "charcoal",
+    "slug": "charcoal",
+    "name": "charcoal",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+1 Elemental Damage\n+2 Melee Damage\n-2 Harvesting",
+    "tags": [
+      "Elemental Damage",
+      "Melee Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "claw tree",
+    "slug": "claw-tree",
+    "name": "claw tree",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+1 Melee Damage\n+3 % Crit Chance\n-1 Max HP",
+    "tags": [
+      "Melee Damage",
+      "Crit Chance"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "coffee",
+    "slug": "coffee",
+    "name": "coffee",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+10 % Attack Speed\n-2 % Damage",
+    "tags": [
+      "Attack Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "corrupted shard",
+    "slug": "corrupted-shard",
+    "name": "corrupted shard",
+    "rarity": 1,
+    "price": 12,
+    "stats": "+3 % Damage\n+1 Curse",
+    "tags": [
+      "Damage",
+      "Curse"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "coupon",
+    "slug": "coupon",
+    "name": "coupon",
+    "rarity": 1,
+    "price": 15,
+    "stats": "-5 % Items Price",
+    "tags": [
+      "Economy"
+    ],
+    "limit": 5,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "cute monkey",
+    "slug": "cute-monkey",
+    "name": "cute monkey",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+8% chance to heal 1 HP when picking up a material\n-1 Ranged Damage",
+    "tags": [
+      "Pickup"
+    ],
+    "limit": 13,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "defective steroids",
+    "slug": "defective-steroids",
+    "name": "defective steroids",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+2 Max HP\n+2 Melee Damage\n-3 % Attack Speed",
+    "tags": [
+      "Max HP",
+      "Melee Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "duct tape",
+    "slug": "duct-tape",
+    "name": "duct tape",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+1 Armor\n+1 Engineering\n-2 Max HP",
+    "tags": [
+      "Armor",
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "dynamite",
+    "slug": "dynamite",
+    "name": "dynamite",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+15 % Explosion Damage",
+    "tags": [
+      "Explosive"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "feather",
+    "slug": "feather",
+    "name": "feather",
+    "rarity": 1,
+    "price": 18,
+    "stats": "+1 Ranged Damage\n+3 % Dodge\n-3 % XP Gain",
+    "tags": [
+      "Ranged Damage",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "fertilizer",
+    "slug": "fertilizer",
+    "name": "fertilizer",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+8 Harvesting\n-1 Melee Damage",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "fresh meat",
+    "slug": "fresh-meat",
+    "name": "fresh meat",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+2 % Life Steal\n-1 HP Regeneration",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "gentle alien",
+    "slug": "gentle-alien",
+    "name": "gentle alien",
+    "rarity": 1,
+    "price": 30,
+    "stats": "+2 Max HP\n+5 % Damage\n+5% Enemies",
+    "tags": [
+      "Max HP",
+      "Damage",
+      "More Enemies"
+    ],
+    "limit": 10,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "glasses",
+    "slug": "glasses",
+    "name": "glasses",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+20 Range",
+    "tags": [
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "goat skull",
+    "slug": "goat-skull",
+    "name": "goat skull",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+3 Melee Damage\n-2 % Crit Chance",
+    "tags": [
+      "Melee Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "gummy berserker",
+    "slug": "gummy-berserker",
+    "name": "gummy berserker",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+5 % Attack Speed\n+25 Range\n-1 Armor",
+    "tags": [
+      "Attack Speed",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "head injury",
+    "slug": "head-injury",
+    "name": "head injury",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+6 % Damage\n-8 Range",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "hedgehog",
+    "slug": "hedgehog",
+    "name": "hedgehog",
+    "rarity": 1,
+    "price": 30,
+    "stats": "+2 Melee Damage\n+1 Ranged Damage\n-1 HP Regeneration",
+    "tags": [
+      "Melee Damage",
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "helmet",
+    "slug": "helmet",
+    "name": "helmet",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+1 Armor\n-2 % Speed",
+    "tags": [
+      "Armor"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "injection",
+    "slug": "injection",
+    "name": "injection",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+7 % Damage\n-2 Max HP",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "insanity",
+    "slug": "insanity",
+    "name": "insanity",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+6 % Crit Chance\n-3 % Damage",
+    "tags": [
+      "Crit Chance"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "jelly",
+    "slug": "jelly",
+    "name": "jelly",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+1 Max HP for every different weapon you have",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "landmines",
+    "slug": "landmines",
+    "name": "landmines",
+    "rarity": 1,
+    "price": 15,
+    "stats": "A landmine spawns every 12 seconds dealing 10 (+100%工程) damage in an area",
+    "tags": [
+      "Engineering",
+      "Explosive",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lemonade",
+    "slug": "lemonade",
+    "name": "lemonade",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+1 HP recovered from consumables",
+    "tags": [
+      "Consumable"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lens",
+    "slug": "lens",
+    "name": "lens",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+1 Ranged Damage\n-5 Range",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lootworm",
+    "slug": "lootworm",
+    "name": "lootworm",
+    "rarity": 1,
+    "price": 30,
+    "stats": "Spawns a Lootworm pet that collects materials and destroys trees for the player. Each time it picks up a material, it has a 10% chance to double it",
+    "tags": [
+      "Pickup",
+      "Economy",
+      "Pet"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "lost duck",
+    "slug": "lost-duck",
+    "name": "lost duck",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+8 Luck\n-1 Elemental Damage",
+    "tags": [
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lumberjack shirt",
+    "slug": "lumberjack-shirt",
+    "name": "lumberjack shirt",
+    "rarity": 1,
+    "price": 15,
+    "stats": "Trees die in one hit",
+    "tags": [
+      "Exploration"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "mushroom",
+    "slug": "mushroom",
+    "name": "mushroom",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+3 HP Regeneration\n-2 Luck",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "mutation",
+    "slug": "mutation",
+    "name": "mutation",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+1 Ranged Damage\n+1 Elemental Damage\n-3 Knockback",
+    "tags": [
+      "Ranged Damage",
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "peaceful bee",
+    "slug": "peaceful-bee",
+    "name": "peaceful bee",
+    "rarity": 1,
+    "price": 18,
+    "stats": "+4 % Dodge\n+4 Harvesting\n-1 Melee Damage\n-1 Ranged Damage",
+    "tags": [
+      "Dodge",
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "pencil",
+    "slug": "pencil",
+    "name": "pencil",
+    "rarity": 1,
+    "price": 8,
+    "stats": "+1 Engineering",
+    "tags": [
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "penguin",
+    "slug": "penguin",
+    "name": "penguin",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+1 HP Regeneration\n+1 HP Regeneration until the end of the wave when picking up a consumable while at maximum health",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "plant",
+    "slug": "plant",
+    "name": "plant",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+3 HP Regeneration\n-1 % Life Steal",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "propeller hat",
+    "slug": "propeller-hat",
+    "name": "propeller hat",
+    "rarity": 1,
+    "price": 28,
+    "stats": "+10 Luck\n-2 % Damage",
+    "tags": [
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "ratzilla",
+    "slug": "ratzilla",
+    "name": "ratzilla",
+    "rarity": 1,
+    "price": 30,
+    "stats": "Spawns a Ratzilla pet that deals 5 (+10%最大生命) damage",
+    "tags": [
+      "Max HP",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "scar",
+    "slug": "scar",
+    "name": "scar",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+20 % XP Gain\n-8 Range",
+    "tags": [
+      "XP Gain"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "scared sausage",
+    "slug": "scared-sausage",
+    "name": "scared sausage",
+    "rarity": 1,
+    "price": 25,
+    "stats": "Attacks have a 25% chance to deal 3x1 (+100%Elemental Damage) burning damage",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": 4,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "sharp bullet",
+    "slug": "sharp-bullet",
+    "name": "sharp bullet",
+    "rarity": 1,
+    "price": 25,
+    "stats": "Projectiles pierce through 1 additional target\n-20% Piercing Damage\n-5 % Damage\n-3 Knockback",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "small fish",
+    "slug": "small-fish",
+    "name": "small fish",
+    "rarity": 1,
+    "price": 18,
+    "stats": "+10% damage against targets above 75% health\n-3 % Attack Speed",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "snake",
+    "slug": "snake",
+    "name": "snake",
+    "rarity": 1,
+    "price": 25,
+    "stats": "Burning spreads to an additional nearby enemy\n-1 Max HP",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "terrified onion",
+    "slug": "terrified-onion",
+    "name": "terrified onion",
+    "rarity": 1,
+    "price": 15,
+    "stats": "+4 % Speed\n-5 Luck",
+    "tags": [
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "toxic sludge",
+    "slug": "toxic-sludge",
+    "name": "toxic sludge",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+2 Elemental Damage\n-2 % Dodge",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "tree",
+    "slug": "tree",
+    "name": "tree",
+    "rarity": 1,
+    "price": 15,
+    "stats": "More trees spawn",
+    "tags": [
+      "Exploration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "turret",
+    "slug": "turret",
+    "name": "turret",
+    "rarity": 1,
+    "price": 15,
+    "stats": "Spawns a turret that shoots bullets dealing 10 (+80%工程) damage",
+    "tags": [
+      "Engineering",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "ugly tooth",
+    "slug": "ugly-tooth",
+    "name": "ugly tooth",
+    "rarity": 1,
+    "price": 25,
+    "stats": "Hitting an enemy removes 5% of their speed. Max 20%\n-3 % Speed",
+    "tags": [
+      "Less Enemy Speed"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "weird food",
+    "slug": "weird-food",
+    "name": "weird food",
+    "rarity": 1,
+    "price": 20,
+    "stats": "+2 HP recovered from consumables\n-2 % Dodge",
+    "tags": [
+      "Consumable"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "weird ghost",
+    "slug": "weird-ghost",
+    "name": "weird ghost",
+    "rarity": 1,
+    "price": 12,
+    "stats": "+3 Max HP\nStart the next wave with 1 HP",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "whistle",
+    "slug": "whistle",
+    "name": "whistle",
+    "rarity": 1,
+    "price": 25,
+    "stats": "+50% chance for loot aliens to appear\n+20% movement speed for loot aliens\nWhistles when a loot alien spawns",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "acid",
+    "slug": "acid",
+    "name": "acid",
+    "rarity": 2,
+    "price": 65,
+    "stats": "+8 Max HP\n-2 % Dodge\n-2 Knockback",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "alien eyes",
+    "slug": "alien-eyes",
+    "name": "alien eyes",
+    "rarity": 2,
+    "price": 50,
+    "stats": "Shoots 6 alien eyes around you every 3 seconds dealing 6 (+50%最大生命) damage each",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "baby squid",
+    "slug": "baby-squid",
+    "name": "baby squid",
+    "rarity": 2,
+    "price": 55,
+    "stats": "+1 HP Regeneration when you level up\n-3 % Attack Speed",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "bait",
+    "slug": "bait",
+    "name": "bait",
+    "rarity": 2,
+    "price": 25,
+    "stats": "+8 % Damage\nSpecial enemies appear at the beginning of the next wave",
+    "tags": [
+      "Damage",
+      "Number of Enemies"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "banner",
+    "slug": "banner",
+    "name": "banner",
+    "rarity": 2,
+    "price": 55,
+    "stats": "+20 Range\n+10 % Attack Speed\n-5 Knockback",
+    "tags": [
+      "Range",
+      "Attack Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "black belt",
+    "slug": "black-belt",
+    "name": "black belt",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+25 % XP Gain\n+3 Melee Damage\n+3 Knockback\n-8 Luck",
+    "tags": [
+      "Melee Damage",
+      "XP Gain",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "blazemander",
+    "slug": "blazemander",
+    "name": "blazemander",
+    "rarity": 2,
+    "price": 40,
+    "stats": "Spawns a Blazemander pet that deals 1 (+1%Elemental Damage) damage. Every 4 seconds, it shoots burning projectiles in all directions, each dealing 1 (+1%Elemental Damage) damage. Enemies hit by any of these attacks take 5x3 (+50%Elemental Damage) burning damage",
+    "tags": [
+      "Elemental Damage",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "blindfold",
+    "slug": "blindfold",
+    "name": "blindfold",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+5 % Crit Chance\n+5 % Dodge\n-15 Range",
+    "tags": [
+      "Crit Chance",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "blood leech",
+    "slug": "blood-leech",
+    "name": "blood leech",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+2 % Life Steal\n+2 HP Regeneration\n-3 Harvesting",
+    "tags": [
+      "Life Steal",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bone dice",
+    "slug": "bone-dice",
+    "name": "bone dice",
+    "rarity": 2,
+    "price": 30,
+    "stats": "+50% chance to get +1 % Damage when rerolling in the shop\n+10% chance to get -1 Max HP when rerolling in the shop",
+    "tags": [
+      "Damage"
+    ],
+    "limit": 2,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "bonk dog",
+    "slug": "bonk-dog",
+    "name": "bonk dog",
+    "rarity": 2,
+    "price": 40,
+    "stats": "Spawns a Bonk Dog pet that deals 10 (60%Melee Damage) damage. Every 5 seconds, it performs a dash attack that deals 8 (+40%Melee Damage) explosive damage in an area",
+    "tags": [
+      "Melee Damage",
+      "Explosive",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bot-o-mine",
+    "slug": "bot-o-mine",
+    "name": "bot-o-mine",
+    "rarity": 2,
+    "price": 55,
+    "stats": "Spawns a Bot-O-Mine structure that shoots bullets dealing 10 (+100%工程) damage. It also spawns a landmine every 5 seconds dealing 10 (+100%工程) damage in an area",
+    "tags": [
+      "Engineering",
+      "Structure",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "builder's turret ii",
+    "slug": "builders-turret-ii",
+    "name": "builder's turret ii",
+    "rarity": 2,
+    "price": 1,
+    "stats": "This turret's stats are derived from your best ranged weapon's base stats and scale with Engineering (-)\n+1 projectile\n+1 projectile when you reach 150 Structure Range",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "campfire",
+    "slug": "campfire",
+    "name": "campfire",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+2 Elemental Damage\n+2 HP Regeneration\n-2 % Speed\nIn Nightmare difficulty, fog visibility increases by 50%",
+    "tags": [
+      "Elemental Damage",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "catling gun",
+    "slug": "catling-gun",
+    "name": "catling gun",
+    "rarity": 2,
+    "price": 34,
+    "stats": "Spawns a Catling Gun pet that shoots bullets dealing 10 (+60%Ranged Damage) damage. Its attack speed doubles when the player or pets stay close",
+    "tags": [
+      "Ranged Damage",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "cauldron",
+    "slug": "cauldron",
+    "name": "cauldron",
+    "rarity": 2,
+    "price": 35,
+    "stats": "+50% pickup range\n+20 % Damage for 2 seconds after picking up a consumable\n-2 HP Regeneration",
+    "tags": [
+      "Pickup"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "celery tea",
+    "slug": "celery-tea",
+    "name": "celery tea",
+    "rarity": 2,
+    "price": 35,
+    "stats": "+5 % XP Gain at the end of a wave\n+50 % XP Gain during the next wave\n+100 % Enemy health during the next wave",
+    "tags": [
+      "XP Gain"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "clockwork wasp",
+    "slug": "clockwork-wasp",
+    "name": "clockwork wasp",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+10 % Structure attack speed\n+5 % Speed",
+    "tags": [
+      "Structure",
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "cog",
+    "slug": "cog",
+    "name": "cog",
+    "rarity": 2,
+    "price": 35,
+    "stats": "+4 Engineering\n+1 Knockback\n-4 % Damage",
+    "tags": [
+      "Engineering",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "compass",
+    "slug": "compass",
+    "name": "compass",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+5 % Speed\n+3 Engineering\n-3 % Crit Chance",
+    "tags": [
+      "Speed",
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "coral",
+    "slug": "coral",
+    "name": "coral",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+10 HP Regeneration while standing still\n-10 Range",
+    "tags": [
+      "HP Regeneration",
+      "Stand Still"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "cyberball",
+    "slug": "cyberball",
+    "name": "cyberball",
+    "rarity": 2,
+    "price": 30,
+    "stats": "25% chance to deal 1 (25%Luck) damage to a random enemy when an enemy dies",
+    "tags": [
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "cyclops worm",
+    "slug": "cyclops-worm",
+    "name": "cyclops worm",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+12 % Damage\n-12 Range",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "dangerous bunny",
+    "slug": "dangerous-bunny",
+    "name": "dangerous bunny",
+    "rarity": 2,
+    "price": 30,
+    "stats": "+1 free reroll in the shop",
+    "tags": [
+      "Economy"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "decomposing flesh",
+    "slug": "decomposing-flesh",
+    "name": "decomposing flesh",
+    "rarity": 2,
+    "price": 30,
+    "stats": "+1 % Life Steal when you level up\n-1 Max HP when you level up",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "doc moth",
+    "slug": "doc-moth",
+    "name": "doc moth",
+    "rarity": 2,
+    "price": 55,
+    "stats": "Spawns a Doc Moth pet that flies around the map. When the player is inside its aura, their HP regeneration and Life Steal are doubled",
+    "tags": [
+      "HP Regeneration",
+      "Life Steal",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "energy bracelet",
+    "slug": "energy-bracelet",
+    "name": "energy bracelet",
+    "rarity": 2,
+    "price": 55,
+    "stats": "+4 % Crit Chance\n+2 Elemental Damage\n-2 Ranged Damage",
+    "tags": [
+      "Crit Chance",
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "eyepatch",
+    "slug": "eyepatch",
+    "name": "eyepatch",
+    "rarity": 2,
+    "price": 55,
+    "stats": "Projectiles get +1 piercing on critical hit\n+3 % Crit Chance\n-10% Accuracy",
+    "tags": [
+      "Crit Chance",
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "eyes surgery",
+    "slug": "eyes-surgery",
+    "name": "eyes surgery",
+    "rarity": 2,
+    "price": 60,
+    "stats": "Burning activates 20% faster\n+1 Elemental Damage\n-10 Range",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": 2,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "fish hook",
+    "slug": "fish-hook",
+    "name": "fish hook",
+    "rarity": 2,
+    "price": 35,
+    "stats": "Locked items and weapons have a 20% chance to become cursed when leaving the shop\n+1 Curse",
+    "tags": [
+      "Curse",
+      "Lock (Item Tag)"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "fruit basket",
+    "slug": "fruit-basket",
+    "name": "fruit basket",
+    "rarity": 2,
+    "price": 45,
+    "stats": "Enemies have a higher chance of dropping fruits\n-3 HP Regeneration",
+    "tags": [
+      "Consumable"
+    ],
+    "limit": 4,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "fuel tank",
+    "slug": "fuel-tank",
+    "name": "fuel tank",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+4 Elemental Damage\n-1 Melee Damage\n-1 Ranged Damage",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "gambling token",
+    "slug": "gambling-token",
+    "name": "gambling token",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+8 % Dodge\n-1 Armor",
+    "tags": [
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "garden",
+    "slug": "garden",
+    "name": "garden",
+    "rarity": 2,
+    "price": 50,
+    "stats": "Spawns a garden that creates a fruit every 15 seconds",
+    "tags": [
+      "Consumable",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "ice cube",
+    "slug": "ice-cube",
+    "name": "ice cube",
+    "rarity": 2,
+    "price": 50,
+    "stats": "Enemies take 10% more damage for 3 seconds when first hit by Elemental Damage",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "incendiary turret",
+    "slug": "incendiary-turret",
+    "name": "incendiary turret",
+    "rarity": 2,
+    "price": 40,
+    "stats": "Spawns a turret that shoots flames dealing 8x5 (+33%工程) burning damage",
+    "tags": [
+      "Engineering",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "jerky",
+    "slug": "jerky",
+    "name": "jerky",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+3 HP recovered from consumables\nConsumables heal you over 4 seconds instead of instantly",
+    "tags": [
+      "Consumable"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "leather vest",
+    "slug": "leather-vest",
+    "name": "leather vest",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+2 Armor\n+6 % Dodge\n-3 Max HP",
+    "tags": [
+      "Armor",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "little frog",
+    "slug": "little-frog",
+    "name": "little frog",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+20% pickup range\n+10 Harvesting\n-3 % Dodge",
+    "tags": [
+      "Harvesting",
+      "Pickup"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "little muscley dude",
+    "slug": "little-muscley-dude",
+    "name": "little muscley dude",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+3 Melee Damage\n+5 Max HP\n-15 Range",
+    "tags": [
+      "Melee Damage",
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lure",
+    "slug": "lure",
+    "name": "lure",
+    "rarity": 2,
+    "price": 34,
+    "stats": "+2 HP Regeneration\n2 additional loot aliens appear during the next wave",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "mastery",
+    "slug": "mastery",
+    "name": "mastery",
+    "rarity": 2,
+    "price": 55,
+    "stats": "+6 Melee Damage\n-3 Ranged Damage",
+    "tags": [
+      "Melee Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "medal",
+    "slug": "medal",
+    "name": "medal",
+    "rarity": 2,
+    "price": 55,
+    "stats": "+3 Max HP\n+3 % Damage\n+1 Armor\n+3 % Speed\n-4 % Crit Chance",
+    "tags": [
+      "Max HP",
+      "Damage",
+      "Armor",
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "medical turret",
+    "slug": "medical-turret",
+    "name": "medical turret",
+    "rarity": 2,
+    "price": 40,
+    "stats": "Spawns a medical turret that shoots bullets healing 3 (+5%工程) HP",
+    "tags": [
+      "Engineering",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "metal detector",
+    "slug": "metal-detector",
+    "name": "metal detector",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+5% chance to double the value of picked up materials\n+6 Luck\n+2 Engineering\n-5 % Damage",
+    "tags": [
+      "Luck",
+      "Engineering",
+      "Pickup",
+      "Economy"
+    ],
+    "limit": 20,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "metal plate",
+    "slug": "metal-plate",
+    "name": "metal plate",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+2 Armor\n-3 % Damage",
+    "tags": [
+      "Armor"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "missile",
+    "slug": "missile",
+    "name": "missile",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+10 % Damage\n-4 % Attack Speed",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "padding",
+    "slug": "padding",
+    "name": "padding",
+    "rarity": 2,
+    "price": 45,
+    "stats": "+3 Max HP\n+1 Max HP for every 80 Materials you have",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "pearl",
+    "slug": "pearl",
+    "name": "pearl",
+    "rarity": 2,
+    "price": 60,
+    "stats": "+1 % Damage for every permanent 10 Luck you have\n+3% chance of finding an extra Pearl in a crate",
+    "tags": [
+      "Luck"
+    ],
+    "limit": 20,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "piggy bank",
+    "slug": "piggy-bank",
+    "name": "piggy bank",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+20% of your materials at the start of waves (stops working at wave 20)",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "pile of books",
+    "slug": "pile-of-books",
+    "name": "pile of books",
+    "rarity": 2,
+    "price": 60,
+    "stats": "Your structures can crit\n+5 % Crit Chance\n+3 Engineering",
+    "tags": [
+      "Crit Chance",
+      "Engineering"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "pocket factory",
+    "slug": "pocket-factory",
+    "name": "pocket factory",
+    "rarity": 2,
+    "price": 75,
+    "stats": "+2 Engineering\nKilling a tree spawns a turret",
+    "tags": [
+      "Engineering",
+      "Exploration",
+      "Structure"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "pumpkin",
+    "slug": "pumpkin",
+    "name": "pumpkin",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+15% Piercing Damage. Can't go above base damage\n-2 % Damage",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "recycling machine",
+    "slug": "recycling-machine",
+    "name": "recycling machine",
+    "rarity": 2,
+    "price": 35,
+    "stats": "Gain 35% more materials from recycling items",
+    "tags": [
+      "Economy"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "reinforced steel",
+    "slug": "reinforced-steel",
+    "name": "reinforced steel",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+2 Ranged Damage\n+3 Engineering\n-3 % Speed",
+    "tags": [
+      "Ranged Damage",
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "riposte",
+    "slug": "riposte",
+    "name": "riposte",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+2 Melee Damage\n100% chance to deal 1 (300%Melee Damage) damage to an enemy when dodging their attack",
+    "tags": [
+      "Dodge",
+      "Melee Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "ritual",
+    "slug": "ritual",
+    "name": "ritual",
+    "rarity": 2,
+    "price": 60,
+    "stats": "+6 % Damage\n+2 % Life Steal\n-2 Engineering",
+    "tags": [
+      "Damage",
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "saltwater",
+    "slug": "saltwater",
+    "name": "saltwater",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+2 Melee Damage\n+3 % Attack Speed\n+10 % Speed for 3 seconds when you take damage\n-1 Elemental Damage",
+    "tags": [
+      "Melee Damage",
+      "Attack Speed",
+      "Speed"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "scope",
+    "slug": "scope",
+    "name": "scope",
+    "rarity": 2,
+    "price": 48,
+    "stats": "+2 Ranged Damage\n+25 Range\n-7 % Attack Speed",
+    "tags": [
+      "Ranged Damage",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "shady potion",
+    "slug": "shady-potion",
+    "name": "shady potion",
+    "rarity": 2,
+    "price": 48,
+    "stats": "+20 Luck\n-2 HP Regeneration",
+    "tags": [
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "small magazine",
+    "slug": "small-magazine",
+    "name": "small magazine",
+    "rarity": 2,
+    "price": 60,
+    "stats": "+2 Ranged Damage\n+10 % Attack Speed\n-6 % Damage",
+    "tags": [
+      "Ranged Damage",
+      "Attack Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "snail",
+    "slug": "snail",
+    "name": "snail",
+    "rarity": 2,
+    "price": 40,
+    "stats": "-8 % Enemy Speed\n-3 % Speed",
+    "tags": [
+      "Less Enemy Speed"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "snowball",
+    "slug": "snowball",
+    "name": "snowball",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+1 Elemental Damage every time you get an item that increases Elemental Damage",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "spicy sauce",
+    "slug": "spicy-sauce",
+    "name": "spicy sauce",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+3 Max HP\nConsumables have a 50% chance to explode for 10 (+100%最大生命) damage when picked up",
+    "tags": [
+      "Max HP",
+      "Luck",
+      "Explosive"
+    ],
+    "limit": 2,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "spyglass",
+    "slug": "spyglass",
+    "name": "spyglass",
+    "rarity": 2,
+    "price": 30,
+    "stats": "+10 Range\n-25 % Reroll Price",
+    "tags": [
+      "Range"
+    ],
+    "limit": 2,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "sunglasses",
+    "slug": "sunglasses",
+    "name": "sunglasses",
+    "rarity": 2,
+    "price": 50,
+    "stats": "+10 % Crit Chance\n-1 Armor",
+    "tags": [
+      "Crit Chance"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "tentacle",
+    "slug": "tentacle",
+    "name": "tentacle",
+    "rarity": 2,
+    "price": 35,
+    "stats": "+3 % Crit Chance\n+20% chance to heal 1 HP when killing an enemy with a critical hit",
+    "tags": [
+      "Crit Chance"
+    ],
+    "limit": 5,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "treasure map",
+    "slug": "treasure-map",
+    "name": "treasure map",
+    "rarity": 2,
+    "price": 35,
+    "stats": "+20% chance of finding an extra item in a crate",
+    "tags": [
+      "Luck"
+    ],
+    "limit": 5,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "tyler",
+    "slug": "tyler",
+    "name": "tyler",
+    "rarity": 2,
+    "price": 62,
+    "stats": "Spawns a little guy that slowly shoots 10 piercing lightning projectiles around him for 12 (+90%工程+90%Elemental Damage) damage each",
+    "tags": [
+      "Engineering",
+      "Elemental Damage",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "wheelbarrow",
+    "slug": "wheelbarrow",
+    "name": "wheelbarrow",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+16 Harvesting\n-1 Armor",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "whetstone",
+    "slug": "whetstone",
+    "name": "whetstone",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+4 % Life Steal\n-3 Knockback",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "white flag",
+    "slug": "white-flag",
+    "name": "white flag",
+    "rarity": 2,
+    "price": 40,
+    "stats": "+5 Harvesting\n-5% Enemies",
+    "tags": [
+      "Harvesting",
+      "Less Enemies"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "adrenaline",
+    "slug": "adrenaline",
+    "name": "adrenaline",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+5 % Dodge\n50% chance to heal 5 HP when dodging an attack",
+    "tags": [
+      "Dodge"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "alien baby",
+    "slug": "alien-baby",
+    "name": "alien baby",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+15 Max HP\n+10 % Enemy health",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "alien magic",
+    "slug": "alien-magic",
+    "name": "alien magic",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+8 Max HP\n+3 HP Regeneration\n-8 Luck",
+    "tags": [
+      "Max HP",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "alloy",
+    "slug": "alloy",
+    "name": "alloy",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+3 Melee Damage\n+3 Ranged Damage\n+3 Elemental Damage\n+3 Engineering\n+5 % Crit Chance\n-6 % Dodge",
+    "tags": [
+      "Melee Damage",
+      "Ranged Damage",
+      "Engineering",
+      "Crit Chance",
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "baby with a beard",
+    "slug": "baby-with-a-beard",
+    "name": "baby with a beard",
+    "rarity": 3,
+    "price": 100,
+    "stats": "One bullet dealing 1 (+100%Ranged Damage) damage is fired from an enemy corpse when they die\n-50 Range",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "ball and chain",
+    "slug": "ball-and-chain",
+    "name": "ball and chain",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+15 % Damage\n+3 Armor\n+5 Knockback\n-3 % Speed\nWeapons have a minimum cooldown of 0.75 seconds between attacks",
+    "tags": [
+      "Damage",
+      "Armor",
+      "Knockback"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "bandana",
+    "slug": "bandana",
+    "name": "bandana",
+    "rarity": 3,
+    "price": 75,
+    "stats": "Projectiles pierce through 1 additional target\n-10 % Damage",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "barnacle",
+    "slug": "barnacle",
+    "name": "barnacle",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+35% stats gained from level upgrades\n+1 Curse when you level up",
+    "tags": [
+      "Curse",
+      "XP Gain"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "barricade",
+    "slug": "barricade",
+    "name": "barricade",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+3 Knockback\n+8 Armor while standing still\n-5 % Speed",
+    "tags": [
+      "Armor",
+      "Stand Still",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bean teacher",
+    "slug": "bean-teacher",
+    "name": "bean teacher",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+50 % XP Gain\n-2 % Life Steal",
+    "tags": [
+      "XP Gain"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "black flag",
+    "slug": "black-flag",
+    "name": "black flag",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+1 material when you kill a cursed enemy\n+10% Enemies\n+10 % Enemy health\n+10 % Enemy damage\n+5 Curse",
+    "tags": [
+      "Curse",
+      "More Enemies"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "blood donation",
+    "slug": "blood-donation",
+    "name": "blood donation",
+    "rarity": 3,
+    "price": 50,
+    "stats": "+40 Harvesting\nYou take 1 damage per second (does not give invulnerability time)",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bowler hat",
+    "slug": "bowler-hat",
+    "name": "bowler hat",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+15 Luck\n+18 Harvesting\n-5 % Attack Speed\n-3 % Crit Chance",
+    "tags": [
+      "Luck",
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "broken mirror",
+    "slug": "broken-mirror",
+    "name": "broken mirror",
+    "rarity": 3,
+    "price": 1,
+    "stats": "This mirror duplicated an item",
+    "tags": [],
+    "limit": 0,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "builder's turret iii",
+    "slug": "builders-turret-iii",
+    "name": "builder's turret iii",
+    "rarity": 3,
+    "price": 1,
+    "stats": "This turret's stats are derived from your best ranged weapon's base stats and scale with Engineering (-)\n+2 projectiles\n+1 projectile when you reach 300 Structure Range",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "candle",
+    "slug": "candle",
+    "name": "candle",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+4 Elemental Damage\n+1 HP Regeneration\n-10% Enemies\n-5 % Damage\nIn Nightmare difficulty, fog visibility increases by 25%",
+    "tags": [
+      "Elemental Damage",
+      "HP Regeneration",
+      "Less Enemies"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "candy bag",
+    "slug": "candy-bag",
+    "name": "candy bag",
+    "rarity": 3,
+    "price": 70,
+    "stats": "Each wave grants 8 points randomly split between your primary stats\nEach wave, 10% chance to spawn an additional elite",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "chameleon",
+    "slug": "chameleon",
+    "name": "chameleon",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+3 % Dodge\n+20 % Dodge while standing still\n-4 % Damage",
+    "tags": [
+      "Dodge",
+      "Stand Still"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "clover",
+    "slug": "clover",
+    "name": "clover",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+20 Luck\n+6 % Dodge\n-2 % Life Steal",
+    "tags": [
+      "Luck",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "coil",
+    "slug": "coil",
+    "name": "coil",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+5 Knockback\n+1 % Damage for every 1 Knockback you have",
+    "tags": [
+      "Damage",
+      "Knockback"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "community support",
+    "slug": "community-support",
+    "name": "community support",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+1 % Attack Speed for every current living enemy\n-2 Armor",
+    "tags": [
+      "Attack Speed"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "crown",
+    "slug": "crown",
+    "name": "crown",
+    "rarity": 3,
+    "price": 70,
+    "stats": "Harvesting increases by an additional 8% at the end of a wave",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "crystal",
+    "slug": "crystal",
+    "name": "crystal",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+5 % Attack Speed\n+1 % Attack Speed every 1 second until the end of the wave\nBonus is lost when taking damage\n-2 Engineering",
+    "tags": [
+      "Attack Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "fairy",
+    "slug": "fairy",
+    "name": "fairy",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+1 HP Regeneration for every different Tier I item you have\n-3 HP Regeneration for every different Tier IV item you have",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "fin",
+    "slug": "fin",
+    "name": "fin",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+10 % Speed\n+3 % Life Steal\n-8 Luck",
+    "tags": [
+      "Speed",
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "fried rice",
+    "slug": "fried-rice",
+    "name": "fried rice",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+1 HP Regeneration for every currently burning enemy",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "frozen heart",
+    "slug": "frozen-heart",
+    "name": "frozen heart",
+    "rarity": 3,
+    "price": 90,
+    "stats": "+8 Elemental Damage\n+5 % Crit Chance\nWeapon damage additionally scales with 10% Elemental Damage\nBurning activates 100% slower",
+    "tags": [
+      "Elemental Damage",
+      "Crit Chance"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "ghost outfit",
+    "slug": "ghost-outfit",
+    "name": "ghost outfit",
+    "rarity": 3,
+    "price": 80,
+    "stats": "Dodge is capped at 70%\n+10% Dodge\n-5% Speed\n-3 Armor",
+    "tags": [
+      "Dodge"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "glass cannon",
+    "slug": "glass-cannon",
+    "name": "glass cannon",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+25 % Damage\n-3 Armor",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "goblet",
+    "slug": "goblet",
+    "name": "goblet",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+15% chance to heal 1 HP when killing an enemy\n-3 HP Regeneration",
+    "tags": [],
+    "limit": 3,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "goldfish",
+    "slug": "goldfish",
+    "name": "goldfish",
+    "rarity": 3,
+    "price": 23,
+    "stats": "Items will be 1 tier higher after the next reroll",
+    "tags": [],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "handcuffs",
+    "slug": "handcuffs",
+    "name": "handcuffs",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+8 Melee Damage\n+8 Ranged Damage\n+8 Elemental Damage\nYour Max HP is capped at its current value",
+    "tags": [
+      "Melee Damage",
+      "Ranged Damage",
+      "Elemental Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "honey",
+    "slug": "honey",
+    "name": "honey",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+3 Ranged Damage\n+10 % Explosion Damage\n+5 % Explosion Size\n-3 % Speed\n-3 % Dodge",
+    "tags": [
+      "Ranged Damage",
+      "Explosive"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "hunting trophy",
+    "slug": "hunting-trophy",
+    "name": "hunting trophy",
+    "rarity": 3,
+    "price": 55,
+    "stats": "33% chance to gain 1 material when killing an enemy with a critical hit",
+    "tags": [
+      "Crit Chance"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "improved tools",
+    "slug": "improved-tools",
+    "name": "improved tools",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+10 % Attack Speed\nIncreases the attack speed of your structures by 0% (50%Attack Speed)",
+    "tags": [
+      "Structure",
+      "Attack Speed"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "jellyshield",
+    "slug": "jellyshield",
+    "name": "jellyshield",
+    "rarity": 3,
+    "price": 50,
+    "stats": "Spawns a Jellyshield pet that orbits around the player. It can block projectiles",
+    "tags": [
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "knot",
+    "slug": "knot",
+    "name": "knot",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+15 % Damage\n+15 Max HP\nWeapons can no longer be upgraded or recycled",
+    "tags": [
+      "Damage",
+      "Max HP"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "laser turret",
+    "slug": "laser-turret",
+    "name": "laser turret",
+    "rarity": 3,
+    "price": 65,
+    "stats": "Spawns a turret that shoots piercing bullets dealing 20 (+125%工程) damage",
+    "tags": [
+      "Engineering",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "lighthouse",
+    "slug": "lighthouse",
+    "name": "lighthouse",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+20 Engineering\n-1 Engineering for every 1 Structure you have\nIn Nightmare difficulty, fog visibility increases by 100%",
+    "tags": [
+      "Engineering"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "lucky charm",
+    "slug": "lucky-charm",
+    "name": "lucky charm",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+30 Luck\n-2 Melee Damage\n-1 Ranged Damage",
+    "tags": [
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "mirror",
+    "slug": "mirror",
+    "name": "mirror",
+    "rarity": 3,
+    "price": 60,
+    "stats": "Duplicates the next item you get from the shop (item limits can't be exceeded)",
+    "tags": [],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "mouse",
+    "slug": "mouse",
+    "name": "mouse",
+    "rarity": 3,
+    "price": 55,
+    "stats": "+5 % Life Steal\n+10% Enemies\n-5 Harvesting",
+    "tags": [
+      "Life Steal",
+      "More Enemies"
+    ],
+    "limit": 5,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "nail",
+    "slug": "nail",
+    "name": "nail",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+5 Engineering\nWeapon damage additionally scales with 20% Engineering\n-2 Ranged Damage",
+    "tags": [
+      "Engineering"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "peacock",
+    "slug": "peacock",
+    "name": "peacock",
+    "rarity": 3,
+    "price": 50,
+    "stats": "+25 % XP Gain\n+100 % XP Gain during the next wave\n+50 % Enemy damage during the next wave",
+    "tags": [
+      "XP Gain"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "plastic explosive",
+    "slug": "plastic-explosive",
+    "name": "plastic explosive",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+25 % Explosion Size",
+    "tags": [
+      "Explosive"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "poisonous tonic",
+    "slug": "poisonous-tonic",
+    "name": "poisonous tonic",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+10 % Attack Speed\n+5 % Crit Chance\n+15 Range\n-2 HP Regeneration",
+    "tags": [
+      "Attack Speed",
+      "Crit Chance",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "power generator",
+    "slug": "power-generator",
+    "name": "power generator",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+1 % Damage for every permanent 1 % Speed you have\n-5 % Damage",
+    "tags": [
+      "Speed",
+      "Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "resting goldfish",
+    "slug": "resting-goldfish",
+    "name": "resting goldfish",
+    "rarity": 3,
+    "price": 30,
+    "stats": "This goldfish is resting after a hard day's work",
+    "tags": [],
+    "limit": 0,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "rip and tear",
+    "slug": "rip-and-tear",
+    "name": "rip and tear",
+    "rarity": 3,
+    "price": 65,
+    "stats": "Enemies have a 20% chance to explode for 10 (+50%Melee Damage) damage when they die\n-5 % Crit Chance",
+    "tags": [
+      "Melee Damage",
+      "Explosive"
+    ],
+    "limit": 5,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "sad tomato",
+    "slug": "sad-tomato",
+    "name": "sad tomato",
+    "rarity": 3,
+    "price": 50,
+    "stats": "+8 HP Regeneration\nStart waves with -50% HP",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "scarf",
+    "slug": "scarf",
+    "name": "scarf",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+4 HP Regeneration\n+4 Melee Damage\n+4 % Speed\n+25 % Enemy Speed during the next wave",
+    "tags": [
+      "HP Regeneration",
+      "Melee Damage",
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "shackles",
+    "slug": "shackles",
+    "name": "shackles",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+8 HP Regeneration\n+8 Engineering\n+80 Range\nYour Speed is capped at its current value",
+    "tags": [
+      "Range",
+      "HP Regeneration",
+      "Engineering"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "shmoop",
+    "slug": "shmoop",
+    "name": "shmoop",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+6 Max HP\n+2 HP Regeneration\n-2 Melee Damage\n-1 Ranged Damage",
+    "tags": [
+      "Max HP",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "silver bullet",
+    "slug": "silver-bullet",
+    "name": "silver bullet",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+25% damage against bosses and elites",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "starfish",
+    "slug": "starfish",
+    "name": "starfish",
+    "rarity": 3,
+    "price": 75,
+    "stats": "+20% materials dropped from enemies\n+10 Harvesting\n+15 % Enemy damage",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": 3,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "statue",
+    "slug": "statue",
+    "name": "statue",
+    "rarity": 3,
+    "price": 60,
+    "stats": "+40 % Attack Speed while standing still\n-10 % Speed",
+    "tags": [
+      "Attack Speed",
+      "Stand Still"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "stone skin",
+    "slug": "stone-skin",
+    "name": "stone skin",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+1 Max HP for every permanent 1 Armor you have\n-6 % Attack Speed",
+    "tags": [
+      "Armor",
+      "Max HP"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "strange book",
+    "slug": "strange-book",
+    "name": "strange book",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+1 Engineering for every permanent 1 Elemental Damage you have\n-1 Melee Damage\n-1 Ranged Damage",
+    "tags": [
+      "Engineering",
+      "Elemental Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "sunken bell",
+    "slug": "sunken-bell",
+    "name": "sunken bell",
+    "rarity": 3,
+    "price": 65,
+    "stats": "Once per wave, you explode for 100 (+500%Melee Damage+500%Ranged Damage+500%Elemental Damage+500%工程) damage when you fall below 40% health",
+    "tags": [
+      "Explosive"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "tardigrade",
+    "slug": "tardigrade",
+    "name": "tardigrade",
+    "rarity": 3,
+    "price": 50,
+    "stats": "Nullifies the damage of one hit taken every wave",
+    "tags": [],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "toolbox",
+    "slug": "toolbox",
+    "name": "toolbox",
+    "rarity": 3,
+    "price": 55,
+    "stats": "+6 Engineering\n-8 % Attack Speed",
+    "tags": [
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "tractor",
+    "slug": "tractor",
+    "name": "tractor",
+    "rarity": 3,
+    "price": 70,
+    "stats": "+40 Harvesting\n-8 % Damage",
+    "tags": [
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "triangle of power",
+    "slug": "triangle-of-power",
+    "name": "triangle of power",
+    "rarity": 3,
+    "price": 65,
+    "stats": "+20 % Damage\n+1 Armor\n-2 % Damage when you take damage until the end of the wave",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "vigilante ring",
+    "slug": "vigilante-ring",
+    "name": "vigilante ring",
+    "rarity": 3,
+    "price": 92,
+    "stats": "+3 % Damage at the end of a wave",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "wandering bot",
+    "slug": "wandering-bot",
+    "name": "wandering bot",
+    "rarity": 3,
+    "price": 60,
+    "stats": "Spawns a little bot that slows down nearby enemies",
+    "tags": [
+      "Less Enemy Speed",
+      "Structure",
+      "Pet"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "warrior helmet",
+    "slug": "warrior-helmet",
+    "name": "warrior helmet",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+3 Armor\n+5 Max HP\n-5 % Speed",
+    "tags": [
+      "Armor",
+      "Max HP"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "wheat",
+    "slug": "wheat",
+    "name": "wheat",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+4 Melee Damage\n+2 Ranged Damage\n+10 Harvesting\n-2 Elemental Damage",
+    "tags": [
+      "Melee Damage",
+      "Ranged Damage",
+      "Harvesting"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "will-o'-wisp",
+    "slug": "will-o-wisp",
+    "name": "will-o'-wisp",
+    "rarity": 3,
+    "price": 80,
+    "stats": "+1 Elemental Damage for every 30 burning enemies you kill during a wave (max +4 per wave)\n-7% Attack Speed",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "wings",
+    "slug": "wings",
+    "name": "wings",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+10 % Speed\n+30 Range\n-2 Elemental Damage",
+    "tags": [
+      "Speed",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "wisdom",
+    "slug": "wisdom",
+    "name": "wisdom",
+    "rarity": 3,
+    "price": 85,
+    "stats": "+5 % Damage every 5 seconds until the end of the wave\n-15 % Damage",
+    "tags": [
+      "Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "anvil",
+    "slug": "anvil",
+    "name": "anvil",
+    "rarity": 4,
+    "price": 120,
+    "stats": "A random weapon is upgraded when entering a shop. If you have no weapon to upgrade, you gain +2 Armor instead.",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "ashes",
+    "slug": "ashes",
+    "name": "ashes",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+20 % Damage\n+20 % Attack Speed\n+100 Range\n-1 Armor at the end of a wave",
+    "tags": [
+      "Attack Speed",
+      "Damage",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": true
+  },
+  {
+    "id": "axolotl",
+    "slug": "axolotl",
+    "name": "axolotl",
+    "rarity": 4,
+    "price": 130,
+    "stats": "Your highest (Max HP) and lowest (Max HP) positive primary stats are swapped when you get this item",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "big arms",
+    "slug": "big-arms",
+    "name": "big arms",
+    "rarity": 4,
+    "price": 105,
+    "stats": "+12 Melee Damage\n+6 Ranged Damage\n+3 Knockback\n-3 % Attack Speed\n-3 % Speed",
+    "tags": [
+      "Melee Damage",
+      "Ranged Damage",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "bloody hand",
+    "slug": "bloody-hand",
+    "name": "bloody hand",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+10 % Life Steal\n+2 % Damage for every 1 % Life Steal you have\nYou take 1 damage per second (does not give invulnerability time)",
+    "tags": [
+      "Life Steal"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "broken hourglass",
+    "slug": "broken-hourglass",
+    "name": "broken hourglass",
+    "rarity": 4,
+    "price": 1,
+    "stats": "This hourglass broke after resetting the wave counter, also losing all its effects.\nStart the next wave with 1 HP",
+    "tags": [],
+    "limit": 0,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "builder's turret iv",
+    "slug": "builders-turret-iv",
+    "name": "builder's turret iv",
+    "rarity": 4,
+    "price": 1,
+    "stats": "This turret's stats are derived from your best ranged weapon's base stats and scale with Engineering (-)\n+3 projectiles",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "cape",
+    "slug": "cape",
+    "name": "cape",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+5 % Life Steal\n+20 % Dodge\n-2 Melee Damage\n-2 Ranged Damage\n-2 Elemental Damage",
+    "tags": [
+      "Life Steal",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "diploma",
+    "slug": "diploma",
+    "name": "diploma",
+    "rarity": 4,
+    "price": 90,
+    "stats": "+10 Engineering\n+50 % XP Gain\n-3 Max HP",
+    "tags": [
+      "Engineering",
+      "XP Gain"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "esty’s couch",
+    "slug": "estys-couch",
+    "name": "esty’s couch",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+5 Max HP\n+2 HP Regeneration for every permanent -1 % Speed you have\n-20 % Speed",
+    "tags": [
+      "HP Regeneration",
+      "Max HP"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "exoskeleton",
+    "slug": "exoskeleton",
+    "name": "exoskeleton",
+    "rarity": 4,
+    "price": 90,
+    "stats": "+3 Armor\n+5 % Crit Chance\n+5 Engineering\n+5 % Speed\n-2 HP Regeneration\n-2 % Life Steal",
+    "tags": [
+      "Armor",
+      "Crit Chance",
+      "Engineering",
+      "Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "explosive shells",
+    "slug": "explosive-shells",
+    "name": "explosive shells",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+60 % Explosion Damage\n+15 % Explosion Size\n-15 % Damage",
+    "tags": [
+      "Explosive"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "explosive turret",
+    "slug": "explosive-turret",
+    "name": "explosive turret",
+    "rarity": 4,
+    "price": 80,
+    "stats": "Spawns a turret that shoots explosive bullets dealing 25 (+150%工程) damage in an area",
+    "tags": [
+      "Engineering",
+      "Structure"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "extra stomach",
+    "slug": "extra-stomach",
+    "name": "extra stomach",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+1 Max HP when picking up a consumable while at maximum health (max +8 per wave)",
+    "tags": [
+      "Max HP",
+      "Luck"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "focus",
+    "slug": "focus",
+    "name": "focus",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+30 % Damage\n-3 % Attack Speed for every different weapon you have",
+    "tags": [
+      "Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "giant belt",
+    "slug": "giant-belt",
+    "name": "giant belt",
+    "rarity": 4,
+    "price": 110,
+    "stats": "Critical hits deal 10% of an enemy’s current health as bonus damage (1% for bosses and elites)",
+    "tags": [
+      "Crit Chance"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "gnome",
+    "slug": "gnome",
+    "name": "gnome",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+10 Melee Damage\n+10 Elemental Damage\n-20 Range\n-20% pickup range",
+    "tags": [
+      "Melee Damage",
+      "Elemental Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "gobbler's hat",
+    "slug": "gobblers-hat",
+    "name": "gobbler's hat",
+    "rarity": 4,
+    "price": 130,
+    "stats": "+70% materials dropped\n-15% Speed\n-10% Dodge",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "greek fire",
+    "slug": "greek-fire",
+    "name": "greek fire",
+    "rarity": 4,
+    "price": 100,
+    "stats": "Burning deals an additional 10% of current enemy HP as damage (1% for bosses and elites)\nIn Nightmare difficulty, fog visibility increases by 75%",
+    "tags": [
+      "Elemental Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "grind's magical leaf",
+    "slug": "grinds-magical-leaf",
+    "name": "grind's magical leaf",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+3 Max HP at the end of a wave\n+1 HP Regeneration at the end of a wave\n+1 % Life Steal at the end of a wave",
+    "tags": [
+      "Max HP",
+      "HP Regeneration",
+      "Life Steal"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "heavy bullets",
+    "slug": "heavy-bullets",
+    "name": "heavy bullets",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+5 Ranged Damage\n+10 % Damage\n+10 Range\n-5 % Attack Speed\n-5 % Crit Chance",
+    "tags": [
+      "Ranged Damage",
+      "Damage",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "hourglass",
+    "slug": "hourglass",
+    "name": "hourglass",
+    "rarity": 4,
+    "price": 100,
+    "stats": "Turns back time, decreasing the current wave count by 1\nStart the next wave with 1 HP",
+    "tags": [],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "jet pack",
+    "slug": "jet-pack",
+    "name": "jet pack",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+15 % Speed\n+10 % Dodge\n-5 Max HP\n-1 Armor",
+    "tags": [
+      "Speed",
+      "Dodge"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "kraken's eye",
+    "slug": "krakens-eye",
+    "name": "kraken's eye",
+    "rarity": 4,
+    "price": 110,
+    "stats": "You have a 50% chance to explode for 10 (+500%Curse) damage when you get hit\n+15 Max HP\n+15 Curse",
+    "tags": [
+      "Explosive",
+      "Max HP",
+      "Curse"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "lantern",
+    "slug": "lantern",
+    "name": "lantern",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+10 % Damage\n+50 Range\n+15 Knockback\nKnocks nearby enemies back every 3 seconds\nIn Nightmare difficulty, fog visibility increases by 75%",
+    "tags": [
+      "Damage",
+      "Range",
+      "Knockback"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "lucky coin",
+    "slug": "lucky-coin",
+    "name": "lucky coin",
+    "rarity": 4,
+    "price": 105,
+    "stats": "+2 Luck for every 1 % Crit Chance you have\n-2 Armor",
+    "tags": [
+      "Crit Chance",
+      "Luck"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "mammoth",
+    "slug": "mammoth",
+    "name": "mammoth",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+20 Melee Damage\n+5 HP Regeneration\n+5 Knockback\n-8 % Damage\n-3 % Speed",
+    "tags": [
+      "Melee Damage",
+      "HP Regeneration",
+      "Knockback"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "medikit",
+    "slug": "medikit",
+    "name": "medikit",
+    "rarity": 4,
+    "price": 95,
+    "stats": "+10 HP Regeneration\n+2 HP Regeneration every 5 seconds until the end of the wave\n-10 Luck",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "night goggles",
+    "slug": "night-goggles",
+    "name": "night goggles",
+    "rarity": 4,
+    "price": 95,
+    "stats": "+15 % Crit Chance\n+50 Range\n-3 Max HP\n-1 Armor",
+    "tags": [
+      "Crit Chance",
+      "Range"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "octopus",
+    "slug": "octopus",
+    "name": "octopus",
+    "rarity": 4,
+    "price": 105,
+    "stats": "+12 Max HP\n+5 HP Regeneration\n+3 % Life Steal\n-8 % Crit Chance",
+    "tags": [
+      "Max HP",
+      "Life Steal",
+      "HP Regeneration"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "panda",
+    "slug": "panda",
+    "name": "panda",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+12 Max HP\n+25 Luck\n-5 % Damage",
+    "tags": [
+      "Max HP",
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "potato",
+    "slug": "potato",
+    "name": "potato",
+    "rarity": 4,
+    "price": 95,
+    "stats": "+3 Max HP\n+2 HP Regeneration\n+1 % Life Steal\n+5 % Damage\n+5 % Attack Speed\n+3 % Speed\n+3 % Dodge\n+1 Armor\n+5 Luck",
+    "tags": [
+      "Max HP",
+      "HP Regeneration",
+      "Damage",
+      "Speed",
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "regeneration potion",
+    "slug": "regeneration-potion",
+    "name": "regeneration potion",
+    "rarity": 4,
+    "price": 90,
+    "stats": "HP Regeneration is doubled when you have less than 50% health\n+3 HP Regeneration",
+    "tags": [
+      "HP Regeneration"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "retromation’s hoodie",
+    "slug": "retromations-hoodie",
+    "name": "retromation’s hoodie",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+2 % Attack Speed for every 1 % Dodge you have\n-80 Range",
+    "tags": [
+      "Dodge"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "ricochet",
+    "slug": "ricochet",
+    "name": "ricochet",
+    "rarity": 4,
+    "price": 110,
+    "stats": "Your projectiles gain +1 bounce\n-25 % Damage",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "robot arm",
+    "slug": "robot-arm",
+    "name": "robot arm",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+3 Melee Damage at the end of a wave\n+3 Engineering at the end of a wave\n-1 Max HP at the end of a wave",
+    "tags": [
+      "Melee Damage",
+      "Engineering"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "scapegoat",
+    "slug": "scapegoat",
+    "name": "scapegoat",
+    "rarity": 4,
+    "price": 110,
+    "stats": "Spawns a Scapegoat pet that moves around the map and gets targeted by enemies instead of the player. When it dies, the player can revive it by standing next to it",
+    "tags": [
+      "Pet"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "seashell",
+    "slug": "seashell",
+    "name": "seashell",
+    "rarity": 4,
+    "price": 100,
+    "stats": "Every ranged weapon's 5th projectile has +3 projectiles\n-10 % Damage",
+    "tags": [
+      "Ranged Damage"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": true
+  },
+  {
+    "id": "sifd’s relic",
+    "slug": "sifds-relic",
+    "name": "sifd’s relic",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+3 Armor\n+100% chance to instantly attract a material when it’s dropped",
+    "tags": [
+      "Pickup",
+      "Armor"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "spider",
+    "slug": "spider",
+    "name": "spider",
+    "rarity": 4,
+    "price": 110,
+    "stats": "+12 % Damage\n+6 % Attack Speed for every different weapon you have\n-3 % Dodge\n-5 Harvesting",
+    "tags": [
+      "Damage",
+      "Attack Speed"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  },
+  {
+    "id": "torture",
+    "slug": "torture",
+    "name": "torture",
+    "rarity": 4,
+    "price": 100,
+    "stats": "+15 Max HP\nRestore 5 HP per second. Cannot heal any other way.",
+    "tags": [
+      "Max HP"
+    ],
+    "limit": 1,
+    "unique": true,
+    "isDlc": false
+  },
+  {
+    "id": "wolf helmet",
+    "slug": "wolf-helmet",
+    "name": "wolf helmet",
+    "rarity": 4,
+    "price": 90,
+    "stats": "+10 Elemental Damage\n+20 Luck\n-5 Engineering",
+    "tags": [
+      "Elemental Damage",
+      "Luck"
+    ],
+    "limit": null,
+    "unique": false,
+    "isDlc": false
+  }
+]

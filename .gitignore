@@ -1,0 +1,23 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.astro/
+.output/
+
+# 本地研究资料（wiki 原始模板，不随仓库发布）
+.research/
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*

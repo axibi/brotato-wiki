@@ -1,0 +1,105 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import CharacterCard from '@/components/CharacterCard.astro';
+import { characters, counts } from '@/lib/data';
+import { SITE } from '@/lib/site';
+
+const playTags = ['近战', '远程', '元素', '工程', '召唤', '坦克', '吸血', '闪避', '经济', '幸运', '多武器', '特殊机制', '挑战'];
+const starters = characters.filter((c) => c.difficulty <= 1);
+const starterPicks = starters.slice(0, 4);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: '土豆兄弟角色图鉴',
+  description: `收录 ${counts.characters} 名 Brotato 角色的初始属性、专属能力、优劣势与推荐玩法。`,
+  url: `${SITE.url}/characters`,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+};
+---
+
+<BaseLayout title="角色图鉴" description={`土豆兄弟全部 ${counts.characters} 名角色数据库：初始属性、专属能力、解锁条件、推荐武器与玩法难度，含 ${counts.dlcCharacters} 名 DLC 角色。`} jsonLd={jsonLd}>
+  <section class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ label: '角色图鉴' }]} />
+    <div class="mt-6 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <p class="eyebrow">Characters</p>
+        <h1 class="h-section">角色图鉴</h1>
+        <p class="lead mt-3 max-w-2xl">
+          共 <span class="font-semibold text-orange-2">{counts.characters}</span> 名角色，其中 {counts.dlcCharacters} 名来自 DLC。
+          每名角色都有独立的属性修正与专属机制，选对角色等于成功了一半。
+        </p>
+      </div>
+      <div class="flex gap-3">
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{counts.characters}</p>
+          <p class="mt-0.5 text-[11px] text-dim">角色总数</p>
+        </div>
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{counts.dlcCharacters}</p>
+          <p class="mt-0.5 text-[11px] text-dim">DLC 角色</p>
+        </div>
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{starters.length}</p>
+          <p class="mt-0.5 text-[11px] text-dim">新手友好</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap mt-8" data-filter-root>
+    <div class="card-flat sticky top-16 z-20 p-4 backdrop-blur-xl md:top-[68px]">
+      <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+        <div class="relative w-full lg:max-w-sm">
+          <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-dim" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input data-filter-search id="character-filter" name="q" class="field h-10 pl-10 text-[13px]" placeholder="搜索角色名 / 能力 / 标签" aria-label="搜索角色" />
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="阵营" data-value="base" aria-pressed="false">基础角色</button>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="阵营" data-value="dlc" aria-pressed="false">DLC 角色</button>
+          <span class="mx-1 hidden h-4 w-px bg-line sm:block"></span>
+          {playTags.map((t) => <button class="chip h-8 text-[12px]" data-facet-chip data-group="tag" data-value={t} aria-pressed="false">{t}</button>)}
+          <button data-filter-clear class="ml-1 text-[12px] text-dim underline underline-offset-3 transition hover:text-orange-2">重置</button>
+        </div>
+      </div>
+      <p class="mt-3 text-[11.5px] text-dim">
+        共 <span data-filter-count class="font-semibold text-orange-2">{characters.length}</span> 个角色 ·
+        点击标签可多选，组内为「或」，组间为「且」
+      </p>
+    </div>
+
+    <div class="mt-6 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {characters.map((c, i) => <CharacterCard c={c} index={i} />)}
+    </div>
+
+    <div data-filter-empty class="hidden py-20 text-center">
+      <p class="text-2xl">🥔</p>
+      <p class="mt-3 text-sm text-muted">没有符合条件的角色，试试换个标签。</p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="card-flat p-6 md:p-8">
+      <h2 class="text-lg font-bold text-cream">不知道从谁开始？</h2>
+      <p class="mt-2 max-w-2xl text-[13.5px] leading-relaxed text-muted">
+        全能者（Well Rounded）没有负面机制，最适合熟悉系统；游侠（Ranger）与拳手（Brawler）分别代表远程与近战的入门模板；
+        胖子（Chunky）则能让你直观理解「血量即伤害」的设计。先用这三四个角色打通危险 0，再逐步挑战更高难度。
+      </p>
+      <div class="mt-5 flex flex-wrap gap-2">
+        {starterPicks.map((s) => (
+          <a href={`/characters/${s.slug}`} class="btn h-9 text-[13px]">{s.nameZh} →</a>
+        ))}
+        <a href="/guides/beginner-guide" class="btn btn-primary h-9 text-[13px]">新手入门指南</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { initFilters } from '@/scripts/filter';
+  initFilters();
+</script>

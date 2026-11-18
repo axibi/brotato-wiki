@@ -1,0 +1,332 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import CharacterCard from '@/components/CharacterCard.astro';
+import WeaponCard from '@/components/WeaponCard.astro';
+import PixelSprite from '@/components/PixelSprite.astro';
+import { characters, weapons, items, counts } from '@/lib/data';
+import { SITE, CATEGORIES } from '@/lib/site';
+
+const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort((a, b) => a.data.order - b.data.order);
+const news = (await getCollection('news')).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const hotChars = ['well-rounded', 'ranger', 'brawler', 'chunky', 'mage', 'ghost']
+  .map((s) => characters.find((c) => c.slug === s))
+  .filter(Boolean);
+const hotWeapons = ['knife', 'smg', 'ghost-axe', 'flamethrower', 'minigun', 'potato-thrower']
+  .map((s) => weapons.find((w) => w.slug === s))
+  .filter(Boolean);
+const latestGuides = guides.slice(0, 3);
+const starterGuides = guides.filter((g) => ['入门', '机制'].includes(g.data.category)).slice(0, 4);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    alternateName: SITE.nameEn,
+    url: SITE.url,
+    description: SITE.description,
+    inLanguage: 'zh-CN',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE.url}/search?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'VideoGame',
+    name: 'Brotato',
+    alternateName: '土豆兄弟',
+    applicationCategory: 'Game',
+    genre: ['Roguelite', 'Arena Shooter'],
+    gamePlatform: ['PC', 'macOS', 'Linux', 'Nintendo Switch', 'PlayStation', 'Xbox', 'iOS', 'Android'],
+    publisher: { '@type': 'Organization', name: 'Blobfish' },
+    author: { '@type': 'Organization', name: 'Blobfish' },
+    datePublished: '2023-06-23',
+  },
+];
+---
+
+<BaseLayout jsonLd={jsonLd}>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="wrap relative grid gap-10 pb-10 pt-12 md:pt-20 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-6">
+      <div class="rise">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="tag tag-orange">资料基线 {SITE.version}</span>
+          <span class="tag">收录 {counts.characters} 角色 · {counts.weapons} 武器 · {counts.items} 道具</span>
+        </div>
+        <h1 class="mt-5 text-[38px] font-black leading-[1.08] tracking-tight md:text-[58px]">
+          在异星活下来，<br />
+          然后<span class="grad-text">变得离谱</span>。
+        </h1>
+        <p class="mt-5 max-w-xl text-[15px] leading-[1.9] text-muted">
+          一个土豆，六把武器，二十波外星怪物。《土豆兄弟》的乐趣藏在每一个数值决策里——
+          这里把角色、武器、道具与流派拆开讲清楚，让你从「能过」到「随便过」。
+        </p>
+
+        <form action="/search" method="get" class="mt-7 flex max-w-lg gap-2" role="search">
+          <label for="hero-q" class="sr-only">搜索</label>
+          <div class="relative flex-1">
+            <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-dim" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <input id="hero-q" name="q" class="field h-12 pl-11 text-[14px]" placeholder="搜索角色、武器、道具或攻略…" autocomplete="off" />
+          </div>
+          <button class="btn btn-primary h-12 px-5" type="submit">搜索</button>
+        </form>
+
+        <div class="mt-5 flex flex-wrap gap-2 text-[12px] text-dim">
+          <span>试试：</span>
+          {['拳手', '幽灵斧', '燃烧', '危险 5'].map((t) => (
+            <a href={`/search?q=${encodeURIComponent(t)}`} class="rounded border border-line px-2 py-0.5 transition hover:border-orange/50 hover:text-orange-2">{t}</a>
+          ))}
+        </div>
+      </div>
+
+      <div class="relative rise" style="animation-delay:120ms">
+        <div class="absolute -inset-6 -z-10 rounded-[36px] bg-orange/10 blur-3xl"></div>
+        <div class="card-flat relative overflow-hidden p-6">
+          <div class="flex items-start justify-between">
+            <div>
+              <p class="text-[11px] uppercase tracking-[0.2em] text-dim">Survivor</p>
+              <p class="mt-1 text-[18px] font-bold text-cream">全能者</p>
+              <p class="font-mono text-[11px] uppercase tracking-wider text-dim">Well Rounded</p>
+            </div>
+            <span class="tag tag-orange">新手推荐</span>
+          </div>
+
+          <div class="my-6 grid place-items-center">
+            <div class="relative grid h-[188px] w-[188px] place-items-center rounded-2xl border border-orange/25 bg-[radial-gradient(circle_at_50%_30%,rgba(255,122,26,0.18),transparent_65%)]">
+              <PixelSprite seed="well-rounded" kind="character" size={148} alt="全能者像素形象" class="float-y" />
+              <span class="pointer-events-none absolute inset-0 rounded-2xl bg-[repeating-linear-gradient(0deg,rgba(0,0,0,0.15)_0px,rgba(0,0,0,0.15)_1px,transparent_1px,transparent_4px)] opacity-40"></span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 border-t border-line pt-4 text-center">
+            <div><p class="font-mono text-[15px] font-bold text-cream">+5</p><p class="text-[10.5px] text-dim">最大生命</p></div>
+            <div><p class="font-mono text-[15px] font-bold text-cream">+5%</p><p class="text-[10.5px] text-dim">速度</p></div>
+            <div><p class="font-mono text-[15px] font-bold text-cream">+8</p><p class="text-[10.5px] text-dim">收获</p></div>
+          </div>
+          <a href="/characters/well-rounded" class="btn mt-4 h-9 w-full text-[13px]">查看角色详情 →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 数据条 -->
+    <div class="wrap pb-4">
+      <div class="grid grid-cols-2 gap-2 border-y border-line py-4 md:grid-cols-4">
+        {
+          [
+            { n: counts.characters, label: '角色', href: '/characters', sub: `含 ${counts.dlcCharacters} 名 DLC` },
+            { n: counts.weapons, label: '武器', href: '/weapons', sub: 'I – IV 阶全数值' },
+            { n: counts.items, label: '道具', href: '/items', sub: '含价格与代价' },
+            { n: guides.length, label: '攻略', href: '/guides', sub: '原创深度文章' },
+          ].map((s) => (
+            <a href={s.href} class="group flex items-baseline gap-2 px-2 py-2 transition hover:bg-white/[0.03]">
+              <span class="font-mono text-2xl font-bold text-orange-2 md:text-3xl">{s.n}</span>
+              <span class="text-[13px] text-cream">{s.label}</span>
+              <span class="ml-auto hidden text-[11px] text-dim md:block">{s.sub}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- 入口 -->
+  <section class="wrap section">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Database</p>
+        <h2 class="h-section">四座资料库</h2>
+      </div>
+      <a href="/about" class="hidden text-[12px] text-dim transition hover:text-orange-2 md:block">数据来源与版本说明 →</a>
+    </div>
+
+    <div class="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-4">
+      {
+        [
+          { href: '/characters', title: '角色图鉴', desc: '64 名角色的能力、优劣势与上手难度', n: counts.characters, icon: '🥔' },
+          { href: '/weapons', title: '武器图鉴', desc: '78 把武器的阶级数值与职业定位', n: counts.weapons, icon: '⚔️' },
+          { href: '/items', title: '道具图鉴', desc: '247 件道具的属性增减与隐藏代价', n: counts.items, icon: '📦' },
+          { href: '/guides', title: '攻略中心', desc: '从入门到危险 5 的完整路径', n: guides.length, icon: '📖' },
+        ].map((c) => (
+          <a href={c.href} class="card group flex flex-col p-5">
+            <span class="text-2xl">{c.icon}</span>
+            <h3 class="mt-3 text-[15px] font-bold text-cream transition group-hover:text-orange-2">{c.title}</h3>
+            <p class="mt-1.5 flex-1 text-[12px] leading-relaxed text-muted">{c.desc}</p>
+            <div class="mt-4 flex items-center justify-between border-t border-line pt-3">
+              <span class="font-mono text-[11px] text-dim">{c.n} 条</span>
+              <span class="text-[11px] text-orange-2 opacity-0 transition group-hover:opacity-100">进入 →</span>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- 游戏简介 -->
+  <section class="wrap section border-t border-line">
+    <div class="grid gap-10 lg:grid-cols-[1fr_420px] lg:gap-16">
+      <div>
+        <p class="eyebrow">About the game</p>
+        <h2 class="h-section">这游戏到底在玩什么</h2>
+        <div class="mt-5 space-y-4 text-[14px] leading-[1.95] text-muted">
+          <p>
+            你的飞船坠毁在一颗陌生星球上，救援要 20 波之后才到。你是一个土豆，能同时拿 6 把武器，
+            武器会自动开火——所以你需要操心的不是准星，而是<strong class="text-cream">拿什么、买什么、放弃什么</strong>。
+          </p>
+          <p>
+            每波之间进入商店，用敌人掉落的材料买武器与道具。两把同名同阶武器可以合成升阶；
+            同职业武器叠到一定数量会触发职业加成。角色各有专属机制：有的把血量当伤害，有的把护甲当伤害，
+            有的干脆不让你拿武器。
+          </p>
+          <p>
+            一局 20 波，大约 20~30 分钟。失败不会有永久惩罚，但会解锁新角色——所以「输」本身也是进度的一部分。
+          </p>
+        </div>
+
+        <div class="mt-7 grid gap-3 sm:grid-cols-2">
+          {
+            [
+              ['波次', '20 波标准局，每波 20~90 秒，第 20 波 Boss'],
+              ['武器', '默认 6 槽，同阶同名合成升阶'],
+              ['商店', '波间购买，刷新价格递增，可锁货'],
+              ['难度', '危险 0~5，DLC 追加梦魇难度'],
+            ].map(([k, v]) => (
+              <div class="rounded-xl border border-line bg-white/[0.02] p-4">
+                <p class="text-[11px] uppercase tracking-widest text-orange">{k}</p>
+                <p class="mt-1.5 text-[12.5px] leading-relaxed text-muted">{v}</p>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="space-y-3">
+        <p class="text-[11px] font-semibold uppercase tracking-[0.16em] text-dim">先读这几篇</p>
+        {
+          starterGuides.map((g, i) => (
+            <a href={`/guides/${g.id}`} class="card group flex items-start gap-3 p-4">
+              <span class="mt-0.5 font-mono text-[11px] text-orange/70">0{i + 1}</span>
+              <span class="min-w-0">
+                <span class="block text-[13.5px] font-medium leading-snug text-cream transition group-hover:text-orange-2">{g.data.title}</span>
+                <span class="mt-1 block text-[11.5px] text-dim">{g.data.category} · {g.data.reading} 分钟</span>
+              </span>
+            </a>
+          ))
+        }
+        <a href="/guides" class="btn h-10 w-full text-[13px]">全部 {guides.length} 篇攻略 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 热门角色 -->
+  <section class="wrap section border-t border-line">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Popular characters</p>
+        <h2 class="h-section">热门角色</h2>
+      </div>
+      <a href="/characters" class="text-[12px] text-dim transition hover:text-orange-2">全部 {counts.characters} 名 →</a>
+    </div>
+    <div class="mt-7 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+      {hotChars.map((c, i) => <CharacterCard c={c!} index={i} />)}
+    </div>
+  </section>
+
+  <!-- 热门武器 -->
+  <section class="wrap section border-t border-line">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="eyebrow">Popular weapons</p>
+        <h2 class="h-section">热门武器</h2>
+      </div>
+      <a href="/weapons" class="text-[12px] text-dim transition hover:text-orange-2">全部 {counts.weapons} 把 →</a>
+    </div>
+    <div class="mt-7 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3">
+      {hotWeapons.map((w, i) => <WeaponCard w={w!} index={i} />)}
+    </div>
+  </section>
+
+  <!-- 攻略 + 更新 -->
+  <section class="wrap section border-t border-line">
+    <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
+      <div>
+        <div class="flex items-end justify-between gap-4">
+          <div>
+            <p class="eyebrow">Latest guides</p>
+            <h2 class="text-[22px] font-extrabold tracking-tight text-cream md:text-[26px]">最新攻略</h2>
+          </div>
+          <a href="/guides" class="text-[12px] text-dim transition hover:text-orange-2">更多 →</a>
+        </div>
+        <div class="mt-5 grid gap-2.5">
+          {
+            latestGuides.map((g) => (
+              <a href={`/guides/${g.id}`} class="card group flex items-center gap-4 p-4">
+                <span class="tag tag-orange shrink-0">{g.data.category}</span>
+                <span class="min-w-0 flex-1">
+                  <span class="block truncate text-[14px] font-medium text-cream transition group-hover:text-orange-2">{g.data.title}</span>
+                  <span class="mt-0.5 line-clamp-1 block text-[11.5px] text-dim">{g.data.description}</span>
+                </span>
+                <span class="shrink-0 text-dim">→</span>
+              </a>
+            ))
+          }
+        </div>
+
+        <div class="mt-4 flex flex-wrap gap-2">
+          {CATEGORIES.map((c) => <a href="/guides" class="tag transition hover:border-orange/40 hover:text-orange-2">{c.label}</a>)}
+        </div>
+      </div>
+
+      <div>
+        <div class="flex items-end justify-between gap-4">
+          <div>
+            <p class="eyebrow">Updates</p>
+            <h2 class="text-[22px] font-extrabold tracking-tight text-cream md:text-[26px]">最近更新</h2>
+          </div>
+          <a href="/news" class="text-[12px] text-dim transition hover:text-orange-2">全部 →</a>
+        </div>
+        <div class="mt-5 space-y-2.5">
+          {
+            news.slice(0, 3).map((n) => (
+              <a href={`/news/${n.id}`} class="card block p-4">
+                <div class="flex items-center gap-2">
+                  <span class="font-mono text-[11px] text-orange-2">{n.data.version}</span>
+                  <span class="text-[10.5px] text-dim">{n.data.date.toISOString().slice(0, 10)}</span>
+                  <span class="ml-auto tag h-[19px] px-1.5 text-[10px]">{n.data.status}</span>
+                </div>
+                <p class="mt-2 text-[13px] font-medium leading-snug text-cream">{n.data.title}</p>
+              </a>
+            ))
+          }
+        </div>
+
+        <div class="card-flat mt-4 p-4">
+          <p class="text-[11px] uppercase tracking-widest text-dim">订阅</p>
+          <p class="mt-1.5 text-[12px] leading-relaxed text-muted">通过 RSS 跟踪新攻略与版本记录。</p>
+          <a href="/rss.xml" class="btn mt-3 h-9 w-full text-[12.5px]">RSS 订阅</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据说明 -->
+  <section class="wrap pb-20">
+    <div class="card-flat flex flex-col gap-4 p-6 md:flex-row md:items-center md:justify-between md:p-8">
+      <div>
+        <h2 class="text-[15px] font-bold text-cream">关于数据准确性</h2>
+        <p class="mt-2 max-w-2xl text-[12.5px] leading-relaxed text-muted">
+          站内数值整理自 Brotato Wiki 的结构化数据模板（页面标注 Patch 1.1.6.3），并按 {SITE.version} 版本整理。
+          2026 年的维护补丁以平衡性微调为主，未逐条核对的改动会标注「待核实」。攻略内容为本站原创整理。
+        </p>
+      </div>
+      <a href="/about" class="btn h-10 shrink-0 text-[13px]">查看来源与免责声明</a>
+    </div>
+  </section>
+</BaseLayout>

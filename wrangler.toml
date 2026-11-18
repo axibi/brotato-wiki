@@ -1,0 +1,8 @@
+name = "brotato-wiki"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-11-01"
+
+# Cloudflare Pages 构建配置（Dashboard 也可设置）
+# 构建命令：npm run build
+# 输出目录：dist
+# Node 版本：22

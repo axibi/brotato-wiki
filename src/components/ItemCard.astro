@@ -1,0 +1,41 @@
+---
+import PixelSprite from './PixelSprite.astro';
+import type { Item } from '@/lib/data';
+import { RARITY } from '@/lib/site';
+
+interface Props {
+  item: Item;
+  index?: number;
+}
+const { item, index = 0 } = Astro.props;
+const r = RARITY[item.rarity as 1 | 2 | 3 | 4];
+const first =
+  item.effects[0] ||
+  item.statsZh[0] ||
+  item.statLines.map((s) => `${s.term} ${s.value}`).join('　');
+const price = item.price != null && item.price > 1 ? item.price : '—';
+---
+
+<a
+  href={`/items/${item.slug}`}
+  class="card group flex gap-3 p-3.5"
+  data-filter-item
+  data-search={`${item.nameZh} ${item.name} ${first}`}
+  data-facet={`阵营:${item.isDlc ? 'dlc' : 'base'} rarity:${item.rarity} special:${item.effects.length ? 1 : 0}`}
+  style={`animation-delay:${Math.min(index, 30) * 16}ms`}
+>
+  <span class:list={['rarity-bar', item.rarity === 1 && 'bg-common', item.rarity === 2 && 'bg-uncommon', item.rarity === 3 && 'bg-rare', item.rarity === 4 && 'bg-legendary']}></span>
+  <div class="grid h-[52px] w-[52px] shrink-0 place-items-center rounded-lg border border-line bg-black/30">
+    <PixelSprite seed={item.slug} kind="item" rarity={item.rarity} size={40} alt={`${item.nameZh}图标`} />
+  </div>
+  <div class="min-w-0 flex-1">
+    <div class="flex items-center gap-1.5">
+      <h3 class="truncate text-[13.5px] font-bold text-cream transition group-hover:text-orange-2">{item.nameZh}</h3>
+      <span class:list={['tag h-[17px] px-1.5 text-[10px]', r.cls]}>{r.label}</span>
+      {item.isDlc && <span class="tag tag-dlc h-[17px] px-1.5 text-[10px]">DLC</span>}
+      <span class="ml-auto shrink-0 font-mono text-[11px] text-dim">{price}</span>
+    </div>
+    <p class="mt-1 line-clamp-2 text-[11.5px] leading-relaxed text-muted">{first}</p>
+    <p class="mt-0.5 truncate font-mono text-[10px] text-dim/80">{item.name}</p>
+  </div>
+</a>

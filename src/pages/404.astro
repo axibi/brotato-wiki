@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PixelSprite from '@/components/PixelSprite.astro';
+---
+
+<BaseLayout title="页面走丢了" description="这个页面不存在，可能已经被移动或删除。" noindex>
+  <section class="wrap grid min-h-[62vh] place-items-center py-20 text-center">
+    <div>
+      <div class="mx-auto grid h-[110px] w-[110px] place-items-center rounded-2xl border border-orange/25 bg-orange/[0.07]">
+        <PixelSprite seed="404-lost-potato" kind="character" size={84} alt="走丢的土豆" class="float-y" />
+      </div>
+      <p class="mt-6 font-mono text-[13px] tracking-[0.3em] text-orange">404</p>
+      <h1 class="mt-2 text-[28px] font-extrabold text-cream md:text-[36px]">这个土豆走丢了</h1>
+      <p class="mx-auto mt-3 max-w-md text-[13.5px] leading-relaxed text-muted">
+        页面不存在，或者链接已经失效。你可以回到首页，或者用搜索找找想看的内容。
+      </p>
+      <div class="mt-7 flex flex-wrap justify-center gap-2">
+        <a href="/" class="btn btn-primary h-10 text-[13px]">返回首页</a>
+        <a href="/characters" class="btn h-10 text-[13px]">角色图鉴</a>
+        <a href="/guides" class="btn h-10 text-[13px]">攻略中心</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

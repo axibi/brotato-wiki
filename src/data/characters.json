@@ -1,0 +1,3622 @@
+[
+  {
+    "slug": "old",
+    "name": "Old",
+    "nameZh": "老人",
+    "isDlc": false,
+    "tagline": "敌人变慢变少，地图缩小",
+    "ability": [
+      "敌人速度 -25%",
+      "收获 +10",
+      "地图 -33%",
+      "敌人数量 -10%",
+      "自身速度 -10%"
+    ],
+    "pros": [
+      "敌人变慢，走位压力大减",
+      "地图小，材料更好捡"
+    ],
+    "cons": [
+      "自身也变慢",
+      "输出端没有直接加成"
+    ],
+    "playstyle": "利用慢速敌人打消耗，适合近战站桩或工程布阵。",
+    "difficulty": 1,
+    "tags": [
+      "控场",
+      "稳健"
+    ],
+    "recommendedWeapons": [
+      "剪刀",
+      "扳手",
+      "菜刀"
+    ],
+    "recommendedItems": [
+      "蘑菇",
+      "盆栽"
+    ],
+    "unlock": "Kill 300 enemies",
+    "unlocks": "Snail",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Scissors",
+      "Screwdriver",
+      "Wrench",
+      "Rock",
+      "Plank",
+      "Chopper",
+      "Pruner",
+      "Double Barrel Shotgun",
+      "Revolver",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "-25% Enemy speed\n+10 Harvesting\n-33%Map Size\n-10% Enemies\n-10% Speed"
+  },
+  {
+    "slug": "well-rounded",
+    "name": "Well Rounded",
+    "nameZh": "全能者",
+    "isDlc": false,
+    "tagline": "没有短板的标准土豆，什么武器都能玩",
+    "ability": [
+      "最大生命 +5",
+      "速度 +5%",
+      "收获 +8"
+    ],
+    "pros": [
+      "无条件加属性，容错高",
+      "适合测试各种武器与流派",
+      "初始武器池最全"
+    ],
+    "cons": [
+      "没有爆发性的专属机制",
+      "后期上限依赖道具质量"
+    ],
+    "playstyle": "按商店给什么就走什么，优先补足伤害与生存两条主线。",
+    "difficulty": 1,
+    "tags": [
+      "均衡",
+      "新手推荐"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "手枪",
+      "幽灵燧石"
+    ],
+    "recommendedItems": [
+      "合金",
+      "咖啡"
+    ],
+    "unlock": "default",
+    "unlocks": "Potato",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Knife",
+      "Stick",
+      "Fist",
+      "Cacti Club",
+      "Ghost Flint",
+      "Wrench",
+      "Pistol",
+      "SMG",
+      "Double Barrel Shotgun",
+      "Slingshot",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Lute"
+    ],
+    "statsEn": "+5 Max Hp\n+5% Speed\n+8 Harvesting"
+  },
+  {
+    "slug": "brawler",
+    "name": "Brawler",
+    "nameZh": "拳手",
+    "isDlc": false,
+    "tagline": "徒手武器攻速翻倍，贴脸输出的莽夫",
+    "ability": [
+      "徒手武器攻速 +50%",
+      "初始携带 1 个拳头",
+      "闪避 +15%",
+      "射程 -50",
+      "远程伤害 -50"
+    ],
+    "pros": [
+      "徒手武器基础攻速高，DPS 起飞快",
+      "自带闪避，前中期很稳"
+    ],
+    "cons": [
+      "射程极短，必须贴脸",
+      "远程伤害被砍，几乎告别枪械"
+    ],
+    "playstyle": "堆近战伤害与攻速，用拳头/利爪快速叠打击数，靠闪避抗压。",
+    "difficulty": 1,
+    "tags": [
+      "近战",
+      "徒手",
+      "新手推荐"
+    ],
+    "recommendedWeapons": [
+      "拳头",
+      "利爪",
+      "强力拳套"
+    ],
+    "recommendedItems": [
+      "拳击手套",
+      "咖啡"
+    ],
+    "unlock": "default",
+    "unlocks": "Power Fist",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Hand",
+      "Claw"
+    ],
+    "statsEn": "+50% Attack Speed with Unarmed weapons\nYou start with 1 Fist\n+15% Dodge\n-50 Range\n-50 Ranged Damage"
+  },
+  {
+    "slug": "mutant",
+    "name": "Mutant",
+    "nameZh": "突变体",
+    "isDlc": false,
+    "tagline": "升级飞快，但物价上涨",
+    "ability": [
+      "升级所需经验 -66%",
+      "物品价格 +50%"
+    ],
+    "pros": [
+      "等级领先，属性点数量碾压",
+      "适合需要快速成型的构筑"
+    ],
+    "cons": [
+      "商店物价高，经济压力大"
+    ],
+    "playstyle": "靠等级优势滚属性，少买多打，优先高性价比道具。",
+    "difficulty": 1,
+    "tags": [
+      "成长",
+      "经济"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "长棍",
+      "冲锋枪"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "合金"
+    ],
+    "unlock": "Kill 2000 enemies",
+    "unlocks": "Octopus",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Cacti Club",
+      "Ghost Axe",
+      "Stick",
+      "Quarterstaff",
+      "Rock",
+      "Plank",
+      "Lightning Shiv",
+      "Double Barrel Shotgun",
+      "SMG",
+      "Revolver",
+      "Shredder",
+      "Crossbow",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Brick"
+    ],
+    "statsEn": "-66% XP required to level up\n+50% Items Price"
+  },
+  {
+    "slug": "ranger",
+    "name": "Ranger",
+    "nameZh": "游侠",
+    "isDlc": false,
+    "tagline": "标准远程模板，射程与远程伤害加成",
+    "ability": [
+      "射程 +50",
+      "初始携带 1 把手枪",
+      "远程伤害修正 +50%",
+      "无法装备近战武器",
+      "最大生命修正 -25%"
+    ],
+    "pros": [
+      "远程伤害成长快，枪械流首选",
+      "射程优势，走位空间大"
+    ],
+    "cons": [
+      "不能带近战武器",
+      "血量偏薄，怕贴脸"
+    ],
+    "playstyle": "全程枪械，优先射程/攻速/暴击，靠拉扯保持距离。",
+    "difficulty": 1,
+    "tags": [
+      "远程",
+      "枪械",
+      "新手推荐"
+    ],
+    "recommendedWeapons": [
+      "手枪",
+      "冲锋枪",
+      "激光枪"
+    ],
+    "recommendedItems": [
+      "瞄准镜",
+      "空心弹"
+    ],
+    "unlock": "default",
+    "unlocks": "Night Goggles",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Pistol",
+      "SMG",
+      "Revolver",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Shredder",
+      "Crossbow",
+      "Slingshot"
+    ],
+    "statsEn": "+50 Range\nYou start with 1 Pistol\nRanged Damage modifications are increased by 50%\nYou can't equip melee weapons\nMax HP modifications are reduced by 25%"
+  },
+  {
+    "slug": "sick",
+    "name": "Sick",
+    "nameZh": "病患",
+    "isDlc": false,
+    "tagline": "持续掉血，但吸血极高",
+    "ability": [
+      "最大生命 +12",
+      "生命偷取 +25%",
+      "每秒受到 1 点伤害",
+      "生命回复 -100"
+    ],
+    "pros": [
+      "吸血极高，输出即回血",
+      "血量池深"
+    ],
+    "cons": [
+      "无法自然回复，必须持续输出",
+      "走位断档容易暴毙"
+    ],
+    "playstyle": "高攻速武器维持吸血，堆最大生命抵消自伤。",
+    "difficulty": 2,
+    "tags": [
+      "吸血",
+      "高风险"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "利爪",
+      "医疗枪"
+    ],
+    "recommendedItems": [
+      "血蛭",
+      "肾上腺素"
+    ],
+    "unlock": "Reach -5 % HP Regeneration",
+    "unlocks": "Whetstone",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Scissors",
+      "Hatchet",
+      "Ghost Flint",
+      "Cacti Club",
+      "Lightning Shiv",
+      "Sharp Tooth",
+      "Pruner",
+      "Ghost Scepter",
+      "Slingshot",
+      "SMG",
+      "Medical Gun",
+      "Sickle"
+    ],
+    "statsEn": "+12 Max HP\n+25% Life Steal\nYou take 1 damage per second (does not give invulnerability time)\n-100 HP Regeneration"
+  },
+  {
+    "slug": "generalist",
+    "name": "Generalist",
+    "nameZh": "多面手",
+    "isDlc": false,
+    "tagline": "近战远程互相转化，3+3 混编",
+    "ability": [
+      "每 1 远程伤害提供 +2 近战伤害",
+      "每 2 近战伤害提供 +1 远程伤害",
+      "最多 3 把近战 + 3 把远程武器"
+    ],
+    "pros": [
+      "双属性互相喂养，属性利用率极高",
+      "混编武器池更宽"
+    ],
+    "cons": [
+      "武器槽被硬性拆分",
+      "需要同时找两类好武器"
+    ],
+    "playstyle": "3 近战 3 远程，堆任意一边都会反哺另一边。",
+    "difficulty": 2,
+    "tags": [
+      "混合",
+      "成长"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "冲锋枪",
+      "长矛"
+    ],
+    "recommendedItems": [
+      "合金",
+      "大手臂"
+    ],
+    "unlock": "Collect 2000 materials",
+    "unlocks": "Big Arms",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Cacti Club",
+      "Ghost Axe",
+      "Ghost Flint",
+      "Lightning Shiv",
+      "Knife",
+      "Scissors",
+      "Spear",
+      "Shuriken",
+      "Double Barrel Shotgun",
+      "SMG",
+      "Shredder",
+      "Revolver",
+      "Laser Gun",
+      "Slingshot",
+      "Ghost Scepter",
+      "Javelin"
+    ],
+    "statsEn": "+2 Melee Damage for every 1 Ranged Damage you have\n+1 Ranged Damage for every 2 Melee Damage you have\nYou can only equip 3 melee weapons and 3 ranged weapons at a time"
+  },
+  {
+    "slug": "mage",
+    "name": "Mage",
+    "nameZh": "法师",
+    "isDlc": false,
+    "tagline": "元素伤害专精，蛇与香肠开局",
+    "ability": [
+      "元素伤害修正 +25%",
+      "初始携带 1 条蛇、1 根受惊香肠",
+      "近战伤害修正 -100%",
+      "远程伤害修正 -100%",
+      "工程修正 -50%"
+    ],
+    "pros": [
+      "元素伤害成长极高",
+      "燃烧/元素流派成型快"
+    ],
+    "cons": [
+      "近战与远程伤害完全吃不到加成",
+      "依赖元素类武器"
+    ],
+    "playstyle": "火把/法杖/冰锥堆元素伤害，用燃烧持续伤害清场。",
+    "difficulty": 2,
+    "tags": [
+      "元素",
+      "燃烧"
+    ],
+    "recommendedWeapons": [
+      "火把",
+      "法杖",
+      "冰锥"
+    ],
+    "recommendedItems": [
+      "沸水",
+      "燃料罐"
+    ],
+    "unlock": "default",
+    "unlocks": "Thunder Sword",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Wand",
+      "Torch",
+      "Plank",
+      "Taser",
+      "Lightning Shiv",
+      "Icicle",
+      "SMG",
+      "Double Barrel Shotgun"
+    ],
+    "statsEn": "Elemental Damage modifications are increased by 25%\nYou start with 1 Snake\nYou start with 1 Scared Sausage\nMelee Damage Modifications are reduced by -100%\nRanged Damage Modifications are reduced by -100%"
+  },
+  {
+    "slug": "crazy",
+    "name": "Crazy",
+    "nameZh": "疯子",
+    "isDlc": false,
+    "tagline": "精准武器射程翻倍，高速小刀刺客",
+    "ability": [
+      "精准武器射程 +100",
+      "攻速 +25%",
+      "初始携带 1 把小刀",
+      "闪避 -30%",
+      "工程 -10",
+      "远程伤害 -10"
+    ],
+    "pros": [
+      "初始攻速极高，清小怪快",
+      "精准武器射程优势明显"
+    ],
+    "cons": [
+      "闪避被砍，容错低",
+      "工程与远程伤害双负，构筑受限"
+    ],
+    "playstyle": "小刀/闪电刀起手，堆暴击与近战伤害，靠高攻速滚雪球。",
+    "difficulty": 2,
+    "tags": [
+      "近战",
+      "精准",
+      "高攻速"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "闪电刀",
+      "剪刀"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "眼罩"
+    ],
+    "unlock": "default",
+    "unlocks": "Hunting Trophy",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Knife",
+      "Thief Dagger",
+      "Scissors",
+      "Lightning Shiv",
+      "Claw",
+      "Sharp Tooth",
+      "Shuriken",
+      "Icicle"
+    ],
+    "statsEn": "+100 Range with Precise weapons\n+25% Attack Speed\nYou start with 1 Knife\n-30% Dodge\n-10 Engineering\n-10 Ranged Damage"
+  },
+  {
+    "slug": "engineer",
+    "name": "Engineer",
+    "nameZh": "工程师",
+    "isDlc": false,
+    "tagline": "炮塔流鼻祖，结构物聚集",
+    "ability": [
+      "工程 +10",
+      "工程修正 +25%",
+      "初始携带 1 把扳手",
+      "结构物集中生成",
+      "伤害修正 -50%"
+    ],
+    "pros": [
+      "工程成长快，炮塔伤害高",
+      "可以边跑边打"
+    ],
+    "cons": [
+      "本体伤害减半，完全依赖结构",
+      "炮塔怕被清"
+    ],
+    "playstyle": "扳手/螺丝刀铺炮塔，堆工程与结构攻速。",
+    "difficulty": 2,
+    "tags": [
+      "工程",
+      "召唤"
+    ],
+    "recommendedWeapons": [
+      "扳手",
+      "螺丝刀",
+      "木板"
+    ],
+    "recommendedItems": [
+      "齿轮",
+      "激光炮塔"
+    ],
+    "unlock": "Get 5 turrets on the map simultaneously",
+    "unlocks": "Robot Arm",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Wrench",
+      "Screwdriver",
+      "Plank",
+      "Hammer"
+    ],
+    "statsEn": "+10 Engineering\nEngineering modifications are increased by 25%\nYou start with 1 Wrench\nStructures spawn close to each other\nDamage modifications are reduced by 50%"
+  },
+  {
+    "slug": "hunter",
+    "name": "Hunter",
+    "nameZh": "猎人",
+    "isDlc": false,
+    "tagline": "射程转伤害，越远越痛",
+    "ability": [
+      "射程 +100",
+      "每 10 射程 +1% 伤害",
+      "暴击修正 +25%",
+      "收获修正 -100%",
+      "最大生命修正 -33%"
+    ],
+    "pros": [
+      "射程与暴击双收益",
+      "远程安全输出"
+    ],
+    "cons": [
+      "没有收获，经济吃紧",
+      "血量薄"
+    ],
+    "playstyle": "堆射程与暴击，用狙击枪/十字弩在远处点名。",
+    "difficulty": 2,
+    "tags": [
+      "远程",
+      "暴击"
+    ],
+    "recommendedWeapons": [
+      "狙击枪",
+      "十字弩",
+      "标枪"
+    ],
+    "recommendedItems": [
+      "瞄准镜",
+      "夜视镜"
+    ],
+    "unlock": "Reach +300 Range",
+    "unlocks": "Sniper Gun",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Cacti Club",
+      "Thief Dagger",
+      "Spear",
+      "Claw",
+      "Scissors",
+      "Shuriken",
+      "Double Barrel Shotgun",
+      "Crossbow",
+      "Icicle",
+      "Hiking Pole",
+      "Javelin"
+    ],
+    "statsEn": "+100 Range\n+1% Damage for every 10 Range you have\nCrit Chance modifications are increased by 25%\nHarvesting modifications are reduced by 100%\nMax HP modifications are reduced by 33%"
+  },
+  {
+    "slug": "farmer",
+    "name": "Farmer",
+    "nameZh": "农夫",
+    "isDlc": false,
+    "tagline": "收获滚雪球，越后期越富",
+    "ability": [
+      "收获 +20",
+      "每波结束收获额外 +3%",
+      "满血吃消耗品 +1 收获",
+      "材料掉落 -50%"
+    ],
+    "pros": [
+      "收获成长曲线极强",
+      "消耗品转收获，越打越富"
+    ],
+    "cons": [
+      "材料掉落减半，前期穷",
+      "输出端没有加成"
+    ],
+    "playstyle": "堆收获与消耗品掉落，靠经济优势在中期一波起飞。",
+    "difficulty": 2,
+    "tags": [
+      "经济",
+      "成长"
+    ],
+    "recommendedWeapons": [
+      "长矛",
+      "土豆发射器",
+      "修枝剪"
+    ],
+    "recommendedItems": [
+      "化肥",
+      "水果篮"
+    ],
+    "unlock": "Reach +200 Harvesting",
+    "unlocks": "Wheat",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Hand",
+      "Spear",
+      "Stick",
+      "Torch",
+      "Quarterstaff",
+      "Screwdriver",
+      "Pruner",
+      "Thief Dagger",
+      "Wrench",
+      "Taser",
+      "Wand",
+      "Double Barrel Shotgun",
+      "Slingshot",
+      "Potato Thrower",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "+20 Harvesting\nHarvesting increases by an additional 3% at the end of a wave\n+1 Harvesting when eating a consumable while at full health"
+  },
+  {
+    "slug": "chunky",
+    "name": "Chunky",
+    "nameZh": "胖子",
+    "isDlc": false,
+    "tagline": "血越厚伤害越高，但不能靠吸血",
+    "ability": [
+      "最大生命修正 +25%",
+      "每 3 点最大生命 +1% 伤害",
+      "消耗品回复 +3 生命",
+      "生命偷取 -100%",
+      "生命回复修正 -50%",
+      "闪避修正 -50%",
+      "速度修正 -100%"
+    ],
+    "pros": [
+      "血量转伤害，越肉越痛",
+      "消耗品回血效率高"
+    ],
+    "cons": [
+      "完全无法移动加速",
+      "闪避与吸血都被封死"
+    ],
+    "playstyle": "狂堆最大生命，用高血量支撑伤害，靠消耗品与回复续航。",
+    "difficulty": 2,
+    "tags": [
+      "坦克",
+      "血量流"
+    ],
+    "recommendedWeapons": [
+      "菜刀",
+      "幽灵斧",
+      "尖刺盾"
+    ],
+    "recommendedItems": [
+      "外星宝宝",
+      "章鱼"
+    ],
+    "unlock": "Die for the first time",
+    "unlocks": "Potato Thrower",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Cacti Club",
+      "Rock",
+      "Stick",
+      "Torch",
+      "Plank",
+      "Chopper",
+      "Pruner",
+      "Spiky Shield",
+      "Double Barrel Shotgun",
+      "Taser",
+      "Ghost Scepter",
+      "Shredder",
+      "Revolver",
+      "Spoon"
+    ],
+    "statsEn": "Max HP modifications are increased by 25%\n+1% Damage for every 3 Max HP you have\n+3 HP recovered from consumables\n-100% Life Steal\nHP Regeneration modifications are reduced by 50%\nDodge modifications are reduced by 50%\nSpeed modifications are reduced by 100%"
+  },
+  {
+    "slug": "hiker",
+    "name": "Hiker",
+    "nameZh": "徒步者",
+    "isDlc": true,
+    "tagline": "走路赚钱，步数换血量",
+    "ability": [
+      "每走 10 步获得 5 材料",
+      "每走 80 步 +1 最大生命",
+      "速度修正 +10%",
+      "速度 -5%",
+      "材料掉落 -50%"
+    ],
+    "pros": [
+      "移动即收益，鼓励走位",
+      "血量成长稳定"
+    ],
+    "cons": [
+      "站桩没有收益",
+      "材料掉落减半"
+    ],
+    "playstyle": "全程绕圈走位，堆速度与拾取范围。",
+    "difficulty": 2,
+    "tags": [
+      "机动",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "登山杖",
+      "鲁特琴",
+      "手枪"
+    ],
+    "recommendedItems": [
+      "手推车",
+      "运动鞋"
+    ],
+    "unlock": "Walk a total of 20000 steps",
+    "unlocks": "Scarf",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Hiking Pole",
+      "Fist",
+      "Hand",
+      "Lute",
+      "Flute",
+      "Thief Dagger",
+      "Jousting Lance",
+      "Stick",
+      "Pistol",
+      "Taser"
+    ],
+    "statsEn": "Earn 5 materials for every 10 steps you take during a wave\n+1 Max HP for every 80 steps you take during a wave\n% Speed modifications are increased by 10%\n-5 % Speed\n-50% materials dropped"
+  },
+  {
+    "slug": "lucky",
+    "name": "Lucky",
+    "nameZh": "幸运儿",
+    "isDlc": false,
+    "tagline": "幸运值爆炸，捡材料就能打伤害",
+    "ability": [
+      "幸运 +100",
+      "幸运修正 +25%",
+      "拾取材料时 75% 概率造成伤害",
+      "攻速 -60%",
+      "经验 -50%"
+    ],
+    "pros": [
+      "幸运相关道具收益极高",
+      "捡材料自动输出，清杂兵省心"
+    ],
+    "cons": [
+      "攻速大幅下降",
+      "升级慢，成长曲线靠后"
+    ],
+    "playstyle": "堆幸运与拾取范围，用材料触发伤害，武器只作补充。",
+    "difficulty": 2,
+    "tags": [
+      "幸运",
+      "经济"
+    ],
+    "recommendedWeapons": [
+      "弹弓",
+      "法杖",
+      "长笛"
+    ],
+    "recommendedItems": [
+      "幸运符",
+      "四叶草"
+    ],
+    "unlock": "Collect 300 materials",
+    "unlocks": "Lucky Charm",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Stick",
+      "Rock",
+      "Fist",
+      "Chopper",
+      "Plank",
+      "Screwdriver",
+      "Jousting Lance",
+      "Torch",
+      "Pruner",
+      "Slingshot",
+      "Wand",
+      "Icicle",
+      "Lute",
+      "Flute"
+    ],
+    "statsEn": "+100 Luck\nLuck modifications are increased by 25%\n+75% chance to deal 1 (15%Luck) damage to a random enemy when you pick up a material\n-60% Attack Speed\n-50% XP Gain"
+  },
+  {
+    "slug": "loud",
+    "name": "Loud",
+    "nameZh": "喧闹者",
+    "isDlc": false,
+    "tagline": "伤害高、敌人多，越打越穷",
+    "ability": [
+      "伤害 +30%",
+      "敌人数量 +50%",
+      "每波结束收获 -3"
+    ],
+    "pros": [
+      "无条件高伤害",
+      "敌人多意味着材料与经验更多"
+    ],
+    "cons": [
+      "收获持续衰减，后期经济差",
+      "场面压力大"
+    ],
+    "playstyle": "前期靠伤害快速清场，中期补收获与范围伤害。",
+    "difficulty": 2,
+    "tags": [
+      "输出",
+      "高压"
+    ],
+    "recommendedWeapons": [
+      "菜刀",
+      "幽灵斧",
+      "双管霰弹枪"
+    ],
+    "recommendedItems": [
+      "肾上腺素",
+      "咖啡"
+    ],
+    "unlock": "Kill 5000 enemies",
+    "unlocks": "Rip and Tear",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Cacti Club",
+      "Ghost Axe",
+      "Ghost Flint",
+      "Lightning Shiv",
+      "Thief Dagger",
+      "Claw",
+      "Spear",
+      "Torch",
+      "Rock",
+      "Hatchet",
+      "Plank",
+      "Wrench",
+      "Jousting Lance",
+      "Quarterstaff",
+      "Pruner",
+      "Screwdriver",
+      "Double Barrel Shotgun",
+      "Pistol",
+      "SMG",
+      "Shredder",
+      "Icicle",
+      "Shuriken",
+      "Slingshot",
+      "Crossbow",
+      "Javelin"
+    ],
+    "statsEn": "+30% Damage\n+50% Enemies\n-3 Harvesting at the end of a wave"
+  },
+  {
+    "slug": "apprentice",
+    "name": "Apprentice",
+    "nameZh": "学徒",
+    "isDlc": false,
+    "tagline": "升级自动加四系属性",
+    "ability": [
+      "升级时 +2 近战 / +1 远程 / +1 元素 / +1 工程",
+      "升级时 -2 最大生命"
+    ],
+    "pros": [
+      "属性成长全面，任何武器都能用",
+      "等级即战力"
+    ],
+    "cons": [
+      "血量越升越少",
+      "需要快速升级"
+    ],
+    "playstyle": "狂刷等级，用多属性混合武器吃满加成，补生命道具。",
+    "difficulty": 2,
+    "tags": [
+      "成长",
+      "混合"
+    ],
+    "recommendedWeapons": [
+      "长棍",
+      "幽灵斧",
+      "冲锋枪"
+    ],
+    "recommendedItems": [
+      "外星宝宝",
+      "咖啡"
+    ],
+    "unlock": "Reach level 20",
+    "unlocks": "Quarterstaff",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Knife",
+      "Lightning Shiv",
+      "Cacti Club",
+      "Quarterstaff",
+      "Ghost Flint",
+      "Ghost Axe",
+      "Hatchet",
+      "Torch",
+      "Plank",
+      "Pruner",
+      "Screwdriver",
+      "Wrench",
+      "Medical Gun",
+      "SMG",
+      "Double Barrel Shotgun",
+      "Shredder",
+      "Slingshot",
+      "Taser",
+      "Icicle",
+      "Shuriken",
+      "Ghost Scepter",
+      "Brick"
+    ],
+    "statsEn": "+2 Melee Damage when you level up\n+1 Ranged Damage when you level up\n+1 Elemental Damage when you level up\n+1 Engineering when you level up\n-2 Max HP when you level up"
+  },
+  {
+    "slug": "wildling",
+    "name": "Wildling",
+    "nameZh": "野人",
+    "isDlc": false,
+    "tagline": "原始武器吸血，只用低阶武器",
+    "ability": [
+      "原始武器生命偷取 +30%",
+      "初始携带 1 根木棍",
+      "无法装备 2 阶以上武器"
+    ],
+    "pros": [
+      "原始武器吸血极高，续航强",
+      "低阶武器便宜，成型快"
+    ],
+    "cons": [
+      "武器无法升到高阶",
+      "后期面板吃紧"
+    ],
+    "playstyle": "木棍/长矛/火把铺场，靠吸血硬抗，堆近战伤害。",
+    "difficulty": 2,
+    "tags": [
+      "近战",
+      "吸血"
+    ],
+    "recommendedWeapons": [
+      "木棍",
+      "长矛",
+      "火把"
+    ],
+    "recommendedItems": [
+      "蝙蝠",
+      "生肉"
+    ],
+    "unlock": "Kill 10000 enemies",
+    "unlocks": "Hatchet",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Stick",
+      "Spear",
+      "Torch",
+      "Rock",
+      "Cacti Club",
+      "Hatchet",
+      "Quarterstaff",
+      "Sharp Tooth",
+      "Slingshot",
+      "Javelin"
+    ],
+    "statsEn": "+30% Life Steal with Primitive weapons\nYou start with 1 Stick\nYou can't equip weapons above tier 2"
+  },
+  {
+    "slug": "doctor",
+    "name": "Doctor",
+    "nameZh": "医生",
+    "isDlc": false,
+    "tagline": "医疗武器攻速爆炸，靠回复撑场",
+    "ability": [
+      "医疗武器攻速 +200%",
+      "生命回复 +5",
+      "生命回复修正 +100%",
+      "收获 +5",
+      "攻速 -100%",
+      "护甲修正 -50%"
+    ],
+    "pros": [
+      "医疗武器输出与治疗兼顾",
+      "回复属性成长极高"
+    ],
+    "cons": [
+      "非医疗武器攻速归零",
+      "护甲成长减半"
+    ],
+    "playstyle": "剪刀/医疗枪为主，堆生命回复把治疗转成伤害。",
+    "difficulty": 2,
+    "tags": [
+      "医疗",
+      "续航"
+    ],
+    "recommendedWeapons": [
+      "剪刀",
+      "医疗枪",
+      "圆锯"
+    ],
+    "recommendedItems": [
+      "急救包",
+      "医疗炮塔"
+    ],
+    "unlock": "Heal 200 HP in one wave",
+    "unlocks": "Medikit",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Scissors",
+      "Medical Gun"
+    ],
+    "statsEn": "+200% Attack Speed with Medical weapons\n+5 HP Regeneration\nHP Regeneration modifications are increased by 100%\n+5 Harvesting\n-100% Attack Speed\nArmor modifications are reduced by 50%"
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "nameZh": "幽灵",
+    "isDlc": false,
+    "tagline": "闪避上限 90%，虚灵武器专精",
+    "ability": [
+      "虚灵武器伤害 +10",
+      "闪避 +30%",
+      "闪避上限 90%",
+      "护甲 -100"
+    ],
+    "pros": [
+      "闪避上限极高，后期几乎无敌",
+      "虚灵武器加成"
+    ],
+    "cons": [
+      "护甲被清零",
+      "怕无法闪避的伤害"
+    ],
+    "playstyle": "堆闪避到 80%+，配虚灵武器与闪避触发类道具。",
+    "difficulty": 2,
+    "tags": [
+      "闪避",
+      "虚灵"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "幽灵燧石",
+      "幽灵权杖"
+    ],
+    "recommendedItems": [
+      "幽灵装",
+      "变色龙"
+    ],
+    "unlock": "Reach +60% Dodge",
+    "unlocks": "Ritual",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Ghost Flint",
+      "Ghost Axe",
+      "Ghost Scepter"
+    ],
+    "statsEn": "+10 Damage with Ethereal weapons\n+30% Dodge\nDodge is capped at 90%\n-100 Armor"
+  },
+  {
+    "slug": "fisherman",
+    "name": "Fisherman",
+    "nameZh": "渔夫",
+    "isDlc": false,
+    "tagline": "鱼饵换收获，越钓越富",
+    "ability": [
+      "最大生命 +5",
+      "收获 +20",
+      "商店必卖鱼饵",
+      "鱼饵免费",
+      "每 1 个鱼饵 +2 收获",
+      "鱼饵会招来特殊敌人",
+      "材料掉落 -50%"
+    ],
+    "pros": [
+      "收获成长极高",
+      "鱼饵免费，滚经济快"
+    ],
+    "cons": [
+      "特殊敌人增加压力",
+      "材料掉落减半"
+    ],
+    "playstyle": "大量买鱼饵堆收获，用高收获支撑中期爆发。",
+    "difficulty": 2,
+    "tags": [
+      "经济",
+      "成长"
+    ],
+    "recommendedWeapons": [
+      "长矛",
+      "鱼叉炮",
+      "十字弩"
+    ],
+    "recommendedItems": [
+      "鱼饵",
+      "鱼钩"
+    ],
+    "unlock": "Get 2 Bait during a run",
+    "unlocks": "Lure",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Knife",
+      "Rock",
+      "Spear",
+      "Quarterstaff",
+      "Spiky Shield",
+      "Torch",
+      "Stick",
+      "Sharp Tooth",
+      "Plank",
+      "Pruner",
+      "Scissors",
+      "Pistol",
+      "SMG",
+      "Crossbow",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Revolver",
+      "Shredder",
+      "Slingshot",
+      "Icicle",
+      "Javelin"
+    ],
+    "statsEn": "+5 Max HP\n+20 Harvesting\nShops always sell a Bait\n-100% Bait price\n+2 Harvesting for every 1 Bait you have\nBaits make some special enemies spawn throughout all future waves\n-50% materials dropped from enemies"
+  },
+  {
+    "slug": "dwarf",
+    "name": "Dwarf",
+    "nameZh": "矮人",
+    "isDlc": true,
+    "tagline": "近战群杀转工程，工程转近战",
+    "ability": [
+      "单次近战击杀 6+ 敌人 +1 工程",
+      "每 2 点永久工程 +1 近战伤害",
+      "无法装备远程武器",
+      "闪避 -20%",
+      "攻速 -100%",
+      "攻速修正 -50%"
+    ],
+    "pros": [
+      "近战与工程互转，双成长",
+      "群杀收益高"
+    ],
+    "cons": [
+      "攻速极低",
+      "必须打出群杀"
+    ],
+    "playstyle": "用重武器打群杀叠工程，再靠工程反哺近战伤害。",
+    "difficulty": 3,
+    "tags": [
+      "近战",
+      "工程",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "锤子",
+      "钉头锤",
+      "砖块"
+    ],
+    "recommendedItems": [
+      "齿轮",
+      "扳手"
+    ],
+    "unlock": "Hit at least 25 enemies with a single melee attack",
+    "unlocks": "War Hammer",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Hammer",
+      "Wrench",
+      "Brick",
+      "Mace"
+    ],
+    "statsEn": "+1 Engineering when killing at least 6 enemies with a direct weapon hit\n+1 Melee Damage for every permanent 2 Engineering you have\nYou can't equip ranged weapons\n-20 % Dodge\n-100 % Attack Speed\n% Attack Speed modifications are reduced by 50%"
+  },
+  {
+    "slug": "glutton",
+    "name": "Glutton",
+    "nameZh": "暴食者",
+    "isDlc": false,
+    "tagline": "吃消耗品就爆炸",
+    "ability": [
+      "幸运 +50",
+      "满血吃消耗品 +1% 爆炸伤害",
+      "消耗品 100% 概率爆炸",
+      "物品价格 +25%",
+      "经验 -25%"
+    ],
+    "pros": [
+      "消耗品变范围伤害，清场强",
+      "幸运高，掉落好"
+    ],
+    "cons": [
+      "物价高、升级慢",
+      "需要大量消耗品"
+    ],
+    "playstyle": "堆幸运与消耗品掉落，用吃水果触发爆炸清屏。",
+    "difficulty": 3,
+    "tags": [
+      "爆炸",
+      "幸运"
+    ],
+    "recommendedWeapons": [
+      "菜刀",
+      "修枝剪",
+      "勺子"
+    ],
+    "recommendedItems": [
+      "水果篮",
+      "柠檬水"
+    ],
+    "unlock": "Pick up 20 consumables during a run",
+    "unlocks": "Spicy Sauce",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Pruner",
+      "Chopper",
+      "Thief Dagger",
+      "Fist",
+      "Jousting Lance",
+      "Screwdriver",
+      "Plank",
+      "Shredder",
+      "Lute",
+      "Spoon",
+      "Flute"
+    ],
+    "statsEn": "+50 Luck\n+1 % Explosion Damage when picking up a consumable while at maximum health\nConsumable have a 100% chance to explode for 10 (500% Melee Damage) damage when picked up\n+25 % Items Price\n-25 % XP Gain"
+  },
+  {
+    "slug": "chef",
+    "name": "Chef",
+    "nameZh": "厨师",
+    "isDlc": true,
+    "tagline": "燃烧增伤，消耗品爆炸",
+    "ability": [
+      "幸运 +35",
+      "对燃烧目标非元素伤害 +200%",
+      "消耗品爆炸造成燃烧伤害",
+      "初始携带 1 根受惊香肠",
+      "敌人生命 +100%",
+      "元素伤害修正 -75%"
+    ],
+    "pros": [
+      "燃烧目标一刀秒",
+      "幸运高，掉落好"
+    ],
+    "cons": [
+      "敌人血量翻倍",
+      "元素伤害成长差"
+    ],
+    "playstyle": "先用火把点火，再用高物理伤害武器收割。",
+    "difficulty": 3,
+    "tags": [
+      "燃烧",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "勺子",
+      "菜刀",
+      "火把"
+    ],
+    "recommendedItems": [
+      "受惊香肠",
+      "辣酱"
+    ],
+    "unlock": "Have at least 25 enemies burning at the same time",
+    "unlocks": "Spoon",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Spoon",
+      "Chopper",
+      "Fist",
+      "Knife",
+      "Hatchet",
+      "Stick",
+      "Torch",
+      "Screwdriver",
+      "Wrench",
+      "Plank",
+      "Pruner",
+      "Cacti Club",
+      "Wand"
+    ],
+    "statsEn": "+35 Luck\n+200% damage from non elemental sources against burning targets\nConsumables explode for 5x1 (+100%Elemental Damage) burning damage when picked up\nYou start with 1 Scared Sausage\n+100 % Enemy health\nElemental Damage modifications are reduced by 75%"
+  },
+  {
+    "slug": "saver",
+    "name": "Saver",
+    "nameZh": "储蓄者",
+    "isDlc": false,
+    "tagline": "存款越多伤害越高",
+    "ability": [
+      "收获 +15",
+      "每 25 材料 +1% 伤害",
+      "初始携带 1 个存钱罐",
+      "物品与武器价格 +50%"
+    ],
+    "pros": [
+      "材料直接转伤害，滚雪球强",
+      "存钱罐开局"
+    ],
+    "cons": [
+      "物价高，前期很难买东西",
+      "花钱就等于掉伤害"
+    ],
+    "playstyle": "极度克制消费，只在关键节点购买，靠存款堆伤害。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "成长"
+    ],
+    "recommendedWeapons": [
+      "菜刀",
+      "手枪",
+      "激光枪"
+    ],
+    "recommendedItems": [
+      "存钱罐",
+      "优惠券"
+    ],
+    "unlock": "Collect 20000 materials",
+    "unlocks": "Padding",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Chopper",
+      "Thief Dagger",
+      "Ghost Flint",
+      "Pruner",
+      "Lightning Shiv",
+      "Cacti Club",
+      "Spear",
+      "Pistol",
+      "Revolver",
+      "Laser Gun",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "+15 Harvesting\n+1% Damage for every 25 Materials you have\nYou start with 1 Piggy Bank\n+50% Item & Weapon Price"
+  },
+  {
+    "slug": "druid",
+    "name": "Druid",
+    "nameZh": "德鲁伊",
+    "isDlc": true,
+    "tagline": "水果流，吃水果叠幸运",
+    "ability": [
+      "最大生命 +5",
+      "幸运 +15",
+      "敌人更容易掉落水果",
+      "拾取水果 33% 概率 +1 幸运",
+      "33% 水果有毒（无视闪避与护甲）",
+      "生命回复 -100",
+      "生命偷取 -100%",
+      "工程修正 -50%"
+    ],
+    "pros": [
+      "幸运与水果循环成长",
+      "水果产量高"
+    ],
+    "cons": [
+      "无法回血与吸血",
+      "毒水果会反伤"
+    ],
+    "playstyle": "堆幸运与水果掉落，用高幸运走暴击流。",
+    "difficulty": 3,
+    "tags": [
+      "幸运",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "长笛",
+      "修枝剪",
+      "长矛"
+    ],
+    "recommendedItems": [
+      "水果篮",
+      "三叶草"
+    ],
+    "unlock": "Collect 250 consumables by the end of wave 20",
+    "unlocks": "Cauldron",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Claw",
+      "Ghost Flint",
+      "Cacti Club",
+      "Rock",
+      "Chopper",
+      "Quarterstaff",
+      "Pruner",
+      "Sickle",
+      "Lute",
+      "Stick",
+      "Spear",
+      "Torch",
+      "Flute",
+      "Slingshot",
+      "Ghost Scepter",
+      "Icicle",
+      "Wand",
+      "Javelin"
+    ],
+    "statsEn": "+5 Max HP\n+15 Luck\nEnemies have a higher chance of dropping fruits\n33% chance to get +1 Luck when you pick up a fruit\n33% of fruits are poisoned and hurt you (ignores Dodge and Armor)\n-100 HP Regeneration\n-100 % Life Steal\nEngineering modifications are reduced by 50%"
+  },
+  {
+    "slug": "one-armed",
+    "name": "One Armed",
+    "nameZh": "独臂侠",
+    "isDlc": false,
+    "tagline": "只能用一把武器，但攻速翻三倍",
+    "ability": [
+      "攻速 +200%",
+      "伤害修正 +100%",
+      "同时只能装备 1 把武器"
+    ],
+    "pros": [
+      "单武器攻速与伤害极高",
+      "资源集中，养一把神装"
+    ],
+    "cons": [
+      "只有一个攻击方向",
+      "清群怪能力差"
+    ],
+    "playstyle": "选一把高基础武器养到四阶，堆攻速与暴击。",
+    "difficulty": 3,
+    "tags": [
+      "单体",
+      "极端构筑"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "斩首剑",
+      "闪电刀"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "磨刀石"
+    ],
+    "unlock": "Win a run in Danger 0",
+    "unlocks": "Focus",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Claw",
+      "Thief Dagger",
+      "Ghost Axe",
+      "Lightning Shiv",
+      "Scissors",
+      "Cacti Club",
+      "Torch",
+      "Plank",
+      "Hatchet",
+      "Pruner",
+      "Jousting Lance",
+      "Double Barrel Shotgun",
+      "Shredder",
+      "SMG",
+      "Taser",
+      "Revolver",
+      "Icicle",
+      "Shuriken",
+      "Javelin"
+    ],
+    "statsEn": "+200% Attack Speed\nDamage modifications are increased by 100%\nYou can only equip one weapon at a time"
+  },
+  {
+    "slug": "multitasker",
+    "name": "Multitasker",
+    "nameZh": "多任务者",
+    "isDlc": false,
+    "tagline": "12 把武器齐射，人形火力网",
+    "ability": [
+      "伤害 +20%",
+      "可装备 12 把武器",
+      "每把武器 -5% 伤害"
+    ],
+    "pros": [
+      "武器数量碾压，覆盖全方向",
+      "合成升阶机会多"
+    ],
+    "cons": [
+      "每把武器伤害被稀释",
+      "商店与合成管理复杂"
+    ],
+    "playstyle": "铺满低阶武器靠数量取胜，优先同类武器吃职业加成。",
+    "difficulty": 3,
+    "tags": [
+      "多武器",
+      "铺场"
+    ],
+    "recommendedWeapons": [
+      "冲锋枪",
+      "小刀",
+      "长矛"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "弹药袋"
+    ],
+    "unlock": "Collect 5000 materials",
+    "unlocks": "Chopper",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Cacti Club",
+      "Fist",
+      "Claw",
+      "Knife",
+      "Spear",
+      "Stick",
+      "Quarterstaff",
+      "Lightning Shiv",
+      "Screwdriver",
+      "Wrench",
+      "Ghost Flint",
+      "Ghost Axe",
+      "Plank",
+      "Chopper",
+      "Hatchet",
+      "Jousting Lance",
+      "Pruner",
+      "Rock",
+      "Spiky Shield",
+      "Sharp Tooth",
+      "Double Barrel Shotgun",
+      "SMG",
+      "Revolver",
+      "Laser Gun",
+      "Wand",
+      "Icicle",
+      "Slingshot",
+      "Taser",
+      "Shuriken",
+      "Crossbow",
+      "Hiking Pole",
+      "Lute"
+    ],
+    "statsEn": "+20% Damage\nYou can equip up to 12 weapons at a time\n-5% Damage for every weapon you have"
+  },
+  {
+    "slug": "artificer",
+    "name": "Artificer",
+    "nameZh": "工匠",
+    "isDlc": false,
+    "tagline": "爆炸专精，工具武器翻倍",
+    "ability": [
+      "爆炸伤害 +175%",
+      "每 1 元素伤害 +4% 爆炸范围",
+      "工具武器伤害 +100%",
+      "伤害 -100%",
+      "护甲修正 -50%"
+    ],
+    "pros": [
+      "爆炸伤害乘区极高",
+      "工具武器伤害翻倍"
+    ],
+    "cons": [
+      "普通伤害归零，全靠爆炸",
+      "护甲成长减半"
+    ],
+    "playstyle": "木板/螺丝刀配爆炸道具，堆元素伤害放大爆炸范围。",
+    "difficulty": 3,
+    "tags": [
+      "爆炸",
+      "工程"
+    ],
+    "recommendedWeapons": [
+      "木板",
+      "螺丝刀",
+      "粉碎者"
+    ],
+    "recommendedItems": [
+      "炸药",
+      "塑性炸药"
+    ],
+    "unlock": "Kill 15 Enemies with a single explosion",
+    "unlocks": "Explosive Shells",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Plank",
+      "Screwdriver",
+      "Wrench",
+      "Shredder"
+    ],
+    "statsEn": "+175% Explosion Damage\n+4% Explosion Size for every 1 Elemental Damage you have\n+100% Damage with Tool weapons\n-100% Damage\nArmor modifications are reduced by 50%"
+  },
+  {
+    "slug": "bull",
+    "name": "Bull",
+    "nameZh": "公牛",
+    "isDlc": false,
+    "tagline": "受伤就爆炸，完全不用武器",
+    "ability": [
+      "最大生命 +20",
+      "生命回复 +15",
+      "护甲 +10",
+      "生命回复修正 +50%",
+      "受伤时爆炸造成伤害",
+      "无法装备武器"
+    ],
+    "pros": [
+      "不需要武器，纯堆防御",
+      "爆炸清场，越挨打越强"
+    ],
+    "cons": [
+      "没有主动输出手段",
+      "必须主动吃伤害"
+    ],
+    "playstyle": "堆血量、护甲与回复，冲进怪堆靠受伤爆炸输出。",
+    "difficulty": 3,
+    "tags": [
+      "坦克",
+      "反伤"
+    ],
+    "recommendedWeapons": [],
+    "recommendedItems": [
+      "尖刺甲",
+      "石肤"
+    ],
+    "unlock": "Win a run in Danger 1",
+    "unlocks": "Gnome",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "-"
+    ],
+    "statsEn": "+20 Max HP\n+15 HP Regeneration\n+10 Armor\nHP Regeneration modifications are increased by 50%\nYou explode for 30 (300%近战伤害 300%远程伤害 300%元素伤害) damage when you take damage\nThis explosion has a 1.5x crit multiplier\nYou can't equip weapons"
+  },
+  {
+    "slug": "buccaneer",
+    "name": "Buccaneer",
+    "nameZh": "海盗",
+    "isDlc": true,
+    "tagline": "捡材料刷新武器冷却",
+    "ability": [
+      "拾取材料价值 +100%",
+      "拾取材料重置所有武器冷却",
+      "攻速 -100%",
+      "敌人材料掉落 -50%"
+    ],
+    "pros": [
+      "捡材料即刷新，爆发连续",
+      "材料价值翻倍"
+    ],
+    "cons": [
+      "基础攻速为零",
+      "必须不停捡材料"
+    ],
+    "playstyle": "高拾取范围，边打边捡，用刷新机制打连击。",
+    "difficulty": 3,
+    "tags": [
+      "机动",
+      "DLC",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "砖块",
+      "双管霰弹枪",
+      "激光枪"
+    ],
+    "recommendedItems": [
+      "藏宝图",
+      "磁铁"
+    ],
+    "unlock": "Reach +100 % Pickup Range",
+    "unlocks": "Eyepatch",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Brick",
+      "Cacti Club",
+      "Rock",
+      "Spear",
+      "Torch",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Shredder",
+      "Icicle",
+      "Flute",
+      "Slingshot",
+      "Crossbow"
+    ],
+    "statsEn": "Picked up materials have +100% value\nPicking up a material resets the cooldown of all your weapons\n-100 % Attack Speed\n-50% materials dropped from enemies"
+  },
+  {
+    "slug": "curious",
+    "name": "Curious",
+    "nameZh": "好奇者",
+    "isDlc": true,
+    "tagline": "刷战利品外星人，越杀越强",
+    "ability": [
+      "初始携带 1 个望远镜",
+      "每波额外出现 2 个战利品外星人",
+      "击杀战利品外星人后未来敌人变强",
+      "每种不同道具 +2% 经验",
+      "重复道具 -10% 伤害",
+      "敌人生命 +25%"
+    ],
+    "pros": [
+      "额外战利品带来大量资源",
+      "道具多样性有奖励"
+    ],
+    "cons": [
+      "敌人越来越强",
+      "重复道具会掉伤害"
+    ],
+    "playstyle": "优先击杀战利品外星人，保持道具种类多样。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "手枪",
+      "双管霰弹枪",
+      "长笛"
+    ],
+    "recommendedItems": [
+      "望远镜",
+      "藏宝图"
+    ],
+    "unlock": "default",
+    "unlocks": "Pearl",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Brick",
+      "Cacti Club",
+      "Ghost Axe",
+      "Hatchet",
+      "Knife",
+      "Plank",
+      "Rock",
+      "Torch",
+      "Lightning Shiv",
+      "Pistol",
+      "Double Barrel Shotgun",
+      "Icicle",
+      "Lute",
+      "Javelin",
+      "Slingshot"
+    ],
+    "statsEn": "You start with 1 Spyglass\n2 additional loot aliens appear every wave\nAll future loot aliens become stronger when you kill a loot alien\n+2 % XP Gain for every different Item you have\n-10 % Damage for every duplicate item or weapon you have\n+25 % Enemy health"
+  },
+  {
+    "slug": "gangster",
+    "name": "Gangster",
+    "nameZh": "黑帮",
+    "isDlc": true,
+    "tagline": "每店偷一件，偷出精英",
+    "ability": [
+      "每个商店可偷 1 件道具",
+      "偷窃可能刷出精英",
+      "击杀精英/Boss 后未来敌人变强",
+      "物品价格 +20%",
+      "无法锁定道具"
+    ],
+    "pros": [
+      "白嫖道具，经济优势明显",
+      "可以快速堆属性"
+    ],
+    "cons": [
+      "精英越来越强",
+      "无法锁道具，选品受限"
+    ],
+    "playstyle": "每店必偷，优先偷高价值道具，用输出压过精英增强。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "左轮手枪",
+      "冲锋枪"
+    ],
+    "recommendedItems": [
+      "优惠券",
+      "扒手手套"
+    ],
+    "unlock": "Reroll 10 times in a single shop",
+    "unlocks": "Grenade Launcher",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Knife",
+      "Thief Dagger",
+      "Lightning Shiv",
+      "Pistol",
+      "Revolver",
+      "SMG",
+      "Double Barrel Shotgun"
+    ],
+    "statsEn": "Can steal 1 item per shop\nStealing from the shop can spawn an elite\nAll future elites and bosses become stronger when you kill an elite or a boss\n+20 % Items Price\nCan't lock items"
+  },
+  {
+    "slug": "gladiator",
+    "name": "Gladiator",
+    "nameZh": "角斗士",
+    "isDlc": false,
+    "tagline": "武器种类越多攻速越快",
+    "ability": [
+      "每把不同武器 +20% 攻速",
+      "近战伤害 +5",
+      "无法装备远程武器",
+      "攻速 -40%",
+      "幸运 -30"
+    ],
+    "pros": [
+      "多武器种类带来巨额攻速",
+      "纯近战爆发强"
+    ],
+    "cons": [
+      "初始攻速被砍",
+      "只能近战，怕远程消耗"
+    ],
+    "playstyle": "集齐 6 种不同近战武器吃满加成，堆近战伤害。",
+    "difficulty": 3,
+    "tags": [
+      "近战",
+      "多武器"
+    ],
+    "recommendedWeapons": [
+      "长矛",
+      "骑枪",
+      "仙人掌棍"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "健身腰带"
+    ],
+    "unlock": "Kill 20000 enemies",
+    "unlocks": "Spider",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Spear",
+      "Jousting Lance",
+      "Cacti Club",
+      "Torch",
+      "Thief Dagger",
+      "Knife",
+      "Plank",
+      "Ghost Axe",
+      "Ghost Flint",
+      "Sharp Tooth",
+      "Fist",
+      "Claw",
+      "Quarterstaff",
+      "Hatchet",
+      "Lightning Shiv"
+    ],
+    "statsEn": "+20% Attack Speed for every different weapon you have\n+5 Melee Damage\nYou can't equip ranged weapons\n-40% Attack Speed\n-30 Luck"
+  },
+  {
+    "slug": "jack",
+    "name": "Jack",
+    "nameZh": "杰克",
+    "isDlc": false,
+    "tagline": "只打精英和 Boss，一击超痛",
+    "ability": [
+      "对 Boss 与精英伤害 +125%",
+      "材料 +200%",
+      "敌人数量 -70%",
+      "敌人生命 +175%",
+      "敌人伤害 +35%"
+    ],
+    "pros": [
+      "对精英/Boss 伤害爆炸",
+      "材料收益三倍"
+    ],
+    "cons": [
+      "普通敌人极硬",
+      "敌人伤害高，容错低"
+    ],
+    "playstyle": "高单体爆发武器，专杀精英，靠材料优势快速成型。",
+    "difficulty": 3,
+    "tags": [
+      "单体",
+      "Boss"
+    ],
+    "recommendedWeapons": [
+      "磁轨炮",
+      "狙击枪",
+      "火箭筒"
+    ],
+    "recommendedItems": [
+      "巨人腰带",
+      "银弹"
+    ],
+    "unlock": "Kill a boss or an elite in less than 15 seconds",
+    "unlocks": "Giant Belt",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Knife",
+      "Jousting Lance",
+      "Wrench",
+      "Torch",
+      "Hatchet",
+      "Stick",
+      "Spear",
+      "Spiky Shield",
+      "Shuriken",
+      "Laser Gun",
+      "Revolver",
+      "Crossbow",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Brick",
+      "Lute",
+      "Spoon",
+      "Flute"
+    ],
+    "statsEn": "+125% damage against bosses and elites\n+200% materials dropped\n-70% Enemies\n+175 % Enemy health\n+35 % Enemy damage\nNote: On higher danger levels, only Elites spawn, never hordes"
+  },
+  {
+    "slug": "technomage",
+    "name": "Technomage",
+    "nameZh": "科技法师",
+    "isDlc": false,
+    "tagline": "元素伤害养炮塔，炮塔反哺元素",
+    "ability": [
+      "初始携带 2 个炮塔",
+      "每 1 永久元素伤害 +5% 结构攻速",
+      "每 1 个结构 +2 元素伤害",
+      "升级所需经验 +75%",
+      "近战/远程修正 -100%"
+    ],
+    "pros": [
+      "元素与工程互养，成长无上限",
+      "炮塔数量多"
+    ],
+    "cons": [
+      "升级慢",
+      "完全放弃近战与远程伤害"
+    ],
+    "playstyle": "堆元素伤害与结构数量，让炮塔接管输出。",
+    "difficulty": 3,
+    "tags": [
+      "工程",
+      "元素"
+    ],
+    "recommendedWeapons": [
+      "扳手",
+      "螺丝刀",
+      "火把"
+    ],
+    "recommendedItems": [
+      "灯塔",
+      "齿轮"
+    ],
+    "unlock": "Reach 10 Elemental Damage and get 3 structures at the same time",
+    "unlocks": "Particle Accelerator",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Wrench",
+      "Screwdriver",
+      "Plank",
+      "Torch",
+      "Lightning Shiv",
+      "Pruner",
+      "Taser",
+      "Wand",
+      "Icicle"
+    ],
+    "statsEn": "You start with 2 Turret\n+5 % Structure attack speed for every permanent 1 Elemental Damage you have\n+2 Elemental Damage for every 1 Structure you have\n+75% XP required to level up\nMelee Damage modifications are reduced by 100%\nRanged Damage modifications are reduced by 100%"
+  },
+  {
+    "slug": "vagabond",
+    "name": "Vagabond",
+    "nameZh": "流浪者",
+    "isDlc": false,
+    "tagline": "武器互相吃职业加成，但不能重复",
+    "ability": [
+      "已装备武器总是为其他武器提供职业加成",
+      "不能装备两把相同武器",
+      "护甲 -5",
+      "闪避 -5%",
+      "幸运修正 -50%",
+      "收获修正 -50%"
+    ],
+    "pros": [
+      "职业加成叠满，攻速伤害双高",
+      "鼓励多武器组合"
+    ],
+    "cons": [
+      "无法合成同名武器升阶",
+      "幸运与收获被砍"
+    ],
+    "playstyle": "凑 6 把不同武器吃满职业加成，优先高攻速组合。",
+    "difficulty": 3,
+    "tags": [
+      "多武器",
+      "混合"
+    ],
+    "recommendedWeapons": [
+      "菜刀",
+      "长矛",
+      "十字弩"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "磨刀石"
+    ],
+    "unlock": "Have 6 different weapons at once",
+    "unlocks": "Jelly",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Cacti Club",
+      "Chopper",
+      "Thief Dagger",
+      "Spear",
+      "Sharp Tooth",
+      "Hand",
+      "Claw",
+      "Quarterstaff",
+      "Hatchet",
+      "Plank",
+      "Ghost Flint",
+      "Spiky Shield",
+      "Lightning Shiv",
+      "Torch",
+      "Shuriken",
+      "Crossbow",
+      "Revolver",
+      "Laser Gun",
+      "Lute"
+    ],
+    "statsEn": "Equipped weapons always contribute to the class bonuses of other equipped weapons\nYou can't equip two of the same weapon at the same time\n-5 Armor\n-5 % Dodge\nLuck modifications are reduced by 50%\nHarvesting modifications are reduced by 50%"
+  },
+  {
+    "slug": "knight",
+    "name": "Knight",
+    "nameZh": "骑士",
+    "isDlc": false,
+    "tagline": "护甲转近战伤害，只用二阶以上武器",
+    "ability": [
+      "每 1 护甲 +2 近战伤害",
+      "护甲 +3",
+      "无法装备远程武器",
+      "只能装备 2 阶及以上武器",
+      "攻速修正 -50%",
+      "收获修正 -80%"
+    ],
+    "pros": [
+      "护甲直接转伤害，越肉越痛",
+      "近战爆发强"
+    ],
+    "cons": [
+      "攻速减半",
+      "几乎没有收获，经济差"
+    ],
+    "playstyle": "狂堆护甲，用重武器一击清场。",
+    "difficulty": 3,
+    "tags": [
+      "近战",
+      "坦克"
+    ],
+    "recommendedWeapons": [
+      "长剑",
+      "锤子",
+      "战锤"
+    ],
+    "recommendedItems": [
+      "护甲板",
+      "金属板"
+    ],
+    "unlock": "Win a run in Danger 4",
+    "unlocks": "Plasma Sledge",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Sword",
+      "Hammer",
+      "Spear",
+      "Torch",
+      "Jousting Lance",
+      "Quarterstaff",
+      "Plank",
+      "Rock",
+      "Fist",
+      "Knife",
+      "Scissors",
+      "Cacti Club",
+      "Vorpal Sword",
+      "Mace",
+      "Anchor"
+    ],
+    "statsEn": "+2 Melee Damage for every 1 Armor you have\n+3 Armor\nYou can't equip ranged weapons\nYou can only equip tier 2 weapons or above\n% Attack Speed modifications are reduced by 50%\nHarvesting modifications are reduced by 80%"
+  },
+  {
+    "slug": "entrepreneur",
+    "name": "Entrepreneur",
+    "nameZh": "企业家",
+    "isDlc": false,
+    "tagline": "物价打折、回收增值，但每波清零材料",
+    "ability": [
+      "物品价格 -25%",
+      "收获修正 +50%",
+      "回收物品多 25% 材料",
+      "每波开始清空材料",
+      "伤害修正 -50%"
+    ],
+    "pros": [
+      "买东西便宜，回收更赚",
+      "收获成长快"
+    ],
+    "cons": [
+      "留不住钱，无法存钱滚雪球",
+      "伤害被砍半"
+    ],
+    "playstyle": "每波把钱花光，靠低价高质道具堆属性。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "运营"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "手枪",
+      "十字弩"
+    ],
+    "recommendedItems": [
+      "优惠券",
+      "回收机"
+    ],
+    "unlock": "Hold 3000 Materials",
+    "unlocks": "Bowler Hat",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Claw",
+      "Hand",
+      "Knife",
+      "Thief Dagger",
+      "Pruner",
+      "Quarterstaff",
+      "Hatchet",
+      "Ghost Flint",
+      "Wrench",
+      "Plank",
+      "Pistol",
+      "Double Barrel Shotgun",
+      "Taser",
+      "Shuriken",
+      "Crossbow",
+      "Icicle",
+      "Hiking Pole",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "-25% Items Price\nHarvesting modifications are increased by 50%\nGain 25% more materials from recycling items\n-100% of your materials at the start of waves\nDamage modifications are reduced by 50%"
+  },
+  {
+    "slug": "cyborg",
+    "name": "Cyborg",
+    "nameZh": "赛博格",
+    "isDlc": false,
+    "tagline": "远程伤害半场转工程，加特林开局",
+    "ability": [
+      "初始携带 1 把转轮机枪",
+      "远程伤害修正 +200%",
+      "波次过半时远程伤害转为工程（1:2）",
+      "工程修正 -75%",
+      "近战/元素修正 -100%"
+    ],
+    "pros": [
+      "远程转工程，双体系通吃",
+      "加特林开局压制力强"
+    ],
+    "cons": [
+      "后期转型需要规划",
+      "近战与元素完全放弃"
+    ],
+    "playstyle": "前半场靠枪械清场，后半场炮塔接管，堆远程伤害。",
+    "difficulty": 3,
+    "tags": [
+      "远程",
+      "工程",
+      "转型"
+    ],
+    "recommendedWeapons": [
+      "转轮机枪",
+      "冲锋枪",
+      "扳手"
+    ],
+    "recommendedItems": [
+      "齿轮",
+      "强化钢"
+    ],
+    "unlock": "Reach 10 Ranged Damage and get 3 structures at the same time",
+    "unlocks": "Improved Tools",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Wrench",
+      "Screwdriver",
+      "Plank",
+      "Pistol",
+      "SMG",
+      "Revolver",
+      "Double Barrel Shotgun",
+      "Crossbow",
+      "Brick"
+    ],
+    "statsEn": "You start with 1 Minigun\nRanged Damage modifications are increased by 200%\n100% of your Ranged Damage are temporarily converted into Engineering halfway through a wave (1 Ranged Damage = 2 Engineering)\nEngineering modifications are reduced by 75%\nMelee modifications are reduced by 100%\nElemental modifications are reduced by 100%"
+  },
+  {
+    "slug": "cryptid",
+    "name": "Cryptid",
+    "nameZh": "神秘生物",
+    "isDlc": false,
+    "tagline": "养树流，树木越多越强",
+    "ability": [
+      "额外生成 6 棵树",
+      "波末每棵存活树木 +12 材料与经验",
+      "每棵树 +3 生命回复",
+      "闪避上限 70%",
+      "闪避时 +3 攻速",
+      "生命偷取 -100%",
+      "射程 -100",
+      "材料掉落 -50%"
+    ],
+    "pros": [
+      "树木滚资源，经济极强",
+      "回复与攻速随树增长"
+    ],
+    "cons": [
+      "射程被砍，输出距离短",
+      "需要保护树木"
+    ],
+    "playstyle": "保住树、堆闪避，用高回复与攻速打近身。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "闪避"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "菜刀",
+      "修枝剪"
+    ],
+    "recommendedItems": [
+      "树",
+      "伐木工衬衫"
+    ],
+    "unlock": "Finish a wave with 10 or more living trees",
+    "unlocks": "Claw",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Hand",
+      "Claw",
+      "Knife",
+      "Cacti Club",
+      "Pruner",
+      "Chopper",
+      "Ghost Axe",
+      "Thief Dagger",
+      "Lightning Shiv",
+      "Ghost Flint",
+      "Rock",
+      "Stick",
+      "Hatchet",
+      "Jousting Lance",
+      "Screwdriver",
+      "Plank",
+      "Ghost Scepter",
+      "Shredder",
+      "Pistol",
+      "SMG",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "More trees spawn text=(+6)\nGain text=12 material and XP for every living tree at the end of a wave\n+3 HP Regeneration for every current living tree\nDodge is capped at 70%\n+3 Attack Speed until the end of the wave when you dodge an attack\n-100 % Life Steal\n-100 Range\n-50% materials dropped from enemies"
+  },
+  {
+    "slug": "creature",
+    "name": "Creature",
+    "nameZh": "生物",
+    "isDlc": true,
+    "tagline": "诅咒转伤害，升级自带诅咒",
+    "ability": [
+      "武器伤害额外按 35% 诅咒缩放",
+      "初始携带 1 个被诅咒的鱼钩",
+      "升级时 +1 诅咒",
+      "每波结束射程 -10",
+      "每波结束经验 -5%"
+    ],
+    "pros": [
+      "诅咒直接转伤害，成长无上限",
+      "越后期越强"
+    ],
+    "cons": [
+      "射程与经验持续衰减",
+      "需要主动堆诅咒"
+    ],
+    "playstyle": "主动收集诅咒道具，用高诅咒放大武器伤害。",
+    "difficulty": 3,
+    "tags": [
+      "诅咒",
+      "DLC",
+      "后期"
+    ],
+    "recommendedWeapons": [
+      "利爪",
+      "仙人掌棍",
+      "幽灵权杖"
+    ],
+    "recommendedItems": [
+      "诅咒碎片",
+      "海妖之眼"
+    ],
+    "unlock": "default",
+    "unlocks": "Barnacle",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Claw",
+      "Cacti Club",
+      "Sharp Tooth",
+      "Sickle",
+      "Hatchet",
+      "Rock",
+      "Stick",
+      "Spiky Shield",
+      "Chopper",
+      "Torch",
+      "Plank",
+      "SMG",
+      "Shredder",
+      "Icicle",
+      "Ghost Scepter",
+      "Javelin"
+    ],
+    "statsEn": "Weapon damage additionally scales with 35% Curse\nYou start with 1 cursed Fish Hook\n+1 Curse when you level up\n-10 Range at the end of a wave\n-5 % XP Gain at the end of a wave"
+  },
+  {
+    "slug": "ogre",
+    "name": "Ogre",
+    "nameZh": "食人魔",
+    "isDlc": true,
+    "tagline": "溢出伤害引发爆炸",
+    "ability": [
+      "敌人受到超过最大生命的伤害时爆炸",
+      "近战伤害 +10",
+      "无法装备远程武器",
+      "攻速 -50%",
+      "速度 -10%"
+    ],
+    "pros": [
+      "溢出伤害连锁爆炸，清场极强",
+      "近战基础伤害高"
+    ],
+    "cons": [
+      "攻速慢、移速慢",
+      "只能近战"
+    ],
+    "playstyle": "堆单次伤害打出溢出，用爆炸连锁清屏。",
+    "difficulty": 3,
+    "tags": [
+      "近战",
+      "爆炸",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "砖块",
+      "仙人掌棍",
+      "菜刀"
+    ],
+    "recommendedItems": [
+      "巨人腰带",
+      "大手臂"
+    ],
+    "unlock": "Deal 1000 damage to an enemy in a single hit",
+    "unlocks": "Mace",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Brick",
+      "Rock",
+      "Plank",
+      "Cacti Club",
+      "Chopper",
+      "Spoon"
+    ],
+    "statsEn": "Enemies taking double their max health as damage explode for 10 (+50%最大生命-50%Attack Speed) damage\n+10 Melee Damage\nYou can't equip ranged weapons\n-50 % Attack Speed\n-10 % Speed"
+  },
+  {
+    "slug": "soldier",
+    "name": "Soldier",
+    "nameZh": "士兵",
+    "isDlc": false,
+    "tagline": "站定输出翻倍，移动时无法攻击",
+    "ability": [
+      "站立时伤害 +50%",
+      "站立时攻速 +50%",
+      "速度 +10%",
+      "拾取范围 +200%",
+      "击退 +15",
+      "移动时无法攻击"
+    ],
+    "pros": [
+      "站桩输出极高",
+      "拾取范围大，材料好收"
+    ],
+    "cons": [
+      "移动时完全无法攻击",
+      "走位与输出强冲突"
+    ],
+    "playstyle": "找安全角落站定清场，波末再移动收材料。",
+    "difficulty": 3,
+    "tags": [
+      "远程",
+      "站桩"
+    ],
+    "recommendedWeapons": [
+      "冲锋枪",
+      "激光枪",
+      "狙击枪"
+    ],
+    "recommendedItems": [
+      "重型子弹",
+      "瞄准镜"
+    ],
+    "unlock": "Win a run in Danger 2",
+    "unlocks": "Nuclear Launcher",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Knife",
+      "Lightning Shiv",
+      "Crossbow",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Pistol",
+      "Shredder",
+      "Revolver",
+      "SMG",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Flute",
+      "Javelin"
+    ],
+    "statsEn": "+50% Damage while standing still\n+50% Attack Speed while standing still\n+10% Speed\n+200% pickup range\n+15 Knockback\nYou cant attack while moving"
+  },
+  {
+    "slug": "masochist",
+    "name": "Masochist",
+    "nameZh": "受虐狂",
+    "isDlc": false,
+    "tagline": "挨打叠伤害，初始伤害为零",
+    "ability": [
+      "受伤时每层 +5% 伤害（持续到波末）",
+      "最大生命 +10",
+      "生命回复 +20",
+      "护甲 +8",
+      "伤害 -100%"
+    ],
+    "pros": [
+      "挨打越多伤害越高",
+      "回复与护甲高，敢吃伤害"
+    ],
+    "cons": [
+      "开局零伤害",
+      "需要主动找打"
+    ],
+    "playstyle": "堆血量与回复，前期贴脸挨打叠层，后期反打。",
+    "difficulty": 3,
+    "tags": [
+      "坦克",
+      "高风险"
+    ],
+    "recommendedWeapons": [
+      "石头",
+      "尖刺盾",
+      "仙人掌棍"
+    ],
+    "recommendedItems": [
+      "尖刺甲",
+      "护甲板"
+    ],
+    "unlock": "Win a run in Danger 3",
+    "unlocks": "Spiky Shield",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Rock",
+      "Scissors",
+      "Cacti Club",
+      "Ghost Axe",
+      "Spiky Shield",
+      "Sharp Tooth",
+      "Torch",
+      "Double Barrel Shotgun",
+      "Medical Gun",
+      "Wand",
+      "Icicle",
+      "Brick",
+      "Lute",
+      "Sickle"
+    ],
+    "statsEn": "+5% Damage when you take damage until the end of the wave\n+10 Max HP\n+20 HP Regeneration\n+8 Armor\n-100% Damage"
+  },
+  {
+    "slug": "sailor",
+    "name": "Sailor",
+    "nameZh": "水手",
+    "isDlc": true,
+    "tagline": "海军武器专精，诅咒敌人克星",
+    "ability": [
+      "海军武器对诅咒敌人伤害 +200%",
+      "诅咒 +25",
+      "伤害 -25%",
+      "只能装备二阶以上武器",
+      "闪避上限 20%",
+      "收获修正 -100%"
+    ],
+    "pros": [
+      "海军武器爆发极高",
+      "自带诅咒，配合诅咒流派"
+    ],
+    "cons": [
+      "没有收获，经济差",
+      "闪避上限极低"
+    ],
+    "playstyle": "锚/三叉戟/喇叭枪三件套，堆诅咒与近战伤害。",
+    "difficulty": 3,
+    "tags": [
+      "近战",
+      "DLC",
+      "诅咒"
+    ],
+    "recommendedWeapons": [
+      "锚",
+      "三叉戟",
+      "喇叭枪"
+    ],
+    "recommendedItems": [
+      "黑旗",
+      "诅咒碎片"
+    ],
+    "unlock": "default",
+    "unlocks": "Treasure Map",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Anchor",
+      "Trident",
+      "Blunderbuss"
+    ],
+    "statsEn": "+200% damage with Naval weapons against cursed enemies\n+25 Curse\n-25 % Damage\nYou can only equip tier II weapons or above\nDodge is capped at 20%\nHarvesting modifications are reduced by 100%"
+  },
+  {
+    "slug": "explorer",
+    "name": "Explorer",
+    "nameZh": "探险家",
+    "isDlc": false,
+    "tagline": "地图更大、树更多，砍树致富",
+    "ability": [
+      "生成更多树木",
+      "初始携带 1 件伐木工衬衫",
+      "速度 +10%",
+      "拾取范围 +50%",
+      "地图 +33%",
+      "敌人 +25%",
+      "材料掉落 -50%",
+      "敌人速度 +10%",
+      "伤害 -40%"
+    ],
+    "pros": [
+      "地图大、拾取范围广，材料好捡",
+      "砍树收益高"
+    ],
+    "cons": [
+      "伤害大减",
+      "敌人更多更快"
+    ],
+    "playstyle": "前期砍树攒资源，靠拾取范围与机动性拉扯。",
+    "difficulty": 3,
+    "tags": [
+      "经济",
+      "机动"
+    ],
+    "recommendedWeapons": [
+      "手斧",
+      "十字弩",
+      "扳手"
+    ],
+    "recommendedItems": [
+      "伐木工衬衫",
+      "手推车"
+    ],
+    "unlock": "Kill 50 trees",
+    "unlocks": "Compass",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Hand",
+      "Cacti Club",
+      "Screwdriver",
+      "Thief Dagger",
+      "Wrench",
+      "Stick",
+      "Torch",
+      "Chopper",
+      "Plank",
+      "Hatchet",
+      "Jousting Lance",
+      "Ghost Axe",
+      "Crossbow",
+      "Shredder",
+      "Taser",
+      "Wand",
+      "Hiking Pole",
+      "Spoon"
+    ],
+    "statsEn": "More trees spawn\nYou start with 1 Lumberjack Shirt\n+10% Speed\n+50% pickup range\n+33% Map Size\n+25% Enemies\n-50% materials dropped from enemies\n+10% Enemy Speed\n-40% Damage"
+  },
+  {
+    "slug": "lich",
+    "name": "Lich",
+    "nameZh": "巫妖",
+    "isDlc": false,
+    "tagline": "治疗即伤害，回复流核心",
+    "ability": [
+      "生命回复 +10",
+      "生命偷取 +10%",
+      "治疗时有 100% 概率造成伤害",
+      "伤害修正 -50%"
+    ],
+    "pros": [
+      "回复属性直接转输出",
+      "续航与伤害一体"
+    ],
+    "cons": [
+      "基础伤害减半",
+      "需要稳定治疗来源"
+    ],
+    "playstyle": "堆生命回复与吸血，用医疗武器/回复道具触发伤害。",
+    "difficulty": 3,
+    "tags": [
+      "回复",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "医疗枪",
+      "剪刀",
+      "幽灵权杖"
+    ],
+    "recommendedItems": [
+      "急救包",
+      "再生药水"
+    ],
+    "unlock": "Reach +100 Max HP",
+    "unlocks": "Tentacle",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Scissors",
+      "Chopper",
+      "Thief Dagger",
+      "Stick",
+      "Knife",
+      "Ghost Flint",
+      "Sharp Tooth",
+      "Pruner",
+      "Hatchet",
+      "Rock",
+      "Spiky Shield",
+      "Lightning Shiv",
+      "Ghost Scepter",
+      "Medical Gun",
+      "SMG",
+      "Wand",
+      "Icicle",
+      "Slingshot",
+      "Crossbow",
+      "Spoon"
+    ],
+    "statsEn": "+10 HP Regeneration\n+10 % Life Steal\n100% chance to deal 10 (最大生命) damage to a random enemy when you heal\nDamage modifications are reduced by 50%"
+  },
+  {
+    "slug": "speedy",
+    "name": "Speedy",
+    "nameZh": "迅捷者",
+    "isDlc": false,
+    "tagline": "速度转近战伤害，站桩就没护甲",
+    "ability": [
+      "速度 +30%",
+      "每 2% 速度 +1 近战伤害",
+      "站立时护甲 -100"
+    ],
+    "pros": [
+      "移速转伤害，越跑越强",
+      "机动性极佳"
+    ],
+    "cons": [
+      "站桩时极其脆弱",
+      "必须持续移动"
+    ],
+    "playstyle": "全程绕圈跑，堆速度与近战伤害，避免停下来。",
+    "difficulty": 3,
+    "tags": [
+      "机动",
+      "近战"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "长矛",
+      "利爪"
+    ],
+    "recommendedItems": [
+      "运动鞋",
+      "风力发电机"
+    ],
+    "unlock": "Reach +50% Speed",
+    "unlocks": "Fin",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Claw",
+      "Knife",
+      "Thief Dagger",
+      "Stick",
+      "Spear",
+      "Quarterstaff",
+      "Jousting Lance",
+      "Screwdriver",
+      "Ghost Flint",
+      "Pruner",
+      "Shuriken",
+      "Hiking Pole",
+      "Javelin"
+    ],
+    "statsEn": "+30% Speed\n+1 Melee Damage for every 2% Speed you have\n-100 Armor while standing still\n-3 Armor"
+  },
+  {
+    "slug": "captain",
+    "name": "Captain",
+    "nameZh": "船长",
+    "isDlc": true,
+    "tagline": "空武器槽换经验，升级属性翻倍",
+    "ability": [
+      "每个空武器槽 +60% 经验",
+      "升级属性 +100%",
+      "升级所需经验 +200%",
+      "每波结束敌人生命与伤害 +2%"
+    ],
+    "pros": [
+      "升级属性翻倍，质量极高",
+      "可以刻意留空槽刷经验"
+    ],
+    "cons": [
+      "敌人逐波变强",
+      "武器少，清场弱"
+    ],
+    "playstyle": "少带武器吃经验加成，把属性点全砸在核心输出上。",
+    "difficulty": 4,
+    "tags": [
+      "成长",
+      "DLC"
+    ],
+    "recommendedWeapons": [
+      "幽灵斧",
+      "冲锋枪",
+      "手枪"
+    ],
+    "recommendedItems": [
+      "咖啡",
+      "合金"
+    ],
+    "unlock": "default",
+    "unlocks": "Captain's Sword",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Knife",
+      "Hatchet",
+      "Spear",
+      "Ghost Axe",
+      "Ghost Flint",
+      "Chopper",
+      "Quarterstaff",
+      "Torch",
+      "Plank",
+      "Lightning Shiv",
+      "Double Barrel Shotgun",
+      "SMG",
+      "Revolver",
+      "Slingshot",
+      "Shredder",
+      "Javelin"
+    ],
+    "statsEn": "+60 % XP Gain for every free weapon slot you have\n+100% stats gained from level upgrades\n+200% XP required to level up\n+2 % Enemy health at the end of a wave\n+2 % Enemy damage at the end of a wave"
+  },
+  {
+    "slug": "demon",
+    "name": "Demon",
+    "nameZh": "恶魔",
+    "isDlc": false,
+    "tagline": "用生命值买东西，材料转血量",
+    "ability": [
+      "每波结束 50% 材料转为最大生命（13:1）",
+      "用最大生命代替材料购买物品"
+    ],
+    "pros": [
+      "血量经济双循环，越买越肉",
+      "后期血量极高"
+    ],
+    "cons": [
+      "购买直接扣血，容易暴毙",
+      "需要精确的血量管理"
+    ],
+    "playstyle": "前期攒材料转血，中后期用血量换强力道具。",
+    "difficulty": 4,
+    "tags": [
+      "坦克",
+      "经济",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "盗贼匕首",
+      "火把",
+      "雷霆之剑"
+    ],
+    "recommendedItems": [
+      "外星宝宝",
+      "血手"
+    ],
+    "unlock": "Win a run in Danger 5",
+    "unlocks": "Obliterator",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Thief Dagger",
+      "Lightning Shiv",
+      "Ghost Axe",
+      "Ghost Flint",
+      "Torch",
+      "Chopper",
+      "Sharp Tooth",
+      "Wrench",
+      "Ghost Scepter",
+      "Wand",
+      "Taser",
+      "Icicle",
+      "Spoon",
+      "Flute"
+    ],
+    "statsEn": "+50% of your Materials are converted into Max HP at the end of a wave (13 Materials=1 Max HP)\nYou buy items using Max HP instead of materials"
+  },
+  {
+    "slug": "king",
+    "name": "King",
+    "nameZh": "国王",
+    "isDlc": false,
+    "tagline": "四阶武器越多越强，低阶武器是负担",
+    "ability": [
+      "幸运 +50",
+      "每把 IV 阶武器 +25% 伤害与攻速",
+      "每种 IV 阶道具 +5 最大生命",
+      "每把 I 阶武器 -15% 伤害与攻速",
+      "每种 I 阶道具 -2 最大生命",
+      "隐藏：初始武器为 II 阶"
+    ],
+    "pros": [
+      "成型后伤害攻速双爆表",
+      "幸运高，好道具多"
+    ],
+    "cons": [
+      "前期极弱，必须快速升阶",
+      "低阶物品是纯负担"
+    ],
+    "playstyle": "全力合成升阶，宁可少买也不留一阶装备。",
+    "difficulty": 4,
+    "tags": [
+      "后期",
+      "升阶"
+    ],
+    "recommendedWeapons": [
+      "斩首剑",
+      "锤子",
+      "三叉戟"
+    ],
+    "recommendedItems": [
+      "王冠",
+      "幸运币"
+    ],
+    "unlock": "Get 3 tier IV weapons at once",
+    "unlocks": "Excalibur",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Fist",
+      "Circular Saw",
+      "Knife",
+      "Hatchet",
+      "Ghost Axe",
+      "Lightning Shiv",
+      "Torch",
+      "Plank",
+      "Spear",
+      "Jousting Lance",
+      "Sword",
+      "Hammer",
+      "Spiky Shield",
+      "Vorpal Sword",
+      "Pistol",
+      "SMG",
+      "Crossbow",
+      "Double Barrel Shotgun",
+      "Rocket Launcher",
+      "Taser",
+      "Fireball",
+      "Lute",
+      "Trident",
+      "Flute",
+      "Grenade Launcher",
+      "Javelin"
+    ],
+    "statsEn": "+50 Luck\n+25 % Damage for every Tier IV weapon you have\n+25% Attack Speed for every Tier IV weapon you have\n+5 Max HP for every different Tier IV item you have\n-15% Damage for every Tier I weapon you have\n-15% Attack Speed for every Tier I weapon you have\n-2 Max HP for every different Tier I item you have\nUNLISTED BONUS: Starting weapon is Tier II"
+  },
+  {
+    "slug": "pacifist",
+    "name": "Pacifist",
+    "nameZh": "和平主义者",
+    "isDlc": false,
+    "tagline": "不打怪，只数人头拿材料",
+    "ability": [
+      "每波结束每个存活敌人给予 0.65 材料与经验",
+      "初始携带 1 件伐木工衬衫",
+      "伤害 -100%",
+      "工程 -100"
+    ],
+    "pros": [
+      "完全放弃输出，收益稳定",
+      "清树与拾取效率高"
+    ],
+    "cons": [
+      "没有任何伤害，纯靠机制",
+      "需要大量敌人存活"
+    ],
+    "playstyle": "堆生存与拾取，把敌人留着不杀，靠波末结算滚经济。",
+    "difficulty": 4,
+    "tags": [
+      "经济",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "手掌",
+      "电击枪"
+    ],
+    "recommendedItems": [
+      "伐木工衬衫",
+      "存钱罐"
+    ],
+    "unlock": "Collect 10000 materials",
+    "unlocks": "Panda",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Hand",
+      "Taser",
+      "Pruner"
+    ],
+    "statsEn": "Gain 0.65 material and XP for every living enemy at the end of a wave\nYou start with 1 Lumberjack Shirt\n-100% Damage\n-100 Engineering"
+  },
+  {
+    "slug": "builder",
+    "name": "Builder",
+    "nameZh": "建造者",
+    "isDlc": true,
+    "tagline": "专属炮塔，靠未拾取材料变强",
+    "ability": [
+      "初始携带 1 个建造者炮塔",
+      "每 5 个未拾取材料在波末转为 1% 结构攻速与 1 结构射程",
+      "工程修正 +50%",
+      "收获 +20",
+      "无法拥有其他结构",
+      "拾取范围 -30%",
+      "伤害修正 -75%"
+    ],
+    "pros": [
+      "唯一炮塔可无限成长",
+      "工程成长快"
+    ],
+    "cons": [
+      "不能捡太多材料",
+      "本体伤害极低"
+    ],
+    "playstyle": "刻意留材料在场上，养一座超级炮塔。",
+    "difficulty": 4,
+    "tags": [
+      "工程",
+      "DLC",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "木板",
+      "标枪",
+      "冲锋枪"
+    ],
+    "recommendedItems": [
+      "建造者炮塔",
+      "齿轮"
+    ],
+    "unlock": "default",
+    "unlocks": "Lighthouse",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Brick",
+      "Plank",
+      "Javelin",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Medical Gun",
+      "Revolver",
+      "Shredder",
+      "SMG",
+      "Slingshot",
+      "Ghost Scepter",
+      "Flute",
+      "Taser",
+      "Wand"
+    ],
+    "statsEn": "You start with 1 Builder's Turret\n\nEvery 5 uncollected materials are converted into 1 % Structure attack speed and 1 Structure Range at the end of a wave\nEngineering modifications are increased by 50%\n+20 Harvesting\nYou can't have structures\n-30% pickup range\nDamage modifications are reduced by 75%"
+  },
+  {
+    "slug": "arms-dealer",
+    "name": "Arms Dealer",
+    "nameZh": "军火商",
+    "isDlc": false,
+    "tagline": "武器白菜价，但进店就爆装备",
+    "ability": [
+      "武器价格 -95%",
+      "收获 +30",
+      "伤害修正 +33%",
+      "初始携带 1 只危险兔",
+      "商店必卖武器",
+      "进入商店时所有武器被摧毁"
+    ],
+    "pros": [
+      "武器几乎白送，随便换装",
+      "商店永远有武器"
+    ],
+    "cons": [
+      "每波装备清零，无法长期培养",
+      "极度依赖商店运气"
+    ],
+    "playstyle": "每波重新买满武器，优先高基础伤害的枪械。",
+    "difficulty": 4,
+    "tags": [
+      "经济",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "双管霰弹枪",
+      "冲锋枪",
+      "火箭筒"
+    ],
+    "recommendedItems": [
+      "危险兔",
+      "优惠券"
+    ],
+    "unlock": "Recycle 12 weapons during a run",
+    "unlocks": "Anvil",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Pistol"
+    ],
+    "statsEn": "-95% Weapons Price\n+30 Harvesting\nDamage modifications are increased by +33%\nYou start with 1 Dangerous Bunny\nShops always sell at least 1 weapon\nAll of your weapons are destroyed when entering a shop"
+  },
+  {
+    "slug": "romantic",
+    "name": "Romantic",
+    "nameZh": "浪漫者",
+    "isDlc": true,
+    "tagline": "魅惑残血敌人，零诅咒挑战",
+    "ability": [
+      "攻击血量低于 25% 的敌人有 5% 概率魅惑 8 秒",
+      "近战武器射程 +50",
+      "每 5 诅咒 -3% 伤害、-1 护甲",
+      "每波结束 +1 诅咒"
+    ],
+    "pros": [
+      "魅惑敌人反打，战术性强",
+      "近战射程优势"
+    ],
+    "cons": [
+      "诅咒逐波累积，持续削弱",
+      "魅惑触发率低"
+    ],
+    "playstyle": "速战速决，避免拖到高诅咒波次。",
+    "difficulty": 4,
+    "tags": [
+      "控制",
+      "DLC",
+      "挑战"
+    ],
+    "recommendedWeapons": [
+      "鲁特琴",
+      "菜刀",
+      "勺子"
+    ],
+    "recommendedItems": [
+      "鲁特琴",
+      "三叶草"
+    ],
+    "unlock": "Finish a run with 0 Curse",
+    "unlocks": "Flute",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Lute",
+      "Chopper",
+      "Fist",
+      "Spoon",
+      "Scissors",
+      "Sharp Tooth",
+      "Hatchet",
+      "Flute",
+      "Double Barrel Shotgun",
+      "Shuriken",
+      "Slingshot",
+      "Medical Gun",
+      "SMG",
+      "Taser",
+      "Cacti Club",
+      "Claw"
+    ],
+    "statsEn": "Hitting an enemy that has less than 25% health has a 5% (50%最大生命) chance to charm it for 8 seconds\n+50 Range with melee weapons\n-3 % Damage for every 5 Curse you have\n-1 Armor for every 5 Curse you have\n+1 Curse at the end of a wave"
+  },
+  {
+    "slug": "renegade",
+    "name": "Renegade",
+    "nameZh": "叛徒",
+    "isDlc": false,
+    "tagline": "靠一阶道具叠伤害的弹幕流",
+    "ability": [
+      "+2 弹射物",
+      "穿透 +1",
+      "每种不同 I 阶道具 +10% 伤害",
+      "无法装备近战武器",
+      "伤害 -400%",
+      "精准 -50%",
+      "伤害修正 -80%"
+    ],
+    "pros": [
+      "弹幕数量多，覆盖广",
+      "一阶道具便宜，叠层快"
+    ],
+    "cons": [
+      "基础伤害修正极差",
+      "完全依赖道具数量"
+    ],
+    "playstyle": "疯狂收集不同一阶道具叠伤害，用高射速枪械铺弹幕。",
+    "difficulty": 4,
+    "tags": [
+      "远程",
+      "弹幕",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "冲锋枪",
+      "手枪",
+      "粉碎者"
+    ],
+    "recommendedItems": [
+      "头巾",
+      "小型弹匣"
+    ],
+    "unlock": "Get 10 different tier I items during a run",
+    "unlocks": "Fairy",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Pistol",
+      "Revolver",
+      "Shredder",
+      "SMG",
+      "Laser Gun",
+      "Medical Gun",
+      "Double Barrel Shotgun",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Ghost Scepter",
+      "Crossbow",
+      "Shuriken",
+      "Slingshot",
+      "Flute",
+      "Javelin"
+    ],
+    "statsEn": "+2 projectiles\nProjectiles pierce through 1 additional target\n+10 % Damage for every different Tier I item you have\nYou can't equip melee weapons\n-400% Damage\n-50% accuracy\n% Damage modifications are reduced by 80%"
+  },
+  {
+    "slug": "diver",
+    "name": "Diver",
+    "nameZh": "潜水员",
+    "isDlc": true,
+    "tagline": "远程标记增伤，鱼叉炮专精",
+    "ability": [
+      "初始携带 1 把鱼叉炮",
+      "鱼叉炮免费",
+      "精准武器暴击伤害 +200%",
+      "暴击修正 +25%",
+      "每 2 近战伤害 +1 生命回复",
+      "被远程伤害命中的敌人 3 秒内受伤 +300%",
+      "远程伤害 -100",
+      "敌人生命 +250%"
+    ],
+    "pros": [
+      "标记增伤极高",
+      "暴击伤害爆炸"
+    ],
+    "cons": [
+      "敌人血量翻 3.5 倍",
+      "远程伤害清零"
+    ],
+    "playstyle": "鱼叉炮标记，再切近战精准武器收割。",
+    "difficulty": 4,
+    "tags": [
+      "混合",
+      "DLC",
+      "暴击"
+    ],
+    "recommendedWeapons": [
+      "鱼叉炮",
+      "盗贼匕首",
+      "利爪"
+    ],
+    "recommendedItems": [
+      "眼罩",
+      "夜视镜"
+    ],
+    "unlock": "Kill 1000 enemies that are more than 700 range away from you",
+    "unlocks": "Starfish",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Claw",
+      "Thief Dagger",
+      "Knife",
+      "Scissors",
+      "Sharp Tooth",
+      "Shuriken"
+    ],
+    "statsEn": "You start with 1 Harpoon Gun\n-100% Harpoon Gun price\n+200 % Crit Damage with Precise weapons\n% Crit Chance modifications are increased by 25%\n+1 HP Regeneration for every 2 Melee Damage you have\nEnemies take 300% more damage for 3 seconds when hit by Ranged Damage\n-100 Ranged Damage\n+250 % Enemy health"
+  },
+  {
+    "slug": "golem",
+    "name": "Golem",
+    "nameZh": "石魔",
+    "isDlc": false,
+    "tagline": "残血爆发，但完全无法治疗",
+    "ability": [
+      "最大生命 +20",
+      "最大生命与护甲修正 +33%",
+      "血量低于 50% 时攻速 +40%",
+      "血量低于 50% 时速度 +20%",
+      "无法以任何方式治疗"
+    ],
+    "pros": [
+      "残血时爆发极高",
+      "血量与护甲成长强"
+    ],
+    "cons": [
+      "全程无法回血，血线只降不升"
+    ],
+    "playstyle": "控血到 50% 以下吃加成，靠闪避与护甲硬抗。",
+    "difficulty": 4,
+    "tags": [
+      "坦克",
+      "高风险"
+    ],
+    "recommendedWeapons": [
+      "仙人掌棍",
+      "菜刀",
+      "尖刺盾"
+    ],
+    "recommendedItems": [
+      "石肤",
+      "护甲板"
+    ],
+    "unlock": "Finish a wave with 1 HP",
+    "unlocks": "Stone Skin",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Cacti Club",
+      "Chopper",
+      "Fist",
+      "Ghost Axe",
+      "Hatchet",
+      "Knife",
+      "Plank",
+      "Rock",
+      "Spiky Shield",
+      "Stick",
+      "Torch",
+      "Pistol",
+      "Revolver",
+      "Slingshot",
+      "Crossbow",
+      "Ghost Scepter",
+      "Brick",
+      "Spoon",
+      "Flute"
+    ],
+    "statsEn": "+20 Max HP\nMax HP modifications are increased by 33%\nArmor modifications are increased by 33%\n+40 % Attack Speed when you have less than 50% health\n+20 % Speed when you have less than 50% health\nYou can't heal in any way"
+  },
+  {
+    "slug": "beast-master",
+    "name": "Beast Master",
+    "nameZh": "兽王",
+    "isDlc": false,
+    "tagline": "不拿武器，全靠宠物打天下",
+    "ability": [
+      "无法装备武器",
+      "每 1 个永久宠物 +2% 速度",
+      "宠物伤害同时受近战/远程/元素/工程加成"
+    ],
+    "pros": [
+      "宠物吃四系加成，成长全面",
+      "本体只需跑位"
+    ],
+    "cons": [
+      "完全没有主动攻击",
+      "极度依赖宠物道具刷新"
+    ],
+    "playstyle": "疯狂收集宠物道具，堆四系伤害与速度。",
+    "difficulty": 4,
+    "tags": [
+      "召唤",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [],
+    "recommendedItems": [
+      "猫机枪",
+      "邦克犬",
+      "拾取虫"
+    ],
+    "unlock": "Unlock the Catling Gun, Bonk Dog, Bot-O-Mine, Blazemander and Lootworm items",
+    "unlocks": "Scapegoat",
+    "unlockType": "Item",
+    "startingWeapons": [],
+    "statsEn": "You can't equip weapons\n+2 % Speed for every permanent 1 Pet you have\nPet damage also scales with Melee Damage, Ranged Damage, Elemental Damage, and Engineering"
+  },
+  {
+    "slug": "baby",
+    "name": "Baby",
+    "nameZh": "婴儿",
+    "isDlc": false,
+    "tagline": "每升一级多一个武器槽，最多 24 把",
+    "ability": [
+      "收获 +12",
+      "物品价格 -20%",
+      "升级时获得武器槽而非属性（最多 24）",
+      "初始只有 1 个武器槽",
+      "商店必卖武器",
+      "升级所需经验 +130%"
+    ],
+    "pros": [
+      "武器数量上限极高",
+      "物价便宜"
+    ],
+    "cons": [
+      "升级极慢，属性成长停滞",
+      "前期只有一个武器槽"
+    ],
+    "playstyle": "靠数量取胜，铺满廉价武器，用道具补属性。",
+    "difficulty": 4,
+    "tags": [
+      "多武器",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "小刀",
+      "弹弓",
+      "手枪"
+    ],
+    "recommendedItems": [
+      "优惠券",
+      "咖啡"
+    ],
+    "unlock": "Reach level 10 before wave 6",
+    "unlocks": "Celery Tea",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Scissors",
+      "Screwdriver",
+      "Pruner",
+      "Sharp Tooth",
+      "Quarterstaff",
+      "Knife",
+      "Stick",
+      "Plank",
+      "Rock",
+      "Wrench",
+      "Shuriken",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Slingshot",
+      "Pistol",
+      "Hiking Pole",
+      "Spoon",
+      "Flute"
+    ],
+    "statsEn": "+12 Harvesting\n-20 % Items Price\nYou gain a weapon slot when you level up instead of a stat upgrade (max: 24)\nYou start with one weapon slot\nShops always sell at least one weapon\n+130% XP required to level up"
+  },
+  {
+    "slug": "streamer",
+    "name": "Streamer",
+    "nameZh": "主播",
+    "isDlc": false,
+    "tagline": "站着赚钱，动起来打架",
+    "ability": [
+      "站立时每秒 +3% 材料（上限 +25）",
+      "移动时伤害 +40%",
+      "移动时攻速 +40%",
+      "每个结构 +2 护甲",
+      "材料掉落 -50%",
+      "材料越多伤害与速度越低"
+    ],
+    "pros": [
+      "站桩产材料，移动打输出",
+      "节奏感强，上限高"
+    ],
+    "cons": [
+      "材料会反向削弱自己",
+      "需要精细管理站位"
+    ],
+    "playstyle": "波次间隙站桩攒钱，战斗中持续移动输出。",
+    "difficulty": 4,
+    "tags": [
+      "经济",
+      "机动",
+      "特殊机制"
+    ],
+    "recommendedWeapons": [
+      "冲锋枪",
+      "幽灵斧",
+      "双管霰弹枪"
+    ],
+    "recommendedItems": [
+      "摄像机",
+      "风力发电机"
+    ],
+    "unlock": "Reach -20% Speed",
+    "unlocks": "Community Support",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Stick",
+      "Cacti Club",
+      "Ghost Flint",
+      "Ghost Axe",
+      "Scissors",
+      "Screwdriver",
+      "Wrench",
+      "Spear",
+      "Plank",
+      "Pruner",
+      "Spiky Shield",
+      "Crossbow",
+      "Double Barrel Shotgun",
+      "Laser Gun",
+      "Medical Gun",
+      "Pistol",
+      "Shredder",
+      "SMG",
+      "Revolver",
+      "Slingshot",
+      "Ghost Scepter",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Javelin"
+    ],
+    "statsEn": "+3% of your materials per second while standing still (+25 max)\n+40% Damage while moving\n+40% Attack Speed while moving\n+2 Armor for every 1 Structure you have\n-50% materials dropped\n-1% Damage for every 15 Materials you have\n-1% Speed for every 30 Materials you have"
+  },
+  {
+    "slug": "vampire",
+    "name": "Vampire",
+    "nameZh": "吸血鬼",
+    "isDlc": false,
+    "tagline": "残血战神，越虚弱越强",
+    "ability": [
+      "每缺 1% 生命 +2% 伤害",
+      "每缺 3% 生命 +1% 生命偷取",
+      "每缺 5% 生命 +1 护甲",
+      "最大生命修正 -25%",
+      "伤害 -60%",
+      "生命回复 -100",
+      "消耗品无法回血"
+    ],
+    "pros": [
+      "残血时伤害、吸血、护甲三重暴涨",
+      "吸血上限极高"
+    ],
+    "cons": [
+      "无法自然回血",
+      "血量薄，容错极低"
+    ],
+    "playstyle": "刻意保持低血量，用高吸血维持生存，堆最大生命。",
+    "difficulty": 5,
+    "tags": [
+      "吸血",
+      "高风险"
+    ],
+    "recommendedWeapons": [
+      "利爪",
+      "小刀",
+      "尖刺盾"
+    ],
+    "recommendedItems": [
+      "血手",
+      "蝙蝠"
+    ],
+    "unlock": "Reach +40 % Life Steal",
+    "unlocks": "Decomposing Flesh",
+    "unlockType": "Item",
+    "startingWeapons": [
+      "Fist",
+      "Claw",
+      "Sharp Tooth",
+      "Ghost Flint",
+      "Hatchet",
+      "Knife",
+      "Thief Dagger",
+      "Lightning Shiv",
+      "Scissors",
+      "Spiky Shield",
+      "Stick",
+      "Torch",
+      "Screwdriver",
+      "Wrench",
+      "Shuriken",
+      "Pistol",
+      "SMG",
+      "Double Barrel Shotgun",
+      "Medical Gun",
+      "Revolver",
+      "Shredder",
+      "Crossbow",
+      "Sickle"
+    ],
+    "statsEn": "+2 % Damage for every 1% of missing health\n+1 % Life Steal for every 3% of missing health\n+1 Armor for every 5% of missing health\nMax HP modifications are reduced by 25%\n-60 % Damage\n-100 HP Regeneration\n-100 HP recovered from consumables"
+  },
+  {
+    "slug": "wounded",
+    "name": "Wounded",
+    "nameZh": "重伤者",
+    "isDlc": false,
+    "tagline": "一击必死，梦魇难度专属挑战",
+    "ability": [
+      "受到任何伤害即死亡",
+      "速度 +5%",
+      "收获 +8",
+      "商店与箱子不再出现生命/回复/吸血/护甲类道具"
+    ],
+    "pros": [
+      "极限挑战，成就感强",
+      "道具池被净化，全是输出"
+    ],
+    "cons": [
+      "零容错，一次失误即结束"
+    ],
+    "playstyle": "全程只堆输出与闪避，靠走位规避一切伤害。",
+    "difficulty": 5,
+    "tags": [
+      "极限",
+      "挑战"
+    ],
+    "recommendedWeapons": [
+      "狙击枪",
+      "磁轨炮",
+      "小刀"
+    ],
+    "recommendedItems": [
+      "幽灵装",
+      "运动鞋"
+    ],
+    "unlock": "Win a run in Nightmare difficulty",
+    "unlocks": "Railgun",
+    "unlockType": "Weapon",
+    "startingWeapons": [
+      "Knife",
+      "Fist",
+      "Stick",
+      "Cacti Club",
+      "Hatchet",
+      "Spiky Shield",
+      "Ghost Flint",
+      "Wrench",
+      "Lute",
+      "Pistol",
+      "SMG",
+      "Double Barrel Shotgun",
+      "Slingshot",
+      "Taser",
+      "Wand",
+      "Icicle",
+      "Railgun"
+    ],
+    "statsEn": "This character dies in One Hit\n+5 % Speed\n+8 Harvesting\nShop items and crates are cleared of items focusing on Max HP, HP Regeneration, % Life Steal and Armor"
+  }
+]

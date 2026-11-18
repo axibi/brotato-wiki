@@ -1,0 +1,106 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { SITE } from '@/lib/site';
+import patches from '@/data/patches.json';
+import { counts } from '@/lib/data';
+
+const missing = ['老兵 Veteran', '考古学家 Archaeologist', '机器人 Droid', '时间转换者 Time Shifter', '变体 Variant', '穴居人 Caveman', '纵火犯 Arsonist', '疯狂科学家 Mad Scientist', '偷猎者 Poacher', '幸存者 Survivor'];
+---
+
+<BaseLayout
+  title="关于本站与数据说明"
+  description="土豆兄弟百科的数据来源、版本基线、内容原则、版权声明与纠错方式。"
+>
+  <article class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ label: '关于本站' }]} />
+
+    <header class="mt-6 max-w-3xl">
+      <p class="eyebrow">About</p>
+      <h1 class="h-section">关于本站与数据说明</h1>
+      <p class="lead mt-3">
+        这是一个非官方的中文资料站，目标是把《土豆兄弟》的数值与机制讲清楚，而不是堆砌没有出处的结论。
+      </p>
+    </header>
+
+    <div class="prose-b mt-10 max-w-3xl">
+      <h2>我们收录了什么</h2>
+      <p>
+        当前收录 <strong>{counts.characters}</strong> 名角色、<strong>{counts.weapons}</strong> 把武器、
+        <strong>{counts.items}</strong> 件道具，以及 18 篇原创攻略。武器数据包含 I~IV 阶的伤害、冷却、DPS、暴击、射程、击退与价格；
+        道具数据包含稀有度、价格、属性增减与特殊效果。
+      </p>
+
+      <h2>数据从哪里来</h2>
+      <p>
+        角色、武器、道具的结构化数值直接解析自 Brotato Wiki 的 MediaWiki 数据模板
+        （<code>Template:Character Data</code>、<code>Template:Weapon Data</code>、<code>Template:Item Data</code>），
+        该 Wiki 页面的武器与道具页标注版本为 <strong>Patch {patches.wikiPatch}</strong>。
+      </p>
+      <p>
+        我们不做整篇搬运：数值是事实，但描述、点评、优劣势分析与攻略全部由本站重新组织与撰写。
+        中文名称与效果说明为本站翻译，可能与官方简中本地化存在差异。
+      </p>
+
+      <h2>版本基线</h2>
+      <p>{patches.note}</p>
+      <p>
+        区分三类信息：
+      </p>
+      <ul>
+        <li><strong>已确认</strong>：来自 Wiki 结构化模板或官方页面，可直接核对。</li>
+        <li><strong>部分待核实</strong>：来自公开讨论或旧版本资料，可能已被补丁修改。</li>
+        <li><strong>待核实</strong>：仅有单一来源，或无法交叉验证。</li>
+      </ul>
+      <p>
+        所有涉及具体数值的攻略结论都会提示「以游戏内为准」。如果你发现站内数据与游戏不符，欢迎通过仓库 Issue 指出——
+        这比在评论区说「数据错了」有用得多。
+      </p>
+
+      <h2>已知缺口</h2>
+      <p>
+        有 10 名角色在 Wiki 的数据模板中缺少条目，因此本站暂未收录其完整数据（仅确认存在）：
+      </p>
+      <ul>
+        {missing.map((m) => <li>{m}</li>)}
+      </ul>
+      <p>
+        此外，Wiki 正文提到道具总数为 241 件，本站解析到 247 件，差异来自统计口径（是否计入部分特殊/活动道具）。
+        我们选择保留全部可解析条目，并在道具页标注数量。
+      </p>
+
+      <h2>图片来源</h2>
+      <p>
+        站内所有像素图标都是<strong>程序生成的原创图形</strong>：根据条目名称的哈希值生成对称像素网格，
+        不使用游戏原始素材，也不抓取其他 Wiki 的图片。这也是为什么同一个角色每次看到的「形象」都固定但独一无二。
+      </p>
+
+      <h2>版权与免责</h2>
+      <p>
+        Brotato © Blobfish。本站为非官方粉丝站点，与开发者无隶属关系。
+        站内攻略与点评为原创内容，欢迎在注明来源的前提下引用；数值数据来自公开 Wiki，遵循其原始许可。
+      </p>
+
+      <h2>资料来源</h2>
+      <ul>
+        {patches.sources.map((s) => (
+          <li>
+            <a href={s.url} target="_blank" rel="noopener noreferrer nofollow">{s.name}</a> —— {s.desc}
+          </li>
+        ))}
+      </ul>
+
+      <h2>技术栈</h2>
+      <p>
+        Astro + TypeScript + Tailwind CSS，静态站点生成，部署在 Cloudflare Pages。
+        数据与页面分离：<code>src/data/*.json</code> 存放图鉴数据，<code>src/content/guides/*.md</code> 存放攻略文章，
+        新增内容不需要改代码。
+      </p>
+    </div>
+
+    <div class="mt-12 max-w-3xl rounded-xl border border-line bg-white/[0.02] p-5">
+      <p class="text-[12px] uppercase tracking-widest text-dim">最近核对</p>
+      <p class="mt-1.5 text-[13px] text-muted">{patches.verifiedAt} · 版本 {SITE.version}</p>
+    </div>
+  </article>
+</BaseLayout>

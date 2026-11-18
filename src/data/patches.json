@@ -1,0 +1,63 @@
+{
+  "dataBaseline": "1.1.x",
+  "wikiPatch": "1.1.6.3",
+  "verifiedAt": "2026-11-18",
+  "note": "本站角色、武器、道具数值来自 Brotato Wiki 的结构化数据模板（该页标注 Patch 1.1.6.3），并按 1.1.x 版本整理。2026 年的 1.1.13~1.1.15 维护更新以平衡性微调为主，未逐条核对到的改动会在条目中标注「待核实」。",
+  "timeline": [
+    {
+      "version": "抢先体验",
+      "date": "2022-09-27",
+      "title": "Brotato 登陆 Steam 抢先体验",
+      "summary": "Blobfish 的单人作品以 6 武器、20 波生存的核心玩法上线，凭借极低价格与高重玩性迅速走红。",
+      "status": "已确认"
+    },
+    {
+      "version": "1.0",
+      "date": "2023-06-23",
+      "title": "正式版 1.0 发布",
+      "summary": "结束抢先体验，补齐角色、道具与危险等级体系，确立「危险 0~5」的难度框架。",
+      "status": "已确认"
+    },
+    {
+      "version": "1.1",
+      "date": "2024-10",
+      "title": "1.1 更新与《Abyssal Terrors》DLC",
+      "summary": "新增深海主题地图、海军/音乐等武器职业、诅咒机制与 14 名 DLC 角色，是本站 DLC 数据的来源版本。",
+      "status": "已确认（具体日期待核实）"
+    },
+    {
+      "version": "1.1.13 ~ 1.1.15",
+      "date": "2026 年内",
+      "title": "持续平衡性维护",
+      "summary": "官方以小幅数值调整为主，例如此前对尖刺盾护甲加成的回调。具体每一条改动未逐项收录，涉及数值差异时以游戏内为准。",
+      "status": "部分待核实"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Steam 官方商店页",
+      "url": "https://store.steampowered.com/app/1942280/",
+      "desc": "游戏简介、发行信息、官方截图与系统需求。"
+    },
+    {
+      "name": "Brotato Wiki (spellsandguns)",
+      "url": "https://brotato.wiki.spellsandguns.com/",
+      "desc": "角色 / 武器 / 道具的结构化数值来源，页面标注 Patch 1.1.6.3。"
+    },
+    {
+      "name": "Steam 社区指南",
+      "url": "https://steamcommunity.com/app/1942280/guides/",
+      "desc": "玩家撰写的流派与通关思路，用于交叉验证玩法结论。"
+    },
+    {
+      "name": "Reddit r/brotato",
+      "url": "https://www.reddit.com/r/brotato/",
+      "desc": "版本改动讨论、强度评价与冷门机制补充。"
+    },
+    {
+      "name": "Steam 官方公告",
+      "url": "https://store.steampowered.com/news/app/1942280",
+      "desc": "补丁说明与 DLC 发布信息。"
+    }
+  ]
+}

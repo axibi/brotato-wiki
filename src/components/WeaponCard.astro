@@ -1,0 +1,55 @@
+---
+import PixelSprite from './PixelSprite.astro';
+import type { Weapon } from '@/lib/data';
+import { TIER_ZH } from '@/lib/site';
+
+interface Props {
+  w: Weapon;
+  index?: number;
+}
+const { w, index = 0 } = Astro.props;
+const t = w.tiers[0];
+const dmg = t.damage.replace(/\(.*\)/, '');
+---
+
+<a
+  href={`/weapons/${w.slug}`}
+  class="card group flex flex-col p-4"
+  data-filter-item
+  data-search={`${w.nameZh} ${w.name} ${w.classes.join(' ')} ${w.note}`}
+  data-facet={`阵营:${w.isDlc ? 'dlc' : 'base'} ${w.classes.map((c) => `class:${c}`).join(' ')} tier:${w.minTier}`}
+  style={`animation-delay:${Math.min(index, 24) * 22}ms`}
+>
+  <div class="flex items-start gap-3">
+    <div class="relative grid h-[62px] w-[62px] shrink-0 place-items-center overflow-hidden rounded-xl border border-line bg-gradient-to-br from-white/[0.06] to-transparent">
+      <PixelSprite seed={w.slug} kind="weapon" size={48} alt={`${w.nameZh}像素图`} />
+    </div>
+    <div class="min-w-0 flex-1">
+      <div class="flex items-center gap-1.5">
+        <h3 class="truncate text-[15px] font-bold text-cream transition group-hover:text-orange-2">{w.nameZh}</h3>
+        {w.isDlc && <span class="tag tag-dlc h-[18px] px-1.5 text-[10px]">DLC</span>}
+      </div>
+      <p class="mt-0.5 truncate font-mono text-[11px] uppercase tracking-wider text-dim">{w.name}</p>
+      <div class="mt-2 flex flex-wrap gap-1">
+        {w.classes.slice(0, 3).map((c) => <span class="tag h-[19px] px-1.5 text-[10px]">{c}</span>)}
+      </div>
+    </div>
+  </div>
+
+  <p class="mt-3 line-clamp-2 min-h-[36px] text-[12px] leading-relaxed text-muted">{w.note}</p>
+
+  <div class="mt-3 grid grid-cols-3 gap-1 border-t border-line pt-2.5 text-center">
+    <div>
+      <p class="text-[10px] text-dim">基础伤害</p>
+      <p class="mt-0.5 text-[13px] font-bold text-cream">{dmg}</p>
+    </div>
+    <div>
+      <p class="text-[10px] text-dim">冷却</p>
+      <p class="mt-0.5 text-[13px] font-bold text-cream">{t.cooldown}</p>
+    </div>
+    <div>
+      <p class="text-[10px] text-dim">阶级</p>
+      <p class="mt-0.5 text-[13px] font-bold text-orange-2">{TIER_ZH[w.minTier]}{w.maxTier > w.minTier ? '起' : ''}</p>
+    </div>
+  </div>
+</a>

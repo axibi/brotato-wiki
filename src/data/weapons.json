@@ -1,0 +1,5108 @@
+[
+  {
+    "slug": "wrench",
+    "name": "Wrench",
+    "nameZh": "扳手",
+    "isDlc": false,
+    "classes": [
+      "工具"
+    ],
+    "classesEn": [
+      "Tool"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Spawns a Turret/Incendiary Turret/Laser Turret/Explosive Turret",
+    "unlock": "Default",
+    "tags": [
+      "工具",
+      "工程",
+      "近战"
+    ],
+    "note": "工程流核心起手，负责铺炮塔。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.7s",
+        "dps": "7.1(58%近战伤害)/s",
+        "dpsValue": 7.1,
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "16(100%近战伤害)",
+        "cooldown": "1.64s",
+        "dps": "9.8(60%近战伤害)/s",
+        "dpsValue": 9.8,
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.55s",
+        "dps": "12.9(64%近战伤害)/s",
+        "dpsValue": 12.9,
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "24(100%近战伤害)",
+        "cooldown": "1.49s",
+        "dps": "16.1(67%近战伤害)/s",
+        "dpsValue": 16.1,
+        "crit": "x2 (3%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "javelin",
+    "name": "Javelin",
+    "nameZh": "标枪",
+    "isDlc": true,
+    "classes": [
+      "原始"
+    ],
+    "classesEn": [
+      "Primitive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Every 5th/4th/3rd/2nd projectile has +100 % Crit Chance.\nPierces 2/3/4/5 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "tags": [
+      "投掷",
+      "远程"
+    ],
+    "note": "投掷类远程，单发伤害高，弹道需要预判。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(+100%Melee Damage)",
+        "cooldown": "1.2s",
+        "dps": "6.7(83.3%Melee Damage)/s",
+        "dpsValue": 6.7,
+        "crit": "x2.5 (0% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "12(+100%Melee Damage)",
+        "cooldown": "1.12s",
+        "dps": "10.7(89.6%Melee Damage)/s",
+        "dpsValue": 10.7,
+        "crit": "x2.75 (0% chance)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "16(+100%Melee Damage)",
+        "cooldown": "1.03s",
+        "dps": "15.5(97.1%Melee Damage)/s",
+        "dpsValue": 15.5,
+        "crit": "x3 (0% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Melee Damage)",
+        "cooldown": "0.95s",
+        "dps": "21.1(105.3%Melee Damage)/s",
+        "dpsValue": 21.1,
+        "crit": "x3.25 (0% chance)",
+        "range": 425,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "slug": "icicle",
+    "name": "Icicle",
+    "nameZh": "冰锥",
+    "isDlc": false,
+    "classes": [
+      "精准",
+      "元素"
+    ],
+    "classesEn": [
+      "Precise",
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "元素",
+      "远程"
+    ],
+    "note": "冰系远程，适合堆元素伤害的稳定输出。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(+100%Elemental Damage)",
+        "cooldown": "1.03s",
+        "dps": "9.7(96.8%Elemental Damage)/s",
+        "dpsValue": 9.7,
+        "crit": "x2 (5% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "20(+100%Elemental Damage)",
+        "cooldown": "0.95s",
+        "dps": "21.1(105.3%Elemental Damage)/s",
+        "dpsValue": 21.1,
+        "crit": "x2 (10% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "30(+100%Elemental Damage)",
+        "cooldown": "0.87s",
+        "dps": "34.6(115.4%Elemental Damage)/s",
+        "dpsValue": 34.6,
+        "crit": "x2.5 (15% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "40(+100%Elemental Damage)",
+        "cooldown": "0.7s",
+        "dps": "57.1(142.9%Elemental Damage)/s",
+        "dpsValue": 57.1,
+        "crit": "x3 (20% chance)",
+        "range": 400,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "slug": "chopper",
+    "name": "Chopper",
+    "nameZh": "菜刀",
+    "isDlc": false,
+    "classes": [
+      "刀刃"
+    ],
+    "classesEn": [
+      "Blade"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "+1/+1/+1/+2 health healed from consumables",
+    "unlock": "Win a run with link=Multitasker|x30px Multitasker",
+    "tags": [
+      "刀刃",
+      "近战"
+    ],
+    "note": "最泛用的近战起手武器，伤害随最大生命成长。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(50%近战伤害15%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "6.1(51%近战伤害15%最大生命)/s",
+        "dpsValue": 6.1,
+        "crit": "x2 (10%)",
+        "range": 135,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害20%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "12.2(51%近战伤害20%最大生命)/s",
+        "dpsValue": 12.2,
+        "crit": "x2 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "18(50%近战伤害25%最大生命)",
+        "cooldown": "0.96s",
+        "dps": "18.8(52%近战伤害26%最大生命)/s",
+        "dpsValue": 18.8,
+        "crit": "x2 (20%)",
+        "range": 165,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(50%近战伤害30%最大生命)",
+        "cooldown": "0.89s",
+        "dps": "33.7(56%近战伤害34%最大生命)/s",
+        "dpsValue": 33.7,
+        "crit": "x2 (25%)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "smg",
+    "name": "Smg",
+    "nameZh": "冲锋枪",
+    "isDlc": false,
+    "classes": [
+      "枪械"
+    ],
+    "classesEn": [
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程",
+      "高射速"
+    ],
+    "note": "射速快、成型早，远程流最稳的过渡武器。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3(50%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "17.6(294%远程伤害)/s",
+        "dpsValue": 17.6,
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "4(60%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "23.5(352%远程伤害)/s",
+        "dpsValue": 23.5,
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "5(70%远程伤害)",
+        "cooldown": "0.17s",
+        "dps": "29.4(411%远程伤害)/s",
+        "dpsValue": 29.4,
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "8(80%远程伤害)",
+        "cooldown": "0.15s",
+        "dps": "53.3(533%远程伤害)/s",
+        "dpsValue": 53.3,
+        "crit": "x1.5 (1%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "captains-sword",
+    "name": "Captain’S Sword",
+    "nameZh": "船长之剑",
+    "isDlc": true,
+    "classes": [
+      "海军",
+      "刀刃"
+    ],
+    "classesEn": [
+      "Naval",
+      "Blade"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Alternates between thrusting and sweeping attacks",
+    "special": "Alternates between thrusting and sweeping attacks\nDeals +25/+50 Damage for every free weapon slot you have.",
+    "unlock": "Win a run with Captain",
+    "tags": [
+      "海军",
+      "刀刃",
+      "近战"
+    ],
+    "note": "仅三阶以上出现，海军流的核心近战。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "50(+100%Melee Damage+100%Curse)",
+        "cooldown": "1.03s",
+        "dps": "48.5(97%Melee Damage97%Curse)/s",
+        "dpsValue": 48.5,
+        "crit": "x2 (3% chance)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 110
+      },
+      {
+        "tier": 4,
+        "damage": "80(+125%Melee Damage+125%Curse)",
+        "cooldown": "0.95s",
+        "dps": "84.4(131.9%Melee Damage131.9%Curse)/s",
+        "dpsValue": 84.4,
+        "crit": "x2 (3% chance)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 210
+      }
+    ]
+  },
+  {
+    "slug": "hammer",
+    "name": "Hammer",
+    "nameZh": "锤子",
+    "isDlc": false,
+    "classes": [
+      "钝器",
+      "重型"
+    ],
+    "classesEn": [
+      "Blunt",
+      "Heavy"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "+2/+4/+6 Knockback",
+    "unlock": "Default",
+    "tags": [
+      "钝器",
+      "重型",
+      "近战"
+    ],
+    "note": "高单发钝器，二阶起出现，适合重击流。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "40(150%近战伤害)",
+        "cooldown": "1.67s",
+        "dps": "21.0(89%近战伤害)/s",
+        "dpsValue": 21,
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "75(175%近战伤害)",
+        "cooldown": "1.59s",
+        "dps": "44.0(110%近战伤害)/s",
+        "dpsValue": 44,
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 40,
+        "lifesteal": 0,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "120(200%近战伤害)",
+        "cooldown": "1.5s",
+        "dps": "73.3(133%近战伤害)/s",
+        "dpsValue": 73.3,
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 50,
+        "lifesteal": 0,
+        "price": 151
+      }
+    ]
+  },
+  {
+    "slug": "railgun",
+    "name": "Railgun",
+    "nameZh": "磁轨炮",
+    "isDlc": false,
+    "classes": [
+      "枪械",
+      "重型"
+    ],
+    "classesEn": [
+      "Gun",
+      "Heavy"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "精准",
+      "远程"
+    ],
+    "note": "超高单发伤害，穿透一线，Boss 战首选。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(80%远程伤害30%Dodge)",
+        "cooldown": "1.07s",
+        "dps": "9.3(75%远程伤害28%Dodge)/s",
+        "dpsValue": 9.3,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "15(80%远程伤害35%Dodge)",
+        "cooldown": "1.02s",
+        "dps": "14.7(78%远程伤害34%Dodge)/s",
+        "dpsValue": 14.7,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 40
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%远程伤害40%Dodge)",
+        "cooldown": "0.98s",
+        "dps": "20.4(82%远程伤害41%Dodge)/s",
+        "dpsValue": 20.4,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 80
+      },
+      {
+        "tier": 4,
+        "damage": "35(100%远程伤害45%Dodge)",
+        "cooldown": "0.95s",
+        "dps": "36.8(105%远程伤害47%Dodge)/s",
+        "dpsValue": 36.8,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 160
+      }
+    ]
+  },
+  {
+    "slug": "slingshot",
+    "name": "Slingshot",
+    "nameZh": "弹弓",
+    "isDlc": false,
+    "classes": [
+      "原始"
+    ],
+    "classesEn": [
+      "Primitive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Bounces 1/2/3/4 times",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "远程"
+    ],
+    "note": "便宜的远程起手，适合前几波过渡。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(80%远程伤害)",
+        "cooldown": "1.22s",
+        "dps": "8.2(65%远程伤害)/s",
+        "dpsValue": 8.2,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "13(80%远程伤害)",
+        "cooldown": "1.17s",
+        "dps": "11.1(68.4%远程伤害)/s",
+        "dpsValue": 11.1,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "16(80%远程伤害)",
+        "cooldown": "1.13s",
+        "dps": "14.2(70.8%远程伤害)/s",
+        "dpsValue": 14.2,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "20(80%远程伤害)",
+        "cooldown": "1.1s",
+        "dps": "18.2(72.7%远程伤害)/s",
+        "dpsValue": 18.2,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "thief-dagger",
+    "name": "Thief Dagger",
+    "nameZh": "盗贼匕首",
+    "isDlc": false,
+    "classes": [
+      "精准"
+    ],
+    "classesEn": [
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "50%/56%/62%/80% to gain 1 material when killing an enemy with a critical hit with this weapon",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "精准",
+      "近战"
+    ],
+    "note": "高暴击匕首，适合暴击流与偷取型构筑。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(50%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.9(49%近战伤害)/s",
+        "dpsValue": 5.9,
+        "crit": "x2 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "12.9(53%近战伤害)/s",
+        "dpsValue": 12.9,
+        "crit": "x2 (25%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "18(50%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "20.9(58%近战伤害)/s",
+        "dpsValue": 20.9,
+        "crit": "x2 (30%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "30(50%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "41.1(68%近战伤害)/s",
+        "dpsValue": 41.1,
+        "crit": "x2 (40%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "slug": "hiking-pole",
+    "name": "Hiking Pole",
+    "nameZh": "登山杖",
+    "isDlc": true,
+    "classes": [
+      "辅助"
+    ],
+    "classesEn": [
+      "Support"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+1 Range for every 70/60/50/40 steps you take during a wave",
+    "unlock": "Default",
+    "tags": [
+      "辅助",
+      "近战"
+    ],
+    "note": "伤害随射程成长，辅助标签可凑职业加成。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(+50%Melee Damage+10%射程)",
+        "cooldown": "1.42s",
+        "dps": "8.4(35.2%Melee Damage7%射程)/s",
+        "dpsValue": 8.4,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 17
+      },
+      {
+        "tier": 2,
+        "damage": "18(+50%Melee Damage+12%射程)",
+        "cooldown": "1.34s",
+        "dps": "13.5(37.4%Melee Damage9%射程)/s",
+        "dpsValue": 13.5,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "24(+50%Melee Damage+15%射程)",
+        "cooldown": "1.25s",
+        "dps": "19.1(39.9%Melee Damage12%射程)/s",
+        "dpsValue": 19.1,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "30(+50%Melee Damage+20%射程)",
+        "cooldown": "1.17s",
+        "dps": "25.6(42.7%Melee Damage17.1%射程)/s",
+        "dpsValue": 25.6,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 130
+      }
+    ]
+  },
+  {
+    "slug": "plasma-sledge",
+    "name": "Plasma Sledge",
+    "nameZh": "等离子重锤",
+    "isDlc": false,
+    "classes": [
+      "元素",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Elemental",
+      "Explosive"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Hits have 25%/50% chance to explode.",
+    "unlock": "Win a run with link=Knight|x30px Knight",
+    "tags": [
+      "钝器",
+      "元素",
+      "近战"
+    ],
+    "note": "高伤元素钝器，适合重击型元素流。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "80(150%近战伤害150%元素伤害)",
+        "cooldown": "1.55s",
+        "dps": "51.6(96%近战伤害96%元素伤害)/s",
+        "dpsValue": 51.6,
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 136
+      },
+      {
+        "tier": 4,
+        "damage": "120(200%近战伤害200%元素伤害)",
+        "cooldown": "1.49s",
+        "dps": "80.5(134%近战伤害134%元素伤害)/s",
+        "dpsValue": 80.5,
+        "crit": "x1.75 (3%)",
+        "range": 175,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 272
+      }
+    ]
+  },
+  {
+    "slug": "taser",
+    "name": "Taser",
+    "nameZh": "电击枪",
+    "isDlc": false,
+    "classes": [
+      "辅助",
+      "元素"
+    ],
+    "classesEn": [
+      "Support",
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Slows enemies in a radius around the projectile",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "元素",
+      "远程"
+    ],
+    "note": "电系远程，可造成控制与元素伤害。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7x1(80%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "7.4(84%元素伤害)/s",
+        "dpsValue": 7.4,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "7x2(70%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "14.7(147%元素伤害)/s",
+        "dpsValue": 14.7,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "7x3(60%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "22.1(189%元素伤害)/s",
+        "dpsValue": 22.1,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "14x4(50%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "58.9(210%元素伤害)/s",
+        "dpsValue": 58.9,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "chainsaw",
+    "name": "Chainsaw",
+    "nameZh": "电锯",
+    "isDlc": true,
+    "classes": [
+      "刀刃",
+      "工具"
+    ],
+    "classesEn": [
+      "Blade",
+      "Tool"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Cooldown is 1.83s/1.52s every 30/40 shots\nDeals 10%/20% of an enemy’s current health as bonus damage (1%/2% for bosses and elites)",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "工具",
+      "近战"
+    ],
+    "note": "极高攻速，附带生命偷取，贴脸续战能力强。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "10(+75%Melee Damage+75%工程+75%Lifesteal)",
+        "cooldown": "0.53s",
+        "dps": "18.8(141.3%Melee Damage141.3%工程141.3%Lifesteal)/s",
+        "dpsValue": 18.8,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 15,
+        "price": 112
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Melee Damage+100%工程+100%Lifesteal)",
+        "cooldown": "0.56s",
+        "dps": "35.9(179.3%Melee Damage179.3%工程179.3%Lifesteal)/s",
+        "dpsValue": 35.9,
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 0,
+        "lifesteal": 30,
+        "price": 242
+      }
+    ]
+  },
+  {
+    "slug": "drill",
+    "name": "Drill",
+    "nameZh": "电钻",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "精准"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Precise"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "100% chance to gain 1 material when killing an enemy with a critical hit.\n+10 % Attack Speed every 5 seconds until the end of the wave",
+    "unlock": "Default",
+    "tags": [
+      "传说",
+      "精准",
+      "工具"
+    ],
+    "note": "传说级工具武器，攻速极快，工程流单体输出。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "10(100%近战伤害100%工程)",
+        "cooldown": "0.45s",
+        "dps": "22.2(222.2%近战伤害222.2%工程)/s",
+        "dpsValue": 22.2,
+        "crit": "x2.5 (50%)",
+        "range": 100,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 250
+      }
+    ]
+  },
+  {
+    "slug": "mace",
+    "name": "Mace",
+    "nameZh": "钉头锤",
+    "isDlc": true,
+    "classes": [
+      "重型",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Medieval"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "-3%/-6%/-10% Attack Speed",
+    "unlock": "Win a run with Ogre",
+    "tags": [
+      "重型",
+      "中世纪",
+      "近战"
+    ],
+    "note": "二阶起的高伤钝器，攻速偏慢。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "40(+100%Melee Damage-50%Attack Speed)",
+        "cooldown": "1.39s",
+        "dps": "28.7(71.7%Melee Damage-35.9%Attack Speed)/s",
+        "dpsValue": 28.7,
+        "crit": "x1.5 (4% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "60(+100%Melee Damage-75%Attack Speed)",
+        "cooldown": "1.31s",
+        "dps": "45.8(76.3%Melee Damage-57.2%Attack Speed)/s",
+        "dpsValue": 45.8,
+        "crit": "x1.5 (8% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 92
+      },
+      {
+        "tier": 4,
+        "damage": "100(+100%Melee Damage-100%Attack Speed)",
+        "cooldown": "1.23s",
+        "dps": "81.5(81.5%Melee Damage-81.5%Attack Speed)/s",
+        "dpsValue": 81.5,
+        "crit": "x1.5 (12% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 185
+      }
+    ]
+  },
+  {
+    "slug": "excalibur",
+    "name": "Excalibur",
+    "nameZh": "断钢剑",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "刀刃"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Blade"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks.\n-2 Armor for every weapon you have",
+    "unlock": "Win a run with link=King|x30px King",
+    "tags": [
+      "传说",
+      "刀刃",
+      "近战"
+    ],
+    "note": "全游戏最高单发近战伤害，同时吃最大生命加成。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "200(200%近战伤害200%最大生命)",
+        "cooldown": "0.66s",
+        "dps": "266.6(266.6%近战伤害266.6%最大生命)/s",
+        "dpsValue": 266.6,
+        "crit": "x2.5 (10%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 230
+      }
+    ]
+  },
+  {
+    "slug": "wand",
+    "name": "Wand",
+    "nameZh": "法杖",
+    "isDlc": false,
+    "classes": [
+      "元素"
+    ],
+    "classesEn": [
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Deals 3x3/5x5/8x6/12x9(100%元素伤害) burning damage\nPierces 1 enemy dealing -50% less to the second enemy",
+    "unlock": "Default",
+    "tags": [
+      "元素",
+      "远程"
+    ],
+    "note": "元素流基础远程，弹道追踪，手感好。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%元素伤害)",
+        "cooldown": "0.87s",
+        "dps": "1.1(57%元素伤害)/s",
+        "dpsValue": 1.1,
+        "crit": "x2 (0%)",
+        "range": 350,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(65%元素伤害)",
+        "cooldown": "0.78s",
+        "dps": "1.3(83.3%元素伤害)/s",
+        "dpsValue": 1.3,
+        "crit": "x2 (0%)",
+        "range": 375,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(80%元素伤害)",
+        "cooldown": "0.7s",
+        "dps": "1.4(114.3%元素伤害)/s",
+        "dpsValue": 1.4,
+        "crit": "x2 (0%)",
+        "range": 400,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(100%元素伤害)",
+        "cooldown": "0.53s",
+        "dps": "1.9(188.7%元素伤害)/s",
+        "dpsValue": 1.9,
+        "crit": "x2 (0%)",
+        "range": 425,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "shredder",
+    "name": "Shredder",
+    "nameZh": "粉碎者",
+    "isDlc": false,
+    "classes": [
+      "枪械",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Gun",
+      "Explosive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "50%/65%/80%/100% chance for projectiles to explode on hit. Pierces 3 enemies dealing 100% damage",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程",
+      "弹幕"
+    ],
+    "note": "散射弹幕，清群稳定，是远程流的万金油。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(50%远程伤害)",
+        "cooldown": "1.3s",
+        "dps": "3.8(38%远程伤害)/s",
+        "dpsValue": 3.8,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(50%远程伤害)",
+        "cooldown": "1.22s",
+        "dps": "8.2(40%远程伤害)/s",
+        "dpsValue": 8.2,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "15(50%远程伤害)",
+        "cooldown": "1.13s",
+        "dps": "13.3(44%远程伤害)/s",
+        "dpsValue": 13.3,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "25(50%远程伤害)",
+        "cooldown": "1.05s",
+        "dps": "23.8(47%远程伤害)/s",
+        "dpsValue": 23.8,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "nuclear-launcher",
+    "name": "Nuclear Launcher",
+    "nameZh": "核弹发射器",
+    "isDlc": false,
+    "classes": [
+      "重型",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Explosive"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Projectiles explode on hit",
+    "unlock": "Win a run with link=Soldier|x30px Soldier",
+    "tags": [
+      "枪械",
+      "爆炸",
+      "远程"
+    ],
+    "note": "超大范围爆炸，清屏能力强，冷却较长。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "60(100%远程伤害100%元素伤害)",
+        "cooldown": "2.12s",
+        "dps": "28.3(47%远程伤害47%元素伤害)/s",
+        "dpsValue": 28.3,
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 144
+      },
+      {
+        "tier": 4,
+        "damage": "120(100%远程伤害100%元素伤害)",
+        "cooldown": "2.12s",
+        "dps": "56.6(47%远程伤害47%元素伤害)/s",
+        "dpsValue": 56.6,
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 289
+      }
+    ]
+  },
+  {
+    "slug": "torch",
+    "name": "Torch",
+    "nameZh": "火把",
+    "isDlc": false,
+    "classes": [
+      "原始",
+      "元素"
+    ],
+    "classesEn": [
+      "Primitive",
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Deals 3x3/5x5/8x6/12x9(100%元素伤害) burning damage.\nBurning spreads to 0/0/1/1 additional nearby enemies.",
+    "unlock": "Default",
+    "tags": [
+      "元素",
+      "燃烧",
+      "近战"
+    ],
+    "note": "燃烧流核心，近身点燃后持续掉血。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%近战伤害50%元素伤害)",
+        "cooldown": "1.1s",
+        "dps": "0.9(45%近战伤害45%元素伤害)/s",
+        "dpsValue": 0.9,
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(65%近战伤害65%元素伤害)",
+        "cooldown": "1.04s",
+        "dps": "1.0(63%近战伤害63%元素伤害)/s",
+        "dpsValue": 1,
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(80%近战伤害80%元素伤害)",
+        "cooldown": "0.95s",
+        "dps": "1.1(84%近战伤害84%元素伤害)/s",
+        "dpsValue": 1.1,
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(100%近战伤害100%元素伤害)",
+        "cooldown": "0.8s",
+        "dps": "1.2(125%近战伤害125%元素伤害)/s",
+        "dpsValue": 1.2,
+        "crit": "x1.5 (0%)",
+        "range": 175,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "rocket-launcher",
+    "name": "Rocket Launcher",
+    "nameZh": "火箭筒",
+    "isDlc": false,
+    "classes": [
+      "重型",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Explosive"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Projectiles explode on hit",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "爆炸",
+      "远程"
+    ],
+    "note": "经典范围杀伤，适合清密集敌群。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "1.78s",
+        "dps": "16.9(56%远程伤害)/s",
+        "dpsValue": 16.9,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 56
+      },
+      {
+        "tier": 3,
+        "damage": "50(100%远程伤害)",
+        "cooldown": "1.37s",
+        "dps": "36.5(72%远程伤害)/s",
+        "dpsValue": 36.5,
+        "crit": "x2 (3%)",
+        "range": 550,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 103
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%远程伤害)",
+        "cooldown": "1.03s",
+        "dps": "77.7(97%远程伤害)/s",
+        "dpsValue": 77.7,
+        "crit": "x2 (3%)",
+        "range": 600,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 207
+      }
+    ]
+  },
+  {
+    "slug": "fireball",
+    "name": "Fireball",
+    "nameZh": "火球",
+    "isDlc": false,
+    "classes": [
+      "爆炸",
+      "元素"
+    ],
+    "classesEn": [
+      "Explosive",
+      "Elemental"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Projectiles explode on hit.\nDeals -/5x3/6x4/8x5 (+100%Elemental Damage) burning damage",
+    "unlock": "Default",
+    "tags": [
+      "元素",
+      "远程"
+    ],
+    "note": "元素远程法术，命中后附加燃烧。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "5(+25%Elemental Damage)",
+        "cooldown": "1.12s",
+        "dps": "4.5(22.4%Elemental Damage)/s",
+        "dpsValue": 4.5,
+        "crit": "x1.5 (3% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "10(+50%Elemental Damage)",
+        "cooldown": "1.03s",
+        "dps": "9.7(48.4%Elemental Damage)/s",
+        "dpsValue": 9.7,
+        "crit": "x1.5 (3% chance)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "20(+75%Elemental Damage)",
+        "cooldown": "0.87s",
+        "dps": "23.1(86.5%Elemental Damage)/s",
+        "dpsValue": 23.1,
+        "crit": "x1.5 (3% chance)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 140
+      }
+    ]
+  },
+  {
+    "slug": "flamethrower",
+    "name": "Flamethrower",
+    "nameZh": "火焰喷射器",
+    "isDlc": false,
+    "classes": [
+      "元素",
+      "重型"
+    ],
+    "classesEn": [
+      "Elemental",
+      "Heavy"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Deals -/1x3/3x5/5x8(100%元素伤害) burning damage\nPierces 99 enemies dealing 1 damage",
+    "unlock": "Default",
+    "tags": [
+      "元素",
+      "远程",
+      "燃烧"
+    ],
+    "note": "持续喷射点燃敌人，燃烧流的核心武器。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.12s",
+        "dps": "8.3(8%元素伤害)/s",
+        "dpsValue": 8.3,
+        "crit": "x2 (0%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 56
+      },
+      {
+        "tier": 3,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.12s",
+        "dps": "8.3(8%元素伤害)/s",
+        "dpsValue": 8.3,
+        "crit": "x2 (0%)",
+        "range": 300,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 103
+      },
+      {
+        "tier": 4,
+        "damage": "1(1%元素伤害)",
+        "cooldown": "0.09s",
+        "dps": "11.1(11%元素伤害)/s",
+        "dpsValue": 11.1,
+        "crit": "x2 (0%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 207
+      }
+    ]
+  },
+  {
+    "slug": "laser-gun",
+    "name": "Laser Gun",
+    "nameZh": "激光枪",
+    "isDlc": false,
+    "classes": [
+      "枪械"
+    ],
+    "classesEn": [
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces 1 enemy dealing -25% less to the second enemy",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程"
+    ],
+    "note": "穿透弹道，适合排队的敌人队列。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "40(400%远程伤害)",
+        "cooldown": "1.98s",
+        "dps": "20.2(202%远程伤害)/s",
+        "dpsValue": 20.2,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "55(450%远程伤害)",
+        "cooldown": "1.90s",
+        "dps": "28.9(237%远程伤害)/s",
+        "dpsValue": 28.9,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "70(500%远程伤害)",
+        "cooldown": "1.82s",
+        "dps": "38.5(275%远程伤害)/s",
+        "dpsValue": 38.5,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "100(600%远程伤害)",
+        "cooldown": "1.65s",
+        "dps": "60.6(364%远程伤害)/s",
+        "dpsValue": 60.6,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "gatling-laser",
+    "name": "Gatling Laser",
+    "nameZh": "加特林激光",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "重型"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Heavy"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces 3 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程",
+      "高射速"
+    ],
+    "note": "激光连射，穿透与射速兼备。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.073s",
+        "dps": "137.0(1370%远程伤害)/s",
+        "dpsValue": 137,
+        "crit": "x3 (10%)",
+        "range": 500,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 290
+      }
+    ]
+  },
+  {
+    "slug": "spiky-shield",
+    "name": "Spiky Shield",
+    "nameZh": "尖刺盾",
+    "isDlc": false,
+    "classes": [
+      "中世纪",
+      "钝器"
+    ],
+    "classesEn": [
+      "Medieval",
+      "Blunt"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Win a run with link=Masochist|x30px Masochist",
+    "tags": [
+      "近战",
+      "防御"
+    ],
+    "note": "兼顾防御与反击，适合坦克型构筑。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%护甲)",
+        "cooldown": "1.16s",
+        "dps": "8.6(86%护甲)/s",
+        "dpsValue": 8.6,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(125%护甲)",
+        "cooldown": "1.16s",
+        "dps": "12.9(107%护甲)/s",
+        "dpsValue": 12.9,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(150%护甲)",
+        "cooldown": "1.16s",
+        "dps": "17.2(129%护甲)/s",
+        "dpsValue": 17.2,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(200%护甲)",
+        "cooldown": "1.01s",
+        "dps": "29.7(198%护甲)/s",
+        "dpsValue": 29.7,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "sharp-tooth",
+    "name": "Sharp Tooth",
+    "nameZh": "尖牙",
+    "isDlc": false,
+    "classes": [
+      "原始",
+      "精准"
+    ],
+    "classesEn": [
+      "Primitive",
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+1 % Life Steal for every 25%/20%/15%/10% of missing health",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "近战"
+    ],
+    "note": "低阶高攻速，适合快速合成升阶。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(+50%Melee Damage+50%Lifesteal)",
+        "cooldown": "1.14s",
+        "dps": "4.4(43.7%Melee Damage43.7%Lifesteal)/s",
+        "dpsValue": 4.4,
+        "crit": "x2 (3% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Melee Damage+65%Lifesteal)",
+        "cooldown": "1.07s",
+        "dps": "7.5(46.7%Melee Damage60.7%Lifesteal)/s",
+        "dpsValue": 7.5,
+        "crit": "x2.15 (6% chance)",
+        "range": 160,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "11(+50%Melee Damage+80%Lifesteal)",
+        "cooldown": "1s",
+        "dps": "11(50.1%Melee Damage80.1%Lifesteal)/s",
+        "dpsValue": 11,
+        "crit": "x2.3 (9% chance)",
+        "range": 170,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "15(+50%Melee Damage+100%Lifesteal)",
+        "cooldown": "0.93s",
+        "dps": "16.2(54%Melee Damage108%Lifesteal)/s",
+        "dpsValue": 16.2,
+        "crit": "x2.5 (12% chance)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "slug": "scissors",
+    "name": "Scissors",
+    "nameZh": "剪刀",
+    "isDlc": false,
+    "classes": [
+      "医疗",
+      "精准"
+    ],
+    "classesEn": [
+      "Medical",
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "精准",
+      "医疗",
+      "近战"
+    ],
+    "note": "医疗流近战核心，攻速快、可触发治疗。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.0(79%近战伤害)/s",
+        "dpsValue": 5,
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 40,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(80%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "10.2(81%近战伤害)/s",
+        "dpsValue": 10.2,
+        "crit": "x2.15 (12%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 45,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "0.94s",
+        "dps": "16.0(85%近战伤害)/s",
+        "dpsValue": 16,
+        "crit": "x2.3 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 50,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "20(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "23.3(93%近战伤害)/s",
+        "dpsValue": 23.3,
+        "crit": "x2.5 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 60,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "sniper-gun",
+    "name": "Sniper Gun",
+    "nameZh": "狙击枪",
+    "isDlc": false,
+    "classes": [
+      "枪械",
+      "精准"
+    ],
+    "classesEn": [
+      "Gun",
+      "Precise"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Hitting an enemy spawns 5/8 projectiles dealing 5 +(10%/15%射程)",
+    "unlock": "Win a run with link=Hunter|x30px Hunter",
+    "tags": [
+      "枪械",
+      "精准",
+      "远程"
+    ],
+    "note": "超远射程与高暴击，适合点名精英与 Boss。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "50(100%远程伤害20%射程)",
+        "cooldown": "2.4s",
+        "dps": "20.8(41%远程伤害8%射程)/s",
+        "dpsValue": 20.8,
+        "crit": "x3 (20%)",
+        "range": 800,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 115
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%远程伤害30%射程)",
+        "cooldown": "2.4s",
+        "dps": "33.3(41%远程伤害12%射程)/s",
+        "dpsValue": 33.3,
+        "crit": "x4 (20%)",
+        "range": 1000,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 245
+      }
+    ]
+  },
+  {
+    "slug": "blunderbuss",
+    "name": "Blunderbuss",
+    "nameZh": "喇叭枪",
+    "isDlc": true,
+    "classes": [
+      "海军",
+      "枪械"
+    ],
+    "classesEn": [
+      "Naval",
+      "Gun"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Cooldown is reset when you pick up a material.\nPierces 2 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "tags": [
+      "海军",
+      "霰弹",
+      "远程"
+    ],
+    "note": "大范围散射，近距离清群效果好，射程偏短。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "22(+110%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "4.2(21.2%Ranged Damage)/s",
+        "dpsValue": 4.2,
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 3,
+        "damage": "45(+135%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "8.7(26%Ranged Damage)/s",
+        "dpsValue": 8.7,
+        "crit": "x2.25 (3% chance)",
+        "range": 350,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 95
+      },
+      {
+        "tier": 4,
+        "damage": "70(+170%Ranged Damage)",
+        "cooldown": "5.2s",
+        "dps": "13.5(32.7%Ranged Damage)/s",
+        "dpsValue": 13.5,
+        "crit": "x2.5 (3% chance)",
+        "range": 375,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 192
+      }
+    ]
+  },
+  {
+    "slug": "thunder-sword",
+    "name": "Thunder Sword",
+    "nameZh": "雷霆之剑",
+    "isDlc": false,
+    "classes": [
+      "刀刃",
+      "元素"
+    ],
+    "classesEn": [
+      "Blade",
+      "Elemental"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Hitting an enemy spawns 2/4 projectiles that slow and damage enemies by 100%元素伤害",
+    "unlock": "Win a run with link=Mage|x30px Mage",
+    "tags": [
+      "刀刃",
+      "元素",
+      "近战"
+    ],
+    "note": "雷系近战，兼具物理与元素输出。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "40(125%近战伤害125%元素伤害)",
+        "cooldown": "1.21s",
+        "dps": "33.1(103%近战伤害103%元素伤害)/s",
+        "dpsValue": 33.1,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 119
+      },
+      {
+        "tier": 4,
+        "damage": "75(150%近战伤害150%元素伤害)",
+        "cooldown": "1.06s",
+        "dps": "70.8(141%近战伤害141%元素伤害)/s",
+        "dpsValue": 70.8,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 238
+      }
+    ]
+  },
+  {
+    "slug": "claw",
+    "name": "Claw",
+    "nameZh": "利爪",
+    "isDlc": false,
+    "classes": [
+      "徒手",
+      "精准"
+    ],
+    "classesEn": [
+      "Unarmed",
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "-",
+    "unlock": "Win a run with link=Cryptid|x30px Cryptid",
+    "tags": [
+      "徒手",
+      "精准",
+      "近战"
+    ],
+    "note": "徒手流基础武器，攻速随阶级提升明显。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(15%攻速50%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "6.4(19.2%攻速64.1%近战伤害)/s",
+        "dpsValue": 6.4,
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "10(20%攻速50%近战伤害)",
+        "cooldown": "0.74s",
+        "dps": "13.5(27%攻速67.6%近战伤害)/s",
+        "dpsValue": 13.5,
+        "crit": "x2.15 (15%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 28
+      },
+      {
+        "tier": 3,
+        "damage": "15(25%攻速50%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "21.7(36.2%攻速72.5%近战伤害)/s",
+        "dpsValue": 21.7,
+        "crit": "x2.3 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 55
+      },
+      {
+        "tier": 4,
+        "damage": "25(30%攻速50%近战伤害)",
+        "cooldown": "0.61s",
+        "dps": "41.0(49.2%攻速82%近战伤害)/s",
+        "dpsValue": 41,
+        "crit": "x2.5 (25%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 110
+      }
+    ]
+  },
+  {
+    "slug": "particle-accelerator",
+    "name": "Particle Accelerator",
+    "nameZh": "粒子加速器",
+    "isDlc": false,
+    "classes": [
+      "重型",
+      "元素"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Elemental"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Deals 8x8/10x10 (+100%Elemental Damage) burning damage\nSlows enemies by 1%/2% on hit for every 1 Engineering you have [0%].\nPierces through enemies.\nCan't bounce",
+    "unlock": "Win a run with Technomage",
+    "tags": [
+      "枪械",
+      "远程"
+    ],
+    "note": "高能穿透射线，适合直线清场。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "60(+100%Elemental Damage+100%工程)",
+        "cooldown": "1.95s",
+        "dps": "30.8(51.3%Elemental Damage51.3%工程)/s",
+        "dpsValue": 30.8,
+        "crit": "x2 (3% chance)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 144
+      },
+      {
+        "tier": 4,
+        "damage": "120(+100%Elemental Damage+100%工程)",
+        "cooldown": "1.62s",
+        "dps": "74.2(61.8%Elemental Damage61.8%工程)/s",
+        "dpsValue": 74.2,
+        "crit": "x2 (3% chance)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 289
+      }
+    ]
+  },
+  {
+    "slug": "scythe",
+    "name": "Scythe",
+    "nameZh": "镰刀",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "虚灵"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Ethereal"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "You take 3 damage per second (does not give invulnerability time).\n+3 % Damage when you take damage until the end of the wave",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "重型",
+      "近战"
+    ],
+    "note": "大范围横扫，适合收割成群小怪。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "150(150%近战伤害100%LifeSteal)",
+        "cooldown": "0.72s",
+        "dps": "208.3(208.3%近战伤害138.9%LifeSteal)/s",
+        "dpsValue": 208.3,
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 5,
+        "lifesteal": 100,
+        "price": 285
+      }
+    ]
+  },
+  {
+    "slug": "chain-gun",
+    "name": "Chain Gun",
+    "nameZh": "链式机枪",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "枪械"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Gun"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Cooldown is 2.04s every 100 shots.\nPierces 1 enemy dealing -50% less damage with each pierce.",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程",
+      "高射速"
+    ],
+    "note": "持续输出型机枪，适合堆攻速与远程伤害。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "2x3(100%远程伤害100%工程)",
+        "cooldown": "0.073s",
+        "dps": "82.2(4110%远程伤害4110%工程)/s",
+        "dpsValue": 82.2,
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 300
+      }
+    ]
+  },
+  {
+    "slug": "flaming-brass-knuckles",
+    "name": "Flaming Brass Knuckles",
+    "nameZh": "烈焰黄铜指虎",
+    "isDlc": false,
+    "classes": [
+      "徒手",
+      "元素"
+    ],
+    "classesEn": [
+      "Unarmed",
+      "Elemental"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Deals -/10x5/15x6/18x7(100%元素伤害) burning damage",
+    "unlock": "Default",
+    "tags": [
+      "徒手",
+      "元素",
+      "近战"
+    ],
+    "note": "徒手与元素双标签，近身点燃目标。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "21.9(136%近战伤害)/s",
+        "dpsValue": 21.9,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "46.4(144%近战伤害)/s",
+        "dpsValue": 46.4,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "108.5(169%近战伤害)/s",
+        "dpsValue": 108.5,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 173
+      }
+    ]
+  },
+  {
+    "slug": "grenade-launcher",
+    "name": "Grenade Launcher",
+    "nameZh": "榴弹发射器",
+    "isDlc": true,
+    "classes": [
+      "重型",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Explosive"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Every 2nd/3rd/4th shot has a longer cooldown: 3.7s/3.2s/2.7s.\nProjectiles explode on hit.\nBounces 1 time.",
+    "unlock": "Win a run with Gangster",
+    "tags": [
+      "枪械",
+      "爆炸",
+      "远程"
+    ],
+    "note": "抛射爆炸，清群优秀，注意自伤范围。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "12(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "5.9(49%Ranged Damage)/s",
+        "dpsValue": 5.9,
+        "crit": "x2.5 (5% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 58
+      },
+      {
+        "tier": 3,
+        "damage": "18(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "13.7(76.1%Ranged Damage)/s",
+        "dpsValue": 13.7,
+        "crit": "x3 (10% chance)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 108
+      },
+      {
+        "tier": 4,
+        "damage": "30(+100%Ranged Damage)",
+        "cooldown": "0.37s",
+        "dps": "31.5(105%Ranged Damage)/s",
+        "dpsValue": 31.5,
+        "crit": "x3.5 (20% chance)",
+        "range": 450,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 212
+      }
+    ]
+  },
+  {
+    "slug": "lute",
+    "name": "Lute",
+    "nameZh": "鲁特琴",
+    "isDlc": true,
+    "classes": [
+      "音乐",
+      "辅助"
+    ],
+    "classesEn": [
+      "Musical",
+      "Support"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Enemies hit take 10% more damage for 3 seconds (max: 30%/50%/70%/100%)",
+    "unlock": "Default",
+    "tags": [
+      "音乐",
+      "辅助",
+      "近战"
+    ],
+    "note": "音乐系辅助武器，伤害随幸运成长。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "4(+50%Melee Damage+10%Luck)",
+        "cooldown": "1.31s",
+        "dps": "3.1(38.1%Melee Damage7.6%Luck)/s",
+        "dpsValue": 3.1,
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Melee Damage+15%Luck)",
+        "cooldown": "1.25s",
+        "dps": "6.4(39.9%Melee Damage12%Luck)/s",
+        "dpsValue": 6.4,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "12(+50%Melee Damage+20%Luck)",
+        "cooldown": "1.2s",
+        "dps": "10(41.7%Melee Damage16.7%Luck)/s",
+        "dpsValue": 10,
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "16(+50%Melee Damage+25%Luck)",
+        "cooldown": "1.14s",
+        "dps": "14(43.8%Melee Damage21.9%Luck)/s",
+        "dpsValue": 14,
+        "crit": "x1.5 (3% chance)",
+        "range": 225,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "screwdriver",
+    "name": "Screwdriver",
+    "nameZh": "螺丝刀",
+    "isDlc": false,
+    "classes": [
+      "工具"
+    ],
+    "classesEn": [
+      "Tool"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "A landmine spawns every 12s/9s/6s/3s dealing 10(100%工程) damage in an area",
+    "unlock": "Default",
+    "tags": [
+      "工具",
+      "工程",
+      "近战"
+    ],
+    "note": "工程流起手，用来铺炮塔与吃工具加成。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(50%近战伤害50%工程)",
+        "cooldown": "1.06s",
+        "dps": "7.5(47%近战伤害47%工程)/s",
+        "dpsValue": 7.5,
+        "crit": "x2 (10%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%近战伤害60%工程)",
+        "cooldown": "1.01s",
+        "dps": "11.9(50%近战伤害59%工程)/s",
+        "dpsValue": 11.9,
+        "crit": "x2.15 (15%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "16(50%近战伤害70%工程)",
+        "cooldown": "0.98s",
+        "dps": "16.3(51%近战伤害71%工程)/s",
+        "dpsValue": 16.3,
+        "crit": "x2.3 (20%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "20(50%近战伤害80%工程)",
+        "cooldown": "0.88s",
+        "dps": "22.7(57%近战伤害91%工程)/s",
+        "dpsValue": 22.7,
+        "crit": "x2.5 (30%)",
+        "range": 135,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "anchor",
+    "name": "Anchor",
+    "nameZh": "锚",
+    "isDlc": true,
+    "classes": [
+      "海军",
+      "重型"
+    ],
+    "classesEn": [
+      "Naval",
+      "Heavy"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "海军",
+      "重型",
+      "近战"
+    ],
+    "note": "海军系重型武器，伤害高但挥击慢，适合站桩硬拼。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "45(+100%Melee Damage+75%Curse)",
+        "cooldown": "1.92s",
+        "dps": "23.4(52.1%Melee Damage33.9%Curse)/s",
+        "dpsValue": 23.4,
+        "crit": "x1.5 (3% chance)",
+        "range": 175,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 48
+      },
+      {
+        "tier": 3,
+        "damage": "70(+125%Melee Damage+100%Curse)",
+        "cooldown": "1.86s",
+        "dps": "37.6(67.2%Melee Damage48.4%Curse)/s",
+        "dpsValue": 37.6,
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 90
+      },
+      {
+        "tier": 4,
+        "damage": "110(+150%Melee Damage+125%Curse)",
+        "cooldown": "1.81s",
+        "dps": "60.8(82.9%Melee Damage69.1%Curse)/s",
+        "dpsValue": 60.8,
+        "crit": "x1.5 (3% chance)",
+        "range": 225,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 175
+      }
+    ]
+  },
+  {
+    "slug": "plank",
+    "name": "Plank",
+    "nameZh": "木板",
+    "isDlc": false,
+    "classes": [
+      "爆炸",
+      "元素"
+    ],
+    "classesEn": [
+      "Explosive",
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Hits have 25%/30%/40%/50% chance to explode.",
+    "unlock": "Default",
+    "tags": [
+      "爆炸",
+      "元素",
+      "近战"
+    ],
+    "note": "同时吃近战、元素与工程三系加成，非常灵活。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(60%近战伤害60%元素伤害60%工程)",
+        "cooldown": "1.23s",
+        "dps": "8.1(49%近战伤害49%元素伤害49%工程)/s",
+        "dpsValue": 8.1,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(70%近战伤害70%元素伤害70%工程)",
+        "cooldown": "1.14s",
+        "dps": "13.2(61%近战伤害61%元素伤害61%工程)/s",
+        "dpsValue": 13.2,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%近战伤害80%元素伤害80%工程)",
+        "cooldown": "1.06s",
+        "dps": "18.9(75%近战伤害75%元素伤害75%工程)/s",
+        "dpsValue": 18.9,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(90%近战伤害90%元素伤害90%工程)",
+        "cooldown": "0.98s",
+        "dps": "30.6(92%近战伤害92%元素伤害92%工程)/s",
+        "dpsValue": 30.6,
+        "crit": "x2 (3%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "stick",
+    "name": "Stick",
+    "nameZh": "木棍",
+    "isDlc": false,
+    "classes": [
+      "原始"
+    ],
+    "classesEn": [
+      "Primitive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Deals +4/+6/+8/+10 base damage for every additional stick you have",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "近战"
+    ],
+    "note": "最基础的原始武器，便宜好用。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(100%近战伤害)",
+        "cooldown": "1.29s",
+        "dps": "6.2(78%近战伤害)/s",
+        "dpsValue": 6.2,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "9(100%近战伤害)",
+        "cooldown": "1.22s",
+        "dps": "7.4(82%近战伤害)/s",
+        "dpsValue": 7.4,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "10(100%近战伤害)",
+        "cooldown": "1.15s",
+        "dps": "8.7(87%近战伤害)/s",
+        "dpsValue": 8.7,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.09s",
+        "dps": "11(92%近战伤害)/s",
+        "dpsValue": 11,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "jousting-lance",
+    "name": "Jousting Lance",
+    "nameZh": "骑枪",
+    "isDlc": false,
+    "classes": [
+      "中世纪"
+    ],
+    "classesEn": [
+      "Medieval"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+2/+3/+4/+5 % Speed\n-10/-15/-20/-25 % Damage while standing still",
+    "unlock": "Default",
+    "tags": [
+      "中世纪",
+      "近战"
+    ],
+    "note": "伤害随速度成长，跑动型角色的好选择。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "20(50%近战伤害30%Speed)",
+        "cooldown": "1.58s",
+        "dps": "12.7(31%近战伤害18%Speed)/s",
+        "dpsValue": 12.7,
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "25(50%近战伤害35%Speed)",
+        "cooldown": "1.5s",
+        "dps": "16.7(33%近战伤害23%Speed)/s",
+        "dpsValue": 16.7,
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "30(50%近战伤害40%Speed)",
+        "cooldown": "1.42s",
+        "dps": "21.1(35%近战伤害28%Speed)/s",
+        "dpsValue": 21.1,
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 72
+      },
+      {
+        "tier": 4,
+        "damage": "50(50%近战伤害50%Speed)",
+        "cooldown": "1.33s",
+        "dps": "37.6(37%近战伤害37%Speed)/s",
+        "dpsValue": 37.6,
+        "crit": "x2 (3%)",
+        "range": 250,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 132
+      }
+    ]
+  },
+  {
+    "slug": "power-fist",
+    "name": "Power Fist",
+    "nameZh": "强力拳套",
+    "isDlc": false,
+    "classes": [
+      "徒手",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Unarmed",
+      "Explosive"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Hits have 25%/50% chance to explode.",
+    "unlock": "Win a run with link=Brawler|x30px Brawler",
+    "tags": [
+      "徒手",
+      "近战"
+    ],
+    "note": "拳手流进阶武器，单发伤害高、击退强。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "58.0(144%近战伤害)/s",
+        "dpsValue": 58,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 110
+      },
+      {
+        "tier": 4,
+        "damage": "80(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "101.7(169%近战伤害)/s",
+        "dpsValue": 101.7,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 221
+      }
+    ]
+  },
+  {
+    "slug": "fist",
+    "name": "Fist",
+    "nameZh": "拳头",
+    "isDlc": false,
+    "classes": [
+      "徒手"
+    ],
+    "classesEn": [
+      "Unarmed"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "徒手",
+      "近战"
+    ],
+    "note": "徒手流核心，伤害随阶级翻倍成长。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "8(100%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "10.3(128%近战伤害)/s",
+        "dpsValue": 10.3,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "16(100%近战伤害)",
+        "cooldown": "0.73s",
+        "dps": "21.9(136%近战伤害)/s",
+        "dpsValue": 21.9,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "32(100%近战伤害)",
+        "cooldown": "0.69s",
+        "dps": "46.4(144%近战伤害)/s",
+        "dpsValue": 46.4,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "64(100%近战伤害)",
+        "cooldown": "0.59s",
+        "dps": "108.5(169%近战伤害)/s",
+        "dpsValue": 108.5,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "trident",
+    "name": "Trident",
+    "nameZh": "三叉戟",
+    "isDlc": true,
+    "classes": [
+      "海军",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Naval",
+      "Medieval"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+30%/+40%/+50% damage against targets above 80% health",
+    "unlock": "Default",
+    "tags": [
+      "海军",
+      "近战"
+    ],
+    "note": "海军流近战，范围与伤害均衡。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(+100%Melee Damage+15%Curse)",
+        "cooldown": "1.58s",
+        "dps": "19(63.2%Melee Damage9.5%Curse)/s",
+        "dpsValue": 19,
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 49
+      },
+      {
+        "tier": 3,
+        "damage": "50(+100%Melee Damage+30%Curse)",
+        "cooldown": "1.5s",
+        "dps": "33.4(66.7%Melee Damage20%Curse)/s",
+        "dpsValue": 33.4,
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 96
+      },
+      {
+        "tier": 4,
+        "damage": "80(+100%Melee Damage+50%Curse)",
+        "cooldown": "1.41s",
+        "dps": "56.5(70.7%Melee Damage35.3%Curse)/s",
+        "dpsValue": 56.5,
+        "crit": "x2 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "slug": "lightning-shiv",
+    "name": "Lightning Shiv",
+    "nameZh": "闪电刀",
+    "isDlc": false,
+    "classes": [
+      "精准",
+      "元素"
+    ],
+    "classesEn": [
+      "Precise",
+      "Elemental"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Hitting an enemy spawns a lightning projectile flying towards another random enemy that bounces -/1/2/3 times and inflicts 5/6/8/11 + (80%元素伤害) damage",
+    "unlock": "Default",
+    "tags": [
+      "精准",
+      "元素",
+      "近战"
+    ],
+    "note": "低伤害高攻速，靠打击次数与元素触发取胜。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "3.0(79%近战伤害)/s",
+        "dpsValue": 3,
+        "crit": "x2 (4%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 18
+      },
+      {
+        "tier": 2,
+        "damage": "6(80%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "6.5(86%近战伤害)/s",
+        "dpsValue": 6.5,
+        "crit": "x2 (6%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "9(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "10.5(93%近战伤害)/s",
+        "dpsValue": 10.5,
+        "crit": "x2 (8%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 66
+      },
+      {
+        "tier": 4,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "19.2(102%近战伤害)/s",
+        "dpsValue": 19.2,
+        "crit": "x2 (10%)",
+        "range": 150,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 142
+      }
+    ]
+  },
+  {
+    "slug": "spoon",
+    "name": "Spoon",
+    "nameZh": "勺子",
+    "isDlc": true,
+    "classes": [
+      "钝器"
+    ],
+    "classesEn": [
+      "Blunt"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Always crits when hitting burning targets",
+    "unlock": "Win a run with Chef",
+    "tags": [
+      "近战",
+      "辅助"
+    ],
+    "note": "伤害极低但攻速快，主要用于触发效果。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(+50%Melee Damage+15%最大生命)",
+        "cooldown": "1.06s",
+        "dps": "9.4(47.1%Melee Damage14.1%最大生命)/s",
+        "dpsValue": 9.4,
+        "crit": "x2 (0% chance)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(+50%Melee Damage+20%最大生命)",
+        "cooldown": "0.99s",
+        "dps": "15.1(50.3%Melee Damage20.1%最大生命)/s",
+        "dpsValue": 15.1,
+        "crit": "x2.25 (0% chance)",
+        "range": 165,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(+50%Melee Damage+25%最大生命)",
+        "cooldown": "0.93s",
+        "dps": "21.6(54%Melee Damage27%最大生命)/s",
+        "dpsValue": 21.6,
+        "crit": "x2.5 (0% chance)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "25(+50%Melee Damage+25%最大生命)",
+        "cooldown": "0.86s",
+        "dps": "28.9(57.9%Melee Damage28.9%最大生命)/s",
+        "dpsValue": 28.9,
+        "crit": "x3 (0% chance)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "crossbow",
+    "name": "Crossbow",
+    "nameZh": "十字弩",
+    "isDlc": false,
+    "classes": [
+      "精准",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Precise",
+      "Medieval"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces up to 1/2/3/4 times on critical hit",
+    "unlock": "Default",
+    "tags": [
+      "精准",
+      "远程"
+    ],
+    "note": "高单发伤害，穿透能力强，适合精准流。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "8.8(44%远程伤害8%射程)/s",
+        "dpsValue": 8.8,
+        "crit": "x1.5 (30%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 16
+      },
+      {
+        "tier": 2,
+        "damage": "12(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "10.6(44%远程伤害8%射程)/s",
+        "dpsValue": 10.6,
+        "crit": "x1.75 (35%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "15(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "13.3(44%远程伤害8%射程)/s",
+        "dpsValue": 13.3,
+        "crit": "x2 (40%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 62
+      },
+      {
+        "tier": 4,
+        "damage": "18(50%远程伤害10%射程)",
+        "cooldown": "1.13s",
+        "dps": "15.9(44%远程伤害8%射程)/s",
+        "dpsValue": 15.9,
+        "crit": "x2.25 (45%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 132
+      }
+    ]
+  },
+  {
+    "slug": "rock",
+    "name": "Rock",
+    "nameZh": "石头",
+    "isDlc": false,
+    "classes": [
+      "原始",
+      "钝器"
+    ],
+    "classesEn": [
+      "Primitive",
+      "Blunt"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "-/+1 Armor/+1 Armor, +2 Max HP/+2 Armor, +2 Max HP",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "投掷",
+      "近战"
+    ],
+    "note": "最低成本的原始武器，用来凑标签与触发。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.68s",
+        "dps": "11.9(59%近战伤害)/s",
+        "dpsValue": 11.9,
+        "crit": "x1.5 (10%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "35(100%近战伤害)",
+        "cooldown": "1.61s",
+        "dps": "21.7(62%近战伤害)/s",
+        "dpsValue": 21.7,
+        "crit": "x1.5 (15%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "50(100%近战伤害)",
+        "cooldown": "1.53s",
+        "dps": "32.7(65%近战伤害)/s",
+        "dpsValue": 32.7,
+        "crit": "x1.5 (20%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "70(100%近战伤害)",
+        "cooldown": "1.46s",
+        "dps": "47.9(68%近战伤害)/s",
+        "dpsValue": 47.9,
+        "crit": "x1.5 (25%)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "sickle",
+    "name": "Sickle",
+    "nameZh": "收割镰",
+    "isDlc": true,
+    "classes": [
+      "辅助"
+    ],
+    "classesEn": [
+      "Support"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "+20%/+30%/+40%/+50% damage against targets below 30% health",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "原始",
+      "近战"
+    ],
+    "note": "小型镰刀，攻速与范围平衡。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "5(+80%Melee Damage+10%Harvesting)",
+        "cooldown": "0.87s",
+        "dps": "5.8(92.2%Melee Damage11.5%Harvesting)/s",
+        "dpsValue": 5.8,
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "8(+80%Melee Damage+15%Harvesting)",
+        "cooldown": "0.82s",
+        "dps": "9.8(97.9%Melee Damage18.4%Harvesting)/s",
+        "dpsValue": 9.8,
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "12(+80%Melee Damage+20%Harvesting)",
+        "cooldown": "0.77s",
+        "dps": "15.6(104.3%Melee Damage26.1%Harvesting)/s",
+        "dpsValue": 15.6,
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "15(+80%Melee Damage+25%Harvesting)",
+        "cooldown": "0.7s",
+        "dps": "21.4(114.2%Melee Damage35.7%Harvesting)/s",
+        "dpsValue": 21.4,
+        "crit": "x2 (3% chance)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "shuriken",
+    "name": "Shuriken",
+    "nameZh": "手里剑",
+    "isDlc": false,
+    "classes": [
+      "精准"
+    ],
+    "classesEn": [
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Critical hits bounces 1/2/3/4 times",
+    "unlock": "Default",
+    "tags": [
+      "投掷",
+      "精准",
+      "远程"
+    ],
+    "note": "弹射投掷武器，适合弹幕与弹射流。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7(25%近战伤害)",
+        "cooldown": "0.87s",
+        "dps": "8.0(28%近战伤害)/s",
+        "dpsValue": 8,
+        "crit": "x1.5 (35%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "9(34%近战伤害)",
+        "cooldown": "0.83s",
+        "dps": "10.8(40%近战伤害)/s",
+        "dpsValue": 10.8,
+        "crit": "x1.5 (38%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "11(42%近战伤害)",
+        "cooldown": "0.8s",
+        "dps": "13.8(52%近战伤害)/s",
+        "dpsValue": 13.8,
+        "crit": "x1.5 (41%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "15(50%近战伤害)",
+        "cooldown": "0.7s",
+        "dps": "21.4(71%近战伤害)/s",
+        "dpsValue": 21.4,
+        "crit": "x1.5 (45%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "slug": "pistol",
+    "name": "Pistol",
+    "nameZh": "手枪",
+    "isDlc": false,
+    "classes": [
+      "枪械"
+    ],
+    "classesEn": [
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces 1 enemy dealing -50% less to the second enemy",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程"
+    ],
+    "note": "最基础的枪械，稳定、便宜、好升级。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "10.0(83%远程伤害)/s",
+        "dpsValue": 10,
+        "crit": "x2 (10%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "1.12s",
+        "dps": "17.9(89%远程伤害)/s",
+        "dpsValue": 17.9,
+        "crit": "x2 (15%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "1.03s",
+        "dps": "29.1(97%远程伤害)/s",
+        "dpsValue": 29.1,
+        "crit": "x2 (20%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "50(100%远程伤害)",
+        "cooldown": "0.87s",
+        "dps": "57.5(114%远程伤害)/s",
+        "dpsValue": 57.5,
+        "crit": "x2 (25%)",
+        "range": 400,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "hand",
+    "name": "Hand",
+    "nameZh": "手掌",
+    "isDlc": false,
+    "classes": [
+      "徒手",
+      "辅助"
+    ],
+    "classesEn": [
+      "Unarmed",
+      "Support"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+3/+6/+12/+25 Harvesting",
+    "unlock": "Default",
+    "tags": [
+      "徒手",
+      "辅助",
+      "近战"
+    ],
+    "note": "伤害极低但攻速快，主要用来触发效果。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "1.0(49%近战伤害)/s",
+        "dpsValue": 1,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "1.1(53%近战伤害)/s",
+        "dpsValue": 1.1,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "1.2(58%近战伤害)/s",
+        "dpsValue": 1.2,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "1(50%近战伤害)",
+        "cooldown": "0.71s",
+        "dps": "1.4(70%近战伤害)/s",
+        "dpsValue": 1.4,
+        "crit": "x1.5 (1%)",
+        "range": 150,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "double-barrel-shotgun",
+    "name": "Double Barrel Shotgun",
+    "nameZh": "双管霰弹枪",
+    "isDlc": false,
+    "classes": [
+      "枪械"
+    ],
+    "classesEn": [
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces 2/2/2/3 enemies, dealing -30% less damage after each piercing",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "霰弹",
+      "远程"
+    ],
+    "note": "近距离爆发极高，是前期最容易成型的枪械之一。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "3x4(80%远程伤害)",
+        "cooldown": "1.37s",
+        "dps": "8.8(233%远程伤害)/s",
+        "dpsValue": 8.8,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "6x4(85%远程伤害)",
+        "cooldown": "1.28s",
+        "dps": "18.8(265%远程伤害)/s",
+        "dpsValue": 18.8,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "9x4(90%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "30.0(300%远程伤害)/s",
+        "dpsValue": 30,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "9x6(100%远程伤害)",
+        "cooldown": "1.2s",
+        "dps": "45(500%远程伤害)/s",
+        "dpsValue": 45,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "potato-thrower",
+    "name": "Potato Thrower",
+    "nameZh": "土豆发射器",
+    "isDlc": false,
+    "classes": [
+      "辅助"
+    ],
+    "classesEn": [
+      "Support"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "",
+    "unlock": "Win a run with link=Chunky|x30px Chunky",
+    "tags": [
+      "枪械",
+      "远程",
+      "血量流"
+    ],
+    "note": "伤害随最大生命成长，血量流的核心远程。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "3(40%远程伤害20%最大生命)",
+        "cooldown": "0.45s",
+        "dps": "6.7(89%远程伤害44%最大生命)/s",
+        "dpsValue": 6.7,
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 36
+      },
+      {
+        "tier": 3,
+        "damage": "5(40%远程伤害20%最大生命)",
+        "cooldown": "0.37s",
+        "dps": "13.5(108%远程伤害54%最大生命)/s",
+        "dpsValue": 13.5,
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 25,
+        "lifesteal": 0,
+        "price": 69
+      },
+      {
+        "tier": 4,
+        "damage": "10(40%远程伤害20%最大生命)",
+        "cooldown": "0.28s",
+        "dps": "35.7(143%远程伤害71%最大生命)/s",
+        "dpsValue": 35.7,
+        "crit": "x1.5 (3%)",
+        "range": 500,
+        "knockback": 30,
+        "lifesteal": 0,
+        "price": 139
+      }
+    ]
+  },
+  {
+    "slug": "cacti-club",
+    "name": "Cacti Club",
+    "nameZh": "仙人掌棍",
+    "isDlc": false,
+    "classes": [
+      "原始",
+      "重型"
+    ],
+    "classesEn": [
+      "Primitive",
+      "Heavy"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Hitting an enemy spawns 3/4/5/6 projectiles dealing 1 + 60%/2 + 70%/3 + 80%/4 + 100%远程伤害 damage",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "重型",
+      "近战"
+    ],
+    "note": "开局即可获得的稳定近战武器，单发伤害高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(80%近战伤害)",
+        "cooldown": "1.66s",
+        "dps": "6.0(48%近战伤害)/s",
+        "dpsValue": 6,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "20(85%近战伤害)",
+        "cooldown": "1.58s",
+        "dps": "12.7(54%近战伤害)/s",
+        "dpsValue": 12.7,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "35(90%近战伤害)",
+        "cooldown": "1.51s",
+        "dps": "19.9(60%近战伤害)/s",
+        "dpsValue": 19.9,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "60(100%近战伤害)",
+        "cooldown": "1.36s",
+        "dps": "36.8(74%近战伤害)/s",
+        "dpsValue": 36.8,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 8,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "knife",
+    "name": "Knife",
+    "nameZh": "小刀",
+    "isDlc": false,
+    "classes": [
+      "精准"
+    ],
+    "classesEn": [
+      "Precise"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "精准",
+      "近战"
+    ],
+    "note": "最经典的起手武器，攻速快、暴击高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "9(80%近战伤害)",
+        "cooldown": "1.01s",
+        "dps": "5.9(79%近战伤害)/s",
+        "dpsValue": 5.9,
+        "crit": "x2.5 (20%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "13(80%近战伤害)",
+        "cooldown": "0.93s",
+        "dps": "9.7(86%近战伤害)/s",
+        "dpsValue": 9.7,
+        "crit": "x3 (30%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "18(80%近战伤害)",
+        "cooldown": "0.86s",
+        "dps": "14.0(93%近战伤害)/s",
+        "dpsValue": 14,
+        "crit": "x3.5 (40%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "25(80%近战伤害)",
+        "cooldown": "0.78s",
+        "dps": "25.6(102%近战伤害)/s",
+        "dpsValue": 25.6,
+        "crit": "x4 (50%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "hatchet",
+    "name": "Hatchet",
+    "nameZh": "小手斧",
+    "isDlc": false,
+    "classes": [
+      "原始"
+    ],
+    "classesEn": [
+      "Primitive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Win a run with link=Wildling|x30px Wildling",
+    "tags": [
+      "原始",
+      "近战"
+    ],
+    "note": "攻速快的原始近战，前期手感好。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "7(100%近战伤害20%攻速)",
+        "cooldown": "0.68s",
+        "dps": "10.2(147%近战伤害 29.4%攻速)/s",
+        "dpsValue": 10.2,
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 10
+      },
+      {
+        "tier": 2,
+        "damage": "11(100%近战伤害20%攻速)",
+        "cooldown": "0.67s",
+        "dps": "16.4(149%近战伤害 29.8%攻速)/s",
+        "dpsValue": 16.4,
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 3,
+        "damage": "22(100%近战伤害20%攻速)",
+        "cooldown": "0.65s",
+        "dps": "33.8(154%近战伤害 30.8%攻速)/s",
+        "dpsValue": 33.8,
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 4,
+        "damage": "45(100%近战伤害20%攻速)",
+        "cooldown": "0.63s",
+        "dps": "71.4(159%近战伤害 31.7%攻速)/s",
+        "dpsValue": 71.4,
+        "crit": "x2 (3%)",
+        "range": 125,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 91
+      }
+    ]
+  },
+  {
+    "slug": "pruner",
+    "name": "Pruner",
+    "nameZh": "修枝剪",
+    "isDlc": false,
+    "classes": [
+      "辅助"
+    ],
+    "classesEn": [
+      "Support"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Spawns a garden that creates a fruit every 15/14/12/10 seconds",
+    "unlock": "Default",
+    "tags": [
+      "工具",
+      "近战"
+    ],
+    "note": "工具标签可吃工程加成，砍树效率高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(50%近战伤害)",
+        "cooldown": "1.14s",
+        "dps": "8.8(43%近战伤害)/s",
+        "dpsValue": 8.8,
+        "crit": "x1.25 (3%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(65%近战伤害)",
+        "cooldown": "1.06s",
+        "dps": "14.2(61%近战伤害)/s",
+        "dpsValue": 14.2,
+        "crit": "x1.5 (6%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 28
+      },
+      {
+        "tier": 3,
+        "damage": "20(80%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "20.4(81%近战伤害)/s",
+        "dpsValue": 20.4,
+        "crit": "x1.75 (9%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "0.89s",
+        "dps": "28.1(112%近战伤害)/s",
+        "dpsValue": 28.1,
+        "crit": "x2 (12%)",
+        "range": 150,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 95
+      }
+    ]
+  },
+  {
+    "slug": "obliterator",
+    "name": "Obliterator",
+    "nameZh": "湮灭者",
+    "isDlc": false,
+    "classes": [
+      "枪械",
+      "重型"
+    ],
+    "classesEn": [
+      "Gun",
+      "Heavy"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces through enemies",
+    "unlock": "Win a run with link=Demon|x30px Demon",
+    "tags": [
+      "传说",
+      "爆炸",
+      "远程"
+    ],
+    "note": "传说级爆炸远程，单发覆盖极大范围。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "250(1000%远程伤害)",
+        "cooldown": "3.23s",
+        "dps": "77.4(309%远程伤害)/s",
+        "dpsValue": 77.4,
+        "crit": "x2 (3%)",
+        "range": 800,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 127
+      },
+      {
+        "tier": 4,
+        "damage": "400(1500%远程伤害)",
+        "cooldown": "3.23s",
+        "dps": "108.4(464%远程伤害)/s",
+        "dpsValue": 108.4,
+        "crit": "x2 (3%)",
+        "range": 1000,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "slug": "medical-gun",
+    "name": "Medical Gun",
+    "nameZh": "医疗枪",
+    "isDlc": false,
+    "classes": [
+      "医疗",
+      "枪械"
+    ],
+    "classesEn": [
+      "Medical",
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "医疗",
+      "远程"
+    ],
+    "note": "医疗流核心，输出同时提供治疗。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.78s",
+        "dps": "12.8(128%远程伤害)/s",
+        "dpsValue": 12.8,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 50,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.70s",
+        "dps": "21.4(143%远程伤害)/s",
+        "dpsValue": 21.4,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 55,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "0.62s",
+        "dps": "32.3(161%远程伤害)/s",
+        "dpsValue": 32.3,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 60,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "0.48s",
+        "dps": "62.5(208%远程伤害)/s",
+        "dpsValue": 62.5,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 65,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "ghost-axe",
+    "name": "Ghost Axe",
+    "nameZh": "幽灵斧",
+    "isDlc": false,
+    "classes": [
+      "虚灵"
+    ],
+    "classesEn": [
+      "Ethereal"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "+1% Damage for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "tags": [
+      "虚灵",
+      "近战"
+    ],
+    "note": "虚灵流主力，横扫范围大，单发伤害高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.73s",
+        "dps": "6.9(57%近战伤害)/s",
+        "dpsValue": 6.9,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "18(100%近战伤害)",
+        "cooldown": "1.66s",
+        "dps": "10.8(60%近战伤害)/s",
+        "dpsValue": 10.8,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "24(100%近战伤害)",
+        "cooldown": "1.58s",
+        "dps": "15.2(63%近战伤害)/s",
+        "dpsValue": 15.2,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "1.51s",
+        "dps": "26.5(66%近战伤害)/s",
+        "dpsValue": 26.5,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "ghost-scepter",
+    "name": "Ghost Scepter",
+    "nameZh": "幽灵权杖",
+    "isDlc": false,
+    "classes": [
+      "虚灵"
+    ],
+    "classesEn": [
+      "Ethereal"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "+1 Max HP for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "tags": [
+      "虚灵",
+      "远程"
+    ],
+    "note": "虚灵远程武器，弹道稳定，适配幽灵体系。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(100%远程伤害)",
+        "cooldown": "0.98s",
+        "dps": "10.2(102%远程伤害)/s",
+        "dpsValue": 10.2,
+        "crit": "x2 (3%)",
+        "range": 300,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.93s",
+        "dps": "16.1(107%远程伤害)/s",
+        "dpsValue": 16.1,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%远程伤害)",
+        "cooldown": "0.88s",
+        "dps": "22.7(113%远程伤害)/s",
+        "dpsValue": 22.7,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(100%远程伤害)",
+        "cooldown": "0.83s",
+        "dps": "36.1(120%远程伤害)/s",
+        "dpsValue": 36.1,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "ghost-flint",
+    "name": "Ghost Flint",
+    "nameZh": "幽灵燧石",
+    "isDlc": false,
+    "classes": [
+      "虚灵"
+    ],
+    "classesEn": [
+      "Ethereal"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "+1% Attack Speed for every 20/18/16/12 kills in a wave with this weapon",
+    "unlock": "Default",
+    "tags": [
+      "虚灵",
+      "近战"
+    ],
+    "note": "攻速较快的虚灵近战，适合过渡。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(100%近战伤害)",
+        "cooldown": "1.23s",
+        "dps": "4.9(81%近战伤害)/s",
+        "dpsValue": 4.9,
+        "crit": "x2 (3%)",
+        "range": 170,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 12
+      },
+      {
+        "tier": 2,
+        "damage": "9(100%近战伤害)",
+        "cooldown": "1.17s",
+        "dps": "7.7(85%近战伤害)/s",
+        "dpsValue": 7.7,
+        "crit": "x2 (3%)",
+        "range": 180,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 26
+      },
+      {
+        "tier": 3,
+        "damage": "12(100%近战伤害)",
+        "cooldown": "1.1s",
+        "dps": "10.9(90%近战伤害)/s",
+        "dpsValue": 10.9,
+        "crit": "x2 (3%)",
+        "range": 190,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 52
+      },
+      {
+        "tier": 4,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.04s",
+        "dps": "17.3(96%近战伤害)/s",
+        "dpsValue": 17.3,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 2,
+        "lifesteal": 0,
+        "price": 105
+      }
+    ]
+  },
+  {
+    "slug": "harpoon-gun",
+    "name": "Harpoon Gun",
+    "nameZh": "鱼叉炮",
+    "isDlc": true,
+    "classes": [
+      "海军",
+      "枪械"
+    ],
+    "classesEn": [
+      "Naval",
+      "Gun"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Slows enemies in a radius around the projectile.\nPierces 3/4/5 enemies dealing -25% less damage with each pierce",
+    "unlock": "Default",
+    "tags": [
+      "海军",
+      "精准",
+      "远程"
+    ],
+    "note": "命中后标记目标，配合增伤机制效果显著。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "5(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.82s",
+        "dps": "6.1(122.4%Ranged Damage122.4%Melee Damage)/s",
+        "dpsValue": 6.1,
+        "crit": "x1.5 (3% chance)",
+        "range": 800,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 50
+      },
+      {
+        "tier": 3,
+        "damage": "10(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.73s",
+        "dps": "13.6(136.4%Ranged Damage136.4%Melee Damage)/s",
+        "dpsValue": 13.6,
+        "crit": "x1.5 (3% chance)",
+        "range": 850,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 105
+      },
+      {
+        "tier": 4,
+        "damage": "20(+100%Ranged Damage+100%Melee Damage)",
+        "cooldown": "0.65s",
+        "dps": "30.8(153.8%Ranged Damage153.8%Melee Damage)/s",
+        "dpsValue": 30.8,
+        "crit": "x1.5 (3% chance)",
+        "range": 900,
+        "knockback": -30,
+        "lifesteal": 0,
+        "price": 220
+      }
+    ]
+  },
+  {
+    "slug": "circular-saw",
+    "name": "Circular Saw",
+    "nameZh": "圆锯",
+    "isDlc": false,
+    "classes": [
+      "刀刃",
+      "医疗"
+    ],
+    "classesEn": [
+      "Blade",
+      "Medical"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "医疗",
+      "近战"
+    ],
+    "note": "兼顾刀刃与医疗标签，攻速快，适合触发型构筑。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "10(100%近战伤害)",
+        "cooldown": "0.72s",
+        "dps": "13.9(138%近战伤害)/s",
+        "dpsValue": 13.9,
+        "crit": "x2 (5%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 45,
+        "price": 46
+      },
+      {
+        "tier": 3,
+        "damage": "15(100%近战伤害)",
+        "cooldown": "0.67s",
+        "dps": "22.4(149%近战伤害)/s",
+        "dpsValue": 22.4,
+        "crit": "x2 (10%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 50,
+        "price": 86
+      },
+      {
+        "tier": 4,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "0.62s",
+        "dps": "40.3(161%近战伤害)/s",
+        "dpsValue": 40.3,
+        "crit": "x2 (20%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 60,
+        "price": 173
+      }
+    ]
+  },
+  {
+    "slug": "vorpal-sword",
+    "name": "Vorpal Sword",
+    "nameZh": "斩首剑",
+    "isDlc": false,
+    "classes": [
+      "刀刃",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Blade",
+      "Medieval"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks\n-/1%/2%/3% chance to one shot the target when hitting it",
+    "unlock": "Reach 100% Crit Chance",
+    "tags": [
+      "刀刃",
+      "传说",
+      "近战"
+    ],
+    "note": "高暴击近战，暴击时可造成额外斩杀伤害。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "20(100%近战伤害)",
+        "cooldown": "1.11s",
+        "dps": "18.0(90%近战伤害)/s",
+        "dpsValue": 18,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 55
+      },
+      {
+        "tier": 3,
+        "damage": "35(100%近战伤害)",
+        "cooldown": "1.03s",
+        "dps": "34.0(97%近战伤害)/s",
+        "dpsValue": 34,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 100
+      },
+      {
+        "tier": 4,
+        "damage": "55(100%近战伤害)",
+        "cooldown": "0.95s",
+        "dps": "57.9(105%近战伤害)/s",
+        "dpsValue": 57.9,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 200
+      }
+    ]
+  },
+  {
+    "slug": "war-hammer",
+    "name": "War Hammer",
+    "nameZh": "战锤",
+    "isDlc": true,
+    "classes": [
+      "钝器",
+      "工具"
+    ],
+    "classesEn": [
+      "Blunt",
+      "Tool"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Resets the cooldown of all offensive turrets when attacking",
+    "unlock": "Win a run with Dwarf",
+    "tags": [
+      "钝器",
+      "重型",
+      "近战"
+    ],
+    "note": "极高单发伤害，挥击慢，适合一击清场。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "100(+150%Melee Damage+150%工程)",
+        "cooldown": "2.11s",
+        "dps": "47.3(70.9%Melee Damage70.9%工程)/s",
+        "dpsValue": 47.3,
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 20,
+        "lifesteal": 0,
+        "price": 130
+      },
+      {
+        "tier": 4,
+        "damage": "200(+200%Melee Damage+200%工程)",
+        "cooldown": "1.95s",
+        "dps": "92.4(102.7%Melee Damage102.7%工程)/s",
+        "dpsValue": 92.4,
+        "crit": "x1.5 (3% chance)",
+        "range": 200,
+        "knockback": 25,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "slug": "flute",
+    "name": "Flute",
+    "nameZh": "长笛",
+    "isDlc": true,
+    "classes": [
+      "音乐"
+    ],
+    "classesEn": [
+      "Musical"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "-",
+    "special": "Hitting an enemy that has less than 60%/65%/70%/75% health has a 10%/15%/20%/25% chance to charm it for 8 seconds",
+    "unlock": "Win a run with Romantic",
+    "tags": [
+      "音乐",
+      "辅助",
+      "远程"
+    ],
+    "note": "伤害低但提供辅助效果，适合辅助型构筑。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "6(+50%Ranged Damage+10%Luck)",
+        "cooldown": "1.03s",
+        "dps": "5.8(48.5%Ranged Damage9.7%Luck)/s",
+        "dpsValue": 5.8,
+        "crit": "x1.5 (3% chance)",
+        "range": 300,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "8(+50%Ranged Damage+15%Luck)",
+        "cooldown": "0.95s",
+        "dps": "8.4(52.6%Ranged Damage15.8%Luck)/s",
+        "dpsValue": 8.4,
+        "crit": "x1.5 (3% chance)",
+        "range": 325,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 45
+      },
+      {
+        "tier": 3,
+        "damage": "11(+50%Ranged Damage+20%Luck)",
+        "cooldown": "0.87s",
+        "dps": "12.6(57.5%Ranged Damage23%Luck)/s",
+        "dpsValue": 12.6,
+        "crit": "x1.5 (3% chance)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 80
+      },
+      {
+        "tier": 4,
+        "damage": "15(+50%Ranged Damage+25%Luck)",
+        "cooldown": "0.78s",
+        "dps": "19.2(64.1%Ranged Damage32.1%Luck)/s",
+        "dpsValue": 19.2,
+        "crit": "x1.5 (3% chance)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 165
+      }
+    ]
+  },
+  {
+    "slug": "quarterstaff",
+    "name": "Quarterstaff",
+    "nameZh": "长棍",
+    "isDlc": false,
+    "classes": [
+      "原始",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Primitive",
+      "Medieval"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks\n+2% XP Gain/+5% XP Gain/+9% XP Gain/+15% XP Gain",
+    "unlock": "Win a run with link=Apprentice|x30px Apprentice",
+    "tags": [
+      "钝器",
+      "近战"
+    ],
+    "note": "攻击范围较大的钝器，适合站桩防守。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "10(75%Level50%近战伤害)",
+        "cooldown": "1.42s",
+        "dps": "7.0(52.8%Level35.2%近战伤害)/s",
+        "dpsValue": 7,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 15
+      },
+      {
+        "tier": 2,
+        "damage": "15(85%Level65%近战伤害)",
+        "cooldown": "1.25s",
+        "dps": "12.0(68.0%Level52.0%近战伤害)/s",
+        "dpsValue": 12,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 31
+      },
+      {
+        "tier": 3,
+        "damage": "20(100%Level85%近战伤害)",
+        "cooldown": "1.09s",
+        "dps": "18.3(91.7%Level78.0%近战伤害)/s",
+        "dpsValue": 18.3,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 61
+      },
+      {
+        "tier": 4,
+        "damage": "30(125%Level100%近战伤害)",
+        "cooldown": "0.92s",
+        "dps": "32.6(135.9%Level108.7%近战伤害)/s",
+        "dpsValue": 32.6,
+        "crit": "x1.5 (3%)",
+        "range": 175,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 122
+      }
+    ]
+  },
+  {
+    "slug": "sword",
+    "name": "Sword",
+    "nameZh": "长剑",
+    "isDlc": false,
+    "classes": [
+      "刀刃",
+      "中世纪"
+    ],
+    "classesEn": [
+      "Blade",
+      "Medieval"
+    ],
+    "minTier": 2,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "Alternates between thrusting and sweeping attacks",
+    "unlock": "Default",
+    "tags": [
+      "刀刃",
+      "中世纪",
+      "近战"
+    ],
+    "note": "均衡型近战，伤害与攻速都不拖后腿。",
+    "tiers": [
+      {
+        "tier": 2,
+        "damage": "30(100%近战伤害)",
+        "cooldown": "1.28s",
+        "dps": "23.4(78%近战伤害)/s",
+        "dpsValue": 23.4,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 51
+      },
+      {
+        "tier": 3,
+        "damage": "45(100%近战伤害)",
+        "cooldown": "1.13s",
+        "dps": "39.8(88%近战伤害)/s",
+        "dpsValue": 39.8,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 95
+      },
+      {
+        "tier": 4,
+        "damage": "65(100%近战伤害)",
+        "cooldown": "0.98s",
+        "dps": "66.3(102%近战伤害)/s",
+        "dpsValue": 66.3,
+        "crit": "x2 (3%)",
+        "range": 200,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 190
+      }
+    ]
+  },
+  {
+    "slug": "spear",
+    "name": "Spear",
+    "nameZh": "长矛",
+    "isDlc": false,
+    "classes": [
+      "原始"
+    ],
+    "classesEn": [
+      "Primitive"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "",
+    "unlock": "Default",
+    "tags": [
+      "原始",
+      "近战",
+      "突刺"
+    ],
+    "note": "直线突刺可命中一排敌人，清线效率高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(100%近战伤害)",
+        "cooldown": "1.52s",
+        "dps": "9.9(65%近战伤害)/s",
+        "dpsValue": 9.9,
+        "crit": "x2 (3%)",
+        "range": 350,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "25(100%近战伤害)",
+        "cooldown": "1.4s",
+        "dps": "17.9(71%近战伤害)/s",
+        "dpsValue": 17.9,
+        "crit": "x2 (3%)",
+        "range": 375,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 39
+      },
+      {
+        "tier": 3,
+        "damage": "40(100%近战伤害)",
+        "cooldown": "1.28s",
+        "dps": "31.2(78%近战伤害)/s",
+        "dpsValue": 31.2,
+        "crit": "x2 (3%)",
+        "range": 400,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 74
+      },
+      {
+        "tier": 4,
+        "damage": "60(100%近战伤害)",
+        "cooldown": "1.24s",
+        "dps": "48.4(80%近战伤害)/s",
+        "dpsValue": 48.4,
+        "crit": "x2 (3%)",
+        "range": 500,
+        "knockback": 0,
+        "lifesteal": 0,
+        "price": 149
+      }
+    ]
+  },
+  {
+    "slug": "brick",
+    "name": "Brick",
+    "nameZh": "砖块",
+    "isDlc": true,
+    "classes": [
+      "钝器"
+    ],
+    "classesEn": [
+      "Blunt"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": "Sweep",
+    "special": "Has a 1% chance to break and drop 10/30/75/200 materials on hit",
+    "unlock": "Default",
+    "tags": [
+      "钝器",
+      "工程",
+      "近战"
+    ],
+    "note": "伤害随工程成长，工程流的近战补位选择。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "30(+50%Melee Damage+50%工程)",
+        "cooldown": "1.39s",
+        "dps": "21.5(35.9%Melee Damage35.9%工程)/s",
+        "dpsValue": 21.5,
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 6
+      },
+      {
+        "tier": 2,
+        "damage": "60(+65%Melee Damage+65%工程)",
+        "cooldown": "1.39s",
+        "dps": "43(46.6%Melee Damage46.6%工程)/s",
+        "dpsValue": 43,
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 14
+      },
+      {
+        "tier": 3,
+        "damage": "90(+80%Melee Damage+80%工程)",
+        "cooldown": "1.39s",
+        "dps": "64.6(57.4%Melee Damage57.4%工程)/s",
+        "dpsValue": 64.6,
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 22
+      },
+      {
+        "tier": 4,
+        "damage": "120(+100%Melee Damage+100%工程)",
+        "cooldown": "1.39s",
+        "dps": "86.1(71.7%Melee Damage71.7%工程)/s",
+        "dpsValue": 86.1,
+        "crit": "x1.5 (3% chance)",
+        "range": 150,
+        "knockback": 5,
+        "lifesteal": 0,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "slug": "minigun",
+    "name": "Minigun",
+    "nameZh": "转轮机枪",
+    "isDlc": false,
+    "classes": [
+      "重型",
+      "枪械"
+    ],
+    "classesEn": [
+      "Heavy",
+      "Gun"
+    ],
+    "minTier": 3,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Pierces 1/2 enemies dealing -25% less damage with each pierce.",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "远程",
+      "高射速"
+    ],
+    "note": "极高射速，弹幕压制力强，适合堆远程伤害。",
+    "tiers": [
+      {
+        "tier": 3,
+        "damage": "2(50%远程伤害)",
+        "cooldown": "0.09s",
+        "dps": "11.1(555%远程伤害)/s",
+        "dpsValue": 11.1,
+        "crit": "x1.75 (1%)",
+        "range": 400,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 127
+      },
+      {
+        "tier": 4,
+        "damage": "5(75%远程伤害)",
+        "cooldown": "0.09s",
+        "dps": "41.1(1027%远程伤害)/s",
+        "dpsValue": 41.1,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 3,
+        "lifesteal": 0,
+        "price": 255
+      }
+    ]
+  },
+  {
+    "slug": "revolver",
+    "name": "Revolver",
+    "nameZh": "左轮手枪",
+    "isDlc": false,
+    "classes": [
+      "枪械"
+    ],
+    "classesEn": [
+      "Gun"
+    ],
+    "minTier": 1,
+    "maxTier": 4,
+    "attackType": null,
+    "special": "Every 6th shot has a longer cooldown: 2.07s/1.93s/1.80s/1.67s",
+    "unlock": "Default",
+    "tags": [
+      "枪械",
+      "精准",
+      "远程"
+    ],
+    "note": "高单发伤害的手枪，暴击收益高。",
+    "tiers": [
+      {
+        "tier": 1,
+        "damage": "15(100%远程伤害)",
+        "cooldown": "0.43s",
+        "dps": "21.3(142%远程伤害)/s",
+        "dpsValue": 21.3,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 20
+      },
+      {
+        "tier": 2,
+        "damage": "20(130%远程伤害)",
+        "cooldown": "0.42s",
+        "dps": "29.8(194%远程伤害)/s",
+        "dpsValue": 29.8,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 34
+      },
+      {
+        "tier": 3,
+        "damage": "25(165%远程伤害)",
+        "cooldown": "0.4s",
+        "dps": "39.5(261%远程伤害)/s",
+        "dpsValue": 39.5,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 70
+      },
+      {
+        "tier": 4,
+        "damage": "40(200%远程伤害)",
+        "cooldown": "0.38s",
+        "dps": "67.2(336%远程伤害)/s",
+        "dpsValue": 67.2,
+        "crit": "x2 (3%)",
+        "range": 450,
+        "knockback": 15,
+        "lifesteal": 0,
+        "price": 130
+      }
+    ]
+  },
+  {
+    "slug": "dex-troyer",
+    "name": "Dex-Troyer",
+    "nameZh": "DEX 毁灭者",
+    "isDlc": false,
+    "classes": [
+      "传说",
+      "爆炸"
+    ],
+    "classesEn": [
+      "Legendary",
+      "Explosive"
+    ],
+    "minTier": 4,
+    "maxTier": 4,
+    "attackType": "Thrust",
+    "special": "50% chance to explode on hit\nHitting an enemy spawns a lightning projectile that bounces 5 times and deals 30 (+100%Elemental Damage) damage",
+    "unlock": "Default",
+    "tags": [
+      "传说",
+      "爆炸"
+    ],
+    "note": "传说级爆炸武器，范围清场利器。",
+    "tiers": [
+      {
+        "tier": 4,
+        "damage": "100(+100%Melee Damage+100%工程)",
+        "cooldown": "1.33s",
+        "dps": "75.3(75.3%Melee Damage75.3%工程)/s",
+        "dpsValue": 75.3,
+        "crit": "x2 (3% chance)",
+        "range": 400,
+        "knockback": 10,
+        "lifesteal": 0,
+        "price": 315
+      }
+    ]
+  }
+]

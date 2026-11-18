@@ -1,0 +1,39 @@
+---
+interface Crumb {
+  href?: string;
+  label: string;
+}
+interface Props {
+  items: Crumb[];
+  jsonLd?: boolean;
+}
+const { items, jsonLd = true } = Astro.props;
+const site = Astro.site ?? new URL('https://brotato-wiki-cn.pages.dev');
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [{ href: '/', label: '首页' }, ...items].map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    ...(c.href ? { item: new URL(c.href, site).href } : {}),
+  })),
+};
+---
+
+<nav aria-label="面包屑" class="flex flex-wrap items-center gap-1.5 text-[12px] text-dim">
+  <a href="/" class="transition hover:text-orange-2">首页</a>
+  {
+    items.map((c, i) => (
+      <>
+        <span class="text-white/20">/</span>
+        {c.href && i < items.length - 1 ? (
+          <a href={c.href} class="transition hover:text-orange-2">{c.label}</a>
+        ) : (
+          <span class="text-muted">{c.label}</span>
+        )}
+      </>
+    ))
+  }
+</nav>
+{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}

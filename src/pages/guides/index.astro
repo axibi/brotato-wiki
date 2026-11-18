@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { SITE, CATEGORIES } from '@/lib/site';
+
+const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+  (a, b) => a.data.order - b.data.order
+);
+const featured = guides.slice(0, 3);
+const byCat = (k: string) => guides.filter((g) => g.data.category === k);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: '土豆兄弟攻略中心',
+  description: `共 ${guides.length} 篇原创攻略，覆盖入门、机制、流派与高难度通关。`,
+  url: `${SITE.url}/guides`,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+};
+---
+
+<BaseLayout
+  title="攻略中心"
+  description={`土豆兄弟中文攻略：新手入门、属性解析、商店策略、流派构筑、高难度通关与 DLC 内容，共 ${guides.length} 篇深度文章。`}
+  jsonLd={jsonLd}
+>
+  <section class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ label: '攻略中心' }]} />
+    <div class="mt-6">
+      <p class="eyebrow">Guides</p>
+      <h1 class="h-section">攻略中心</h1>
+      <p class="lead mt-3 max-w-2xl">
+        从第一次落地到危险 5 通关，这里按「先活下来、再变强、最后冲极限」的顺序组织内容。
+        所有文章基于 {SITE.version} 版本整理，标注了适用版本与待核实项。
+      </p>
+    </div>
+
+    <div class="mt-8 grid gap-3 md:grid-cols-3">
+      {
+        featured.map((g, i) => (
+          <a href={`/guides/${g.id}`} class="card group relative overflow-hidden p-5">
+            <span class="absolute right-3 top-2 font-mono text-[54px] font-black leading-none text-white/[0.04]">0{i + 1}</span>
+            <span class="tag tag-orange">{g.data.category}</span>
+            <h2 class="mt-3 text-[16px] font-bold leading-snug text-cream transition group-hover:text-orange-2">{g.data.title}</h2>
+            <p class="mt-2 line-clamp-2 text-[12.5px] leading-relaxed text-muted">{g.data.description}</p>
+            <p class="mt-4 text-[11px] text-dim">{g.data.reading} 分钟阅读 · 难度 {g.data.difficulty}/5</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="wrap section" data-filter-root>
+    <div class="flex flex-wrap items-center gap-2 border-b border-line pb-4">
+      <button class="chip" data-facet-chip data-group="cat" data-value="all" aria-pressed="true">全部 <span class="opacity-60">{guides.length}</span></button>
+      {
+        CATEGORIES.map((c) => (
+          <button class="chip" data-facet-chip data-group="cat" data-value={c.key} aria-pressed="false">
+            {c.label} <span class="opacity-60">{byCat(c.key).length}</span>
+          </button>
+        ))
+      }
+      <span class="ml-auto text-[11.5px] text-dim">共 <span data-filter-count class="text-orange-2">{guides.length}</span> 篇</span>
+    </div>
+
+    <div class="mt-6 grid gap-3 lg:grid-cols-2">
+      {
+        guides.map((g, i) => (
+          <a
+            href={`/guides/${g.id}`}
+            class="card group flex flex-col p-5"
+            data-filter-item
+            data-search={`${g.data.title} ${g.data.description} ${g.data.tags.join(' ')}`}
+            data-facet={`cat:${g.data.category}`}
+            style={`animation-delay:${Math.min(i, 20) * 24}ms`}
+          >
+            <div class="flex items-center gap-2">
+              <span class="tag tag-orange">{g.data.category}</span>
+              <span class="text-[11px] text-dim">{g.data.reading} 分钟</span>
+              <span class="ml-auto font-mono text-[10.5px] text-dim">{g.data.date.toISOString().slice(0, 10)}</span>
+            </div>
+            <h3 class="mt-3 text-[16px] font-bold leading-snug text-cream transition group-hover:text-orange-2">{g.data.title}</h3>
+            <p class="mt-2 line-clamp-2 flex-1 text-[12.5px] leading-relaxed text-muted">{g.data.description}</p>
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              {g.data.tags.slice(0, 4).map((t) => <span class="tag h-[20px] px-1.5 text-[10.5px]">#{t}</span>)}
+            </div>
+          </a>
+        ))
+      }
+    </div>
+
+    <div data-filter-empty class="hidden py-16 text-center text-sm text-muted">该分类下暂无文章。</div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { initFilters } from '@/scripts/filter';
+  initFilters();
+</script>

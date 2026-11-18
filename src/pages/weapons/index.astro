@@ -1,0 +1,121 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import WeaponCard from '@/components/WeaponCard.astro';
+import { weapons, counts, weaponClasses } from '@/lib/data';
+import { SITE } from '@/lib/site';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: '土豆兄弟武器图鉴',
+  description: `收录 ${counts.weapons} 把 Brotato 武器的阶级数值、缩放、冷却与流派定位。`,
+  url: `${SITE.url}/weapons`,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+};
+
+const classCount = (c: string) => weapons.filter((w) => w.classes.includes(c)).length;
+---
+
+<BaseLayout
+  title="武器图鉴"
+  description={`土豆兄弟全部 ${counts.weapons} 把武器数据：阶级（I~IV）、基础伤害、冷却、DPS、射程、暴击与适用流派，支持按职业与阶级筛选。`}
+  jsonLd={jsonLd}
+>
+  <section class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ label: '武器图鉴' }]} />
+    <div class="mt-6 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <p class="eyebrow">Weapons</p>
+        <h1 class="h-section">武器图鉴</h1>
+        <p class="lead mt-3 max-w-2xl">
+          共 <span class="font-semibold text-orange-2">{counts.weapons}</span> 把武器，横跨 {weaponClasses.length} 个职业。
+          同阶同名武器可以合成为更高一阶，因此「能不能升阶」比初始数值更重要。
+        </p>
+      </div>
+      <div class="flex gap-3">
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{counts.weapons}</p>
+          <p class="mt-0.5 text-[11px] text-dim">武器总数</p>
+        </div>
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{weaponClasses.length}</p>
+          <p class="mt-0.5 text-[11px] text-dim">职业数量</p>
+        </div>
+        <div class="card-flat px-4 py-3 text-center">
+          <p class="font-mono text-xl font-bold text-cream">{weapons.filter((w) => w.minTier === 1).length}</p>
+          <p class="mt-0.5 text-[11px] text-dim">一阶可出</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap mt-8" data-filter-root>
+    <div class="card-flat sticky top-16 z-20 p-4 backdrop-blur-xl md:top-[68px]">
+      <div class="flex flex-col gap-3">
+        <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+          <div class="relative w-full lg:max-w-sm">
+            <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-dim" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-3.5-3.5"></path>
+            </svg>
+            <input data-filter-search id="weapon-filter" name="q" class="field h-10 pl-10 text-[13px]" placeholder="搜索武器名 / 职业 / 定位" aria-label="搜索武器" />
+          </div>
+          <div class="flex flex-wrap items-center gap-1.5">
+            <button class="chip h-8 text-[12px]" data-facet-chip data-group="tier" data-value="1" aria-pressed="false">一阶可出</button>
+            <button class="chip h-8 text-[12px]" data-facet-chip data-group="tier" data-value="2" aria-pressed="false">二阶起</button>
+            <button class="chip h-8 text-[12px]" data-facet-chip data-group="tier" data-value="3" aria-pressed="false">三阶起</button>
+            <button class="chip h-8 text-[12px]" data-facet-chip data-group="tier" data-value="4" aria-pressed="false">仅传说</button>
+            <span class="mx-1 hidden h-4 w-px bg-line sm:block"></span>
+            <button class="chip h-8 text-[12px]" data-facet-chip data-group="阵营" data-value="dlc" aria-pressed="false">DLC</button>
+            <button data-filter-clear class="ml-1 text-[12px] text-dim underline underline-offset-3 transition hover:text-orange-2">重置</button>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-1.5 border-t border-line pt-3">
+          {
+            weaponClasses.map((c) => (
+              <button class="chip h-7 px-2.5 text-[11.5px]" data-facet-chip data-group="class" data-value={c} aria-pressed="false">
+                {c} <span class="ml-0.5 text-[10px] opacity-55">{classCount(c)}</span>
+              </button>
+            ))
+          }
+        </div>
+      </div>
+      <p class="mt-3 text-[11.5px] text-dim">
+        共 <span data-filter-count class="font-semibold text-orange-2">{weapons.length}</span> 把武器 ·
+        数值为一阶（最低可获得阶级）面板
+      </p>
+    </div>
+
+    <div class="mt-6 grid gap-3.5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {weapons.map((w, i) => <WeaponCard w={w} index={i} />)}
+    </div>
+
+    <div data-filter-empty class="hidden py-20 text-center">
+      <p class="text-2xl">🔪</p>
+      <p class="mt-3 text-sm text-muted">没有符合条件的武器。</p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="grid gap-4 md:grid-cols-3">
+      <div class="card-flat p-5">
+        <h2 class="text-[14px] font-bold text-cream">同阶合成</h2>
+        <p class="mt-2 text-[12.5px] leading-relaxed text-muted">两把同阶同名武器可以合成一把更高阶的同名武器，属性大幅提升，并可能解锁新效果。</p>
+      </div>
+      <div class="card-flat p-5">
+        <h2 class="text-[14px] font-bold text-cream">职业加成</h2>
+        <p class="mt-2 text-[12.5px] leading-relaxed text-muted">同职业武器数量达到 2/3/4/5/6 把时，会触发递增的职业加成，是构筑的核心思路之一。</p>
+      </div>
+      <div class="card-flat p-5">
+        <h2 class="text-[14px] font-bold text-cream">缩放比伤害更重要</h2>
+        <p class="mt-2 text-[12.5px] leading-relaxed text-muted">每把武器对近战/远程/元素/工程的缩放不同。堆错属性，面板再高也打不出伤害。</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { initFilters } from '@/scripts/filter';
+  initFilters();
+</script>

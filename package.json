@@ -1,0 +1,24 @@
+{
+  "name": "brotato-wiki",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "土豆兄弟（Brotato）中文百科 —— 角色、武器、道具数据库与攻略",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "data:parse": "node scripts/parse-wiki.mjs",
+    "data:build": "node scripts/build-data.mjs",
+    "data:all": "npm run data:parse && npm run data:build"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.5",
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^5.18.2",
+    "tailwindcss": "^4.3.5"
+  }
+}

@@ -1,0 +1,201 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import PixelSprite from '@/components/PixelSprite.astro';
+import { items, characters } from '@/lib/data';
+import { SITE, RARITY } from '@/lib/site';
+
+export async function getStaticPaths() {
+  return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const idx = items.findIndex((x) => x.slug === item.slug);
+const prev = items[idx - 1];
+const next = items[idx + 1];
+const r = RARITY[item.rarity as 1 | 2 | 3 | 4];
+const users = characters.filter((c) => c.recommendedItems.includes(item.nameZh)).slice(0, 6);
+const similar = items.filter((x) => x.slug !== item.slug && x.rarity === item.rarity).slice(0, 8);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: `${item.nameZh}（${item.name}）— 土豆兄弟道具`,
+    description: `${item.nameZh}：${[...item.effects, ...(item.statsZh.length ? item.statsZh : item.statLines.map((s) => `${s.term} ${s.value}`))].join('；')}`,
+    url: `${SITE.url}/items/${item.slug}`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '首页', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: '道具图鉴', item: `${SITE.url}/items` },
+      { '@type': 'ListItem', position: 3, name: item.nameZh, item: `${SITE.url}/items/${item.slug}` },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={`${item.nameZh} ${item.name} — 效果、价格与适用角色`}
+  description={`${item.nameZh}（${item.name}）：${r.label}道具，价格 ${item.price != null && item.price > 1 ? item.price : '非商店获取'}。${item.effects[0] || item.statsZh[0] || item.statLines.map((s) => `${s.term} ${s.value}`).join('，')}`}
+  jsonLd={jsonLd}
+>
+  <article class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ href: '/items', label: '道具图鉴' }, { label: item.nameZh }]} jsonLd={false} />
+
+    <header class="mt-6 grid gap-6 md:grid-cols-[auto_1fr] md:items-start md:gap-8">
+      <div
+        class:list={[
+          'relative grid h-[120px] w-[120px] place-items-center overflow-hidden rounded-2xl border bg-gradient-to-br via-transparent to-transparent',
+          item.rarity === 1 && 'border-common/35 from-common/15',
+          item.rarity === 2 && 'border-uncommon/35 from-uncommon/15',
+          item.rarity === 3 && 'border-rare/35 from-rare/15',
+          item.rarity === 4 && 'border-legendary/35 from-legendary/15',
+        ]}
+      >
+        <PixelSprite seed={item.slug} kind="item" rarity={item.rarity} size={92} alt={`${item.nameZh}图标`} class="float-y" />
+        <span class="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(0deg,rgba(0,0,0,0.18)_0px,rgba(0,0,0,0.18)_1px,transparent_1px,transparent_4px)] opacity-40"></span>
+      </div>
+
+      <div>
+        <div class="flex flex-wrap items-center gap-2">
+          <span class:list={['tag', r.cls]}>{r.label} · Tier {item.rarity}</span>
+          {item.isDlc && <span class="tag tag-dlc">DLC 道具</span>}
+          <span class="tag">{item.price != null && item.price > 1 ? `价格 ${item.price}` : '非商店道具'}</span>
+        </div>
+        <h1 class="mt-3 text-[32px] font-extrabold leading-tight tracking-tight text-cream md:text-[40px]">
+          {item.nameZh} <span class="ml-1 font-mono text-[15px] font-normal uppercase tracking-widest text-dim md:text-[17px]">{item.name}</span>
+        </h1>
+        <p class="mt-3 max-w-2xl text-[14.5px] leading-relaxed text-muted">
+          {item.effects[0] || item.statsZh[0] || item.statLines.map((s) => `${s.term} ${s.value}`).slice(0, 3).join(' · ')}
+        </p>
+      </div>
+    </header>
+
+    <div class="mt-10 grid gap-6 lg:grid-cols-[1fr_320px]">
+      <div class="min-w-0 space-y-4">
+        {
+          item.effects.length > 0 && (
+            <section class="card-flat p-5 md:p-6">
+              <h2 class="flex items-center gap-2 text-[15px] font-bold text-cream">
+                <span class="h-4 w-1 rounded bg-orange"></span>特殊效果
+              </h2>
+              <ul class="mt-3.5 grid gap-2.5">
+                {item.effects.map((e) => (
+                  <li class="flex gap-2.5 text-[13.5px] leading-[1.85] text-[#d8cdc1]">
+                    <span class="mt-[8px] h-1.5 w-1.5 shrink-0 rotate-45 rounded-[1px] bg-orange"></span>
+                    <span>{e}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+
+        <section class="card-flat p-5 md:p-6">
+          <h2 class="text-[15px] font-bold text-cream">属性变化</h2>
+          {
+            item.statsZh.length ? (
+              <div class="mt-3.5 grid gap-2">
+                {item.statsZh.map((line) => (
+                  <div class="flex items-center justify-between rounded-lg border border-line bg-white/[0.03] px-3.5 py-2.5">
+                    <span class="text-[13px] text-[#d8cdc1]">{line}</span>
+                  </div>
+                ))}
+              </div>
+            ) : item.statLines.length ? (
+              <div class="mt-3.5 grid gap-2 sm:grid-cols-2">
+                {item.statLines.map((s) => {
+                  const neg = s.value.startsWith('-');
+                  return (
+                    <div class:list={['flex items-center justify-between rounded-lg border px-3.5 py-2.5', neg ? 'border-legendary/20 bg-legendary/[0.06]' : 'border-uncommon/20 bg-uncommon/[0.06]']}>
+                      <span class="text-[13px] text-[#d8cdc1]">{s.term}</span>
+                      <span class:list={['font-mono text-[13.5px] font-bold', neg ? 'text-legendary' : 'text-uncommon']}>{s.value}</span>
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <p class="mt-3 text-[13px] text-dim">该道具没有直接的数值增减，效果全部体现在特殊机制上。</p>
+            )
+          }
+          {
+            item.untranslated.length > 0 && (
+              <div class="mt-4 rounded-lg border border-line bg-black/20 p-3">
+                <p class="text-[11px] text-dim">以下效果暂无中文翻译，保留原文：</p>
+                <ul class="mt-1.5 space-y-1">
+                  {item.untranslated.map((u) => <li class="font-mono text-[11.5px] text-muted">{u}</li>)}
+                </ul>
+              </div>
+            )
+          }
+        </section>
+
+        <section class="card-flat p-5 md:p-6">
+          <h2 class="text-[15px] font-bold text-cream">购买建议</h2>
+          <p class="mt-3 text-[13.5px] leading-[1.9] text-[#d5cabd]">
+            {
+              item.rarity === 4
+                ? '传说道具通常带有改变构筑的强力效果，遇到与流派契合的可以直接入手；如果代价会锁死成长路线，则要谨慎。'
+                : item.rarity === 3
+                  ? '稀有道具性价比通常最高，是这个阶段最值得投资的一档。优先挑选正面效果能立刻生效的。'
+                  : item.rarity === 2
+                    ? '罕见道具是前中期的构筑主力，价格适中。若负面代价与你的流派无关，可以放心购买。'
+                    : '普通道具便宜、可叠加，适合前期铺属性。注意「唯一」标记的道具无法重复获取。'
+            }
+            {item.limit ? ` 该道具最多持有 ${item.limit} 件。` : ''}
+            {item.unique ? ' 该道具为唯一道具，只能获得一次。' : ''}
+          </p>
+        </section>
+      </div>
+
+      <aside class="space-y-4">
+        <div class="card-flat p-5">
+          <h2 class="text-[12px] font-semibold uppercase tracking-widest text-dim">速览</h2>
+          <dl class="mt-3 space-y-2.5 text-[12.5px]">
+            <div class="flex justify-between gap-3"><dt class="text-dim">稀有度</dt><dd class:list={['font-medium', r.cls]}>{r.label}</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-dim">价格</dt><dd class="font-mono text-cream">{item.price != null && item.price > 1 ? item.price : '—'}</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-dim">版本</dt><dd class="text-cream">{item.isDlc ? 'DLC' : '基础'}</dd></div>
+            <div class="flex justify-between gap-3"><dt class="text-dim">数据版本</dt><dd class="font-mono text-cream">{SITE.version}</dd></div>
+          </dl>
+          {item.tags.length > 0 && (
+            <div class="mt-4 flex flex-wrap gap-1.5 border-t border-line pt-3">
+              {item.tags.map((t) => <span class="tag h-[20px] px-1.5 text-[10.5px]">{t}</span>)}
+            </div>
+          )}
+        </div>
+
+        {
+          users.length > 0 && (
+            <div class="card-flat p-5">
+              <h2 class="text-[12px] font-semibold uppercase tracking-widest text-dim">适配角色</h2>
+              <ul class="mt-3 space-y-2">
+                {users.map((c) => (
+                  <li>
+                    <a href={`/characters/${c.slug}`} class="flex items-center gap-2 text-[13px] text-muted transition hover:text-orange-2">
+                      <PixelSprite seed={c.slug} kind="character" size={20} />{c.nameZh}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
+        <div class="card-flat p-5">
+          <h2 class="text-[12px] font-semibold uppercase tracking-widest text-dim">同稀有度</h2>
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            {similar.map((s) => <a href={`/items/${s.slug}`} class="tag transition hover:border-orange/50 hover:text-orange-2">{s.nameZh}</a>)}
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <nav class="mt-10 grid gap-3 border-t border-line pt-6 sm:grid-cols-2" aria-label="道具翻页">
+      {prev ? <a href={`/items/${prev.slug}`} class="card p-4"><p class="text-[11px] text-dim">← 上一个</p><p class="mt-1 text-[14px] font-medium text-cream">{prev.nameZh}</p></a> : <span></span>}
+      {next && <a href={`/items/${next.slug}`} class="card p-4 text-right"><p class="text-[11px] text-dim">下一个 →</p><p class="mt-1 text-[14px] font-medium text-cream">{next.nameZh}</p></a>}
+    </nav>
+  </article>
+</BaseLayout>

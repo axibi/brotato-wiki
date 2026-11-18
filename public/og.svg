@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0908"/>
+      <stop offset="1" stop-color="#1a120b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.8">
+      <stop offset="0" stop-color="#ff7a1a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe0bd"/>
+      <stop offset="0.55" stop-color="#ff9a3c"/>
+      <stop offset="1" stop-color="#ff5f1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200"/>
+    <path d="M90 0V630M210 0V630M330 0V630M450 0V630M570 0V630M690 0V630M810 0V630M930 0V630M1050 0V630"/>
+  </g>
+  <g transform="translate(96 150)">
+    <g shape-rendering="crispEdges">
+      <rect x="0" y="0" width="120" height="16" fill="#ffb066"/>
+      <rect x="-16" y="16" width="152" height="16" fill="#ff9a4d"/>
+      <rect x="-24" y="32" width="168" height="120" fill="#ff8a3c"/>
+      <rect x="-16" y="152" width="152" height="16" fill="#c9561a"/>
+      <rect x="0" y="168" width="120" height="16" fill="#7a2f0d"/>
+      <rect x="24" y="66" width="28" height="28" fill="#1a0d04"/>
+      <rect x="76" y="66" width="28" height="28" fill="#1a0d04"/>
+      <rect x="46" y="114" width="44" height="14" fill="#7a2f0d"/>
+    </g>
+  </g>
+  <text x="300" y="215" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="26" letter-spacing="6" fill="#c9b6a3">BROTATO WIKI · 中文资料站</text>
+  <text x="300" y="320" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="82" font-weight="800" fill="#f4ece2">土豆兄弟百科</text>
+  <text x="300" y="392" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="34" fill="url(#txt)">角色 · 武器 · 道具 · 攻略</text>
+  <text x="300" y="470" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" fill="#8d8177">64 名角色 / 78 把武器 / 247 件道具 / 18 篇攻略</text>
+  <rect x="300" y="520" width="180" height="4" fill="#ff7a1a"/>
+  <text x="300" y="566" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="20" fill="#6f665e">数据基线 1.1.x · 非官方粉丝站点</text>
+</svg>

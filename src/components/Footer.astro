@@ -1,0 +1,73 @@
+---
+import { SITE } from '@/lib/site';
+import patches from '@/data/patches.json';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-line bg-ink-2/60">
+  <div class="wrap py-12 md:py-16">
+    <div class="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+      <div>
+        <div class="flex items-center gap-2.5">
+          <span class="grid h-8 w-8 place-items-center rounded-lg border border-orange/40 bg-orange/10 text-[13px]">🥔</span>
+          <span class="text-sm font-extrabold text-cream">土豆兄弟百科</span>
+        </div>
+        <p class="mt-4 max-w-xs text-[13px] leading-relaxed text-dim">
+          面向中文玩家的 Brotato 数据与攻略站。数值整理自公开 Wiki 与官方页面，攻略为本站原创整理，欢迎纠错。
+        </p>
+        <p class="mt-4 text-[12px] text-dim">
+          资料基线 <span class="font-mono text-orange-2">{SITE.version}</span> · 最近核对 2026-11
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">图鉴</h2>
+        <ul class="mt-4 space-y-2.5 text-[13px]">
+          <li><a class="text-dim transition hover:text-orange-2" href="/characters">角色图鉴</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/weapons">武器图鉴</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/items">道具图鉴</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/search">全站搜索</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">内容</h2>
+        <ul class="mt-4 space-y-2.5 text-[13px]">
+          <li><a class="text-dim transition hover:text-orange-2" href="/guides">攻略中心</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/guides/beginner-guide">新手入门</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/news">版本动态</a></li>
+          <li><a class="text-dim transition hover:text-orange-2" href="/rss.xml">RSS 订阅</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-[12px] font-semibold uppercase tracking-[0.16em] text-muted">资料来源</h2>
+        <ul class="mt-4 space-y-2.5 text-[13px]">
+          {
+            patches.sources.slice(0, 4).map((s) => (
+              <li>
+                <a
+                  class="text-dim transition hover:text-orange-2"
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
+                  {s.name} ↗
+                </a>
+              </li>
+            ))
+          }
+          <li><a class="text-dim transition hover:text-orange-2" href="/about">数据说明与免责声明</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-3 border-t border-line pt-6 text-[12px] text-dim md:flex-row md:items-center md:justify-between">
+      <p>© {year} 土豆兄弟百科 · 非官方粉丝站点，与 Blobfish 无隶属关系。</p>
+      <p>
+        Brotato © Blobfish. 站内像素图为程序生成的原创图形，不使用游戏原始素材。
+      </p>
+    </div>
+  </div>
+</footer>

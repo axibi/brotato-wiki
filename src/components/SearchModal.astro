@@ -1,0 +1,192 @@
+---
+const typeLabel = { character: '角色', weapon: '武器', item: '道具' };
+---
+
+<div
+  data-search-modal
+  class="fixed inset-0 z-50 hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-label="全站搜索"
+>
+  <div data-search-backdrop class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+  <div class="relative mx-auto mt-[10vh] w-[min(92vw,640px)] overflow-hidden rounded-2xl border border-line-strong bg-ink-2 shadow-2xl shadow-black/60">
+    <div class="flex items-center gap-3 border-b border-line px-4">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="shrink-0 text-dim" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="m20 20-3.5-3.5"></path>
+      </svg>
+      <input
+        data-search-input
+        id="global-search"
+        name="q"
+        type="search"
+        placeholder="搜索角色、武器、道具、攻略…"
+        class="search-input h-14 w-full bg-transparent text-[15px] text-cream outline-none placeholder:text-dim"
+        autocomplete="off"
+        aria-label="搜索关键词"
+      />
+      <button data-search-close class="shrink-0 rounded border border-line px-2 py-1 font-mono text-[11px] text-dim hover:text-cream" aria-label="关闭搜索">ESC</button>
+    </div>
+    <div data-search-results class="max-h-[58vh] overflow-y-auto p-2"></div>
+    <div class="flex items-center justify-between border-t border-line px-4 py-2.5 text-[11px] text-dim">
+      <span>↑↓ 选择 · Enter 打开 · Esc 关闭</span>
+      <span data-search-count></span>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.querySelector<HTMLElement>('[data-search-modal]');
+  const input = document.querySelector<HTMLInputElement>('[data-search-input]');
+  const results = document.querySelector<HTMLElement>('[data-search-results]');
+  const countEl = document.querySelector<HTMLElement>('[data-search-count]');
+
+  type Entry = { type: 'character' | 'weapon' | 'item'; title: string; sub: string; desc: string; url: string; tags: string[] };
+  const label: Record<string, string> = { character: '角色', weapon: '武器', item: '道具' };
+  let index: Entry[] = [];
+  let loaded = false;
+  let active = 0;
+
+  async function load() {
+    if (loaded) return;
+    try {
+      const res = await fetch('/search-index.json');
+      index = await res.json();
+      loaded = true;
+    } catch {
+      index = [];
+    }
+  }
+
+  function open() {
+    modal?.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+    input?.focus();
+    load();
+  }
+  function close() {
+    modal?.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  function score(e: Entry, q: string) {
+    const t = e.title.toLowerCase();
+    const s = e.sub.toLowerCase();
+    const d = (e.desc || '').toLowerCase();
+    if (t === q) return 100;
+    if (t.startsWith(q)) return 80;
+    if (t.includes(q)) return 60;
+    if (s.includes(q)) return 40;
+    if (d.includes(q)) return 20;
+    return 0;
+  }
+
+  function render(q: string) {
+    if (!results) return;
+    const query = q.trim().toLowerCase();
+    let list = index;
+    if (query) {
+      list = index
+        .map((e) => ({ e, sc: score(e, query) }))
+        .filter((x) => x.sc > 0)
+        .sort((a, b) => b.sc - a.sc)
+        .slice(0, 40)
+        .map((x) => x.e);
+    } else {
+      list = index.filter((e) => e.type === 'character').slice(0, 8);
+    }
+    active = 0;
+    if (!list.length) {
+      results.innerHTML = `<div class="px-4 py-10 text-center text-sm text-dim">没有找到与「${q}」相关的内容</div>`;
+    } else {
+      const groups: Record<string, Entry[]> = { character: [], weapon: [], item: [] };
+      for (const e of list) groups[e.type]?.push(e);
+      results.innerHTML = Object.entries(groups)
+        .filter(([, arr]) => arr.length)
+        .map(
+          ([type, arr]) => `
+        <div class="mb-1">
+          <p class="px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-dim">${label[type]} · ${arr.length}</p>
+          ${arr
+            .map(
+              (e) => `<a href="${e.url}" data-result class="flex items-start gap-3 rounded-lg px-3 py-2.5 hover:bg-white/5">
+                <span class="mt-0.5 shrink-0 rounded border border-line px-1.5 py-0.5 text-[10px] text-dim">${label[type]}</span>
+                <span class="min-w-0">
+                  <span class="block truncate text-[14px] font-medium text-cream">${e.title}<span class="ml-2 text-[11px] font-normal text-dim">${e.sub}</span></span>
+                  <span class="mt-0.5 line-clamp-1 block truncate text-[12px] text-muted">${e.desc || ''}</span>
+                </span>
+              </a>`
+            )
+            .join('')}
+        </div>`
+        )
+        .join('');
+    }
+    if (countEl) countEl.textContent = query ? `${list.length} 个结果` : '输入关键词开始搜索';
+    highlight();
+  }
+
+  function highlight() {
+    const links = [...(results?.querySelectorAll<HTMLAnchorElement>('[data-result]') ?? [])];
+    links.forEach((el, i) => {
+      el.classList.toggle('bg-white/[0.07]', i === active);
+    });
+  }
+
+  function move(delta: number) {
+    const links = [...(results?.querySelectorAll<HTMLAnchorElement>('[data-result]') ?? [])];
+    if (!links.length) return;
+    active = (active + delta + links.length) % links.length;
+    highlight();
+    links[active]?.scrollIntoView({ block: 'nearest' });
+  }
+
+  document.querySelectorAll('[data-search-open]').forEach((b) => b.addEventListener('click', open));
+  document.querySelector('[data-search-close]')?.addEventListener('click', close);
+  document.querySelector('[data-search-backdrop]')?.addEventListener('click', close);
+
+  let timer: number | undefined;
+  input?.addEventListener('input', () => {
+    window.clearTimeout(timer);
+    timer = window.setTimeout(() => render(input.value), 90);
+  });
+
+  document.addEventListener('keydown', (e) => {
+    const isOpen = modal && !modal.classList.contains('hidden');
+    if (e.key === '/' && !isOpen) {
+      const el = document.activeElement;
+      const typing = el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement || (el as HTMLElement)?.isContentEditable;
+      if (!typing) {
+        e.preventDefault();
+        open();
+      }
+    }
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      isOpen ? close() : open();
+    }
+    if (!isOpen) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      move(1);
+    }
+    if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      move(-1);
+    }
+    if (e.key === 'Enter') {
+      const links = [...(results?.querySelectorAll<HTMLAnchorElement>('[data-result]') ?? [])];
+      links[active]?.click();
+    }
+  });
+
+  // 支持 ?q= 直达
+  const q = new URLSearchParams(location.search).get('q');
+  if (q && input) {
+    input.value = q;
+    open();
+    render(q);
+  }
+</script>

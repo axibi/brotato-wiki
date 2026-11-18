@@ -1,0 +1,109 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import ItemCard from '@/components/ItemCard.astro';
+import { items, counts } from '@/lib/data';
+import { SITE, RARITY } from '@/lib/site';
+
+const byRarity = (r: number) => items.filter((i) => i.rarity === r).length;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: '土豆兄弟道具图鉴',
+  description: `收录 ${counts.items} 件 Brotato 道具的价格、稀有度与属性变化。`,
+  url: `${SITE.url}/items`,
+  isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.url },
+};
+---
+
+<BaseLayout
+  title="道具图鉴"
+  description={`土豆兄弟全部 ${counts.items} 件道具数据：稀有度、购买价格、属性增减与特殊效果，支持按稀有度与版本筛选。`}
+  jsonLd={jsonLd}
+>
+  <section class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ label: '道具图鉴' }]} />
+    <div class="mt-6 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      <div>
+        <p class="eyebrow">Items</p>
+        <h1 class="h-section">道具图鉴</h1>
+        <p class="lead mt-3 max-w-2xl">
+          共 <span class="font-semibold text-orange-2">{counts.items}</span> 件道具。多数道具都带有负面代价，
+          「用不上的负面效果」才是好道具——只挑正面而忽略代价，往往会在第 15 波后崩盘。
+        </p>
+      </div>
+      <div class="grid grid-cols-4 gap-2">
+        {
+          [1, 2, 3, 4].map((r) => (
+            <div class="card-flat px-3 py-2.5 text-center">
+              <p class:list={['font-mono text-lg font-bold', `r-${r}`]}>{byRarity(r)}</p>
+              <p class="mt-0.5 text-[10.5px] text-dim">{RARITY[r as 1 | 2 | 3 | 4].label}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap mt-8" data-filter-root>
+    <div class="card-flat sticky top-16 z-20 p-4 backdrop-blur-xl md:top-[68px]">
+      <div class="flex flex-col gap-3 lg:flex-row lg:items-center">
+        <div class="relative w-full lg:max-w-sm">
+          <svg class="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-dim" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input data-filter-search id="item-filter" name="q" class="field h-10 pl-10 text-[13px]" placeholder="搜索道具名 / 效果关键词" aria-label="搜索道具" />
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="rarity" data-value="1" aria-pressed="false">普通</button>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="rarity" data-value="2" aria-pressed="false">罕见</button>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="rarity" data-value="3" aria-pressed="false">稀有</button>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="rarity" data-value="4" aria-pressed="false">传说</button>
+          <span class="mx-1 hidden h-4 w-px bg-line sm:block"></span>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="special" data-value="1" aria-pressed="false">有特殊效果</button>
+          <button class="chip h-8 text-[12px]" data-facet-chip data-group="阵营" data-value="dlc" aria-pressed="false">DLC</button>
+          <button data-filter-clear class="ml-1 text-[12px] text-dim underline underline-offset-3 transition hover:text-orange-2">重置</button>
+        </div>
+      </div>
+      <p class="mt-3 text-[11.5px] text-dim">
+        共 <span data-filter-count class="font-semibold text-orange-2">{items.length}</span> 件道具 ·
+        价格随版本与角色（企业家、婴儿、叛徒等）修正变化，此处为基准价
+      </p>
+    </div>
+
+    <div class="mt-6 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((item, i) => <ItemCard item={item} index={i} />)}
+    </div>
+
+    <div data-filter-empty class="hidden py-20 text-center">
+      <p class="text-2xl">📦</p>
+      <p class="mt-3 text-sm text-muted">没有符合条件的道具。</p>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="card-flat p-6 md:p-8">
+      <h2 class="text-lg font-bold text-cream">道具选择的三条原则</h2>
+      <div class="mt-5 grid gap-5 md:grid-cols-3">
+        <div>
+          <p class="text-[12px] font-semibold uppercase tracking-widest text-orange">01 看代价</p>
+          <p class="mt-2 text-[13px] leading-relaxed text-muted">减速、降闪避、加敌人血量——这些负面是否影响你的流派？如果你的构筑完全不依赖闪避，那「-闪避」就是白送属性。</p>
+        </div>
+        <div>
+          <p class="text-[12px] font-semibold uppercase tracking-widest text-orange">02 看乘区</p>
+          <p class="mt-2 text-[13px] leading-relaxed text-muted">全局「伤害」永远不亏；单一属性（如近战伤害）只在对应武器上生效。先确定武器，再决定堆哪个乘区。</p>
+        </div>
+        <div>
+          <p class="text-[12px] font-semibold uppercase tracking-widest text-orange">03 看时机</p>
+          <p class="mt-2 text-[13px] leading-relaxed text-muted">收获、幸运类道具越早买越赚；纯面板道具什么时候买都不晚；「每波结束才生效」的道具尽量在前 5 波入手。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import { initFilters } from '@/scripts/filter';
+  initFilters();
+</script>

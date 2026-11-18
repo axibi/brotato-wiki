@@ -1,0 +1,160 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { searchIndex } from '@/lib/data';
+import { SITE } from '@/lib/site';
+
+const index = searchIndex();
+const hot = [
+  ...index.filter((x) => x.type === 'character').slice(0, 6),
+  ...index.filter((x) => x.type === 'weapon').slice(0, 6),
+  ...index.filter((x) => x.type === 'item').slice(0, 6),
+];
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${SITE.url}/search?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
+};
+---
+
+<BaseLayout title="全站搜索" description="搜索土豆兄弟的角色、武器、道具与攻略文章，支持中英文名称与关键词。" jsonLd={jsonLd}>
+  <section class="wrap pt-14 md:pt-20">
+    <p class="eyebrow">Search</p>
+    <h1 class="h-section">全站搜索</h1>
+    <p class="lead mt-3 max-w-2xl">
+      输入中文名、英文名或关键词，可同时检索 {index.length} 条图鉴条目与全部攻略文章。
+    </p>
+
+    <div class="mt-8 max-w-2xl">
+      <div class="relative">
+        <svg class="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-dim" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m20 20-3.5-3.5"></path>
+        </svg>
+        <input
+          data-page-search
+          id="page-search"
+          name="q"
+          type="search"
+          class="field h-12 pl-11 text-[15px]"
+          placeholder="例如：拳手 / Ranger / 吸血 / 燃烧"
+          aria-label="搜索关键词"
+          autocomplete="off"
+        />
+      </div>
+      <div class="mt-3 flex flex-wrap gap-2">
+        <button class="chip" data-type="all" aria-pressed="true">全部</button>
+        <button class="chip" data-type="character" aria-pressed="false">角色</button>
+        <button class="chip" data-type="weapon" aria-pressed="false">武器</button>
+        <button class="chip" data-type="item" aria-pressed="false">道具</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap pb-24">
+    <div data-page-results class="mt-8 grid gap-2"></div>
+
+    <div data-page-empty class="hidden py-16 text-center">
+      <p class="text-sm text-muted">没有找到相关内容，试试更短的关键词。</p>
+    </div>
+
+    <div data-page-hot>
+      <h2 class="mt-14 text-[13px] font-semibold uppercase tracking-[0.16em] text-dim">热门条目</h2>
+      <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          hot.map((h) => (
+            <a href={h.url} class="card flex items-center gap-3 p-4">
+              <span class="rounded border border-line px-1.5 py-0.5 text-[10px] text-dim">
+                {h.type === 'character' ? '角色' : h.type === 'weapon' ? '武器' : '道具'}
+              </span>
+              <span class="min-w-0">
+                <span class="block truncate text-sm font-medium text-cream">{h.title}</span>
+                <span class="block truncate text-[12px] text-dim">{h.sub}</span>
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script define:vars={{ DATA: index }}>
+  const input = document.querySelector('[data-page-search]');
+  const results = document.querySelector('[data-page-results]');
+  const empty = document.querySelector('[data-page-empty]');
+  const hotBox = document.querySelector('[data-page-hot]');
+  const chips = [...document.querySelectorAll('[data-type]')];
+  let type = 'all';
+
+  const label = { character: '角色', weapon: '武器', item: '道具' };
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  function score(e, q) {
+    const t = e.title.toLowerCase();
+    const s = e.sub.toLowerCase();
+    const d = (e.desc || '').toLowerCase();
+    if (t === q) return 100;
+    if (t.startsWith(q)) return 80;
+    if (t.includes(q)) return 60;
+    if (s.includes(q)) return 40;
+    if (d.includes(q)) return 20;
+    return 0;
+  }
+
+  function render() {
+    const q = (input?.value || '').trim().toLowerCase();
+    if (!q) {
+      results.innerHTML = '';
+      empty.classList.add('hidden');
+      hotBox.classList.remove('hidden');
+      return;
+    }
+    hotBox.classList.add('hidden');
+    const list = DATA.map((e) => ({ e, sc: score(e, q) }))
+      .filter((x) => x.sc > 0 && (type === 'all' || x.e.type === type))
+      .sort((a, b) => b.sc - a.sc)
+      .slice(0, 60)
+      .map((x) => x.e);
+
+    if (!list.length) {
+      results.innerHTML = '';
+      empty.classList.remove('hidden');
+      return;
+    }
+    empty.classList.add('hidden');
+    results.innerHTML = list
+      .map(
+        (e) => `<a href="${e.url}" class="card flex items-start gap-3 p-4">
+          <span class="mt-0.5 shrink-0 rounded border border-line px-1.5 py-0.5 text-[10px] text-dim">${label[e.type]}</span>
+          <span class="min-w-0 flex-1">
+            <span class="flex items-baseline gap-2"><span class="text-[15px] font-semibold text-cream">${esc(e.title)}</span><span class="text-[11.5px] text-dim">${esc(e.sub)}</span></span>
+            <span class="mt-1 block truncate text-[12.5px] text-muted">${esc(e.desc || '')}</span>
+          </span>
+          <span class="text-dim">→</span>
+        </a>`
+      )
+      .join('');
+  }
+
+  input?.addEventListener('input', render);
+  chips.forEach((c) =>
+    c.addEventListener('click', () => {
+      type = c.dataset.type;
+      chips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+      render();
+    })
+  );
+
+  const q = new URLSearchParams(location.search).get('q');
+  if (q) {
+    input.value = q;
+    render();
+  }
+</script>

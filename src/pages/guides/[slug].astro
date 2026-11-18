@@ -1,0 +1,161 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { SITE, CATEGORIES, DIFFICULTY_LABEL } from '@/lib/site';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => !data.draft);
+  return guides.map((g) => ({ params: { slug: g.id }, props: { entry: g } }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+const d = entry.data;
+const all = (await getCollection('guides', ({ data }) => !data.draft)).sort((a, b) => a.data.order - b.data.order);
+const i = all.findIndex((x) => x.id === entry.id);
+const prev = all[i - 1];
+const next = all[i + 1];
+const related = all.filter((x) => x.id !== entry.id && x.data.category === d.category).slice(0, 3);
+const catLabel = CATEGORIES.find((c) => c.key === d.category)?.label ?? d.category;
+
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const published = d.date.toISOString().slice(0, 10);
+const updated = (d.updated ?? d.date).toISOString().slice(0, 10);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: d.title,
+    description: d.description,
+    datePublished: published,
+    dateModified: updated,
+    inLanguage: 'zh-CN',
+    author: { '@type': 'Organization', name: SITE.author },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    mainEntityOfPage: `${SITE.url}/guides/${entry.id}`,
+    articleSection: catLabel,
+    keywords: d.tags.join(','),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: '首页', item: SITE.url },
+      { '@type': 'ListItem', position: 2, name: '攻略中心', item: `${SITE.url}/guides` },
+      { '@type': 'ListItem', position: 3, name: d.title, item: `${SITE.url}/guides/${entry.id}` },
+    ],
+  },
+];
+---
+
+<BaseLayout title={d.title} description={d.description} type="article" jsonLd={jsonLd}>
+  <article class="wrap pt-10 md:pt-14">
+    <Breadcrumbs items={[{ href: '/guides', label: '攻略中心' }, { label: d.title }]} jsonLd={false} />
+
+    <header class="mt-6 max-w-3xl">
+      <div class="flex flex-wrap items-center gap-2">
+        <a href={`/guides?cat=${d.category}`} class="tag tag-orange">{catLabel}</a>
+        <span class="tag">难度 {d.difficulty}/5 · {DIFFICULTY_LABEL[d.difficulty]}</span>
+        <span class="tag">{d.reading} 分钟阅读</span>
+        <span class="text-[11.5px] text-dim">更新于 {updated}</span>
+      </div>
+      <h1 class="mt-4 text-[30px] font-extrabold leading-[1.25] tracking-tight text-cream md:text-[40px]">{d.title}</h1>
+      <p class="mt-4 text-[15px] leading-[1.85] text-muted">{d.description}</p>
+      <div class="mt-4 flex flex-wrap gap-1.5">
+        {d.tags.map((t) => <span class="tag h-[21px] px-2 text-[10.5px]">#{t}</span>)}
+      </div>
+    </header>
+
+    <div class="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_240px]">
+      <div class="min-w-0 max-w-3xl">
+        <div class="prose-b">
+          <Content />
+        </div>
+
+        <div class="mt-12 rounded-xl border border-line bg-orange/[0.05] p-5">
+          <p class="text-[12px] font-semibold uppercase tracking-widest text-orange">资料来源与版本</p>
+          <p class="mt-2 text-[12.5px] leading-relaxed text-muted">
+            本文基于 Brotato {SITE.version}（Wiki 数据基线 Patch 1.1.6.3）整理，数值与机制以游戏内实际表现为准。
+            参考来源：Brotato Wiki、Steam 官方商店与公告、Steam 社区指南、Reddit r/brotato。
+            <a href="/about" class="text-orange-2 underline underline-offset-2">完整来源说明</a>
+          </p>
+        </div>
+
+        <nav class="mt-10 grid gap-3 border-t border-line pt-6 sm:grid-cols-2" aria-label="文章翻页">
+          {
+            prev ? (
+              <a href={`/guides/${prev.id}`} class="card p-4">
+                <p class="text-[11px] text-dim">← 上一篇</p>
+                <p class="mt-1 text-[13.5px] font-medium leading-snug text-cream">{prev.data.title}</p>
+              </a>
+            ) : (
+              <span></span>
+            )
+          }
+          {
+            next && (
+              <a href={`/guides/${next.id}`} class="card p-4 text-right">
+                <p class="text-[11px] text-dim">下一篇 →</p>
+                <p class="mt-1 text-[13.5px] font-medium leading-snug text-cream">{next.data.title}</p>
+              </a>
+            )
+          }
+        </nav>
+      </div>
+
+      <aside class="hidden lg:block">
+        <div class="sticky top-24">
+          <p class="text-[11px] font-semibold uppercase tracking-[0.16em] text-dim">本页目录</p>
+          <nav class="toc mt-3 space-y-0.5" aria-label="文章目录" data-toc>
+            {
+              toc.map((h) => (
+                <a href={`#${h.slug}`} class:list={['py-1', h.depth === 3 && 'pl-6 text-[12px]']}>
+                  {h.text}
+                </a>
+              ))
+            }
+          </nav>
+
+          {
+            related.length > 0 && (
+              <div class="mt-8 border-t border-line pt-5">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.16em] text-dim">相关文章</p>
+                <ul class="mt-3 space-y-2.5">
+                  {related.map((r) => (
+                    <li>
+                      <a href={`/guides/${r.id}`} class="text-[12.5px] leading-snug text-muted transition hover:text-orange-2">
+                        {r.data.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+        </div>
+      </aside>
+    </div>
+  </article>
+</BaseLayout>
+
+<script>
+  // 目录高亮
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc] a')];
+  const targets = links
+    .map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1))))
+    .filter((x): x is HTMLElement => Boolean(x));
+  if (targets.length) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (!e.isIntersecting) return;
+          links.forEach((l) => l.classList.toggle('active', l.hash === `#${e.target.id}`));
+        });
+      },
+      { rootMargin: '-96px 0px -70% 0px' }
+    );
+    targets.forEach((t) => io.observe(t));
+  }
+</script>
