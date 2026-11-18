@@ -7,6 +7,9 @@ dist/
 # 本地研究资料（wiki 原始模板，不随仓库发布）
 .research/
 
+# 本地工作记忆（不含站点内容）
+.workbuddy/
+
 # 环境变量
 .env
 .env.*
